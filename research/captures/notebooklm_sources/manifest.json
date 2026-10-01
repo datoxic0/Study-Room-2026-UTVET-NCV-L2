@@ -1,0 +1,279 @@
+{
+ "generatedAt": "2026-09-30T21:06:16.786Z",
+ "count": 17,
+ "totalSources": 76,
+ "notebooks": [
+  {
+   "notebookId": "0b9ba18c-4ccc-43b5-b2f3-f009a665d25d",
+   "url": "https://notebook.google.com/notebook/0b9ba18c-4ccc-43b5-b2f3-f009a665d25d",
+   "title": "Mechatronic Studying L2",
+   "file": "01_Mechatronic_Studying_L2_0b9ba18c.json",
+   "sha256": "1531C4562151667C5776F412DE1F7DC44CAB1866E7A8FFC4231F35E2FFDC852E",
+   "bytes": 79785,
+   "stats": {
+    "pages": 44,
+    "summaries": 8,
+    "textChars": 60777,
+    "totalSources": 8,
+    "walked": 8
+   },
+   "capturedAt": "2026-09-30T20:53:41.764Z"
+  },
+  {
+   "notebookId": "15f8ab87-e0dc-40a2-899c-dbdce3b8a106",
+   "url": "https://notebook.google.com/notebook/15f8ab87-e0dc-40a2-899c-dbdce3b8a106",
+   "title": "Computer Basics: A Practical Introduction to Systems and Software",
+   "file": "02_Computer_Basics_A_Practical_Introduction_to_Systems_and_Software_15f8ab87.json",
+   "sha256": "11382CAFCE0E731F859B53067DCA05BE29FF44C8A98D143DD40565CCD54E4681",
+   "bytes": 315276,
+   "stats": {
+    "pages": 39,
+    "summaries": 7,
+    "textChars": 297366,
+    "totalSources": 7,
+    "walked": 7
+   },
+   "capturedAt": "2026-09-30T20:54:18.086Z"
+  },
+  {
+   "notebookId": "213c22a8-b8cf-4bcf-8d06-491d43eae7b7",
+   "url": "https://notebook.google.com/notebook/213c22a8-b8cf-4bcf-8d06-491d43eae7b7",
+   "title": "Pathways to Mechatronic Pneumatic and Control Systems",
+   "file": "03_Pathways_to_Mechatronic_Pneumatic_and_Control_Systems_213c22a8.json",
+   "sha256": "5F5FE6EE53DE3DCCAC0655A7A762D858E958B20A4DA215DE522F8EB4B2B9D8FA",
+   "bytes": 31540,
+   "stats": {
+    "pages": 0,
+    "summaries": 3,
+    "textChars": 26992,
+    "totalSources": 3,
+    "walked": 3
+   },
+   "capturedAt": "2026-09-30T21:01:37.992Z"
+  },
+  {
+   "notebookId": "2f776a22-ef84-47dc-9067-c67ebf2cdfca",
+   "url": "https://notebook.google.com/notebook/2f776a22-ef84-47dc-9067-c67ebf2cdfca",
+   "title": "Electrotechnology NQF Level 2 National Certificate Exam Papers",
+   "file": "04_Electrotechnology_NQF_Level_2_National_Certificate_Exam_Papers_2f776a22.json",
+   "sha256": "2ECC3CF7C10D972C740A8953F573A5BAB5B835E61848029FB2BAB7FA56D97B57",
+   "bytes": 13925,
+   "stats": {
+    "pages": 0,
+    "summaries": 1,
+    "textChars": 11355,
+    "totalSources": 2,
+    "walked": 2
+   },
+   "capturedAt": "2026-09-30T21:03:35.111Z"
+  },
+  {
+   "notebookId": "4c380566-5aad-473a-a99c-2d3045ceaf2d",
+   "url": "https://notebook.google.com/notebook/4c380566-5aad-473a-a99c-2d3045ceaf2d",
+   "title": "NC (V) Mechatronics Level 2 Integrated Summative Assessment Task",
+   "file": "05_NC_V_Mechatronics_Level_2_Integrated_Summative_Assessment_Task_4c380566.json",
+   "sha256": "D257B01BD2B01FD19FCF3EC31A460BD0DADFFA988792B7E3BCEBAE35A67B5B8F",
+   "bytes": 19903,
+   "stats": {
+    "pages": 0,
+    "summaries": 2,
+    "textChars": 16917,
+    "totalSources": 3,
+    "walked": 3
+   },
+   "capturedAt": "2026-09-30T21:02:53.805Z"
+  },
+  {
+   "notebookId": "528a75e0-1c65-4401-9da6-f0c5bbca0659",
+   "url": "https://notebook.google.com/notebook/528a75e0-1c65-4401-9da6-f0c5bbca0659",
+   "title": "Mechatronic Systems Advanced Study Guide and Assessment Paper",
+   "file": "06_Mechatronic_Systems_Advanced_Study_Guide_and_Assessment_Paper_528a75e0.json",
+   "sha256": "2870317495ABC1B269B5FBC6D012B1F8CACFE99BB92B9CFA9839DA9989941E0F",
+   "bytes": 83033,
+   "stats": {
+    "pages": 31,
+    "summaries": 4,
+    "textChars": 71081,
+    "totalSources": 4,
+    "walked": 4
+   },
+   "capturedAt": "2026-09-30T20:54:58.370Z"
+  },
+  {
+   "notebookId": "625ae2a2-3198-4f9e-b906-dbd9915ca3a9",
+   "url": "https://notebook.google.com/notebook/625ae2a2-3198-4f9e-b906-dbd9915ca3a9",
+   "title": "Electrotechnology NQF Level 2 November 2025 Examination Paper",
+   "file": "07_Electrotechnology_NQF_Level_2_November_2025_Examination_Paper_625ae2a2.json",
+   "sha256": "1DD1FBB1F0ABD176870A660C385B7F941DC6838D44D646575BAAEA9905F68E4E",
+   "bytes": 2788,
+   "stats": {
+    "pages": 6,
+    "summaries": 1,
+    "textChars": 0,
+    "totalSources": 1,
+    "walked": 1
+   },
+   "capturedAt": "2026-09-30T21:03:04.635Z"
+  },
+  {
+   "notebookId": "74d687c2-df47-4f02-82e6-eac3d66b3507",
+   "url": "https://notebook.google.com/notebook/74d687c2-df47-4f02-82e6-eac3d66b3507",
+   "title": "NC (V) Mechatronics Level 2 Integrated Assessment Task",
+   "file": "08_NC_V_Mechatronics_Level_2_Integrated_Assessment_Task_74d687c2.json",
+   "sha256": "2A413B9ADE670E762BB5389A0E923373CFDEF8709225F5ABA5A518A0A0A8AC8A",
+   "bytes": 6026,
+   "stats": {
+    "pages": 0,
+    "summaries": 1,
+    "textChars": 4270,
+    "totalSources": 2,
+    "walked": 2
+   },
+   "capturedAt": "2026-09-30T21:04:09.779Z"
+  },
+  {
+   "notebookId": "85f3d7f6-2321-4715-8ada-cb7816fc27b4",
+   "url": "https://notebook.google.com/notebook/85f3d7f6-2321-4715-8ada-cb7816fc27b4",
+   "title": "NCV Level 2 Manual Manufacturing Engineering Guide",
+   "file": "09_NCV_Level_2_Manual_Manufacturing_Engineering_Guide_85f3d7f6.json",
+   "sha256": "5F2C13D4F47A83D15AF7F204E39C31E9119B27F90C0B57A496A8FB75F3E2ED94",
+   "bytes": 9804,
+   "stats": {
+    "pages": 0,
+    "summaries": 1,
+    "textChars": 8182,
+    "totalSources": 1,
+    "walked": 1
+   },
+   "capturedAt": "2026-09-30T21:01:57.696Z"
+  },
+  {
+   "notebookId": "8b2b28c0-ab75-4b98-a3b5-029b4140f41a",
+   "url": "https://notebook.google.com/notebook/8b2b28c0-ab75-4b98-a3b5-029b4140f41a",
+   "title": "Logic Gates: Fundamentals, Symbols, and Truth Tables",
+   "file": "10_Logic_Gates_Fundamentals_Symbols_and_Truth_Tables_8b2b28c0.json",
+   "sha256": "A83D6BF8542D2D7A0CF13E75F33A9EC9BA9BF1337EB0F3E49BA4FEC1A14D6B42",
+   "bytes": 359391,
+   "stats": {
+    "pages": 113,
+    "summaries": 8,
+    "textChars": 319255,
+    "totalSources": 8,
+    "walked": 8
+   },
+   "capturedAt": "2026-09-30T20:59:40.382Z"
+  },
+  {
+   "notebookId": "9a8d361c-6b90-493b-a500-90f1faae1133",
+   "url": "https://notebook.google.com/notebook/9a8d361c-6b90-493b-a500-90f1faae1133",
+   "title": "Introduction to Computers: NCV Level 2 Exam Guide",
+   "file": "11_Introduction_to_Computers_NCV_Level_2_Exam_Guide_9a8d361c.json",
+   "sha256": "B531E14C00693783CA3F3E905ABB3E7F0FBDBC2AADCA08D0366659418579EF87",
+   "bytes": 116028,
+   "stats": {
+    "pages": 43,
+    "summaries": 1,
+    "textChars": 101221,
+    "totalSources": 8,
+    "walked": 8
+   },
+   "capturedAt": "2026-09-30T21:00:41.750Z"
+  },
+  {
+   "notebookId": "9b657786-131d-4c79-b27c-179bfc8e4c76",
+   "url": "https://notebook.google.com/notebook/9b657786-131d-4c79-b27c-179bfc8e4c76",
+   "title": "NC(V) Mathematics NQF Level 2 Assessment and Marking Guideline",
+   "file": "12_NC_V_Mathematics_NQF_Level_2_Assessment_and_Marking_Guideline_9b657786.json",
+   "sha256": "40E42A15EA9330B41F486991ADEADE7DFC60394F046862BCA2D34E2D2C71CEB2",
+   "bytes": 62186,
+   "stats": {
+    "pages": 28,
+    "summaries": 8,
+    "textChars": 46114,
+    "totalSources": 8,
+    "walked": 8
+   },
+   "capturedAt": "2026-09-30T20:56:17.993Z"
+  },
+  {
+   "notebookId": "b52580ca-7d12-4efc-abcc-7ec96b9b6302",
+   "url": "https://notebook.google.com/notebook/b52580ca-7d12-4efc-abcc-7ec96b9b6302",
+   "title": "Mechatronics Practical Assessment: Inductive Systems and Component Analysis",
+   "file": "13_Mechatronics_Practical_Assessment_Inductive_Systems_and_Component_Analysis_b52580ca.json",
+   "sha256": "44E5AA666C8367B094DB986741A8726FFC9CC9876E2E3BD49661DCBAA902196C",
+   "bytes": 14766,
+   "stats": {
+    "pages": 12,
+    "summaries": 1,
+    "textChars": 10358,
+    "totalSources": 1,
+    "walked": 1
+   },
+   "capturedAt": "2026-09-30T20:56:31.543Z"
+  },
+  {
+   "notebookId": "be05f280-ae30-4743-a419-7d0c331140a3",
+   "url": "https://notebook.google.com/notebook/be05f280-ae30-4743-a419-7d0c331140a3",
+   "title": "Automated Mechatronics Garden Implementation and Sustainability Plan for Msinga",
+   "file": "14_Automated_Mechatronics_Garden_Implementation_and_Sustainability_Plan_for_Msinga_be05f280.json",
+   "sha256": "330BCDC6F00F0883DAD01C2FDD0ECD2FC9F012DE75A2D2E0A4566F3FCCC183A8",
+   "bytes": 109141,
+   "stats": {
+    "pages": 19,
+    "summaries": 5,
+    "textChars": 96884,
+    "totalSources": 6,
+    "walked": 6
+   },
+   "capturedAt": "2026-09-30T20:58:52.085Z"
+  },
+  {
+   "notebookId": "dbfaedda-d570-40d4-8a65-46461d22afc5",
+   "url": "https://notebook.google.com/notebook/dbfaedda-d570-40d4-8a65-46461d22afc5",
+   "title": "Manual Manufacturing NQF Level 2 Marking Guideline February 2025",
+   "file": "15_Manual_Manufacturing_NQF_Level_2_Marking_Guideline_February_2025_dbfaedda.json",
+   "sha256": "62D36FC30DC8575745D88AD5E92C88A90DEE700572D3B5D18FC2EDACD1E7DC4F",
+   "bytes": 268782,
+   "stats": {
+    "pages": 113,
+    "summaries": 11,
+    "textChars": 228754,
+    "totalSources": 11,
+    "walked": 11
+   },
+   "capturedAt": "2026-09-30T20:57:42.600Z"
+  },
+  {
+   "notebookId": "e3cc1a23-f428-4620-81b4-c38445461fba",
+   "url": "https://notebook.google.com/notebook/e3cc1a23-f428-4620-81b4-c38445461fba",
+   "title": "Guide to PC Hardware, Connectivity, and Networking Configuration",
+   "file": "16_Guide_to_PC_Hardware_Connectivity_and_Networking_Configuration_e3cc1a23.json",
+   "sha256": "1D71C9A8E2C144FC64C1C0C733FBF37F2C03479A736B258F857E8937C55EEC8F",
+   "bytes": 67849,
+   "stats": {
+    "pages": 0,
+    "summaries": 2,
+    "textChars": 64240,
+    "totalSources": 2,
+    "walked": 2
+   },
+   "capturedAt": "2026-09-30T20:58:18.460Z"
+  },
+  {
+   "notebookId": "f791dbc6-2f12-4296-b879-3cc54aae9ae5",
+   "url": "https://notebook.google.com/notebook/f791dbc6-2f12-4296-b879-3cc54aae9ae5",
+   "title": "NC(V) Fundamentals Mathematics NQF Level 2 Task 6",
+   "file": "17_NC_V_Fundamentals_Mathematics_NQF_Level_2_Task_6_f791dbc6.json",
+   "sha256": "1E3C11F15F8D407B151CC6C48972279BDC1F1465F3073A695F4E734160BD7B3F",
+   "bytes": 1618,
+   "stats": {
+    "pages": 1,
+    "summaries": 1,
+    "textChars": 0,
+    "totalSources": 1,
+    "walked": 1
+   },
+   "capturedAt": "2026-09-30T21:01:47.896Z"
+  }
+ ]
+}

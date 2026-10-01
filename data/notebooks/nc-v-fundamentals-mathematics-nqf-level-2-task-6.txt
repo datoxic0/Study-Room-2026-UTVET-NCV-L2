@@ -1,0 +1,46 @@
+# NC(V) Fundamentals Mathematics NQF Level 2 Task 6 - Gemini Notebook
+
+Source: https://notebook.google.com/notebook/f791dbc6-2f12-4296-b879-3cc54aae9ae5
+Fetched: 2026-09-30T17:57:36.594Z
+Auth: authenticated CDP session (Edge, debug port 9222)
+
+---
+
+link_2
+Shared
+add_2
+share_1
+more_vert
+settings
+PRO
+Sources
+Chat
+Studio
+landscape_2
+📐
+NC(V) Fundamentals Mathematics NQF Level 2 Task 6
+1 source
+·
+19 Aug 2026
+
+This document is a National Certificate (Vocational) assessment designed for Fundamentals Mathematics NQF Level 2 students. The exam paper, identified as Task 6 (V1), carries a total of 50 marks with a weighting of 10 toward the ICASS final grade. Students are given two and a half hours to complete the controlled assignment under strict examination guidelines. The curriculum content covers essential mathematical concepts, including geometry, Cartesian coordinates, transformations, and trigonometry. Additionally, the assessment concludes with a comprehensive formula sheet containing geometric and algebraic equations to assist learners during the test.
+
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+What mathematical topics are covered in the NQF Level 2 task?
+subdirectory_arrow_right
+How can I use the formula sheet for analytical geometry?
+subdirectory_arrow_right
+Show me how to solve the trigonometry problems provided.
+subdirectory_arrow_right
+1 source
+arrow_upward
+Gemini Notebook can make mistakes, so double-check it.
+
+## Sources (1)
+
+- MathsTask6(V1).pdf
+

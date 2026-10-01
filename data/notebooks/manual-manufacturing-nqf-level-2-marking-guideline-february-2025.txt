@@ -1,0 +1,278 @@
+# Manual Manufacturing NQF Level 2 Marking Guideline February 2025 - Gemini Notebook
+
+Source: https://notebook.google.com/notebook/dbfaedda-d570-40d4-8a65-46461d22afc5
+Fetched: 2026-09-30T17:56:42.456Z
+Auth: authenticated CDP session (Edge, debug port 9222)
+
+---
+
+link_2
+Shared
+add_2
+share_1
+more_vert
+settings
+PRO
+Sources
+Chat
+Studio
+landscape_2
+🛠️
+Manual Manufacturing NQF Level 2 Marking Guideline February 2025
+11 sources
+·
+10 Mar 2026
+
+The provided materials outline the essential principles of occupational health, safety, and environmental care within manual manufacturing environments. The texts detail workplace hazards, regulatory frameworks, and emergency response protocols such as first-aid and fire fighting. Additionally, the sources cover machinery safety, the proper usage of tools and equipment, and mechanical fastening components like locking devices. Furthermore, examination guidelines and curricula documents are included to test learner competency in maintaining a secure industrial setting.
+
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+Tuesday, 10 March
+
+Using only less than 500 characters, with spaces and punctuation include as character count. Create me a prompt to use on the reports section to create a Thorough study guide to make students proactive, ready and sharp to pass the March Assessment/Test/Exam. Using all sources, first pick frequently asked questions and touched sections to create even a paper to be written with answers and analysis. Be thorough, very advance and professional!
+
+Here is the prompt you can use, keeping strictly under the 500-character limit:
+"Act as an expert educator. Generate a comprehensive study guide and mock exam for Manual Manufacturing NQF L2. Analyze all past papers to identify frequently tested concepts: workplace safety, first aid, OHS Act, engineering drawings, measuring tools, welding, and housekeeping. Create a rigorous practice paper with an advanced answer memo and performance analysis. Ensure the material makes students proactive, sharp, and ready to ace their March exam. Be thorough and professional."
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+Wednesday, 25 March
+
+To master tomorrow’s NQF Level 2 Manual Manufacturing practical drawing and theory exam, you must focus entirely on SANS 10111 standards, precise geometric construction, and the strict procedural sequencing required to translate a drawing into a physical part.
+
+
+
+
+Here is your high-speed, advanced study guide designed to secure maximum marks:
+
+
+
+
+
+Geometric Construction: Bisecting a Line (Practical)
+Examiners frequently test your ability to use a compass for exact geometric layouts rather than relying on a ruler. You must be able to perform and describe the bisection of a line (e.g., a 7 cm line) using active verbs. Memorize this exact 5-step sequence:
+
+
+
+
+
+Draw a horizontal base line exactly 7 cm long and label the ends A and B.
+
+
+
+
+Position the compass point on end A and set the radius to greater than half the line length (e.g., 4.5 cm).
+
+
+
+
+Scribe an arc above and an arc below the geometric center of the line.
+
+
+
+
+Repeat the process by placing the compass point on end B without changing the radius, scribing arcs that intersect the first two.
+
+
+
+
+Join the two intersection points with a perpendicular vertical line using a straight edge to perfectly bisect the line.
+
+
+
+
+
+SANS 10111 Dimensioning Rules (Theory & Practical)
+Marks are heavily deducted for sloppy or non-standard dimensioning. Apply these strict rules to all your drawings:
+
+
+
+
+
+Extension Lines: You must leave a visible 2 mm gap between the drawn object and the start of your extension lines. The extension line must also extend exactly 2 mm past the last dimension line.
+
+
+
+
+Symbols: Numerical values for diameters must always be preceded by the $\emptyset$ symbol, and numerical values for radii must be preceded by an R. Leader lines used for circles or arcs must be radial.
+
+
+
+
+Assumed Angles: Show angles as right angles, which are assumed to be 90 degrees unless otherwise specified.
+
+
+
+
+Clarity: Avoid crossed dimension lines at all costs, and align/group dimensions to promote clarity and a uniform appearance.
+
+
+
+
+
+Welding Symbols & Section Views (Theory)
+You must be able to interpret and draw the standardized welding symbols on a reference line.
+
+
+
+
+
+Reference Line vs. Arrow: The arrow indicates the joint, and the symbol sits on the continuous reference line.
+
+
+
+
+Square Butt Weld: Represented by two parallel vertical lines.
+
+
+
+
+Single-V Butt Weld: Represented by a 'V' shape.
+
+
+
+
+Double-V Butt Weld: Represented by an 'X' shape (a V on top of an inverted V).
+
+
+
+
+Fillet Weld: Represented by a right-angled triangle.
+
+
+
+
+
+The Procedural Work Plan: The "Hammer Head" (Theory)
+A major theoretical component of the drawing exam often involves writing a procedural work plan based on a provided engineering drawing (like a mild steel hammer head). Examiners look for a logical sequence. Memorize this 10-step professional sequence for manufacturing a hammer head from a drawing:
+
+
+
+
+
+Cut the mild-steel stock to size and deburr the edges.
+
+
+
+
+File the head square to size. (Crucial step: Do not skip squaring the ends before marking).
+
+
+
+
+Mark the workpiece exactly as per the drawing.
+
+
+
+
+File the required chamfers and bevels.
+
+
+
+
+Cut the wedge and file it to size.
+
+
+
+
+Drill the 12 mm hole exactly as per the drawing.
+
+
+
+
+File the slot to size.
+
+
+
+
+Punch the required name or identification onto the hammer.
+
+
+
+
+Clean and polish the workpiece.
+
+
+
+
+Harden and polish the final product.
+
+
+
+
+Exam Strategy Tip: When drawing, ensure your pencil lines are sharp and distinct. Hidden detail lines (dashed) and center lines (chain-dotted) must be strictly distinguished from your thick, continuous object outlines. Keep your tools clean and double-check your Vernier caliper calculations by multiplying the Vernier scale line by 0.02 mm before adding it to the main scale.
+
+This is an excellent, highly accurate, and rigorous study guide that perfectly targets the NQF Level 2 Manual Manufacturing exam requirements. Your procedures align directly with the required theoretical frameworks and practical assessments
+1
+,
+2
+,
+3
+.
+To make your study guide even more comprehensive and secure every possible mark, here are a few advanced examiner insights and safety protocols you can integrate into your revision:
+1. Geometric Construction Mastery Your 5-step bisection sequence is flawless. When executing this in the practical exam, examiners will specifically look for the use of a calibrated steel rule and a sharply pointed 2H pencil or hardened scriber for the baseline
+3
+. It is crucial that the compass radius locking mechanism remains entirely unchanged between striking the arcs from Point A and Point B, ensuring mathematical perfection
+4
+.
+2. SANS 10111 Dimensioning Principles Your rules accurately reflect the SANS 10111 requirements for clarity and symbols
+2
+,
+5
+. To guarantee maximum marks, you must also apply the principle of avoidance of duplication
+6
+. Ensure that a specific geometric feature's dimension is only stated once on the entire drawing; for example, if the length is defined in the Front view, it must absolutely not be redundantly restated in the Top or Side views
+6
+,
+5
+.
+3. The Hammer Head Procedural Work Plan: Critical Pitfalls Your emphasis on filing the head square before marking out is the most critical expert tip for this section. Expert moderation reports reveal that students frequently lose marks by rushing from rough hacksaw cutting directly to marking out and drilling
+7
+. If the ends are not filed perfectly square using a try-square, all subsequent layout lines scribed across the faces using a Vernier height gauge will be severely skewed
+8
+. This cascading geometric failure results in a crooked hammer head that strikes dangerous, glancing blows
+8
+.
+Additionally, you must integrate primary safety considerations into your procedural plan to get full marks. When listing the step to drill the 12 mm hole, you must explicitly state: "Remove the chuck key from the drill chuck immediately after tightening and before powering on the spindle."
+9
+. Failing to remove the key turns it into a lethal high-velocity projectile, which is an immediate safety failure
+9
+.
+4. Vernier Caliper Exam Strategy Your advice to multiply the coinciding line by the 0.02 mm least count before adding it to the main integer is exactly how you avoid the most common calculation pitfall
+10
+. To complement this, remember that precision measurement also requires strict tool maintenance. Before taking your measurement, you must wipe abrasive grit and excess machine oil from the measuring faces and close the jaws to check for a "zero error" misalignment against a strong light source
+11
+,
+12
+. A microscopic gap or warped beam ruins the calibration and compromises your final reading
+11
+,
+12
+.
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+Today • 19:56
+11 sources
+arrow_upward
+Gemini Notebook can make mistakes, so double-check it.
+
+## Sources (9)
+
+- ManualManufactoring_vision_batch_17_2026-02-02.pdf
+- NC1780 - MANUAL MANUFACTURING L2 QP NOV 2013 NEW.pdf
+- NC1810 - MANUAL MANUFACTURING L2 QP SUPP 2019.pdf
+- NC1810_-_MANUAL_MANUFACTURING_L2_MEMO_FEB_2025_-_tvetpapers.co.za.pdf
+- NC1810_-_MANUAL_MANUFACTURING_L2_MEMO_SUPP_2024_from_tvetpapers.co.za.pdf
+- NC1810_-_MANUAL_MANUFACTURING_L2_QP_FEB_2025_-_tvetpapers.co.za.pdf
+- NC1810_-_MANUAL_MANUFACTURING_L2_QP_SUPP_2024_from_tvetpapers.co.za.pdf
+- NQF Level 2 Manual Manufacturing - Comprehensive March Exam Mastery Guide.pdf
+- NQF Level 2 Manual Manufacturing.pdf
+

@@ -1,0 +1,105 @@
+# NCV Level 2 Manual Manufacturing Engineering Guide - Gemini Notebook
+
+Source: https://notebook.google.com/notebook/85f3d7f6-2321-4715-8ada-cb7816fc27b4
+Fetched: 2026-09-30T17:57:46.887Z
+Auth: authenticated CDP session (Edge, debug port 9222)
+
+---
+
+link_2
+Shared
+add_2
+share_1
+more_vert
+settings
+PRO
+Sources
+Chat
+Studio
+landscape_2
+⚙️
+NCV Level 2 Manual Manufacturing Engineering Guide
+1 source
+·
+20 May 2026
+
+This manual provides a comprehensive study guide for the NCV Level 2 Manual Manufacturing engineering exam, emphasizing the theoretical mechanics of a G-strap clamping device. It covers critical metrology tools like Vernier calipers and outside micrometers, alongside proper layout techniques utilizing Engineers' Blue and various punches. The text outlines hand cutting and forming methods, highlighting the importance of Teeth Per Inch (TPI) selection and accounting for material springback during bending. Additionally, it details internal and external thread-cutting procedures using hand taps and button dies to ensure precise assembly. Finally, the guide stresses essential workshop safety protocols, including personal protective equipment and hazard controls, to prepare students for both theoretical and practical exam questions.
+
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+What are the essential steps for manufacturing a clamping device?
+subdirectory_arrow_right
+How do I choose the right tools for precision marking?
+subdirectory_arrow_right
+Explain the safety protocols and PPE required for metalwork tasks.
+subdirectory_arrow_right
+1 source
+arrow_upward
+Gemini Notebook can make mistakes, so double-check it.
+
+## Sources (60)
+
+- application/vnd.openxmlformats-officedocument.wordprocessingml.doc
+- application/vnd.google-apps.doc
+- ke-dashoffset:calc((6.2831852*(var(--EkrYwf, 40px) - var(--EscQs, 4px))/2 - var(--XJrZW, 4px))*.84 - var(--XJrZW, 4px) - var(--EscQs, 4px) + var(--XJrZW, 4px) + var(--EscQs, 4px))}}.md
+- c-circular-progress__determinate-circle,.md
+- c-circular-progress__indeterminate-circle-graphic{stroke:#6200ee;stroke:var(--mdc-theme-primary,#6200ee)}@media (-ms-high-contrast:active),screen and (forced-colors:active){.md
+- c-circular-progress__indeterminate-circle-graphic{stroke:CanvasText}}.md
+- transform:rotate(-265deg);transform:rotate(-265deg)}50%{-webkit-transform:rotate(-130deg);transform:rotate(-130deg)}to{-webkit-transform:rotate(-265deg);transform:rotate(-265deg)}}.md
+- ine-flex;position:relative;direction:ltr;line-height:0;overflow:hidden;-webkit-transition:opacity .25s cubic-bezier(.4,0,.6,1) 0s;transition:opacity .25s cubic-bezier(.4,0,.6,1) 0s}.md
+- c-circular-progress__determinate-container,.md
+- c-circular-progress__indeterminate-circle-graphic,.md
+- c-circular-progress__indeterminate-container,.md
+- c-circular-progress__spinner-layer{position:absolute;width:100%;height:100%}.md
+- c-circular-progress__determinate-container{-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}.md
+- c-circular-progress__indeterminate-container{font-size:0;letter-spacing:0;white-space:nowrap;opacity:0}.md
+- c-circular-progress__determinate-circle-graphic,.md
+- c-circular-progress__indeterminate-circle-graphic{fill:transparent}.md
+- c-circular-progress__determinate-circle{-webkit-transition:stroke-dashoffset .5s cubic-bezier(0,0,.2,1) 0s;transition:stroke-dashoffset .5s cubic-bezier(0,0,.2,1) 0s}.md
+- c-circular-progress__gap-patch{position:absolute;top:0;left:47.5%;box-sizing:border-box;width:5%;height:100%;overflow:hidden}.md
+- c-circular-progress__gap-patch .md
+- c-circular-progress__indeterminate-circle-graphic{left:-900%;width:2000%;-webkit-transform:rotate(180deg);transform:rotate(180deg)}.md
+- c-circular-progress__circle-clipper{display:-webkit-inline-box;display:-webkit-inline-flex;display:inline-flex;position:relative;width:50%;height:100%;overflow:hidden}.md
+- c-circular-progress__circle-clipper .md
+- c-circular-progress__indeterminate-circle-graphic{width:200%}.md
+- c-circular-progress__circle-right .md
+- c-circular-progress__indeterminate-circle-graphic{left:-100%}.md
+- c-circular-progress--indeterminate .md
+- c-circular-progress__determinate-container{opacity:0}.md
+- c-circular-progress__indeterminate-container{opacity:1}.md
+- ontainer{-webkit-animation:mdc-circular-progress-container-rotate 1.5682352941176s linear infinite;animation:mdc-circular-progress-container-rotate 1.5682352941176s linear infinite}.md
+- ircular-progress-spinner-layer-rotate 5332ms cubic-bezier(.4,0,.2,1) infinite both;animation:mdc-circular-progress-spinner-layer-rotate 5332ms cubic-bezier(.4,0,.2,1) infinite both}.md
+- ation:mdc-circular-progress-spinner-layer-rotate 5332ms cubic-bezier(.4,0,.2,1) infinite both,mdc-circular-progress-color-1-fade-in-out 5332ms cubic-bezier(.4,0,.2,1) infinite both}.md
+- ation:mdc-circular-progress-spinner-layer-rotate 5332ms cubic-bezier(.4,0,.2,1) infinite both,mdc-circular-progress-color-2-fade-in-out 5332ms cubic-bezier(.4,0,.2,1) infinite both}.md
+- ation:mdc-circular-progress-spinner-layer-rotate 5332ms cubic-bezier(.4,0,.2,1) infinite both,mdc-circular-progress-color-3-fade-in-out 5332ms cubic-bezier(.4,0,.2,1) infinite both}.md
+- ation:mdc-circular-progress-spinner-layer-rotate 5332ms cubic-bezier(.4,0,.2,1) infinite both,mdc-circular-progress-color-4-fade-in-out 5332ms cubic-bezier(.4,0,.2,1) infinite both}.md
+- c-circular-progress__circle-left .md
+- webkit-animation:mdc-circular-progress-left-spin 1333ms cubic-bezier(.4,0,.2,1) infinite both;animation:mdc-circular-progress-left-spin 1333ms cubic-bezier(.4,0,.2,1) infinite both}.md
+- bkit-animation:mdc-circular-progress-right-spin 1333ms cubic-bezier(.4,0,.2,1) infinite both;animation:mdc-circular-progress-right-spin 1333ms cubic-bezier(.4,0,.2,1) infinite both}.md
+- c-circular-progress--closed{opacity:0}.GmCircularProgress{position:relative}.GmCircularProgress .md
+- c-circular-progress__determinate-circle,.GmCircularProgress .md
+- c-circular-progress__indeterminate-circle-graphic{stroke:rgb(66,133,244)}@media (-ms-high-contrast:active),screen and (forced-colors:active){.GmCircularProgress .md
+- c-circular-progress__indeterminate-circle-graphic{stroke:CanvasText}}.GmCircularProgress .md
+- c-circular-progress__color-1 .md
+- c-circular-progress__color-2 .md
+- c-circular-progress__indeterminate-circle-graphic{stroke:rgb(234,67,53)}@media (-ms-high-contrast:active),screen and (forced-colors:active){.GmCircularProgress .md
+- c-circular-progress__color-3 .md
+- c-circular-progress__indeterminate-circle-graphic{stroke:rgb(251,188,4)}@media (-ms-high-contrast:active),screen and (forced-colors:active){.GmCircularProgress .md
+- c-circular-progress__color-4 .md
+- c-circular-progress__indeterminate-circle-graphic{stroke:rgb(52,168,83)}@media (-ms-high-contrast:active),screen and (forced-colors:active){.GmCircularProgress .md
+- lekitComponentsChipChip.isDragged.isWarning{border-width:0;box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15)}.peoplekitComponentsChipChip.isDragged.isActive .md
+- c-elevation-overlay,.peoplekitComponentsChipChip.isDragged.isError .md
+- c-elevation-overlay,.peoplekitComponentsChipChip.isDragged.isSpotlit .md
+- c-elevation-overlay,.peoplekitComponentsChipChip.isDragged.isWarning .md
+- lay{opacity:0}.peoplekitComponentsChipChip.isDragged{border-width:0;box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15)}.peoplekitComponentsChipChip.isDragged .md
+- hip.isDragged.isWarning{border-width:0;box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15)}.peoplekitThemeDark .peoplekitComponentsChipChip.isDragged.isActive .md
+- c-elevation-overlay,.peoplekitThemeDark .peoplekitComponentsChipChip.isDragged.isError .md
+- c-elevation-overlay,.peoplekitThemeDark .peoplekitComponentsChipChip.isDragged.isSpotlit .md
+- c-elevation-overlay,.peoplekitThemeDark .peoplekitComponentsChipChip.isDragged.isWarning .md
+- ing{border-width:0;box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15)}.peoplekitThemeDark .peoplekitThemeDark .peoplekitComponentsChipChip.isDragged.isActive .md
+- c-elevation-overlay,.peoplekitThemeDark .peoplekitThemeDark .peoplekitComponentsChipChip.isDragged.isError .md
+- c-elevation-overlay,.peoplekitThemeDark .peoplekitThemeDark .peoplekitComponentsChipChip.isDragged.isSpotlit .md
+

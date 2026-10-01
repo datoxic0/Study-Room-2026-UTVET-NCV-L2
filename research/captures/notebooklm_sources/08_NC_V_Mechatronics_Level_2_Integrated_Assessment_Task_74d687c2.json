@@ -1,0 +1,37 @@
+{
+ "notebookId": "74d687c2-df47-4f02-82e6-eac3d66b3507",
+ "sources": [
+  {
+   "capturedAt": "2026-09-30T21:04:07.032Z",
+   "index": 0,
+   "kind": "doc",
+   "name": "arrow_drop_down",
+   "pageImages": [],
+   "settled": false,
+   "summary": "",
+   "text": "",
+   "textChars": 0
+  },
+  {
+   "capturedAt": "2026-09-30T21:04:09.779Z",
+   "index": 1,
+   "kind": "doc",
+   "name": "Electrotech Activity Solutions and Questionnaire",
+   "pageImages": [],
+   "settled": true,
+   "summary": "This document serves as a **comprehensive practical guide** for an electro-technology project, outlining the necessary steps to build, wire, and test electronic hardware. It details the **enclosure preparation process**, which requires precise measurement, drilling, and deburring with specialized tools to securely house components like switches and LEDs. Furthermore, the instructions explain how to **assemble vero boards** by cutting copper tracks, verifying component polarity, and creating high-quality solder joints linked to external fly-leads. Finally, the text emphasizes vital **safety and troubleshooting protocols**, including the use of multimeters for fault finding, alongside an inventory of **PLC interface components** that connect the physical circuit to automated control systems.",
+   "text": "Timestamp: 2026-09-04 07:04:14\nUser: Answer all Electrotech questions activity\nGemini: The specific question sheets (Worksheet 4 and Worksheet 5) are separate handouts issued by your lecturer on assessment day and are not printed inside this instruction booklet[cite: 1]. However, the document's design brief and assessment checklist define the required tasks, tool lists, and criteria for the Sub-task 2 Electro-Technology activities[cite: 1].\nActivity 2.1: Enclosure Layout and Knowledge Questionnaire\nFive Tools Required for the Questionnaire:\nSteel Rule / Vernier Caliper: For accurate measuring and marking out layout dimensions on the enclosure[cite: 1].\nScriber and Centre Punch: For scribing reference lines and marking hole centers to prevent drill bits from wandering[cite: 1].\nDrill Press / Hand Drill with Bits (or Step Drill): For drilling required mounting holes for push buttons, toggle switch, female connectors, and the LED[cite: 1].\nNeedle Files / Deburring Tool: For removing burrs, sharp edges, and smoothing hole edges after drilling.\nScrewdrivers / Spanners: For assembling, fastening, and securing mounted hardware to the enclosure[cite: 1].\nEnclosure Preparation Checklist:\nMeasure and mark positions neatly according to the lecturer's drawing[cite: 1].\nClamp the enclosure securely prior to drilling[cite: 1].\nDrill hole cutouts for the toggle switch, push buttons, LED, and female banana/DIN sockets[cite: 1].\nMount components tightly without damaging the casing[cite: 1].\n--------------------------------------------------------------------------------\nActivity 2.2: Vero Board Layout, Assembly, and Soldering\nLayout Diagram Requirements:\nDraw the component layout showing all components clearly labelled[cite: 1].\nMark all soldering points and copper track breaks clearly on the grid template[cite: 1].\nIndicate external fly-lead connection points for field devices (push buttons, toggle switch, battery supply, and female chassis plugs)[cite: 1].\nSoldering and Assembly Standards:\nTrack Breaks: Cut cleanly across designated copper strips to prevent short-circuiting parallel components[cite: 1].\nPolarity Check: Verify orientation for polarized components (LEDs, electrolytic capacitors, and diodes) before soldering[cite: 1].\nSolder Quality: Joints must be shiny, smooth, and concave without dry joints, overheating, or solder bridges between tracks[cite: 1].\nWiring: Strip, tin, and connect fly-leads securely between the vero board and chassis-mounted hardware[cite: 1].\n--------------------------------------------------------------------------------\nActivity 2.3: Knowledge Questionnaire (Worksheet 5)\nWorksheet 5 assesses theoretical knowledge directly tied to the Sub-task 2 build[cite: 1]:\nSafety & Housekeeping: Wear safety goggles, keep the soldering iron in its stand when not in use, ensure proper ventilation against solder fumes, and clean the iron tip using a damp sponge or brass wire[cite: 1].\nCircuit Fault Finding: Use a digital multimeter (continuity and resistance modes) to check for short circuits, broken tracks, and open dry joints before applying DC power[cite: 1].\n--------------------------------------------------------------------------------\nActivity 1.3: Electrical / PLC Material List (Figure 1)\nFor the electrical/PLC interface that connects to your Electro-Technology circuit, the materials table specified on Page 3 is completed as follows[cite: 1]:\nItem\n\t\nDescription\n\t\nMarking\n\t\nAddress\n\n\nInputs Item 1\n\t\nNormally Open Pushbutton (Start)[cite: 1]\n\t\nS1 / START[cite: 1]\n\t\nI1 / Input 1[cite: 1]\n\n\nInputs Item 2\n\t\nNormally Closed Pushbutton (Stop)[cite: 1]\n\t\nS2 / STOP[cite: 1]\n\t\nI2 / Input 2[cite: 1]\n\n\nInputs Item 3\n\t\nOn/Off Detent Power Switch[cite: 1]\n\t\nS0 / POWER[cite: 1]\n\t\nMains / L1[cite: 1]\n\n\nOutputs Item 4\n\t\nRelay Coil / Contactor[cite: 1]\n\t\nK1[cite: 1]\n\t\nQ1 / Output 1[cite: 1]\n\n\nOutputs Item 5\n\t\nIndicator Lamp / Output Signal\n\t\nH1\n\t\nQ2 / Output 2\n\n\nPLC Unit\n\t\nMicro PLC Controller (24V DC / 230V AC)\n\t\nPLC1\n\t\nBase Unit\n\n\nSpecial Relays\n\t\nOn-Delay Timer (10-Second Preset)[cite: 1]\n\t\nT1[cite: 1]\n\t\nTON (10s)[cite: 1]\nIf you have the paper handout for Worksheet 4 or Worksheet 5, please share the specific question text or upload a photo of it so each numbered question can be solved directly.",
+   "textChars": 4270
+  }
+ ],
+ "stats": {
+  "pages": 0,
+  "summaries": 1,
+  "textChars": 4270,
+  "totalSources": 2,
+  "walked": 2
+ },
+ "title": "NC (V) Mechatronics Level 2 Integrated Assessment Task",
+ "updatedAt": "2026-09-30T21:04:09.779Z",
+ "url": "https://notebook.google.com/notebook/74d687c2-df47-4f02-82e6-eac3d66b3507"
+}

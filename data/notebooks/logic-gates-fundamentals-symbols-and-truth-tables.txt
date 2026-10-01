@@ -1,0 +1,53 @@
+# Logic Gates: Fundamentals, Symbols, and Truth Tables - Gemini Notebook
+
+Source: https://notebook.google.com/notebook/8b2b28c0-ab75-4b98-a3b5-029b4140f41a
+Fetched: 2026-09-30T17:57:09.264Z
+Auth: authenticated CDP session (Edge, debug port 9222)
+
+---
+
+link_2
+Shared
+add_2
+share_1
+more_vert
+settings
+PRO
+Sources
+Chat
+Studio
+landscape_2
+🕹️
+Logic Gates: Fundamentals, Symbols, and Truth Tables
+8 sources
+·
+16 Apr 2026
+
+The provided documents explore logic gates and Boolean algebra, detailing how components like AND, OR, NOT, NAND, NOR, XOR, and XNOR process binary inputs to produce specific outputs. These fundamental components can be linked together into complex logic circuits and represented via truth tables and algebraic expressions to illustrate physical and computational systems. Furthermore, the sources explain various simplification rules, such as De Morgan's Law and distributive properties, which help reduce complex expressions into more efficient circuits. Ultimately, applying these reduction techniques allows engineers to decrease manufacturing costs, minimize physical space requirements, and lower energy consumption across various technological applications.
+
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+What are the fundamental types of logic gates and symbols?
+subdirectory_arrow_right
+How do Boolean algebra laws help in simplifying complex circuits?
+subdirectory_arrow_right
+Teach me how to create truth tables for logic diagrams.
+subdirectory_arrow_right
+8 sources
+arrow_upward
+Gemini Notebook can make mistakes, so double-check it.
+
+## Sources (8)
+
+- 02_logic_gates_and_truth_tables_part_1.pdf
+- 6.4. Logic Gates - Advanced.pdf
+- 4335_LOGIC CIRCUITS I emis.pdf
+- 1629779636.pdf
+- Ch3-Thomas_L._Floyd.pdf
+- logicgates.pdf
+- TBQ_Feher_DigitalLogicbw.pdf
+- YUwO2SF7Hj~1uf60.pdf
+

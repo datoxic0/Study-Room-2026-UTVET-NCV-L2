@@ -1,0 +1,75 @@
+# Introduction to Computers: NCV Level 2 Exam Guide - Gemini Notebook
+
+Source: https://notebook.google.com/notebook/9a8d361c-6b90-493b-a500-90f1faae1133
+Fetched: 2026-09-30T17:57:18.481Z
+Auth: authenticated CDP session (Edge, debug port 9222)
+
+---
+
+add_2
+share_1
+more_vert
+settings
+PRO
+Sources
+Chat
+Studio
+landscape_2
+💻
+Introduction to Computers: NCV Level 2 Exam Guide
+10 sources
+·
+02 Mar 2026
+
+The provided documents consist of National Certificate (Vocational) examination question papers and marking guidelines for the Introduction to Computers course at NQF Level 2, issued by the Department of Higher Education and Training in the Republic of South Africa. These materials evaluate foundational IT knowledge through structured assessments covering theoretical concepts, digital systems, and practical applications. Key topics examined include logic gates, number systems, central processing unit operations, memory types, and troubleshooting techniques. Furthermore, the tests assess technical competencies involving computer hardware assembly, software categories, computer networking, and digital communication tools like electronic mail.
+
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+Monday, 01 June
+
+Model me a 300 character prompt to create a study guide in reports and as an Infographic, slide deck and Video. All based on the direction that is on the Gemini chat. All across
+
+Here is a ~300-character prompt modeled exactly on the scope outlined in your Gemini chat source
+1
+more_horiz
+:
+"Create a detailed study guide report, visual infographic, presentation slide deck, and video overview for the 50-mark NCV Level 2 Computers Topic 1 June test. Ensure all content strictly covers data storage sizes, computer types, logic gates, Boolean expressions, and binary arithmetic from the Gemini chat." (308 characters)
+This prompt covers the exact direction from the chat, focusing exclusively on the 4 specific sections required for the exam (Data Storage/Computer Types, Short Definitions, Boolean Expressions & Truth Tables, and Binary Arithmetic)
+2
+more_horiz
+.
+If you would like, I can generate these four artifacts (Report, Infographic, Slide Deck, and Video) for you right now. Just confirm, and I will get them started!
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+
+Yes, do it now.
+
+I have successfully initiated the creation of all four artifacts!
+The system is now generating your Detailed Study Guide Report, Visual Infographic, Slide Deck, and Video Overview. They will be strictly focused on the NCV Level 2 Computers Topic 1 material from your Gemini chat (data storage sizes, computer types, logic gates, Boolean expressions, and binary arithmetic).
+Please note that it can take up to 10 minutes for these to be completed. You can monitor their progress and view them in your Studio tab once they are ready. Good luck with the June test preparation! Let me know if there's anything else you need.
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+Today • 19:57
+10 sources
+arrow_upward
+Gemini Notebook can make mistakes, so double-check it.
+
+## Sources (7)
+
+- 2010 NOV NC1200 - INTRODUCTION TO COMPUTERS MEMO NOV 20101.pdf
+- 2018 MAR NC1520 - INTRODUCTION TO COMPUTERS L2 QP SUPP 2018.pdf
+- 2018 NOV NC1540 - INTRODUCTION TO COMPUTERS L2 QP NOV 2018 (amended).pdf
+- 2021 MAR NC1540 - INTRODUCTION TO COMPUTERS L2 MEMO FEB 2021 REPLACEMENT SIGN OFF.pdf
+- 2021 MAR NC1540 - INTRODUCTION TO COMPUTERS L2 QP FEB 2021 REPLACEMENT SIGN OFF.pdf
+- FUNDAMENTALS OF INTRODUCTION TO COMPUTERS - A COMPREHENSIVE STUDY GUIDE.pdf
+- NC1200 - INTRODUCTION TO COMPUTERS NOV QP 2010.pdf
+

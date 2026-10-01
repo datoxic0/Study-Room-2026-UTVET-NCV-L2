@@ -1,0 +1,776 @@
+# Electrotechnology NQF Level 2 National Certificate Exam Papers - source capture
+
+Notebook: https://notebook.google.com/notebook/2f776a22-ef84-47dc-9067-c67ebf2cdfca
+Captured: 2026-09-30T21:03:35.111Z | walker: notebooklm-ingestion extension | sources: 2/2 | text chars: 11355 | page images: 0 | summaries: 1
+Provenance: research/captures/notebooklm_sources/04_Electrotechnology_NQF_Level_2_National_Certificate_Exam_Papers_2f776a22.json sha256 2ECC3CF7C10D972C740A8953F573A5BAB5B835E61848029FB2BAB7FA56D97B57
+
+## 1. arrow_drop_down
+
+Type: doc | text chars: 0 | page images: 0 | summary chars: 0
+
+_No extractable text or page images captured._
+
+## 2. Electrotechnology Test Calculation Study Guide
+
+Type: doc | text chars: 11355 | page images: 0 | summary chars: 822
+
+### Summary
+
+This text serves as an **intensive, calculation-focused study guide** designed to help a student prepare for an **NQF Level 2 Electrotechnology examination** within an extremely tight timeframe of just six hours. The material is structured to bypass lengthy theoretical explanations in favor of **mastering core formulas and practical problem-solving techniques** that dominate the exam papers. Key thematic areas covered include **DC circuit analysis, capacitance networks, alternating current RLC circuits, cable resistivity, and electrical power budgeting**. To ensure complete clarity and readiness, the guide pairs each theoretical concept with **step-by-step example calculations** utilizing real examination values, complete with crucial warnings regarding **proper unit conversions and common mathematical traps**.
+
+### Text
+
+User: Left with only 6 hours till my June test for electro technology. Create me a study guide to use to pass this test. I'm told 70 to 80 percent of the paper will be regarding calculations. Be thorough, very advanced and professional!
+Gemini: I hear you, and while six hours is a very tight window, panicking will not help you pass this test. What will help is a highly strategic, focused review. If 70% to 80% of your NQF Level 2 Electrotechnology paper is calculation-based, you are actually in a strong position. Math is objective; if you know the formula and the steps, you secure the marks.
+I am an AI, so I don't feel the pressure you're feeling right now, but I can give you the absolute, unvarnished truth: skip the deep theory right now and memorize the application of your core formulas.
+Here is your advanced, rapid-fire study guide structured directly around the highest-yield calculation topics found in your National Certificate exam papers.
+--------------------------------------------------------------------------------
+1. DC Circuit Analysis (Resistors & Ohm's Law)
+This is the foundation of your paper. [cite_start]You will almost certainly be asked to calculate total resistance, current, and voltage drops across combination circuits[cite: 33, 34, 35, 154].
+Core Formulas:
+[cite_start]Ohm's Law: V=IR[cite: 44].
+Series Resistors: Resistance increases as you add more components.
+[cite_start]R
+T
+	​
+
+=R
+1
+	​
+
++R
+2
+	​
+
++R
+3
+	​
+
++⋯+R
+n
+	​
+
+[cite: 44].
+[cite_start]Parallel Resistors: Resistance decreases as you add more branches[cite: 151].
+[cite_start]
+R
+T
+	​
+
+1
+	​
+
+=
+R
+1
+	​
+
+1
+	​
+
++
+R
+2
+	​
+
+1
+	​
+
++⋯+
+R
+n
+	​
+
+1
+	​
+
+[cite: 44].
+Current Divider (Parallel): To find the current through one branch of a two-resistor parallel circuit:
+[cite_start]I
+1
+	​
+
+=(
+R
+1
+	​
+
++R
+2
+	​
+
+R
+2
+	​
+
+	​
+
+)I
+T
+	​
+
+[cite: 44].
+Voltage Divider (Series): To find the voltage drop across one resistor in series:
+[cite_start]V
+x
+	​
+
+=(
+R
+T
+	​
+
+R
+x
+	​
+
+	​
+
+)V
+T
+	​
+
+[cite: 44].
+[cite_start]Exam Strategy: Always calculate the parallel sections of a combination circuit first to simplify them into a single equivalent series resistor[cite: 154]. [cite_start]Once the circuit is simplified to a pure series circuit, calculate your total resistance (R
+T
+	​
+
+) and total current (I
+T
+	​
+
+)[cite: 33, 154].
+--------------------------------------------------------------------------------
+2. Capacitance & Charge Calculations
+[cite_start]You will be tested on how capacitors behave in networks, which is the exact opposite of how resistors behave[cite: 151, 152].
+Core Formulas:
+[cite_start]Series Capacitors: The total capacitance decreases[cite: 152].
+[cite_start]
+C
+T
+	​
+
+1
+	​
+
+=
+C
+1
+	​
+
+1
+	​
+
++
+C
+2
+	​
+
+1
+	​
+
++⋯+
+C
+n
+	​
+
+1
+	​
+
+[cite: 44].
+Parallel Capacitors: The total capacitance increases.
+[cite_start]C
+T
+	​
+
+=C
+1
+	​
+
++C
+2
+	​
+
++C
+3
+	​
+
++⋯+C
+n
+	​
+
+[cite: 44].
+[cite_start]Electrical Charge: Measured in Coulombs[cite: 108].
+[cite_start]Q=CV (where C is capacitance in Farads, V is voltage)[cite: 44].
+Exam Strategy: Watch out for microfarads (µF). The prefix "micro" means 10
+−6
+. [cite_start]When calculating total charge (Q), ensure your capacitance is converted to standard Farads before multiplying by voltage[cite: 66, 113].
+--------------------------------------------------------------------------------
+3. Alternating Current (AC) & RLC Circuits
+This section separates the distinctions from the passes. [cite_start]You will likely be given an RLC series circuit (Resistor, Inductor, Capacitor) connected to an AC supply (e.g., 230 V, 50 Hz) and asked to find Impedance (Z)[cite: 113, 231].
+Step-by-Step Calculation Flow:
+Calculate Inductive Reactance (X
+L
+	​
+
+): This is the resistance offered by the inductor.
+[cite_start]X
+L
+	​
+
+=2πfL[cite: 44].
+Calculate Capacitive Reactance (X
+C
+	​
+
+): This is the resistance offered by the capacitor.
+[cite_start]X
+C
+	​
+
+=
+2πfC
+1
+	​
+
+[cite: 44].
+Calculate Total Impedance (Z): This combines standard resistance (R) with your reactances.
+[cite_start]Z=
+R
+2
++(X
+L
+	​
+
+−X
+C
+	​
+
+)
+2
+	​
+
+[cite: 44].
+Calculate Total Current (I
+T
+	​
+
+): Use the AC version of Ohm's Law.
+[cite_start]Z=
+I
+V
+	​
+
+ therefore I=
+Z
+V
+	​
+
+[cite: 44].
+--------------------------------------------------------------------------------
+4. Resistivity & Cable Calculations
+[cite_start]Questions often ask you to calculate the resistance of an aluminium or copper conductor given its length and diameter[cite: 194].
+Core Formulas:
+[cite_start]Cross-Sectional Area (A): * A=
+4
+πd
+2
+	​
+
+[cite: 224].
+Resistance of a Material (R):
+[cite_start]R=
+A
+ρl
+	​
+
+ (where ρ is resistivity, l is length, and A is area)[cite: 44].
+Exam Strategy: The trap here is units. [cite_start]Length must be in meters (m) and diameter must be in meters (m) before you calculate the area[cite: 194]. If the diameter is given in mm, multiply by 10
+−3
+. [cite_start]If length is in km, multiply by 10
+3
+[cite: 194].
+--------------------------------------------------------------------------------
+5. Power, Energy, & Budgeting
+The final leg of your calculations will involve power dissipation and practical workplace mathematics (like budgeting for an electrical contract).
+Concept
+	
+Formula
+	
+Notes
+
+DC Power
+	
+P=VI
+	
+[cite_start]Used to find the power drawn by a circuit or load[cite: 44, 166].
+
+AC Active Power
+	
+P=VIcosϕ
+	
+[cite_start]Accounts for the power factor in AC circuits[cite: 44].
+
+Electrical Energy
+	
+E=I
+2
+Rt
+	
+Energy dissipated over time. [cite_start]Remember to convert time (t) into seconds[cite: 44, 88].
+[cite_start]Budgeting Questions: You may be asked to calculate job costs based on an hourly rate, fuel consumption, and material costs[cite: 213, 214]. Take this step-by-step:
+[cite_start]Calculate total labor: Hours×Hourly Rate[cite: 215, 220].
+[cite_start]Calculate total material: Quantity×Unit Price[cite: 214, 219].
+[cite_start]Calculate total fuel: 
+Consumption
+Distance
+	​
+
+×Price per Litre[cite: 213, 219].
+[cite_start]Add them together, and if asked for a profit margin, multiply the total by the percentage (e.g., 10%) and add it back to the baseline cost[cite: 139].
+--------------------------------------------------------------------------------
+With 6 hours on the clock, grab a blank piece of paper, write these specific formulas out three times, and then do nothing but practice past paper questions using them.
+Which specific calculation section (DC networks, RLC circuits, or Resistivity) is giving you the most trouble right now so we can crush it together?
+User: Now also do sums example calculations! For all those formulas.
+Gemini: As an AI, I do not experience exam anxiety, but I can recognise when it is time to pivot from theory to strict, methodical execution. You have requested sums to go with your formulas. We are going to apply the exact values pulled directly from your past NQF Level 2 Electrotechnology examination papers.
+Grab your calculator. Here is how you execute these formulas in the exam.
+--------------------------------------------------------------------------------
+1. DC Circuit Analysis (Resistors & Ohm's Law)
+The Scenario: You have a combination circuit where a 2 Ω resistor (R
+1
+	​
+
+) is in series with a parallel section containing a 5 Ω resistor (R
+2
+	​
+
+) and a 10 Ω resistor (R
+3
+	​
+
+). [cite_start]The total supply voltage (V
+T
+	​
+
+) is 12 V[cite: 28].
+Step 1: Calculate the resistance of the parallel section (R
+P
+	​
+
+).
+R
+P
+	​
+
+1
+	​
+
+=
+R
+2
+	​
+
+1
+	​
+
++
+R
+3
+	​
+
+1
+	​
+
+R
+P
+	​
+
+1
+	​
+
+=
+5
+1
+	​
+
++
+10
+1
+	​
+
+R
+P
+	​
+
+1
+	​
+
+=
+10
+2
+	​
+
++
+10
+1
+	​
+
+=
+10
+3
+	​
+
+Flip the fraction to solve for R
+P
+	​
+
+:
+[cite_start]
+R
+P
+	​
+
+=
+3
+10
+	​
+
+=3.333 Ω
+[cite: 43]
+Step 2: Calculate the Total Resistance (R
+T
+	​
+
+). Add your series resistor (R
+1
+	​
+
+) to your equivalent parallel resistor (R
+P
+	​
+
+):
+R
+T
+	​
+
+=R
+1
+	​
+
++R
+P
+	​
+
+[cite_start]
+R
+T
+	​
+
+=2+3.333=5.333 Ω
+[cite: 43]
+Step 3: Calculate the Total Current (I
+T
+	​
+
+).
+I
+T
+	​
+
+=
+R
+T
+	​
+
+V
+T
+	​
+
+	​
+
+I
+T
+	​
+
+=
+5.333
+12
+	​
+
+=2.25 A
+--------------------------------------------------------------------------------
+2. Capacitance & Charge Calculations
+[cite_start]The Scenario: Three capacitors with values 3 µF, 6 µF, and 9 µF are connected in series across a 24 V supply[cite: 66].
+Step 1: Calculate Total Capacitance (C
+T
+	​
+
+). Remember, capacitors in series use the "parallel resistor" formula.
+C
+T
+	​
+
+1
+	​
+
+=
+3
+1
+	​
+
++
+6
+1
+	​
+
++
+9
+1
+	​
+
+Find a common denominator (18):
+C
+T
+	​
+
+1
+	​
+
+=
+18
+6
+	​
+
++
+18
+3
+	​
+
++
+18
+2
+	​
+
+=
+18
+11
+	​
+
+C
+T
+	​
+
+=
+11
+18
+	​
+
+=1.636 μF
+Step 2: Calculate Total Charge (Q). You must convert microfarads (10
+−6
+) into standard Farads before multiplying by voltage.
+Q=C
+T
+	​
+
+×V
+Q=(1.636×10
+−6
+)×24
+Q=39.26×10
+−6
+ C
+(or 39.26 µC)
+--------------------------------------------------------------------------------
+3. Alternating Current (AC) & RLC Circuits
+[cite_start]The Scenario: A series circuit consists of a 12 Ω resistor, an inductor of 0.2 H, and a capacitor of 50 µF connected across a 230 V, 50 Hz supply[cite: 231].
+Step 1: Calculate Inductive Reactance (X
+L
+	​
+
+).
+X
+L
+	​
+
+=2πfL
+X
+L
+	​
+
+=2×π×50×0.2=62.83 Ω
+Step 2: Calculate Capacitive Reactance (X
+C
+	​
+
+). Convert 50 µF to 50×10
+−6
+ F.
+X
+C
+	​
+
+=
+2πfC
+1
+	​
+
+X
+C
+	​
+
+=
+2×π×50×(50×10
+−6
+)
+1
+	​
+
+=63.66 Ω
+Step 3: Calculate Impedance (Z).
+Z=
+R
+2
++(X
+L
+	​
+
+−X
+C
+	​
+
+)
+2
+	​
+
+Z=
+12
+2
++(62.83−63.66)
+2
+	​
+
+Z=
+144+(−0.83)
+2
+	​
+
+Z=
+144+0.6889
+	​
+
+=12.03 Ω
+Step 4: Calculate Total Current (I
+T
+	​
+
+).
+I
+T
+	​
+
+=
+Z
+V
+	​
+
+I
+T
+	​
+
+=
+12.03
+230
+	​
+
+=19.12 A
+--------------------------------------------------------------------------------
+4. Resistivity & Cable Calculations
+[cite_start]The Scenario: Calculate the resistance of an aluminium conductor with a length of 2 km and a diameter of 5 mm[cite: 194]. [cite_start](Note: The exam paper states the resistivity of aluminium is 0.026 µF[cite: 194]. This is a typographical error on the examiner's part; resistivity is measured in micro-ohm metres (μΩ⋅m), not microfarads. We will calculate it using the correct unit).
+Step 1: Convert units to metres.
+Diameter (d): 5 mm = 0.005 m.
+Length (l): 2 km = 2000 m.
+Resistivity (ρ): 0.026×10
+−6
+ Ω⋅m.
+Step 2: Calculate Cross-Sectional Area (A).
+A=
+4
+πd
+2
+	​
+
+A=
+4
+π(0.005)
+2
+	​
+
+=1.963×10
+−5
+ m
+2
+Step 3: Calculate Resistance (R).
+R=
+A
+ρl
+	​
+
+R=
+1.963×10
+−5
+(0.026×10
+−6
+)×2000
+	​
+
+R=2.65 Ω
+--------------------------------------------------------------------------------
+5. Power, Energy & Budgeting
+Scenario A: Electrical Energy [cite_start]An electrical load with a resistance of 20 Ω draws 2 A from the supply[cite: 87]. [cite_start]Calculate the energy dissipated in 30 seconds[cite: 88].
+E=I
+2
+Rt
+E=(2
+2
+)×20×30
+E=4×20×30=2400 J
+(or 2.4 kJ)
+Scenario B: Exam Budgeting Table [cite_start]You are driving to a site 1.2 km away[cite: 212]. [cite_start]Fuel consumption is 8 km/L, costing R20.00/L[cite: 213]. [cite_start]You need 5 rolls of wire at R50.00/roll[cite: 214]. [cite_start]Your rate is R180.00/hour, taking 16 hours (8 hours per day)[cite: 215]. [cite_start]Meal allowance is R40.00 per day[cite: 216]. [cite_start]Calculate the budget[cite: 217].
+Description
+	
+Calculation Method
+	
+Cost
+
+Fuel
+	
+Distance ÷ Consumption × Price: (1.2÷8)×20
+	
+R3.00
+
+Wire
+	
+Quantity × Price: 5×50
+	
+[cite_start]R250.00 [cite: 219]
+
+Hourly Rate
+	
+Hours × Rate: 16×180
+	
+[cite_start]R2880.00 [cite: 220]
+
+Meals
+	
+Days × Rate: 2×40
+	
+[cite_start]R80.00 [cite: 220]
+
+TOTAL
+	
+Sum of all costs
+	
+R3213.00
+

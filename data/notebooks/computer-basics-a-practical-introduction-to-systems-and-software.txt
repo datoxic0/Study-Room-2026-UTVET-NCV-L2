@@ -1,0 +1,82 @@
+# Computer Basics: A Practical Introduction to Systems and Software - Gemini Notebook
+
+Source: https://notebook.google.com/notebook/15f8ab87-e0dc-40a2-899c-dbdce3b8a106
+Fetched: 2026-09-30T17:56:06.885Z
+Auth: authenticated CDP session (Edge, debug port 9222)
+
+---
+
+link_2
+Shared
+add_2
+share_1
+more_vert
+settings
+PRO
+Sources
+Chat
+Studio
+landscape_2
+💻
+Computer Basics: A Practical Introduction to Systems and Software
+7 sources
+·
+28 Feb 2026
+
+These educational sources offer a comprehensive guide to computing fundamentals, exploring how machines function from hardware components and binary logic to software applications and programming. The materials explain the universal Input-Process-Output (IPO) framework, detailing how central processing units execute instructions through the fetch-decode-execute cycle. Readers learn about low-level Assembly language and its direct control over CPU registers, memory addressing modes, and conditional flags. Furthermore, the texts examine high-level Python programming, binary and hexadecimal number systems, and Boolean logic gates. Finally, the sources demonstrate the practical use of operating systems and productivity suites like Microsoft Office for professional document creation, data analysis, and presentations.
+
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+Sunday, 01 March
+
+I'm reviewing flashcards based on the source material and I'd like to expand my understanding of one of them.
+
+
+
+
+On the front it reads: 'In Boolean Algebra, what does the Commutative Property state for addition?'
+The answer on the back reads: '$A + B = B + A$'
+
+
+
+
+Explain this topic in more detail.
+
+In Boolean Algebra, the addition symbol (+) represents the OR logic gate
+1
+. Therefore, the Commutative Property for addition (A+B=B+A) simply means that the order of your inputs does not matter when using an OR operator
+1
+.
+To understand this in more detail, it helps to look at how an OR gate functions and why this property is practically useful:
+The OR Gate Connection: An OR gate takes multiple binary inputs (like A and B) and will output a 1 (True or "on") if at least one of those inputs is a 1
+2
+3
+. Because of the Commutative Property, the hardware does not care which input comes first; checking if A is on OR B is on yields the exact same logical result as checking if B is on OR A is on
+1
+.
+Simplifying Circuits: Hardware architects use the Commutative Property alongside other Boolean laws (such as the Associative, Identity, Complement, and Null properties) to mathematically simplify complex logical expressions, like Sum of Products (SOP) or Product of Sums (POS)
+4
+5
+.
+The Real-World Impact: By using these rules to simplify logical expressions, architects can reduce the total number of physical logic gates (transistors) needed to build a circuit
+4
+. This optimization is crucial because using fewer gates directly lowers manufacturing costs, reduces the amount of heat the hardware dissipates, and increases the speed at which the CPU can process instructions
+4
+.
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+Today • 19:56
+7 sources
+arrow_upward
+Gemini Notebook can make mistakes, so double-check it.
+
+## Sources (1)
+
+- Fundamentals of Computing and Programming - A Comprehensive Study Guide.pdf
+

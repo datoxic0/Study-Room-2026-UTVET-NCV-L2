@@ -1,0 +1,77 @@
+# NC (V) Mechatronics Level 2 Integrated Assessment Task - Gemini Notebook
+
+Source: https://notebook.google.com/notebook/74d687c2-df47-4f02-82e6-eac3d66b3507
+Fetched: 2026-09-30T17:58:23.438Z
+Auth: authenticated CDP session (Edge, debug port 9222)
+
+---
+
+add_2
+share_1
+more_vert
+settings
+PRO
+Sources
+Chat
+Studio
+landscape_2
+⚙️
+NC (V) Mechatronics Level 2 Integrated Assessment Task
+2 sources
+·
+04 Sept 2026
+
+The provided materials outline a National Certificate Vocational assessment for Mechatronics Level 2 students involving three practical sub-tasks designed to evaluate technical competencies. Sub-task one focuses on computer assembly, peripheral connection, and the creation and simulation of a Programmable Logic Controller program featuring specific start, stop, and timer functions. Sub-task two requires learners to layout, drill, and wire an electronic circuit enclosure, assemble components onto a vero board, and demonstrate proper soldering and safety standards. Sub-task three challenges candidates to manufacture a physical G-clamp from an engineering drawing by measuring, cutting, drilling, and finishing the raw material. Finally, the documentation provides comprehensive assessment checklists and marking grids to measure student performance across all designated practical and theoretical requirements.
+
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+Friday, 04 September
+
+Answer all Electrotech questions activity
+
+Thoughts
+expand_more
+The uploaded document, "ElectroAndIntro-ISAT.pdf", contains the formal guidelines, administrative instructions, and marking rubrics for your NC (V) Mechatronics Level 2 Integrated Summative Assessment Task (ISAT)
+1
+more_horiz
+. However, it does not contain the actual worksheets or question papers (such as Worksheet 4 or Worksheet 5) containing the specific Electrotechnology questions
+4
+more_horiz
+. The task guidelines explicitly state that all worksheets are confidential and are handed out directly by your lecturer on the assessment days
+4
+.
+Here is what the document does reveal about the Electrotechnology sub-task (Sub-task 2: Layout and wiring of electrical/electronic circuit):
+Activity 2.1 (Enclosure Layout): You must mark off, drill, and mount components (push buttons, a toggle switch, and female plugs) onto the enclosure
+7
+. The accompanying checklist reveals that you will complete a brief knowledge questionnaire where you must list five tools
+8
+.
+Activity 2.2 (Vero Board Assembly): You will receive a circuit diagram and Worksheet 4, on which you must draw the layout of the electronic components and track breaks on a vero board template before assembling and soldering
+5
+9
+.
+Activity 2.3 (Knowledge Questionnaire): You are required to answer theoretical questions on Worksheet 5 (a 30-minute, 10-mark assessment)
+6
+10
+.
+Because these worksheets are physical hand-outs given to students in class, they are not embedded in this instructions document
+4
+.
+🔍 Would you like me to do some research on the web to see if we can find standard exemplars, past papers, or typical question sheets for the NC (V) Mechatronics Level 2 Electrotechnology ISAT?
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+Today • 19:58
+2 sources
+arrow_upward
+Gemini Notebook can make mistakes, so double-check it.
+
+## Sources (1)
+
+- ElectroAndIntro-ISAT.pdf
+

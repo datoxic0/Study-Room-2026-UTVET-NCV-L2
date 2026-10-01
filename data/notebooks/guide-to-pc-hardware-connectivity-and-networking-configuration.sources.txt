@@ -1,0 +1,1019 @@
+# Guide to PC Hardware, Connectivity, and Networking Configuration - source capture
+
+Notebook: https://notebook.google.com/notebook/e3cc1a23-f428-4620-81b4-c38445461fba
+Captured: 2026-09-30T20:58:18.460Z | walker: notebooklm-ingestion extension | sources: 2/2 | text chars: 64240 | page images: 0 | summaries: 2
+Provenance: research/captures/notebooklm_sources/16_Guide_to_PC_Hardware_Connectivity_and_Networking_Configuration_e3cc1a23.json sha256 1D71C9A8E2C144FC64C1C0C733FBF37F2C03479A736B258F857E8937C55EEC8F
+
+## 1. IntroToCompTask2Scanned_20260324-1352.pdf
+
+Type: pdf | text chars: 51930 | page images: 0 | summary chars: 904
+
+### Summary
+
+This educational resource provides a comprehensive guide to **identifying and connecting PC hardware and software**, equipping learners with the practical knowledge needed to assemble, configure, and secure computer systems. The text systematically breaks down technical concepts by detailing **motherboard specifications and physical components**, explaining how various peripheral devices interface through standardized ports and cables. It further explores **computer networking principles and transmission media**, distinguishing between local and wide area networks alongside different physical topologies and cabling options. Finally, the material emphasizes essential **safety precautions and environmental conditions** required for a secure setup, while highlighting the importance of installing compatible software and using **checklists to verify physical connections** and operational success.
+
+### Text
+
+Into SPECS
+2. Pg 125
+3. Pg 15.6
+4. Computer Ports: 10
+60
+25
+Checklist
+Achvite 4 (15)
+*Cables Assessment 4
+f
+A How Compter Works
+209
+N.VE
+27
+Module 4
+Identifying and connecting PC hardware
+Overview
+At the end of this module, you will be able to:
+identify hardware and explain connectivity procedure and related safety precautions
+identify relevant software and explain function and related computer parameters
+identify correct cable types for connectivity
+identify and connect hardware and load-related software, according to procedure, and in a safe aware manner
+explain hardware specifications and parameters
+explain the various cable types and their connections (serial, parallel, USB)
+explain various extension cards that are available by their function (video, printer, sound)
+explain the importance of hardware conditions when setting up a PC
+explain principles of computer networks
+describe antivirus procedures and identify methods of
+protecting the computer against viruses
+describe data communication and related elements (computer, sender, receiver and transmission media)
+describe the differences between LAN and WAN
+describe the differences between medium of transmission
+systems (twist pair, coaxial, optic fibre, and wireless)
+describe LAN system configurations (star, bus, and ring)
+use checklists to verify physical connection between computer components
+consider environmental conditions when setting up a computer use antivirus software to protect the computer
+set up security protocols (access codes)
+connect network system components.
+Introduction
+DRIC
+In 1977, Ken Olson, the founder of the Digital Equipment Corporation, a manufacturer of mainframe and mini computers, said: "There is no reason anyone would want a computer in their home.'
+Little did he know that today there would be more personal computers in the world than people and everyone wants (at least) one in their home!
+The purpose of this module is to help you understand the structure of a computer, the hardware it uses, the links between different computers, and finally, how to make computers communicate safely with each other. Within three decades, things have changed so much that only a small number of experts in the world would have been able to do this 30 years ago!
+Let's begin by getting to know some parts of the hardware.
+Unit 4.1: Hardware specifications
+Table 4.1 (below and on the next page) is an example of motherboard specifications and parameters supplied by a motherboard manufacturer. This is typical of the specifications that you will need to consider when selecting and installing a motherboard. As we know from Module 3, the motherboard is the computer's main circuit board.
+The specifications indicate what standards were used to manufacture the board and therefore the specifications also define what add-ons, such as memory and CPU, you need for the assembly.
+Specifications
+	
+Standards
+
+Details
+	
+The first motherboard supporting 802.11g AP functions. The A8V Deluxe is the ideal networking platform for SOHO and homes. Supporting WiFi@ HOME, a unique feature found only in *** solutions, users can easily establish an 802.11g wireless LAN through a user-friendly, one-touch
+
+	
+set up wizard. Also incorporating industry-leading specifications for CPU,
+
+	
+memory, system bus, Gigabit LAN and Dual RAID, the A8V Deluxe is
+
+	
+excellent for home server applications.
+
+	
+Product Features
+	
+
+Key Features
+	
+
+Manufacturer Sku:
+	
+A8V-DELUXE
+
+Brand:
+	
+
+Product Line:
+	
+MainBoard
+
+Model:
+	
+A8V Deluxe
+
+Motherboard Chipset:
+	
+VIA K8T800Pro + VT8237
+
+Motherboard Form Factor:
+	
+ATX
+
+BIOS Type:
+	
+AMI, DMI, PNP, ACPI, Flash EEPROM
+
+Controller Type:
+	
+RAID, Serial ATA, Ultra DMA-133/100/66/33, ATA-133, IDE
+
+System Type:
+	
+Server
+
+Operating System Compatibility:
+	
+PC
+
+Buffered:
+	
+Buffered
+
+Cables included:
+	
+Ultra DMA, IDE: 1, Floppy IDE: 1, Serial ATA
+
+Voltage:
+	
+12 volts
+WORK RMI
+104
+Module 4: Identifying and connecting PC hardware
+Module 4: Identifying and connecting PC hardware
+105
+WOR MIT
+Specifications
+	
+Standards
+
+Processor
+	
+
+Processor Manufacturer:
+	
+AMD
+
+Processor Type:
+	
+Athlon 64 FX, Athlon 64
+
+Number of Processors:
+	
+0
+
+Maximum Number of CPUs:
+	
+1
+
+Maximum Processor Speed:
+	
+2 GHz
+
+CPU Socket Type:
+	
+Socket 939
+
+Ram
+	
+
+Installed Memory: RAM Type:
+	
+None
+DDR SDRAM
+
+Maximum Supported RAM:
+	
+4 GB
+
+RAM Slots:
+	
+4
+
+RAM Integrity Check:
+	
+Non ECC, ECC
+
+Connectors
+	
+
+PS2 Connectors:
+	
+2
+
+Parallel Connectors:
+	
+1
+
+Serial Connectors:
+	
+1
+
+USB 2.0 Connectors:
+	
+4
+
+Firewire Connectors:
+	
+1
+
+RJ45 Connectors:
+	
+1
+
+Fan Connectors:
+	
+3
+
+Expansion Slots
+	
+
+Number of PCI Slots:
+	
+5
+
+Number of CNR Slots:
+	
+1
+
+Audio
+	
+
+Integrated Audio:
+	
+Realtek ALC850, Realtek
+
+Audio Output:
+	
+8 Channels
+
+Video
+	
+
+Integrated Video:
+	
+None
+
+Video Card Interface Type:
+	
+AGP 8x
+
+Video Output Type:
+	
+PCI
+
+Networking
+	
+
+Networking Speed:
+	
+1000 BASE T
+
+Networking Type:
+	
+Ethernet, Gigabit Ethernet
+
+Integrated LAN:
+	
+Yes
+
+Dimensions
+	
+
+Depth:
+	
+9.6 in
+
+Width:
+	
+12 in
+Table 4.1: Example of motherboard specifications
+Motherboard technical terms
+We explain the following terms used in specifying a motherboard because they form the key elements to consider during the selection process.
+motherboard chipset: This regulates processor and RAM compatibility and the speed at which they function. The chipset is manufactured to interface with a specific CPU or CPU brand and the most important ones to consider are AMD and Intel.
+motherboard form factor: This refers to the physical size and shape of the device. It also defines what type of CPU case is needed for the computer.
+Standard or more common types used by manufacturers:
+Baby AT: This small motherboard is used in 386, 486, and other early PCs.
+ATX: Measuring $241~mm\times305$ mm, this motherboard allows for
+longer card slots and for proper airflow for the processor.
+Mini ATX: Measuring $208~mm\times284.5$ mm, this smaller version of the
+ATX motherboard offers fewer expansion slots.
+Micro ATX: Measuring $244~mm\times244$ mm, this motherboard is
+designed for more compact computers.
+Flex ATX: Measuring $229~mm\times191$ mm, this smaller version of the Flex ATX allows for more custom case designs.
+LPX: Measuring $229~mm\times203$ mm, this motherboard designed by Western Digital offers a riser card for parallel expansion boards. NLX: Measuring $229~mm\times203$ mm, this motherboard features a more flexible design than the LPX.
+controller type: This is a circuit board that manages the flow of information between computers and peripheral devices.
+processor type: Processor is short for Central Processing Unit (CPU), which acts as the brain of the computer. New versions are constantly developed, so it is an important consideration when selecting a
+motherboard.
+installed memory: This regulates the amount of data a device can store and may or may not be installed on the board itself. Installed memory
+is measured in megabytes (MB) or gigabytes (GB).
+RAM type: This is the memory that is compatible with the
+motherboard, available in a device.
+Standard or more common types used by manufacturers:
+DDR: Double Data Rate RAM transfers data on both sides of the clock
+signal, doubling the transmission rate.
+RDRAM: Rambus Dynamic RAM, designed by Rambus, features a bandwidth of $1.6~GB/s$.
+SDRAM: Synchronous Dynamic RAM synchronises with the CPU bus for data transfer of up to 133 MHz.
+DRAM: Dynamic RAM stores each bit of memory in a different capacitor. EDO: Extended Data Out Dynamic RAM. rather than transferring data one block at a time, is capable of transferring multiple blocks at once.
+106 Module 4: Identifying and connecting PC hardware
+Module 4: Identifying and connecting PC hardware 107
+WOR MIT
+maximum supported RAM: This is the maximum upgradable memory supported by the motherboard. This is an important consideration for the type of work the system will be used for.
+number of CNR slots: This is the number of Communication and Networking Riser slots in the PC bus architecture that supports modem, network, and audio interfaces.
+video card interface type: This is a connector that facilitates file transfer between a video card and a computer. It is also called a display card or a graphics card.
+Standard or more common types used by manufacturers:
+Integrated Video: This is a video device integrated on the motherboard and is not offered on all motherboards. When included, the
+specifications will indicate what is installed.
+AGP: The Accelerated Graphics Port uses a 32-bit bus to provide direct connection between card and memory.
+AGP 1x: The Accelerated Graphics Port 1x transfers data at a rate of 264 Mbps.
+AGP 2x: The Accelerated Graphics Port 2x transfers data at a rate of 528 Mbps.
+AGP 4x: The Accelerated Graphics Port 4x transfers data at a rate of 1 Gbps.
+AGP 8x: The Accelerated Graphics Port 8x transfers data at a rate of 2 Gbps.
+PCI: The Peripheral Component Interconnect, which requires three to five slots on the motherboard, supports both 32-bit and 64-bit data paths and runs at a speed of 33 MHz or 66 MHz.
+ISA: The Industry Standard Architecture refers to the original PC bus architecture.
+networking type: This is the type of link between two or more computers that makes file transfers possible.
+Standard or more common types used by mantufacturers:
+Ethernet: This 10 BaseT connection transfers data at a rate of 10 Mbps. Fast Ethernet: This 100 BaseT connection transfers data at a rate of 100 Mbps.
+Gigabit Ethernet: This 1000 BaseT connection transfers data at a rate of 1 Gbps.
+IEEE 1394: This connection transfers data at a rate ranging from
+800 Mpbs to 3,200 Mbps and offers compatibility with glass-fibre, and cat5 cable.
+Bluetooth: This wireless connection transfers data at a rate of 720 Kbps at a range of 10-100 meters.
+802.11b: This wireless connection transfers data at a rate of 11 Mbps in a 2.4 GHz band.
+802.11a: This wireless connection transfers data at a rate of 54 Mbps in a 5 GHz band.
+Assessment activity 4.1
+Work in pairs.
+Your lecturer will give you various specifications, motherboards and components. In pairs, draw up a table and list the specifications with the appropriate motherboard and components. Complete the peer assessment rubric that your lecturer will give you before you continue with the next Unit.
+All the bits of hardware have to join together somehow, or get power, so that is what we will look at next.
+Unit 4.2: Hardware and connectivity
+All data communication originates from, or ends up with, the motherboard - the computer's main circuit board. The motherboard contains the central processing unit, the bus, sockets, ports, memory slots, expansion slots, and more. Owing to worldwide standardisation efforts between computer companies, any hardware that you buy will be able to connect to the computer through sockets on the motherboard and use the correct protocols to communicate with it.
+Therefore, connectivity means the way that hardware connects to the main computer or to other computers, which is somethng we will look at later on.
+Northbridge (with heatsink)
+IDE Connector (x2) DRAM Memory slot
+20-pin ATX power connector
+CPU fan & heatsink mounting points
+CPU socket
+Southbridge
+AGP slot
+importan
+PCI slot (x5)
+CMOS Backup battery
+Connectors for
+integrated peripherals.
+Fig. 4.1: A motherboard
+The function of the motherboard with its CPU is to receive and process messages, store and retrieve information as required, and respond correctly to the messages. These functions require the motherboard to receive information from and send information to certain peripheral devices.
+For example, if you want to print a document from an external disk drive to a remote printer, you type the instruction on a keyboard or click certain places on the screen using a mouse, but how does the motherboard receive your instruction? For the motherboard to
+0 Words & Terms
+socket: in computer terms, sockets refer to the
+specific connections where a CPU may be plugged in. Note specific types of CPU need specifically designed sockets
+108
+Module 4: Identifying and connecting PC hardware
+Module 4: Identifying and connecting PC hardware
+109
+WOR MIT
+Not only should the PC and its parts be clean and safe to use, but the physical location of the PC must be clean and safe too.
+Unit 4.7: Environment conditions
+for setting up a PC
+When you set up a computer, make sure that the area where you want to put it is computer-friendly. As mentioned in the previous section on cleaning, liquids can damage electronics, so make sure that the room housing the computer is dry and not damp.
+The environment should also not be excessively dirty, because airborne particles such as filings or sawdust can clog fans and jam the moving components of a computer.
+Place the computer on a stable, solid surface that has sufficient surrounding space to accomodate all its auxilliaries.
+Make sure that none of the vents are blocked or covered, since this can cause overheating. If something flammable is blocking a vent, this object might even catch fire!
+Position the computer as close as possible to a suitable power supply. Although extension cables can be used to connect a computer to a power outlet, they often get in the way and may even cause people to trip. Another environmental factor that may damage your hard drive is static electricity. During dry weather conditions, high electric potentials can be generated by static electricity. A person loaded with static electricity who touches any of the computer's components may cause one or more of the integrated circuits to blow. You can prevent this happening by using anti-static mats, chairs or bracelets to prevent the static from building up.
+Another external influence which may severely damage your computer is a surge in electric power due to variations in the power grid. Since these surges can hardly be prevented, the only effective way to protect computers is to use a surge protection device in the power supply of each computer.
+Assessment activity 4.8
+Work on your own.
+Answer the following:
+1. How can you protect computers from static charges?
+2. Is it a good idea to drink when using a computer?
+3. What can happen if the computer's vents are blocked?
+After you have set up a PC it is a good idea to run through everything you have done to make sure you have left nothing out. A checklist is the best way to do this.
+Unit 4.8: Using checklists to verifydd diven combability
+Are softwares
+physical connectionsre
+Once you have completed the installation of the computer, its related peripherals, drivers, software and software parameters, it is recommended practice to work through a checklist. This will ensure that everything is working according to the manufacturer's requirements and standards.
+By testing the installed software and making sure that all peripherals and functions are working, and then ticking them off one by one on your checklist, you can be sure that the installation is successful and can assure the user that the computer is ready for use.
+Assessment activity 4.9
+Work in groups.
+Working in small groups of three or four, draw up a suitable checklist that you can use to check whether your institution's computer centre is computer-friendly. Afterwards, visit your computer centre and fill in your checklist.
+Complete the group assessment rubric that your lecturer will give you before you continue with the next Unit.
+Keep your completed work in your Portfolio of Evidence. Write your name and today's date on your work.
+Assessment activity 4.10
+Work in pairs.
+Fig. 4.22: A surge protas Complete the following checklist to help you set up the following computer devices:
+a printer
+a dial-up modem
+a mouse.
+Device type:
+	
+
+Components:
+Cables:
+Software:
+	
+Installation steps: pindrifts /Pariale printa cable Cerial cathe Hp diver software 1. consect 2. lastell sepwal conned the porralel & seral cables
+
+	
+	
+	
+	
+
+3. install
+	
+Softwar
+4. Name two other factors that you must take into account regarding keeping a room comp friendly.
+next unit. Complete the self assessment rubric that your lecturer will give you before you continue with
+Keep your completed work in your Portfolio of Evidence. Write your name and today's date on your
+124
+Module 4: Identifying and connecting PC hardware
+a small LAN
+a scanner
+Module 4: Identifying and connecting PC hardware
+125
+WOR
+MIT
+4.
+once has finished istall check to see if it works
+5.
+6. Troubleshoot Manually
+7.
+1. Screwdrived 2.
+3.
+4.
+8.
+Tools
+Safety and security measures:
+Test procedure:
+Keep your completed work in your Portfolio of Evidence. Write your name and today's date on your work.
+So far we have been talking about computer hardware. Now it is time to discuss software.
+Unit 4.9: Relevant software and function
+From the above connectivity checklist, it is evident that you will need to install the following software once the machine is set up successfully:
+scanner software supplied by manufacturer special downloader software supplied by the service provider, which you can download.
+You may also need to install further specific software required by the user. The basic or default software that a company wants installed, and the default installation parameters, will most likely be listed in company documentation, such as operating procedures and installation guidelines. It is also possible that the service provider will provide the software on a pre-configured installation disk that will ensure that all software and related settings are installed automatically. If the software needs are not clearly defined, then it needs to be listed in a table where all parameters and default settings are noted. Once again, this list will enable you to be fully prepared when you do the installation.
+Function and related computer parameters-setting Valve
+Software is designed for a specific function. For instance, for general writing of office documents you will use a software application such as Microsoft Word, and for working with financial spreadsheets you will select software such as Microsoft Excel.
+In fact, the reason you buy a computer is because you want to do some work with it. The computer will be supplied with an operating system such as Linux, or Microsoft Vista or Windows. Although the operating system allows you to use the computer, it is only with the addition of software that the computer becomes genuinely useful.
+Software applications are generally supplied on CD or DVD and come with installation keys that are used to authenticate your software. The key is used during installation and, depending on the software being installed, some other parameters, such as the server name, and user name, company name and address, may be needed.
+You must also consider the parameters of available disk space and the minimum computer specifications defined by the software supplier. Some software is especially demanding and needs more powerful hardware and more available memory in order to function. For this reason the manufacturer will supply minimum requirements that you need to bear in mind during the planning phase of the installation.
+Once you know what software you might need, the next thing to do is to find the right package and install it on your computer.
+Unit 4.10: Identifying and loading software
+You can identify the correct software for installation from the user's needs list or from company standards documentation and obtain the necessary installation media. But before you rush off to install the software, you must undertake some important preparatory work. Read the installation guidelines supplied with the software and make sure that the software is compatible with the hardware and the computer's operating system. Also ensure that all parameters are known and all necessary installation codes are available.
+Read the company software standards and guidelines documentation carefully, so that you know how to perform the installation correctly. For example the documentation may tell you to temporarily disable the computer's anti-virus software during installation process. Or it could be that you have to change the settings of the operating system parameters, such as opening ports on the firewall, for example. After completing the installation of the software, you must set and check the default settings set out in the company documentation.
+126
+Module 4: Identifying and connecting PC hardware
+Module 4: Identifying and connecting PC hardware
+127
+WORK MIT
+Compiling a checklist that covers all aspects of the installation procedure (including the setting and checking of default settings) is therefore recommended
+Assessment activity 4.11
+Work on your own.
+List the things you must do before starting to install software on a computer.
+Complete the self assessment rubric that your lecturer will give you before you continue with the next Unit.
+Keep your completed work in your Portfolio of Evidence. Write your name and today's date on your work.
+The next Unit describes the actual processes of connecting hardware and installing software.
+Unit 4.11: Connecting hardware and installing software
+As you know by now, a peripheral device is an item of computer hardware that helps your computer to achieve certain desired functions. Examples of peripherals are printers and scanners. For most peripherals to work (excluding wireless devices), they need to be physically connected (plugged in) to the particular port on the computer by their cables. In our study we will only be using the LPT port and the USB connectors, so make sure you know which ones they are.
+Most peripheral devices come with an installation manual containing precise instructions for you to follow.
+To demonstrate the general procedure, we will connect a printer. Most peripheral devices follow a similar procedure.
+Powering up!
+plug, it is safe to assume that your printer obtains power If there is no through the USB connector on your computer. Therefore, you can continue reading the 'Plugging In!' section of the installation manual. If you did find a plug attached to one of your printer cables and you plugged it in, you can turn on the printer by pressing the power button.
+Plug the printer in
+Turn on the printer. Do NOT turn on the computer yet
+ON
+Fig. 4.24: Powering up the peripheral
+You should receive a notice that the power has been turned on (the printer might start making a sound or a green light may appear). If this has happened, you are ready to move on to the 'Plugging in!' section.
+However, if the printer did not turn on, you have to find out why. Check the following:
+Is your printer properly plugged into a power outlet?
+Is the power cable plugged properly into the printer?
+Is the power outlet turned on?
+Did you try pressing the power button on the printer again?
+If your printer still does not have power, consult your user manual for more advice.
+Plugging in!
+Words & Terms
+LPT: the line print terminal is the original, yet still common, name of the parallel port interface on PCs
+The first stage is to connect the printer to the power supply. As with all electronic devices, computer peripherals require electricity to operate. So, the first thing to do is to plug the power cable in the power socket on the wall.
+Now that you have plugged in your power cable and turned on your printer, the next stage is to connect the printer to the computer.
+USB Connector
+If you are not sure whether your printer has a power cable, look at the cables leading from it. If you find a cable with any form of plug on the end, as shown in Fig 4.23, plug it into the nearest power outlet.
+Fig. 4.23: European and South African power
+Firstly, make sure that your computer is switched on. Next, you need to determine whether your printer connects through an LPT connector (old) or a USB connector (new). Consult Fig 4.25 if you are unsure. When you have determined what kind of connector you have, it is time to plug it in. Consult Fig 4.26 on the next page if you are not sure which type of plug goes where on the computer.
+LPT Connector
+Fig. 4.25: USB and LPT connectors
+128
+Module 4. Identifying and connecting PC hardware
+Module 4: Identifying and connecting PC hardware
+129
+Unit 4.15: LAN system
+configurations
+in a net worl
+How computers compu Mare connected in
+refer to the
+In computer networking, we use the word 'topology' to layout of connected devices. In a LAN, these LAN, these computers are connected in a star, bus or ring configuration, as shown in Fig. 4.47.
+Bus Topology
+Star Topology
+Ring Topology
+Fig. 4.47: Different LAN topologies
+Let's look at each of these different arrangements.
+Star topology
+A star network is one of the most common network setups, in which each of the devices and computers on a network connect to a central hub, switch or Router. The major disadvantage of this type of network topology is that if the central hub fails, all computers connected to that hub will be disconnected. However, a failure in any star network cable will only take down one computer's network access and not the entire LAN.
+Bus topology
+A bus topology, such as 10Base-2 or 10Base-5 Ethernet, is a type of network setup in which each of the computers and network devices is connected to a single cable or 'backbone'. When one device wants to communicate with another device on the network, it broadcasts a message onto the wire that all other devices 'see'. However, only the intended recipient actually accepts and processes the message. Bus networks work best with a limited number of devices, since performance problems will likely result if more than a few dozen computers are connected to the backbone.
+Words & Terms
+topology: the physical configuration of a network that determines how the network's computers, or nodes, are arranged and connected to each other
+Ring topology
+In a ring topology, each device has only its two neighbours (one on either side) for communication purposes and all the messages travel through a ring in the same direction. In a ring topology, a packet is sent around the ring until it reaches its final destination.
+A disadvantage of a ring network is that a failure in any cable or device breaks the loop and can take down the entire network. Therefore, this topology is seldom used. FDDI or SONET are examples of ring topologies.
+The shape (topology) of a network does not necessarily correspond to the physical layout of the devices. For example, although the computers in a home LAN can be placed in a circle in the family room,
+this does not mean that it is a ring topology network.
+Assessment activity 4.15
+Work on your own.
+WOR MIT
+Draw a freehand sketch and briefly describe each of the following LAN topologies:
+(a) bus topology
+(b) ring topology
+(c) star topology.
+Complete the self assessment rubric that your lecturer will give you before you continue with the next Unit.
+Keep your completed work in your Portfolio of Evidence. Write your name and today's date on your work.
+Computers in a network need special wires to join them, as well as any peripherals, to the network, which is something we will look at in the following unit.
+Unit 4.16: Transmission media Transmission media are the different types of connections that join devices to the network. We will look at two kinds: cables and wireless.
+Cables
+Here we will discuss three common types of cabling:
+twisted pair cables
+coaxial cables
+fibre optic cables.
+146
+Module 4: Identifying and connecting PC hardware
+Module 4: Identifying and connecting PC hardware
+147
+WORL RMIT
+Twisted pair cables
+As its name suggests, a twisted pair cable consists of two wires that are insulated separately and twisted around each other. It is the cheapest option for a LAN network.
+Coaxial cables
+Fig. 4.48: Twisted pair cables
+This type of cable consists of a central wire that is surrounded by an insulation tube. Coaxial cables usually consist of many layers - the centre wire will be surrounded by insulation, which itself is surrounded by braided wire (a shielding layer), which is again surrounded by insulation. The shielding layer prevents outside electrical interference.
+This type of cable can carry a lot more data than a twisted pair cable and is less susceptible to interference.
+Fig. 4.49: Coaxial cable
+Fibre optic cables
+Fibre optic cables are made up of bundles of glass or plastic threads. They work by transmitting light waves, which are then converted into an electrical signal at the other end of the cable.
+Fibre optical cables transmit data at higher rates than the previously mentioned cables; they also have an extremely high bandwidth.
+Wireless system
+A wireless network, as its name implies, has no wires connecting the computers belonging to a network. Instead, these computers communicate by means of radio or microwaves that move invisibly through the air.
+0
+Words & Terms
+insulated: protected from heat, cold, noise, etc. usually by the provision of a surrounding layer (or layers) of material
+Words & Terms
+insulation: any material that offers resistance to the transmission of heat, cold, noise, etc.
+braided: woven, plaited or twined together
+susceptible: likely to be affected by something
+Fig. 4.50: Fibre optic cable
+Assessment activity 4.16
+Work on your own. Describe the differences between the following mediums of transmission systems and make a freehand sketch of each.
+Medium of transmission
+	
+Features
+	
+Freehand sketch
+
+Twisted pair cables
+		
+
+Coaxial cables
+		
+
+Fibre optic cables
+		
+
+Wireless system
+		
+Complete the self-assessment rubric that your lecturer will give you before you continue with the next Unit.
+Keep your completed work in your Portfolio of Evidence. Write your name and today's date on your work.
+Once your network is set up, you have to make sure that it is secure.
+Unit 4.17: Setting up security protocols (access codes)
+A wireless network and, to a lesser degree, a wired network, is open to abuse by members on the network, especially when the network provides access to the Internet.
+Security protocols provide information on the standards and rules used for secure communication between the many points within a computer network and across the Internet. Below are some of the protocols in use today:
+•
+	
+Diffie-Hellman Protocol
+	
+IPsec
+	
+Kerberos
+•
+
+•
+	
+L2TP
+	
+• PGP
+	
+PPTP
+
+•
+	
+S/MIME
+	
+• SET
+	
+• S-HTTP
+
+	
+SOCKS
+	
+• SSH
+	
+SSL/TLS
+• WEP
+In the list above, the SSL/TLS setting refers to the Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL). The two are cryptographic protocols that are used for secure communications on the Internet, for example, for web browsing, e-mail, Internet faxing, instant messaging, and other data transfers.
+There are minor differences between SSL and TLS, but they are basically the same.
+?? Did you know?
+When you visit a Web address starting with 'https, the 's' after the 'http' tells us that the website is secure. As the Internet and other forms of electronic communication become more prevalent, electronic security is becoming increasingly important. Cryptography is now being used to protect e-mail messages, credit card information, and corporate data.
+Words & Terms
+cryptographic: a method
+used to protect information by transforming it
+(encrypting it) into a format
+that is unreadable to
+anyone who does not have the proper code
+148
+Module 4: Identifying and connecting PC hardware
+Module 4: Identifying and connecting PC hardware
+149
+4. Complete the following table by filling in the particular cabling required:
+Cable
+	
+Description
+Most types of peripheral device can be connected simply and easily through this type of cable.
+
+	
+Data is sent one bit at a time, each bit following the other.
+
+	
+This type of cable has limited length and is generally only used by printers.
+13
+OF WORL ERMIT
+5. Identify the following types of cable:
+Cable
+	
+Description
+
+	
+This cable consists of 15 wires organised in three rows of five pins each.
+
+	
+These cables are thick and stiff (they contain 25 wires) and have large
+
+	
+connectors on each end.
+
+	
+This cable is used to connect a computer to the TV in order to display the computer image on the TV screen.
+
+	
+This cable consist of 8 wires which are used in twisted pairs and may be crossed over or connected end-to-end in a defined standard at each end of the cable.
+
+	
+These cables are mostly permanently attached to the device, although some devices come with separate cables.
+
+	
+This cable consists of 25 wires and the connectors are organised in one single pin plus three rows of eight pins each.
+
+	
+One end of this cable usually has the 'Type A' connector, but the other end can have one of several other types of connections fitted.
+
+	
+It is purely an output device and cannot transfer any information from one device to another.
+
+	
+This cable is replacing most of the parallel and serial port device cables.
+
+	
+This cable has been the standard method of connecting analogue devices to a computer for more than ten years.
+[10
+6. Name two factors, aside from cleanliness and compatibility, you should look out for when setting up a computer.
+7. Define compatibility.
+8. What can you use to ensure that you don't damage the circuits with an electrostatic discharge?
+9. List three things in the computer environment that you need to consider when setting
+up a computer.
+10. Where will you find software installation parameters?
+11. What parameters do you need to take into consideration during the planning phase of the
+installation? List at least two parameters.
+12. What is a computer network?
+13. In your own words, describe the differences between LAN and WAN.
+c3
+ting,
+oting and personal
+iter
+LAN
+156
+Module 4: Identifying and connecting PC hardware
+WAN
+158
+Module 4: Identifying and connecting PC hardware
+receive the message, the mouse and keyboard must be connected to the motherboard with wires (or through a wireless connection) and the instruction must also use code or language that the motherboard understands. Once the message is received, the computer will first communicate with the external drive to copy the document to the computer's memory. Next, the computer tells the memory to send the document to the printer's memory. Finally, the computer instructs the printer to print the document. Since the mouse, keyboard, external drive and printer are not part of the computer and are all probably of different makes, this will only work if they understand the computer's instructions by using a communication protocol - effectively the same language.
+Fig 4.2 shows the sockets on the motherboard to which the cables from external devices are connected.
+PS/2 Mouse
+connector
+Parallel port
+101
+Fig. 4.3: An analogue or VGA connector
+Gigabit RJ-45 Line in jack
+Audio out jack
+PS/2 Keyboard
+connector
+Microphone jack
+Serial
+communications
+VGA port
+port
+Fig. 4.2: Motherboard external device connections
+WOR MIT
+Fig. 4.4: A digital or DVI connector
+In the following section we will look at different devices and the way that they connect to the motherboard.
+Connective devices between motherboard and hardware
+The devices we will look at are display devices (referred to as 'video' in computer terminology), keyboard and mouse devices, and different ports for peripherals.
+Video devices
+In hardware terms, video refers to the transmission and display of graphics, not moving pictures specifically. Although the most common video device connected to a PC is a monitor, other video devices, such as data projectors, also work through the video port. Video devices are connected to either a Video Graphics Array (VGA) port (an analogue computer display standard) or a Digital Visual Interface (DVI). DVI is a video interface standard designed to connect computers to digital display devices such as flat panel LCD computer displays and digital projectors. You must make sure that the monitor and motherboard have compatible connections, since older computers may only have VGA slots while new monitors have DVI connectors. However, small connector adapters are available to convert between VGA and DVI. With both types of connectors (VGA and DVI), you should never attempt to force them, since the pins are easily damaged.
+Words & Terms
+Video: an image or a visual display
+VGA: Video Graphics Array, a communications method between the computer and the monitor
+DVI: Digital Video Interface, it connects computers to digital display devices such as flat panel LCD computer displays and digital projectors
+LCD: Liquid Crystal Display, the modern flat panel displays used with computers and available with analog or digital interfaces (VGA and DVI)
+Fig. 4.5: A VGA/DVI converter seen from both sides
+Fig. 4.6: An S-Video connector
+A third video connection is available that allows you to use the display of a TV screen. It is called a Super Video or Separated Video connection (sometimes called an S-Video connector) and is an analogue video signal that carries the video data as two separate signals.
+Other display devices, such as data projectors, also use the VGA or DVI ports to connect to the computer.
+........
+0 Words & Terms
+S-Video: Separated Video or Super Video, an analogue video signal that carries the video data as two separate signals in order to use the display of a TV screen
+Fig. 4.7: The computer's video connections
+Module 4: Identifying and connecting PC hardware
+111
+110
+Module 4: Identifying and connecting PC hardware
+WORK MIT
+Mouse and keyboard connectors
+Mouse and keyboard connectors have been largely standardised according to two formats, namely PS/2 and USB, although the older, serial type is still in use. The connection points for PS/2 are colour coded: green for mice and purple for keyboards. Small connector converters are available to convert between PS/2 and serial cable as well as between PS/2 and USB.
+Fig. 4.8: The various connection types: USB, PS/2 and serial
+Parallel port connections
+We use a parallel port to connect a range of different devices: printers, tablets, scanners, webcams, external modems, joysticks, etc. With the introduction of the very versatile USB port, it is questionable whether the parallel port will survive the next generation of computers.
+USB port connections
+The USB port is one of the most versatile ports recently added to the computer. It takes over from the parallel port as the general purpose port for connecting to external devices (mouse, keyboard, flash memory discs, printers, tablets, scanners, webcams, external hard drives, digital cameras, etc.). It has the added advantage that it does not require the 25 wires of a parallel cable, but only 4, plus a shielding wire. Another advantage of the USB is that it can also supply a small amount of power to the device. Currently, USB cables are limited to a maximum length of 5 m.
+All computers currently use 'Type A' connectors, while the device connecting to the computer may either be attached to the cable or have one of a range of connections - the 'Type B' connection is the most popular device connection.
+0
+Words & Terms
+PS/2: a keyboard and mouse connector. The name originally comes from the IBM Personal System/2 designed to improve keyboard and mouse connectors
+USB: the Universal
+Serial Bus (or port) is a connection port on a
+computer that is universally compatible with many types of devices
+Fig. 4.9: A parallel port
+Assessment activity 4.2
+Work in pairs
+With your partner, examine the various computer connections (including peripheral devices) of a computer. Make a note of the following:
+a) all externally visible sockets of the computer
+b) all peripheral devices connected to the computer.
+Next, you need to match each peripheral device with its corresponding socket on the computer. Finally, you should make a freehand drawing of the layout of the motherboard's socket set and label each of the sockets clearly.
+Hand in your work for marking.
+Keep your completed project in your Portfolio of Evidence. Write your name and today's date on your project.
+If we want our computer to produce sound and pictures, we can plug in extra software, called extension cards.
+Unit 4.3: Extension cards
+Extension cards, which are also called expansion, add-on or internal cards, are printed circuits boards that can be installed in a computer in order to give it new abilities or to enhance its existing abilities. Extension cards are plugged into slots on a computer's motherboard. All extension cards come with drivers, which are interface programs that need to be installed in order for the extension cards to work. Drivers act like translators between a device that is to be installed, like an extension card, and the computer itself. Some cards will come with a CD containing their drivers, but you might have to download other drivers from the Web.
+Video card
+di
+This type of card is also known as a graphics card, graphics accelerator or display adapter. A video card interface is a connector that facilitates file transfer between a video card and a computer. Video may be supplied on the motherboard as Integrated Video - this is a video device integrated on the motherboard and is not offered on all motherboards. When included, the specifications will indicate what is installed. Types of video card that use the expansion slots come in various forms:
+• AGP: The Accelerated Graphics Port uses a 32-bit bus to provide direct connection between card and memory.
+Words & Terms
+circuit board: a piece of fibreglass with threads of conductive material (usually copper) embedded in the surface
+driver: the software that allows the operating system to communicate properly with a peripheral device
+AGP 1x: The Accelerated Graphics Port 1x transfers data at a rate of 264 Mbps.
+AGP 2x: The Accelerated Graphics Port 2x transfers data at a rate of
+528 Mbps.
+AGP 4x: The Accelerated Graphics Port 4x transfers data at a rate of
+1 Gbps.
+AGP 8x: The Accelerated Graphics Port 8x transfers data at a rate of
+2 Gbps.
+Fig. 4.10: One USB A-Type connector and two USB A-Type ports
+Module 4: Identifying and connecting PC hardware
+113
+112
+Module 4: Identifying and connecting PC hardware
+WOR MIT
+PCI: The Peripheral Component Interconnect, which requires two to five slots on the motherboard, supports both 32-bit and 64-bit data paths and runs at a speed of 33 MHz or 66 MHz.
+Video/graphics cards may use their own memory, called video RAM, to function, or they may use the computer's RAM.
+Since most video cards have their own RAM, they can update and change screens much faster than the motherboard's own video card. This feature
+makes them very popular with high-speed games or
+computer simulation software.
+There are currently three video card slot types that are used by motherboards:
+PCI, or Peripheral Component Interconnect, is an old standard that is now considered outdated.
+AGP, or Accelerated Graphics Port, is the acknowledged standard for graphics and only one AGP port can exist in a motherboard. PCI-E, or PCI-Express is the fastest among the three video slot types. More and more motherboards are now offering PCI-E slots for video cards.
+Sound card
+Sound cards are also known as audio cards. Computers generally have an 'on-board' sound card that can be replaced by a superior, extension sound card. These extension sound cards improve a computer's sound output, also allowing the input of sound in some cases.
+The ability of a computer to play sound becomes important when people want to listen to music with high quality speakers, watch movies with the impact of surround sound, use music or video editing or generation software, or use sound to add impact to their presentations. A sound card will also allow a computer to record good quality sound by means of a microphone.
+Various storage formats are used for sound files, including mp3 and .wav files. These compact file formats use compression standards that make the storage of large volumes of sound files quite easy. A sound card always has at least two connections - for a microphone and for speakers. Some sound cards have so many input and output connections that they need a breakout box to house them.
+Fig. 4.11: A video card
+Fig. 4.12: A sound card
+Printer card
+Originally, a separate printer card had to be installed on every motherboard to enable connectivity for printers and other parallel port devices. However, over time these cards have become an integral part of every motherboard. Printer cards (or parallel port cards) still have some application to provide connectivity for additional parallel devices, and some of these cards are enabled for wireless Bluetooth printers. With the advent of computers and peripheral devices equipped with highly versatile multiple USB ports, parallel port cards may disappear completely. Using a USB to parallel port adapter is another very inexpensive method of adding a parallel port to a computer. However, it is still possible to add additional printer cards, such as an ISA-based or a PCI-based parallel card, by using a USB-to- parallel-port adapter.
+Assessment activity 4.3
+Work in pairs.
+Discuss the following and write the answers in your own words.
+1. What is an extension card?
+2. What is the purpose of an extension card's driver?
+Fig. 4.13: A printer card
+3. What must you do if an extension card does not have a CD containing its driver?
+4. List and briefly describe three extension cards
+5. Identify and list the main functions of a selection of extension cards provided by your lecturer.
+Hand your answers to another pair of students for marking.
+Keep your completed work in your Portfolio of Evidence. Write your name and today's date on your work.
+When we connect computers to other devices, we use special cables, which we will look at next.
+Unit 4.4: Cable types and connections
+As you know from Module 3, most devices are connected to the computer using cables. Some cables are firmly attached to the device, while others can be unplugged from it. Let's look first at the main cable types.
+Serial cables
+Serial cables transfer information between two devices using serial communication. Serial communication means that data is sent one bit
+114
+Module 4: Identifying and connecting PC hardware
+Module 4: Identifying and connecting PC hardware
+115
+WOR
+RMIT
+at a time, each bit following its predecessor (the one that went before). Such cables generally use D-sub-miniature connectors with 9 or 25 pins. an receive
+Parallel cables Can
+Send
+Parallel cable can make several data transmissions simultaneously while also receiving device data at the same time. Although parallel cables are more efficient than serial cables, they are of limited length and are generally only used by printers.
+USB cables
+USB cables attach to USB ports. These ports are rapidly replacing parallel ports. As you know by now, USB stands for Universal Serial Bus. The word 'Universal' means applicable to everything - in this case, it means that you can use a USB port to connect all USB-enabled devices to a computer. These days, most types of peripheral devices including mice, webcams, scanners, printers, modems and speakers can be connected simply and easily through a USB cable.
+Assessment activity 4.4
+Work on your own.
+Words & Terms
+D-sub-miniature
+connectors: connectors with 9 or more parallel pins or sockets
+Complete the sentences below by selecting one of thse words: serial, parallel, USB.
+1.
+2.
+cables attach to USB ports.
+communication means that data is sent one bit at a time, each bit following the other. cables can send several data signals at the same time and simultaneously receive data
+3.
+back from the device.
+4.
+cables generally use D-sub-miniature connectors with 9 or 25 pins.
+5. 'Universal' ports can be used to connect all
+6.
+enabled devices to a computer.
+cable has limited length and is generally only used by printers.
+Exchange your answers with a classmate and mark each other's work.
+Keep your completed work in your Portfolio of Evidence. Write your name and today's date on your work.
+In our next Unit, we will tell you (and show you) the right cable to use for particular connections.
+Unit 4.5: Choosing the right cable It is important that you connect computer devices with the right kind of cable, because they don't all have the same capabilities and functions.
+Parallel printer cables
+As already mentioned, parallel and serial port devices are being replaced by USB port devices. However, the earlier types (parallel and serial) will continue to work for many years to come. Although you will generally find parallel cables permanently connected to the device, some come separately, with an interesting-looking device connector.
+Parallel printer cables are easy to recognise since they are quite thick and stiff (they contain 25 wires) and have large connectors on each end.
+000000000000000
+13
+00000000000000
+25
+19
+USB cables
+0000000000000000000000000000000 00000000000000000000
+Fig. 4.14: A parallel printer cable
+18
+(Printer)
+One end of a USB cable usually has the Type A connector, but the other
+end may have one of several connectors attached to it. Fig 4.15 shows a USB cable fitted with both a Type A and a Type B connector.
+TYPE A
+TYPE B
+116
+Module 4: Identifying and connecting PC hardware
+Fig. 4.15: A USB cable with Type A and Type B connectors
+Module 4: Identifying and connecting PC hardware
+117
+WOR MIT
+Network cables
+Network cables, which are fitted with the RJ45 connector standard, are used to connect two or more computers with each other. These networks are either LANs or WANs. A LAN connection can be as simple as a (crossed over) cat5 cable between two computers, or it can be assembled to a network switch (hub) to inter-connect more than one computer. LANs can handle thousands of computers when properly constructed and designed. A LAN will use a gateway for Internet connections.
+Network cables consist of 8 wires that are used in twisted pairs and may be crossed over or connected end-to-end in a defined standard at each end of the cable. These cables can be used in lengths of up to 100 m.
+Words & Terms
+hub: is a device where the entire connecting mediums come together
+VGA cables
+VGA cables have been the standard method of connecting analog video devices to a computer for more than ten years. VGA cables, like DVI cables, are mostly permanently attached to the video device, although some devices come with separate cables. A VGA cable consists of 15 wires organised in three rows of five pins each.
+S-video cables
+An S-video cable is used to connect a computer to a TV in order to display the computer image on the TV screen. It is purely a computer output device and cannot transfer any information from the TV to the computer. For computer usage, the S-video connection to three RCA plugs is standard, but many other devices use the S-video configuration, for example, XBOX, Wii and Playstation, with specialised fittings attached to the other end.
+.... .....
+Fig. 4.18: A VGA cable and connector configuration
+Fig. 4.16: A crossed over network cable with connectors
+DVI cables
+DVI cables are the current method of connecting high-definition video devices to a computer. These cables are mostly permanently attached to the video device, although some devices come with separate cables. A DVI cable consists of 25 wires and the connectors are organised in one single pin plus three rows of eight pins each.
+Fig. 4.19: The configuration of S-video cable with 3 RCA connectors
+Assessment activity 4.5
+Work on your own.
+Study the cables coming out of the back of a computer. For each cable, give its name, its main features, the socket type it uses, and the applicable connection type. Enter the information you have gathered into a table like the one shown below.
+-
+-
+Fig. 4.17: A DVI cable and connector configuration
+118
+Module 4: Identifying and connecting PC hardware
+Cable name
+	
+Features
+	
+Socket type
+	
+Connection type
+Hand your completed table to your lecturer for marking.
+Keep your completed work in your Portfolio of Evidence. Write your name and today's date on your work.
+Module 4: Identifying and connecting PC hardware
+119
+
+## 2. Pasted text
+
+Type: doc | text chars: 12310 | page images: 0 | summary chars: 713
+
+### Summary
+
+This comprehensive guide serves as a foundational manual for **IT professionals** to master the core principles of computer architecture, installation, and maintenance. The text systematically breaks down technical proficiencies into manageable domains, beginning with the **motherboard** as the central hub and exploring the symbiotic relationship between processors and memory. Furthermore, it details physical connectivity standards, diverse **network topologies**, and essential deployment protocols necessary for system integrity. Ultimately, the primary objective is to equip technicians with the theoretical knowledge and safety checklists required to successfully manage the entire **hardware lifecycle**.
+
+### Text
+
+Ultimate Study Guide: PC Hardware Identification, Connectivity, and Configuration
+Introduction: The Strategic Role of Hardware Architecture
+In the professional IT landscape, hardware mastery is not merely a technical skill but a foundational competency that drives organizational efficiency. In 1977, Ken Olson, the founder of Digital Equipment Corporation, famously remarked that there was "no reason anyone would want a computer in their home." This perspective shifted radically within just three decades; today, personal computers outnumber people in many regions. For the modern IT professional, understanding the hardware lifecycle—from interpreting manufacturer specifications to executing safe physical deployments—is critical for managing the complex links that allow these machines to communicate and function.
+As defined in the professional curriculum, hardware competency requires the following core competencies:
+Hardware Synthesis: Identifying components and explaining connectivity procedures alongside essential safety precautions.
+System Integration: Aligning relevant software functions with specific computer parameters and hardware specifications.
+Interface Expertise: Distinguishing between cable types (Serial, Parallel, USB) and extension cards (Video, Sound, Networking).
+Infrastructure Design: Explaining the principles of computer networks, including topologies (Star, Bus, Ring) and transmission media.
+Security & Risk Management: Implementing antivirus procedures, environmental controls, and cryptographic protocols to protect data integrity.
+Quality Assurance: Utilizing professional checklists to verify physical connections and environmental suitability.
+The starting point for mastering these competencies is the motherboard, the central circuit board where all system communication originates and concludes.
+--------------------------------------------------------------------------------
+Decoding Motherboard Specifications and Form Factors
+Interpreting motherboard technical specifications is a vital "So What?" skill for technicians. These specifications serve as the blueprint for system assembly, dictating the compatibility of every other component. Understanding these parameters ensures an IT professional can prevent performance bottlenecks and plan viable upgrade paths.
+Critical System Parameters (Model: A8V Deluxe)
+Feature Specification Professional Impact Motherboard Chipset VIA K8T800Pro + VT8237 Regulates CPU/RAM compatibility; manages data flow between high-speed and low-speed components. CPU Socket Type Socket 939 Dictates the physical and electrical interface required for processor installation. RAM Type DDR SDRAM Defines the memory standard; influences the synchronization and speed of data transfers. Networking Gigabit LAN (1000 BASE T) Supports high-speed 1 Gbps transfers, ideal for home servers and SOHO environments. Controller Type Dual RAID, Serial ATA Enables advanced storage configurations for data redundancy or increased performance in server applications. Video Interface AGP 8x Provides a dedicated 32-bit bus for high-speed graphics data transfer at 2 Gbps.
+Motherboard Form Factors and Physical Architecture
+The form factor refers to the physical size and shape of the motherboard, which determines the required chassis (case) and dictates internal airflow efficiency.
+Form Factor Dimensions Professional Analysis ATX 241 mm x 305 mm The standard for full-sized towers; allows for longer card slots and optimized CPU airflow. Mini ATX 208 mm x 284.5 mm A smaller variant of the ATX standard with fewer expansion slots for mid-sized builds. Micro ATX 244 mm x 244 mm Designed for compact desktop computers; balances size with essential expansion. Flex ATX 229 mm x 191 mm A subset of the Micro ATX family allowing for highly customized, small-form-factor case designs. LPX / NLX 229 mm x 203 mm Features riser cards for expansion; NLX is the more flexible successor to the Western Digital LPX design. Baby AT Varies (Small) An legacy format used in older 386 and 486 PCs.
+Once the physical board is selected, the focus shifts to the symbiotic relationship between the processing core and the system memory.
+--------------------------------------------------------------------------------
+Memory (RAM) and Processor (CPU) Ecosystems
+The CPU (the brain) and RAM (the active data storage) operate in a symbiotic relationship regulated by the motherboard chipset. The chipset acts as the communication manager, typically divided into two specific logical components:
+Northbridge: Handles high-speed communication between the CPU, RAM, and graphics (AGP) slots.
+Southbridge: Manages slower I/O functions, including peripheral ports and storage controllers.
+RAM Categories and Data Transfer Characteristics
+DDR (Double Data Rate): Transfers data on both the rising and falling edges of the clock signal, effectively doubling the transmission rate.
+SDRAM (Synchronous Dynamic RAM): Synchronizes with the CPU bus to allow data transfers up to 133 MHz.
+RDRAM (Rambus Dynamic RAM): A proprietary high-speed bandwidth design capable of 1.6 GB/s.
+DRAM (Dynamic RAM): The standard memory type where each bit is stored in a separate capacitor.
+EDO (Extended Data Out): Capable of transferring multiple blocks of data simultaneously rather than one at a time, improving efficiency over standard DRAM.
+Chipset and CPU Compatibility
+Processor selection (e.g., AMD Athlon 64 FX) is dictated by the motherboard's socket and chipset. A chipset like the VIA K8T800Pro is engineered to interface with specific architectures. Choosing an incompatible combination prevents system operation and limits the professional's ability to upgrade the system's processing power in the future.
+--------------------------------------------------------------------------------
+Physical Connectivity: Ports, Cables, and Interface Standards
+Standardized connectivity protocols ensure hardware interoperability. Because of worldwide standards, components from different manufacturers can communicate using established "languages" (protocols) through physical motherboard interfaces.
+Master Identification Guide for Cables and Connectors
+Video Interfaces
+VGA (Video Graphics Array): An analogue standard. The cable contains 15 wires and a connector with 15 pins organized in three rows of five.
+DVI (Digital Visual Interface): A digital standard for flat panels and projectors. The cable contains 25 wires, with a connector featuring one single pin plus three rows of eight pins.
+S-Video (Separated Video): An analogue signal that carries video data separately. Commonly uses 3 RCA plugs for TV connections and is a standard fitting for gaming consoles like the XBOX, Wii, and Playstation.
+Peripheral Ports
+Serial: Transfers data one bit at a time. Uses D-sub-miniature connectors with 9 or 25 pins.
+Parallel (LPT): Sends several signals simultaneously. The cable is thick and stiff, containing 25 wires with large connectors. Primarily used for legacy printers.
+USB (Universal Serial Bus): A versatile replacement for serial/parallel ports, using only 4 wires plus a shielding wire.
+Data Standards (USB)
+Type A: The standard connector found on the computer/host side.
+Type B: The most popular connector for the device side (e.g., printers and scanners).
+Diagnostic "So What?" of USB Technology
+USB is the industry standard due to its versatility and ability to supply power. Technician Tip: If a peripheral (like a printer) does not have a dedicated power plug, it is safe to assume it draws its power directly from the USB port. However, technicians must respect the 5-meter length limitation for standard USB cables to ensure signal integrity.
+--------------------------------------------------------------------------------
+Networking Fundamentals: Topologies and Transmission Media
+Networks are categorized as LAN (Local Area Network) for localized areas or WAN (Wide Area Network) for broad geographic spans. The "topology" describes the physical layout or configuration of these connected devices (nodes).
+Comparative Analysis of LAN Topologies
+Topology Configuration Description Primary Vulnerability Star Every device connects to a central hub, switch, or router. If the central hub fails, the entire network goes down. Bus Devices connect to a single central cable "backbone" (e.g., 10Base-2). Performance degrades as more nodes are added; a single cable break halts communication. Ring Each device connects only to its two immediate neighbors. A failure in any single device or cable segment breaks the entire loop.
+Transmission Media Comparison
+Media Type Material Data Transfer Advantages Interference Resistance Twisted Pair Two separately insulated wires twisted together. Most cost-effective LAN option; uses RJ45 connectors. Low (Standard). Coaxial Central wire with a braided shielding layer. Carries more data than twisted pair (e.g., 10Base-2/5). High (Braided shielding blocks interference). Fiber Optic Bundles of glass or plastic threads. Transmits light waves; extremely high bandwidth and data rates. Total (Immune to electrical interference). Wireless Radio or Microwaves. Invisible data movement; supports 2.4 GHz (802.11b) and 5 GHz (802.11a) bands. Susceptible (Affected by environmental factors).
+--------------------------------------------------------------------------------
+Deployment Protocols: Environment, Safety, and Software Integration
+Professional PC setup requires active management of environmental risks and the precise installation of software "drivers"—the interface programs that act as translators between hardware and the operating system.
+Environmental Setup Checklist
+Moisture Control: Ensure the room is dry to prevent damage to integrated circuits.
+Airflow: Verify vents are unblocked to prevent overheating and fire hazards.
+Stability: Place equipment on a stable, solid surface.
+Power Management: Use Surge Protection Devices to guard against power grid variations.
+ESD Protection: Use anti-static mats, chairs, or bracelets to prevent Electrostatic Discharge (ESD) from blowing sensitive circuits.
+Software, Security, and Critical Troubleshooting Sequence
+Security Integration: Implement cryptographic protocols such as SSL/TLS for secure browsing or WEP (Wired Equivalent Privacy) for 802.11g wireless security. Use access codes and look for HTTPS as a marker of secure communication.
+Installation Parameters: Verify minimum hardware requirements, such as available disk space and memory, and ensure authentication keys are ready.
+Deployment Procedure: For a successful installation, follow this specific troubleshooting sequence:
+Plug the peripheral into the power outlet.
+Turn on the peripheral first. Confirm power via a green light or sound.
+Do NOT turn on the computer yet.
+Connect the data cable (USB or LPT) to the computer.
+Finally, turn on the computer and install the necessary drivers.
+--------------------------------------------------------------------------------
+Examination Readiness: Key Terms and Self-Assessment
+Professional Glossary
+AGP (Accelerated Graphics Port): A dedicated 32-bit bus providing a direct connection between a graphics card and system memory.
+LPT (Line Print Terminal): The original name for the parallel port interface commonly used for printers.
+Northbridge/Southbridge: Chipset components managing high-speed (CPU/RAM) and low-speed (I/O) communications respectively.
+Topology: The physical configuration or layout of computers/nodes in a network.
+Cryptographic: A method of protecting data by encrypting it into a format unreadable without a specific code.
+Socket: The specific physical connection point on a motherboard designed for a CPU.
+Advanced Review Questions
+Chipset Role: Describe how the Northbridge and Southbridge facilitate communication between the CPU and a peripheral like a USB scanner.
+Cable Mechanics: Contrast the internal wire counts and pin configurations of a VGA cable versus a DVI cable.
+Network Resilience: Why is the Star topology the industry standard despite the risk of a central hub failure?
+Wireless Standards: Identify the specific radio frequency bands used by 802.11a and 802.11b networking.
+Safety Procedures: Explain how a technician should use a checklist to verify both environmental safety and successful peripheral power-up sequence.
+

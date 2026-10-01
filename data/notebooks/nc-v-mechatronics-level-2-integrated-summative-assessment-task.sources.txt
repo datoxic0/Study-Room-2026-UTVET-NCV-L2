@@ -1,0 +1,515 @@
+# NC (V) Mechatronics Level 2 Integrated Summative Assessment Task - source capture
+
+Notebook: https://notebook.google.com/notebook/4c380566-5aad-473a-a99c-2d3045ceaf2d
+Captured: 2026-09-30T21:02:53.805Z | walker: notebooklm-ingestion extension | sources: 3/3 | text chars: 16917 | page images: 0 | summaries: 2
+Provenance: research/captures/notebooklm_sources/05_NC_V_Mechatronics_Level_2_Integrated_Summative_Assessment_Task_4c380566.json sha256 D257B01BD2B01FD19FCF3EC31A460BD0DADFFA988792B7E3BCEBAE35A67B5B8F
+
+## 1. arrow_drop_down
+
+Type: doc | text chars: 0 | page images: 0 | summary chars: 0
+
+_No extractable text or page images captured._
+
+## 2. G Clamp Manufacturing Activity Questions
+
+Type: doc | text chars: 4203 | page images: 0 | summary chars: 536
+
+### Summary
+
+The provided text outlines a practical guide for **crafting a G-clamp**, detailing every sequential phase from initial layout to final assembly. It establishes essential **safety precautions and tool requirements** to ensure that all cutting, drilling, and threading procedures are performed securely and accurately. Furthermore, the document highlights the technical reasoning behind specific engineering practices, such as **lead-in chamfers and force-fit assemblies**, ensuring the finished tool can withstand heavy industrial usage.
+
+### Text
+
+Timestamp: 2026-08-21 05:43:45
+User: From the document ISAT answer all the Activity Questions regarding the Manual Manufacturing part. Manufacturering the g clamp.
+Gemini: Sub-task 3: Manufacture a Work Piece (G-Clamp) (Total: 50 Marks; 240 Minutes)[cite: 2]
+--------------------------------------------------------------------------------
+Activity 3.1: Planning for the Manufacturing Task (Worksheet 6)
+Five Key Work Sequence Processes:
+Preparation and Marking: Measure, scribe layout lines, and center-punch reference points on the material according to the engineering drawing specifications[cite: 1, 2].
+Material Removal & Squaring: Cut away excess waste material, file surfaces flat and square to the reference marks, and deburr all edges to eliminate sharp points[cite: 1, 2].
+Precision Drilling: Prepare the drill press, clamp the work piece securely, and drill the main frame hole for the screw thread as well as the ends of the screw handle[cite: 1, 2].
+Internal Thread Fabrication: Tap the main frame hole to the specified thread size and apply a lead-in chamfer for smooth engagement[cite: 1, 2].
+Assembly & Finishing: Perform a force-fit assembly of the handle and washer onto the screw thread, complete final fitting, clean tools, and tidy the workstation[cite: 1, 2].
+Tool Requirements:
+Marking & Layout: Steel rule, scriber, engineer's square, center punch, and ball-peen hammer[cite: 1, 2].
+Cutting & Shaping: Hacksaw, flat hand files, square files, and deburring tools[cite: 1, 2].
+Drilling & Threading: Drill press, machine vice/clamps, twist drill bits, tap set with tap wrench, and chamfering countersink bit[cite: 1, 2].
+Safety Requirements:
+Safety goggles are mandatory during all drilling and material cutting operations to protect against high-velocity metal swarf and chips[cite: 1, 2].
+Ensure work pieces are clamped securely in vices before starting any drilling or cutting operation[cite: 1, 2].
+Maintain clean, hazard-free walkways and keep hands clear of moving machinery[cite: 1, 2].
+--------------------------------------------------------------------------------
+Activity 3.2: Manufacturing the Work Piece
+Measuring, Scribing, and Center Punching: Verify stock dimensions against the drawing, scribe all reference lines, and mark hole centers with a center punch prior to cutting or drilling[cite: 1, 2].
+Rough Cutting and Filing: Cut away excess stock with a hacksaw, file all faces flat and square to reference marks, and deburr all edges[cite: 1, 2].
+Drilling Operations: Securely mount the work piece on the drill press and drill the primary screw-thread clearance/tap hole and screw-handle end holes to exact dimensions[cite: 1, 2].
+Tapping and Chamfering: Apply a lead-in chamfer to the drilled hole to prevent thread distortion and tap the frame hole to the specified thread size using cutting fluid[cite: 1, 2].
+Force-Fit Assembly: Assemble the screw-thread handle at one end and the washer at the other end using a high-precision interference force fit to withstand operational clamping torque[cite: 1, 2].
+Housekeeping & Storage: Deburr finished edges, clean all hand and power tools, return tools to the store, and clear the work area[cite: 1, 2].
+--------------------------------------------------------------------------------
+Activity 3.3: Knowledge Questionnaire (Worksheet 7)
+Question 1 — Purpose of the Lead-in Chamfer: Chamfering the tapped hole creates a tapered entry that facilitates smooth thread engagement, prevents cross-threading, and protects the entrance threads from mechanical damage during heavy clamping loads[cite: 1].
+Question 2 — Mechanics of the Force-Fit Assembly: The handle and washer utilize high-precision interference fit tolerances to create a permanent mechanical bond capable of resisting rotational and axial torque during industrial clamping without slippage[cite: 1].
+Question 3 — Occupational Health, Safety, and Housekeeping (OHS): Mandatory use of eye protection (safety goggles) prevents ocular injuries from metal swarf[cite: 1, 2]. Immediate cleaning and returning of tools to designated storage prevents workspace clutter, minimizes trip hazards, and protects precision measuring faces from degradation[cite: 1, 2].
+
+## 3. ElectroAndIntro-ISAT.pdf
+
+Type: pdf | text chars: 12714 | page images: 0 | summary chars: 771
+
+### Summary
+
+This document outlines the **National Certificate Level 2 assessment guidelines for mechatronics students**, serving as a comprehensive manual for their **practical examination**. The evaluation is divided into **three core sub-tasks** designed to test diverse technical abilities, including **computer setup and programmable logic controller programming**, **electronic circuit wiring and board soldering**, and the **mechanical fabrication of a G-clamp**. Furthermore, students must complete **associated knowledge questionnaires** and adhere strictly to workshop safety protocols throughout every phase. Ultimately, the assessment provides a **structured marking framework** to accurately measure each candidate's vocational competence and practical skill acquisition.
+
+### Text
+
+higher education & training
+Department: Higher Education and Training REPUBLIC OF SOUTH AFRICA
+NATIONAL CERTIFICATE (VOCATIONAL)
+NQF LEVEL 2
+REVIEWED INTEGRATED SUMMATIVE ASSESSMENT TASK
+PROGRAMME ISAT
+INSTRUCTIONS TO STUDENTS
+PROGRAMME: MECHATRONICS LEVEL 2
+SUBJECT CODES: 10040052; 12040212; 06030092
+DATE OF IMPLEMENTATION: 01 JANUARY 2020
+This document consists of 8 pages.
+Copyright reserved
+Please tum ever
+NC (V) MECHATRONICS 22
+This is a practical application task that tests your ability to apply the knowledge and skills acquired in the vocational subject. The work required from you is an important and compulsory component
+of your studies.
+1.
+1.1
+1.2
+1.3
+General information
+Study the task carefully.
+Note the mark and time allocations per sub-task and for the task as a whole. Note the assessment date(s).
+1.4
+Study the resources required carefully.
+1.5 Use the assessment tool as guidance on how your work will be marked. 1.6 You are required to provide proof that you submitted work done by yourself.
+2.
+3.
+Task description
+The ISAT consists of three sub-tasks. For sub-task 1, you must write and simulate a PLC program and assemble a personal computer. For sub-task 2, you must design and wire an electronic circuit and for sub-task 3, you must analyse a mechanical drawing and manufacture the drawn work piece.
+All three sub-tasks require worksheets to be completed. The worksheets will be handed to you on the assessment days only. Make sure that you have a pen and pencil to complete the worksheets and that you hand in the completed worksheets for marking.
+Instructions for the task
+3.1 Sub-task 1: Design a PLC program and assemble a computer
+(Total: 50 marks; 180 minutes)
+Activity 1.1: Identify computer peripherals (Sub-total: 6 marks; 15 minutes)
+During a supervised session, you must use a pen to complete Worksheet 1, handed out at the beginning of the session only.
+Activity 1.2: Connect the peripherals to the computer (Sub-total: 9 marks; 45 minutes)
+Your lecturer will give you instructions to connect the different peripherals identified in activity 1.1 to the computer tower and boot up the computer.
+Activity 1.3: Produce a Word document and complete a PLC wiring diagram (Sub-total: 15 marks; 50 minutes)
+Brief: A normally open pushbutton (start) is connected to input 1 of the PLC, a normally closed pushbutton (stop) is connected to input 2 and relay K1 is connected to output 1 of the PLC. You must switch the power to the PLC on and off by means of an on/off detent switch.
+Operation: When the start pushbutton is pressed, output 1 will energise and latch through an auxiliary contact of output 1 and stay on. An on-delay timer will be energised at the same time. The output will stay on for ten seconds and switch off. The output can also be de- energised by pressing the stop pushbutton input 2 (stop).
+Copyright reserved
+2
+Please turn over
+CS 2 202
+ed
+NC (V) MECHATRONICS LEVEL 2 2020
+Create a material list:
+Create a new document in MS Word.
+In the header of this document, put your NAME, STUDENT NUMBER and the DATE.
+In your document, create a Table for the materials list for this brief.
+Use the example in Figure 1 to draw up the table.
+• Use the following specifications:
+o the first row of the table must be double spacing;
+o the heading must be centred;
+o all header text must be Arial 12 bold.
+Fill in the missing information on your materials list.
+The text must be in Italic.
+Save your work on a flash drive.
+• Print a copy of your document.
+	
+Material List
+		
+
+Input's
+Item
+	
+Description
+	
+Marking
+	
+Address
+
+1
+			
+
+2
+			
+
+3
+			
+
+Outputs
+			
+
+4
+			
+
+5
+			
+
+PLC Unit
+			
+
+Special Relays
+			
+FIGURE 1
+Complete a wiring diagram:
+Your lecturer will hand out Worksheet 2. Complete the PLC wiring diagram and hand in the completed worksheet for marking.
+Activity 1.4: Creating a PLC source program and simulate program
+(Sub-total: 20 marks; 80 minutes)
+Brief to students: When 11 (START) is activated, Q1 will be ON and latched through a latching contact of Q1. Simultaneously a timer will be activated for 10 seconds. After the 10 seconds have elapsed, Q1 must switch OFF. Q1 can also be switched OFF when 12 (STOP) is activated any time before the 10 seconds elapsed.
+Copyright reserved.
+184
+11
+2
+Please turn over
+NCM MECHATRONICS LEVEL,
+Note: The inputs to the PLC must be provided by the lecturer. Use any PLC source code or PLC software to design a PLC program. The program must be simulated and debugged if any faults. You must simulate the program. Upload the program to a PLC. Connect the output from the PLC to the circuit built for the Electro Technology ISAT.
+3.2 Sub-task 2: Layout and wiring of electrical/electronic circuit
+(Total: 50 marks; 150 minutes)
+Activity 2.1: Enclosure layout and mounting of component, knowledge questionnaire (Sub-total: 15 marks; 30 minutes)
+The lecturer will give you a circuit diagram and all components needed for the task. You are required to mark off the layout for the push button, toggle switch and female plugs. You must then drill the holes on the enclosure and mount the components. Make sure that all components are mounted securely and that all work done is neatly.
+Finally, you will be issued with a knowledge questionnaire which you must complete and hand back to the lecturer.
+Activity 2.2: Draw a layout diagram of the electronic components on the vero board. Assembling and soldering of the electronic components on the vero board. (Sub-total: 25 marks; 90 minutes)
+Your lecturer will hand out Worksheet 4. Study the circuit diagram carefully and note the layout of components and where all connections must be made. Draw the layout of how you will mount the components on the vero board template and show where the track breaks on the board will be. The lecturer will check your completed layout and then supply you with all components needed for the task.
+You must then:
+• Adhere to workshop health and safety rules and regulations.
+• Prepare the workstation for a soldering task.
+• Select the correct hand tools required to construct the circuit.
+• Select the required components to construct the circuit.
+Refer to the layout diagram and place the components on the vero board. Mount and solder the components on the vero board.
+• Connect the fly leads from the vero board to the push buttons, toggle switch and female plugs mounted on the enclosure.
+Check the circuit board for incorrect polarities, solder shorts, dry joints and broken tracks
+Activity 2.3: Knowledge questionnaire (Sub-total: 10 marks; 30 minutes)
+Answer all the questions on Worksheet 5 and hand in the answer sheet to your lecturer.
+3.3 Sub-task 3: Manufacture a work piece (G-clamp) (Total: 50 marks; 240 minutes) You must manufacture a G-clamp from a given scaled engineering drawing. Activity 3.1: Planning for the manufacturing task (Sub-total: 15 marks; 30 minutes) Study the not-to-scale drawing of the G-clamp.
+Copyright reserved
+4
+Please turn over
+Answer the planning-related questions on Worksheet 6.
+NCM MECHATRONICS LEVEL 2 2020
+Activity 3.2: Manufacturing the work piece (Sub-total: 20 marks: 180 minutes)
+-
+Adhere to workshop health and safety rules and regulations.
+Study the not-to-scale engineering drawing.
+Select the correct hand tools required to manufacture the work piece. Manufacture the work piece.
+Motte: this activity must be done under supervision and does not need to be completed in one continuous session.
+Actfurty 3.3 Knowledge questionnaire (Sub-total: 15 marks: 30 minutes)
+Comalete Worksheet 7 under supervision and hand in for marking.
+4
+Time and mark allocation
+Activity
+Sit sk
+Manufacturing of a work piece
+3
+	
+me allocation
+	
+M allocation
+	
+Risessment tools
+
+Cesigning and simulating of a PLC
+	
+130 minutes
+	
+50
+	
+Checklist
+
+program and assembling of a personal
+			
+
+comicuter
+	
+150 minutes
+	
+50
+	
+Checklist
+
+Layout of electrical and electronic components and wining of circuit
+2
+	
+240 minutes
+	
+50
+	
+Checklist
+
+(G-damp)
+TOTAL
+	
+570 minutes
+	
+150
+	
+5
+Assessment tools
+Use the checklist on pages 6 as guidance on how your work will be marked.
+Please turn
+Copyright reserved
+6
+7
+€
+8
+C 9
+NCT MECHATRONICCELSIE 20
+STUDENT'S CHECKLIST: INTEGRATED SUMMATIVE ASSESSMENT
+CASE
+Sub-task 1 Design a PLC program and and assemble computer
+	
+SUBASKE
+
+Udentify and connect peripherals to computer chassis and bostup Safety-the power was off and unplugged while installing The peripherals were identified on the questionnaire. The peripherals were installed to the correct .
+peripherals
+	
+
+sicts The computer was correctly tocated un materiall list in Word format and complete the FLC MS Word document was correctly operert Created a table with the correct format and column headings.
+Produce wiring diagram
+	
+	
+	
+
+Correctly populated of the materialis list.
+	
+
+Drew a complete electrical circuit on the provided template
+	
+
+Design and simulate a PLC program
+	
+
+A PLC program was designed according to the design brief.
+	
+
+Correct inputs and outputs were used according to brief.
+	
+
+Simulated and debugged the program.
+	
+
+SUE TOTAL Sub-task 2: Layout and wining of electrical electronic arcut The layout of enclosure and mounting of components
+	
+
+Measuring and marking off diane comedly.
+	
+
+Enclosure was secured for drilling.
+	
+
+Endosure was drilled to specification. (Holes for push buttons, toodle switch female connectors and the LED.)
+	
+
+Components were assembled, fitted to specification and mounted securely.
+	
+
+The overall manufacturing process was completed according to sequence plan.
+	
+
+The tocis were deaned and returned to the store.
+	
+
+Work safety and housekeeping were applied throughout the process.
+	
+
+Knowledge questionnaire
+	
+
+Five tools were listed.
+	
+
+Vero board layout drawing
+	
+
+Components were clearly labelled.
+	
+
+All soldering points were indicated on layout
+	
+
+All track breaks on vero board were clearly indicated
+	
+
+Clear indication given of where field devices (push buttons, battery, toggle switch)
+	
+
+must be connected to vera board.
+	
+
+The layout, correct connection and soldering of components
+	
+[10]
+
+All solder joints good. Al connections to components tight and secure.
+	
+
+Correct operation of circuit.
+	
+
+Safety and housekeeping
+	
+
+Correct PPE worm.
+	
+
+Safety use of tools (soldering iron).
+	
+Work place cleaned and tools stored.
+Copyright reserved_
+Please tum over.....
+NC (V) MECHATRONICS LEVEL 2 2020
+Knowledge questionnaire
+
+All questions on Worksheet 5 were correctly answered. [50] SUB-TOTAL Sub-task 3. Manufacture a work piece (G-clamp) [15] e questionnaire) to manufacture (Knowledge Listed five processes in the work sequence that will be used to complete the work task.
+Planning
+
+Tool requirements.
+
+Safety requirements.
+
+[20]
+Manufacturing work piece
+
+The materials were correctly cut to size.
+
+The work piece was de burred.
+
+The work piece was filed to reference.
+
+The work piece was measured and scribed.
+
+The work piece was punched. The drill press was prepared for work.
+
+The work piece was secured for drilling
+.
+
+The work piece was drilled to specification
+.
+
+The ends of the screw thread were drilled to specification.
+
+Safety goggles were worn during drilling operations.
+
+The work piece was cut to remove excess waste.
+
+work piece was filed square where the excess waste was removed.
+The
+
+The hole for the screw thread was tapped to correct size.
+
+The work piece was chamfered correctly to specification.
+
+The screw thread handle was force fitted at one end and a washer was force fitted at the other end.
+
+The work piece was assembled to specification. The overall manufacturing process was completed according to the sequence plan.
+
+1
+The tools were cleaned and returned to the store.
+
+Work safety and housekeeping were applied throughout the process.
+
+[15]
+Knowledge questionnaire
+5
+
+Question 1.
+
+Question 2.
+
+5
+Question 3.
+
+SUB-TOTAL50 150 TOTAL
+Copyright reserved
+Please turn over
+NO MEDHATRONICS
+6. RECORD OF PERFORMANCE IN INTEGRATED SUMMATIVE ASSESSMENELASK
+College
+Campus
+Student's Surmame and First Name/s
+Student's ID Number
+Lecturer's Surname and Initials
+Date of conclusion of assessment
+ASSESSMENT GRID
+SUB-TASKS Sub-task 1: Design a PLC program and assemble a computer
+	
+MARK ALLOCATION
+50
+	
+STUDENT'S
+MARK
+	
+MODERATED
+
+Sub-task 2: Layout and wiring of electrical/electronic circuit
+	
+50
+		
+
+Sub-task 3: Manufacture a work piece (G-clamp)
+	
+50
+		
+
+Total
+	
+150
+		
+
+Converted to %
+	
+100%
+		
+	
+COMPETENCE LEVEL INDICATORS
+	
+
+Outstanding
+	
+Highly Competent Not yet competent competent
+	
+Not achieved
+
+80-100%
+	
+70-79%
+50-69%
+40-49%
+	
+0-39%
+
+5
+	
+4
+	
+3
+Student's
+Competence Level
+	
+1
+
+Student's Signature
+	
+
+Lecturer's Signature
+	
+
+Date
+	
+
+Moderator's Signature
+	
+
+Feedback to student
+	
+Copyright reserved
+2
+

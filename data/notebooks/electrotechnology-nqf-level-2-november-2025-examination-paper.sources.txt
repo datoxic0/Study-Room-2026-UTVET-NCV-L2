@@ -1,0 +1,25 @@
+# Electrotechnology NQF Level 2 November 2025 Examination Paper - source capture
+
+Notebook: https://notebook.google.com/notebook/625ae2a2-3198-4f9e-b906-dbd9915ca3a9
+Captured: 2026-09-30T21:03:04.635Z | walker: notebooklm-ingestion extension | sources: 1/1 | text chars: 0 | page images: 6 | summaries: 1
+Provenance: research/captures/notebooklm_sources/07_Electrotechnology_NQF_Level_2_November_2025_Examination_Paper_625ae2a2.json sha256 1DD1FBB1F0ABD176870A660C385B7F941DC6838D44D646575BAAEA9905F68E4E
+
+## 1. Electrotechnology NQF Level 2 - November 2025 - Y-Paper.pdf
+
+Type: pdf | text chars: 0 | page images: 6 | summary chars: 837
+
+### Summary
+
+This document is a formal **National Certificate (Vocational) examination paper** for **Electrotechnology NQF Level 2**, issued by the South African Department of Higher Education and Training. The assessment evaluates a student's grasp of **fundamental electrical principles**, including Ohm’s law, circuit analysis, and the identification of **IEC symbols** used in technical diagrams. Beyond theoretical physics, the paper emphasizes **practical vocational skills** such as the correct application of hand tools, wiring requirements for domestic installations, and the systematic **troubleshooting of electrical faults**. The structure concludes with a **formula sheet** and a simulated **maintenance record**, ensuring that candidates can effectively bridge the gap between classroom calculations and real-world industrial reporting.
+
+### Pages
+
+PDF rendered as 6 page image(s); source text is not exposed in the DOM.
+
+- https://lh3.googleusercontent.com/notebooklm/ABzcPv1w8vgqVMpazDfba9Y3l_vJoDd5LQYwiAGou7ry7ebXtmBENmLdMkKhSIeeVDiPl2ta3C3BcEfTraBcfBLn2HHwlQ_DJ13k7NdXrUKCaFbNqU-IHm2Qa9KyTBRBFELIE_mZ96DRCw=w1410-h971-v0?authuser=0
+- https://lh3.googleusercontent.com/notebooklm/ABzcPv3xN7NR15YzzGMnTZxrygJFfM-KZQuLe2ScESWDNczuYjjWUgJXSF_DAWu_xB5z7yHTYk8JdfCkbP8dKGJ7jlbw4g5fu7xU_US_CZ8F-MmaDu76xYcmqosA69r4CK90eh5soFL7WQ=w1410-h991-v0?authuser=0
+- https://lh3.googleusercontent.com/notebooklm/ABzcPv3ELuyprXJHIMoD6RhcTp1pZ1XhE9zBTj87r1XwdM37bcJsgYRADTniV_nt8UR_oz1GRA-5TjtZ41h_4AvlAlPWpI0wyQM4orCWRl3o-qJ3gzmSGBYG3tdkCHrGVBKik1Uq8gLN=w1410-h985-v0?authuser=0
+- https://lh3.googleusercontent.com/notebooklm/ABzcPv0v6D6zs2MKzfl8_tiscntIHqmwxvGp44AtkJ2DBU0CXRq3Vqqd9GmmQvE4V5FJcFyQ4c_HjgQ7Wa4dzgm1B0D5CXpKoX7v0kNRm5UMyQBefDgdeJBDhXvCMl6xzZWBodx_f_3i9A=w1410-h1006-v0?authuser=0
+- https://lh3.googleusercontent.com/notebooklm/ABzcPv3Y3xDyPTe1spb2fV7dVrqrTl_csxY-XtMR4pWEMq8GglLthg1qHjCZiGoK1xOROa812xyUN1RFFJhwaGsWcTzHhRQAPDnxLNH548AERLAw0ypdErOL79-t5HYKD_VdQPFV-Awi=w1410-h977-v0?authuser=0
+- https://lh3.googleusercontent.com/notebooklm/ABzcPv3MWoi2WxO2GVNAXqd0Ro4CumpxkiQom4F9uB_r98hvgjeKdQHP2wAueBGsIen3ec1nxZr3UCCwf-GkcPBbzA874Ox1N6s9JMFhFz3-rQNAb00egjtID0gob2pAO62s9F_6HTvo2g=w1002-h1410-v0?authuser=0
+

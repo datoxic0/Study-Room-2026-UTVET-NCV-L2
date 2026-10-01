@@ -1,0 +1,46 @@
+# Mechatronics Practical Assessment: Inductive Systems and Component Analysis - Gemini Notebook
+
+Source: https://notebook.google.com/notebook/b52580ca-7d12-4efc-abcc-7ec96b9b6302
+Fetched: 2026-09-30T17:56:33.327Z
+Auth: authenticated CDP session (Edge, debug port 9222)
+
+---
+
+link_2
+Shared
+add_2
+share_1
+more_vert
+settings
+PRO
+Sources
+Chat
+Studio
+landscape_2
+⚙️
+Mechatronics Practical Assessment: Inductive Systems and Component Analysis
+1 source
+·
+23 Mar 2026
+
+The provided sources outline a mechatronics practical assessment designed to evaluate a student's foundational understanding of workshop hardware, safety procedures, and electromechanical engineering principles. The documentation is structured around two core objectives, starting with the identification and functional categorization of standard workshop components, such as relays, power supply units, and multimeters. The second task details the creation and physical implementation of a simple inductive system, which involves wiring a 12V DC motor to a power source to demonstrate the conversion of electrical energy into rotary mechanical motion. Additionally, the materials offer a comprehensive breakdown of the underlying physics and mathematics governing the system, highlighting concepts such as the Lorentz force and Back Electromotive Force. Finally, the text includes a fully completed assessment grid and schematic blueprints, serving as a professional guide to achieve a distinction by connecting workbench applications directly to modern industrial automation.
+
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+How do mechatronics principles convert electricity into mechanical rotation?
+subdirectory_arrow_right
+What safety protocols and PPE are essential for workshop tasks?
+subdirectory_arrow_right
+Summarise the functions of key components like relays and multimeters.
+subdirectory_arrow_right
+1 source
+arrow_upward
+Gemini Notebook can make mistakes, so double-check it.
+
+## Sources (1)
+
+- Mechatronics-Practical-Term1-Siyabonga-B-Phakathi.pdf
+

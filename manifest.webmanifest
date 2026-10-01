@@ -1,0 +1,18 @@
+{
+  "name": "Studyroom — TVET Exam Desk",
+  "short_name": "Studyroom",
+  "description": "Verified past papers, memoranda, notebook library, study plan and focus timer for NC(V) Level 2 students.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#f5f6f2",
+  "theme_color": "#f5f6f2",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

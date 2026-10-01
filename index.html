@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f6f2">
+    <meta name="description" content="Studyroom — TVET NC(V) Level 2 exam desk: verified past papers & memoranda, notebook library, study plan, tutor and focus timer.">
+    <title>Studyroom</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Studyroom home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>studyroom</span>
+      </a>
+
+      <nav class="viewnav" aria-label="Views">
+        <a href="#dashboard" data-nav="dashboard" class="is-active" aria-current="page">Desk</a>
+        <a href="#guides" data-nav="guides">Study guides</a>
+        <a href="#papers" data-nav="papers">Past papers</a>
+        <a href="#notebooks" data-nav="notebooks">Notebooks</a>
+      </nav>
+
+      <div class="topbar-meta">
+        <div class="term-label"><span class="status-dot"></span> EXAM SEASON <span class="term-divider">/</span> LEVEL 2</div>
+        <div class="today-label" id="today-label"></div>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- ══════════════ DESK ══════════════ -->
+      <section id="view-dashboard">
+        <section class="welcome">
+          <div>
+            <p class="eyebrow">YOUR STUDY DESK <span id="welcome-date"></span></p>
+            <h1>Make today<br><em>count.</em></h1>
+            <p class="welcome-note">A little focused work now makes exam day feel different.</p>
+          </div>
+          <article class="next-exam-card" aria-label="Next exam">
+            <div class="next-exam-top">
+              <span class="card-label">UP NEXT</span>
+              <span class="exam-tag" id="next-exam-level">LEVEL 2</span>
+            </div>
+            <div class="countdown-line">
+              <span class="countdown-number" id="countdown-number">—</span>
+              <span class="countdown-copy" id="countdown-copy">days<br>to go</span>
+            </div>
+            <h2 id="next-exam-subject">Loading your exam…</h2>
+            <div class="next-exam-meta">
+              <span id="next-exam-date"></span>
+              <span id="next-exam-time"></span>
+            </div>
+            <button class="text-button" id="jump-to-exam" type="button">View exam plan <span aria-hidden="true">↗</span></button>
+          </article>
+        </section>
+
+        <section class="dashboard-grid">
+          <div class="main-column">
+            <section class="panel today-panel" aria-labelledby="plan-title">
+              <div class="panel-heading">
+                <div>
+                  <p class="eyebrow">A PLAN YOU CAN FINISH</p>
+                  <h2 id="plan-title">Today’s study plan</h2>
+                </div>
+                <div class="plan-progress">
+                  <span id="plan-progress-label">0 of 3 done</span>
+                  <span class="progress-track"><span id="plan-progress-bar"></span></span>
+                </div>
+              </div>
+              <div class="plan-list" id="plan-list"></div>
+              <div class="plan-footer">
+                <span class="plan-footnote"><span class="sparkle">✳</span> Short recall sessions help ideas stick.</span>
+                <button class="quiet-button" id="reset-plan" type="button">Reset plan</button>
+              </div>
+            </section>
+
+            <section class="panel exams-panel" id="exam-plan" aria-labelledby="exam-plan-title">
+              <div class="panel-heading">
+                <div>
+                  <p class="eyebrow">YOUR RUNWAY</p>
+                  <h2 id="exam-plan-title">Upcoming exams</h2>
+                </div>
+                <span class="small-count" id="exam-count">10 EXAMS</span>
+              </div>
+              <div class="exam-list" id="exam-list"></div>
+            </section>
+          </div>
+
+          <aside class="side-column">
+            <section class="panel tutor-panel" aria-labelledby="tutor-title">
+              <div class="tutor-heading">
+                <div class="tutor-avatar" aria-hidden="true">
+                  <svg viewBox="0 0 32 32" fill="none"><path d="M7 17.2c0-5.2 3.5-9.2 9-9.2s9 4 9 9.2v4.1c0 1.2-.9 2.2-2.1 2.2h-2.3v-7h3.7M7 16.5h3.7v7H8.9c-1.1 0-1.9-.9-1.9-2v-5ZM12 7.8l1.1-2.2h5.8L20 7.8M13 19h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <div>
+                  <p class="eyebrow">HERE WHEN YOU NEED IT</p>
+                  <h2 id="tutor-title">Study buddy</h2>
+                </div>
+                <span class="online-indicator" title="Ready to help"></span>
+              </div>
+              <p class="tutor-intro">Ask for an explanation, a worked example, or a quick knowledge check.</p>
+              <div class="prompt-chips" aria-label="Suggested prompts">
+                <button type="button" class="prompt-chip" data-prompt="Help me make a focused revision plan for">Make a revision plan <span>↗</span></button>
+                <button type="button" class="prompt-chip" data-prompt="Quiz me with one exam-style question on">Quiz me <span>↗</span></button>
+                <button type="button" class="prompt-chip" data-prompt="Explain the key ideas in">Explain a topic <span>↗</span></button>
+              </div>
+              <div class="chat-messages" id="chat-messages" aria-live="polite">
+                <div class="chat-message buddy-message">
+                  <span class="message-avatar" aria-hidden="true">S</span>
+                  <p>Hi! What are you working on today?</p>
+                </div>
+              </div>
+              <form class="chat-form" id="chat-form">
+                <label class="sr-only" for="chat-input">Ask your study buddy</label>
+                <textarea id="chat-input" rows="1" placeholder="Ask anything about your studies…" required></textarea>
+                <button class="send-button" type="submit" aria-label="Send message"><span aria-hidden="true">↑</span></button>
+              </form>
+              <p class="tutor-hint">Answers are designed to help you understand and remember.</p>
+            </section>
+
+            <section class="panel focus-panel" aria-labelledby="focus-title">
+              <div class="focus-heading">
+                <div>
+                  <p class="eyebrow">FOCUS SESSION</p>
+                  <h2 id="focus-title">One thing at a time</h2>
+                </div>
+                <span class="focus-icon" aria-hidden="true">◷</span>
+              </div>
+              <div class="timer-display" id="timer-display" aria-live="off">25:00</div>
+              <div class="timer-track"><span id="timer-progress"></span></div>
+              <div class="timer-controls">
+                <span class="timer-caption">25 MIN · DEEP FOCUS</span>
+                <div class="timer-buttons">
+                  <button class="timer-reset" id="timer-reset" type="button" aria-label="Reset timer">↺</button>
+                  <button class="timer-start" id="timer-start" type="button">Start session <span aria-hidden="true">→</span></button>
+                </div>
+              </div>
+            </section>
+
+            <div class="method-note">
+              <span class="method-icon" aria-hidden="true">✳</span>
+              <p><strong>Study smarter.</strong> Test yourself from memory before you reread. That’s how you find what’s ready for exam day.</p>
+            </div>
+          </aside>
+        </section>
+      </section>
+
+      <!-- ══════════════ PAST PAPERS ══════════════ -->
+      <section id="view-papers" hidden>
+        <section class="view-hero">
+          <p class="eyebrow">VERIFIED PAST PAPERS &amp; MEMORANDA</p>
+          <h1>Real papers.<br><em>Checked links.</em></h1>
+          <p class="welcome-note">
+            Every link below was fetched and confirmed live on <strong data-verified-on>—</strong>.
+            <span class="legend"><span class="source-badge badge-official">official</span> = government source ·
+            <span class="source-badge badge-community">community</span> = third-party host of real papers ·
+            <span class="source-badge badge-flagged">unreachable</span> = failed from our network, try yours.</span>
+          </p>
+        </section>
+
+        <section class="panel view-panel" aria-labelledby="papers-subjects-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">MATCHED TO YOUR TIMETABLE</p>
+              <h2 id="papers-subjects-title">Your subjects</h2>
+            </div>
+            <span class="small-count">NC(V) LEVEL 2</span>
+          </div>
+          <div class="subject-grid" id="papers-subjects"></div>
+        </section>
+
+        <section class="panel view-panel" aria-labelledby="papers-sources-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">SOURCE REGISTRY</p>
+              <h2 id="papers-sources-title">Where the papers come from</h2>
+            </div>
+          </div>
+          <div class="global-grid" id="papers-sources"></div>
+        </section>
+      </section>
+
+      <!-- ══════════════ NOTEBOOKS ══════════════ -->
+      <section id="view-notebooks" hidden>
+        <section class="view-hero">
+          <p class="eyebrow">YOUR NOTEBOOKLM LIBRARY</p>
+          <h1>Your notes,<br><em>searchable.</em></h1>
+          <p class="welcome-note">
+            Notebook contents sit behind Google sign-in — measured on <strong id="notebook-auth-date">—</strong>
+            (every request redirects to <code>accounts.google.com</code>). So: links open your notebooks,
+            exports become a local searchable library.
+          </p>
+        </section>
+
+        <section class="panel view-panel" aria-labelledby="library-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">EXPORT → INDEX → SEARCH</p>
+              <h2 id="library-title">Notebook library</h2>
+            </div>
+            <span class="small-count">LOCAL ONLY</span>
+          </div>
+          <p class="library-status" id="library-status">Loading library…</p>
+          <div class="library-search-wrap">
+            <label class="sr-only" for="library-search">Search your exported notebooks</label>
+            <input id="library-search" type="search" placeholder="Search everything you exported…" disabled>
+          </div>
+          <div class="library-results" id="library-results"></div>
+          <div class="ingest-help">
+            <p><strong>How to fill this library:</strong> in NotebookLM use <em>Export → Markdown/Text</em>, drop the files into
+            <code>data/notebooks/</code>, then run <code>npm run index-notebooks</code>. Each file gets a sha256 shown in the app.</p>
+          </div>
+        </section>
+
+        <section class="panel view-panel" aria-labelledby="registry-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">16 NOTEBOOKS · OPEN IN YOUR SESSION</p>
+              <h2 id="registry-title">Notebook registry</h2>
+            </div>
+          </div>
+          <div class="notebook-grid" id="notebooks-list"></div>
+        </section>
+      </section>
+
+      <!-- ══════════════ STUDY GUIDES ══════════════ -->
+      <section id="view-guides" hidden>
+        <section class="view-hero">
+          <p class="eyebrow">STUDY GUIDES · BUILT FROM YOUR CAPTURES</p>
+          <h1>Seven subjects.<br><em>Grounded in evidence.</em></h1>
+          <p class="welcome-note">
+            Each guide is assembled from the 76-source NotebookLM capture set — every claim traces to a hashed
+            capture file (verified by the test suite). Exam dates and paper links come straight from your
+            timetable and the verified source registry. Below the guides, the workroom holds every captured
+            paper &amp; memo — attempt first, then reveal the answer. No syllabus is invented where captures are empty.
+          </p>
+        </section>
+
+        <section class="panel view-panel" aria-labelledby="guides-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">EXAM-ALIGNED REVISION</p>
+              <h2 id="guides-title">Your subject guides</h2>
+            </div>
+            <span class="small-count">NC(V) LEVEL 2</span>
+          </div>
+          <p class="library-status" id="guides-status">Loading guides…</p>
+          <div class="library-search-wrap">
+            <label class="sr-only" for="guides-search">Search study guides</label>
+            <input id="guides-search" type="search" placeholder="Search guides — try 'surds', 'half-cut', 'truth table'…" disabled>
+          </div>
+          <div class="guide-grid" id="guides-grid"></div>
+        </section>
+
+        <section class="panel view-panel" aria-labelledby="workroom-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">SOLVED PAPERS &amp; MEMORANDA WORKROOM</p>
+              <h2 id="workroom-title">Attempt first, then reveal</h2>
+            </div>
+            <span class="small-count" id="workroom-count">—</span>
+          </div>
+          <p class="library-status" id="workroom-status">Loading workroom…</p>
+          <div class="workroom-filters" id="workroom-filters" role="group" aria-label="Filter captured papers by subject"></div>
+          <div class="workroom-grid" id="workroom-grid"></div>
+        </section>
+      </section>
+
+      <dialog id="guide-dialog" class="guide-dialog" aria-label="Study guide reader"></dialog>
+      <dialog id="paper-dialog" class="paper-dialog" aria-label="Paper and memorandum reader"></dialog>
+
+      <footer class="page-footer">
+        <span>UMGUNGUNDLOVU TVET COLLEGE</span>
+        <span>YOUR NEXT STEP, MADE CLEAR <b>·</b> 2026</span>
+      </footer>
+    </main>
+  </body>
+</html>

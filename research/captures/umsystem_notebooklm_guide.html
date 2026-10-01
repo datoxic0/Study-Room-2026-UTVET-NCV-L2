@@ -1,0 +1,994 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WR9V5K73');</script>
+<!-- End Google Tag Manager --><script>
+  window.TdxGtmContext = {"User":{"Id":0,"UID":"00000000-0000-0000-0000-000000000000","UserName":"","FullName":"Public User","AlertEmail":"publicuser@noreply.com","Role":"Experience User","HasTDNext":false,"StandardApplicationNames":null,"TicketApplicationNames":[],"AssetApplicationNames":[],"ClientPortalApplicationNames":[],"Type":"Technician","Analytics":{"Title":null,"Organization":null}},"Partition":{"Id":3082,"Name":"University of Missouri System Production"},"BillableEntity":{"Id":2,"Name":"University of Missouri System","SalesForceIdentifier":"0013600000EM5F3AAL","GWMIID":"c9cc551e-72b1-4d82-8ae1-95c77aed4dcb"},"Environment":{"ShortName":"PRD"}};
+</script><script src="/TDPortal/Content/Scripts/jquery/2.2.4/jquery.min.js?v=20260925225324"></script><script src="/TDPortal/Content/Scripts/jquery-migrate/1.4.1/jquery-migrate.min.js?v=20260925225324"></script><script src="/TDPortal/Content/Scripts/jquery-ui/1.13.2/jquery-ui-1.13.2.custom.timepicker.min.js?v=20260925225646"></script><link href="/TDPortal/Content/Styles/jquery-ui/1.13.2/jquery-ui.compiled.min.css?v=20260925225648" rel="stylesheet" type="text/css"  /><link href="/TDPortal/Content/bootstrap/3.4.1/dist/css/bootstrap.min.css?v=20260925225326" rel="stylesheet" type="text/css" id="lnkBootstrapCSS" /><script src="/TDPortal/Content/bootstrap/3.4.1/dist/js/bootstrap.min.js?v=20260925225326"></script><link href="/TDPortal/Content/FontAwesome/css/fontawesome.min.css?v=20260925225322" rel="stylesheet" type="text/css" id="lnkFontAwesome" /><link href="/TDPortal/Content/FontAwesome/css/solid.css?v=20260925225322" rel="stylesheet" type="text/css"  /><link href="/TDPortal/Content/FontAwesome/css/regular.css?v=20260925225322" rel="stylesheet" type="text/css"  /><link href="/TDPortal/Content/FontAwesome/css/brands.css?v=20260925225322" rel="stylesheet" type="text/css"  /><link href="/TDPortal/Content/FontAwesome/css/v4-shims.css?v=20260925225322" rel="stylesheet" type="text/css"  /><link href="/TDClient/Styles/bootstrap_custom.min.css?v=20260925225648" rel="stylesheet" type="text/css"  /><link href="/TDClient/Styles/TDStyles.min.css?v=20260925225648" rel="stylesheet" type="text/css"  /><link href="https://tdx.umsystem.edu/TDPortal/BE/Style/2/TDClient/36?v=20260618182715" rel="stylesheet" type="text/css" /><link href="/TDClient/Styles/TDStyles-TDX12.min.css?v=20260925225648" rel="stylesheet" type="text/css"  /><script type='text/javascript'>window.isTDClient = true;</script><script src="/TDClient/Scripts/TDClientModals.min.js?v=20260925225640"></script><script src="/TDPortal/Content/Scripts/tdx/dist/TDJSFramework.compiled.min.js?v=20260925225646"></script><script src="/TDPortal/Content/Scripts/tdx/dist/modalFocusTrap.min.js?v=20260925225644"></script><script src="/TDPortal/Content/Scripts/underscore/1.12.1/underscore-min.js?v=20260925225326"></script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "DoIT Client Portal",
+  "url": "https://tdx.umsystem.edu/TDClient/36/DoIT",
+  "description": "Contact Name: Enterprise Service Management Team (Chris Bowden) \r\nContact Email Address: servicemanagement@missouri.edu\r\nOwning Group/Dept: Enterprise Service Management Team (ESM Support, and ESM Solution Developers)",
+  "sourceOrganization": {
+    "@type": "Organization",
+    "name": "University of Missouri System",
+    "url": "https://www.umsystem.edu/",
+    "logo": "logo-resized.jpg"
+  }
+}
+</script><script src="/TDClient/Scripts/clientOS.min.js?v=20260925225640"></script>
+<script src="/TDClient/Scripts/collapseMe.min.js?v=20260925225640"></script>
+<script src="/TDPortal/Content/Scripts/tdx/dist/tdsearchfilter.min.js?v=20260925225644"></script>
+<script src="/TDClient/Scripts/SiteSearch.min.js?v=20260925225640"></script>
+<script src="/TDPortal/Content/Scripts/tdx/dist/elasticsearchAutocomplete.min.js?v=20260925225644"></script>
+
+
+    
+    <script async src="//www.googletagmanager.com/gtag/js?id=G-57NEPVNZDB"></script>
+    <script>
+
+      $(function () {
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        // Be sure to set the proper cookie domain to the customer's full subdomain when sending the pageview hit.
+        gtag('config', 'G-57NEPVNZDB', { 'cookie_domain': 'tdx.umsystem.edu' });
+
+        });
+
+    </script>
+
+  
+
+  <script>
+
+      $(function () {
+        var masterUi = MasterUI({
+          isPostback: false,
+          baseUrl: '/TDClient/',
+          isTdGoogleAnalyticsEnabled: true,
+          isAuthenticated: false
+          });
+
+        $('#collapseMe').collapseMe({
+          toggleVisibilitySelector: '.navbar-toggle'
+        });
+
+        TeamDynamix.addRequiredFieldHelp();
+      });
+
+      // The sub-nav menu uses padding-top to position itself below the header bar and main navigation sections. When the
+      // window is resized, there is a chance that the content of these header or nav sections wraps, causing the height
+      // to change, potentially covering the sub-nav menu, which is obviously a big usability problem. This function
+      // listens for when the window size or orientation is changing (and also when the window first loads), and adjusts
+      // the padding so that the sub-nav menu appears in the correct location.
+      $(window).bind('load ready resize orientationchange', function () {
+        var headerHeight = $('#divMstrHeader').height();
+        $('#navShim').css({
+          "padding-top": headerHeight
+        });
+
+        $('#content').css({
+          "padding-top": headerHeight,
+          "margin-top": headerHeight * -1
+        });
+      });
+  </script>
+
+  
+  
+  
+  <script src="/TDPortal/Content/select2/v3/select2.min.js?v=20260925231212"></script><link href="/TDPortal/Content/select2/v3/select2.compiled.min.css?v=20260925231212" rel="stylesheet" type="text/css" id="lnkSelect2" />
+  <script src="/TDPortal/Content/Scripts/tdx/dist/attachmentHandler.min.js?v=20260925225644"></script>
+
+  <style type="text/css">
+    .honey-pot-div {
+      display: none;
+    }
+  </style>
+
+  <script>
+    
+
+    function shareArticle() {
+      if ($('#ctl00_ctl00_cpContent_cpContent_shareRecipients').val().trim() === "") {
+        alert('You must first enter a valid email.');
+        $('#btnShare').progressButton('reset');
+      }
+      else {
+        __doPostBack('ctl00$ctl00$cpContent$cpContent$btnSendShare', '');
+      }
+    }
+
+    function closeShareModal() {
+      $('#divShareModal').modal('hide');
+      $('#btnShare').progressButton('reset');
+    }
+
+    function toggleFeedback(isHelpful) {
+      // Firefox restores form field values across page reloads, so clear any prior value before showing the textarea.
+      $('#ctl00_ctl00_cpContent_cpContent_txtComments').val('');
+      $('#divHelpfulComments').show();
+      $('#divHelpfulYesNo').hide();
+      $('#ctl00_ctl00_cpContent_cpContent_hdnIsHelpful').val(isHelpful);
+      $('#ctl00_ctl00_cpContent_cpContent_txtComments').focus();
+    }
+
+    function toggleFeedbackResult() {
+      $('#divWasHelpful, #divFeedbackRecorded, #divHelpfulComments, #divHelpfulYesNo').toggle();
+    }
+
+    // The following two functions were added as a result of ticket ID: 1392522. We are generating these buttons dynamically to
+    // prevent bots from clicking them and posting feedback on an article. Additionally, we have an input that is hidden from
+    // the user. If a bot enters text in that input, which it likely will (bots love filling out forms), then we don't accept the
+    // form submission
+    function generateFeedbackButtons() {
+      var $btnHelpfulYes = $('<button id="btnHelpfulYes" type="button" class="btn btn-primary gutter-left" onclick="toggleFeedback(1);">Yes</button>');
+      var $btnHelpfulNo = $('<button id="btnHelpfulNo" type="button" class="btn btn-primary gutter-left-sm" onclick="toggleFeedback(0);">No</button>');
+
+      $('#divWasHelpful').append($btnHelpfulYes);
+      $('#divWasHelpful').append($btnHelpfulNo);
+    }
+    function attemptAddFeedback(e) {
+      if ($('#honeyPot').val() !== '') {
+        e.preventDefault();
+        window.location.reload();
+      }
+    }
+
+    function cancelFeedback() {
+      $('#ctl00_ctl00_cpContent_cpContent_txtComments').val('');
+      $('#divHelpfulComments, #divHelpfulYesNo').toggle();
+    }
+
+    function confirmDeleteFeedback(id) {
+      if (confirm('Are you sure you want to delete this feedback? This cannot be undone.')) {
+        $('#ctl00_ctl00_cpContent_cpContent_hdnFeedbackID').val(id);
+        __doPostBack('ctl00$ctl00$cpContent$cpContent$btnDeleteFeedback', '');
+      }
+    }
+
+    function toggleAddressed(id, isAddressed) {
+      $('#ctl00_ctl00_cpContent_cpContent_hdnFeedbackID').val(id);
+      $('#ctl00_ctl00_cpContent_cpContent_hdnIsAddressed').val(isAddressed);
+      __doPostBack('ctl00$ctl00$cpContent$cpContent$btnToggleAddressed', '');
+    }
+
+    $(function () {
+      
+
+      generateFeedbackButtons();
+      $('[data-toggle="popover"]').popover();
+
+      var attachmentHandler = new TeamDynamix.AttachmentHandler({
+        containerSelector: '.js-article-attachments',
+        resultLabelSelector: '#ctl00_ctl00_cpContent_cpContent_lblResults_lblResults-label',
+        baseControllerUrl: '/TDClient/36/DoIT/Shared/Attachments',
+        antiForgeryToken: 'cGKNl1kYC2xU3I7J1aKoilJuggVCInSr8SC68Zle_8yJYbAZXlEk2y3__cWGxIjQUfmHqw7kBtrfAvqU88JAwv979x81:XlwtDkoxAX6QLhi7ewBRHDg1mMLyJaR1fhbj2ivAfJyCq7p9xTj9R8NBpxvC-aut3Azd7QAkesWITOBDnxTf_6Aui0s1',
+        itemId: 2138,
+        componentId: 26,
+        feedId: 'articleFeed',
+        readOnly: false
+      });
+
+      $('#btnShare').on('click', function () {
+        shareArticle();
+      });
+
+      // Don't try and update the table styles if the user wanted to opt out.
+      $('#ctl00_ctl00_cpContent_cpContent_divBody table:not(.SkipTableFixup)').each(function () {
+        var padding = $(this).attr('cellpadding');
+        var spacing = $(this).attr('cellspacing');
+
+        $(this).css("border-collapse", "separate");
+
+        if (spacing) {
+          $(this).css("border-spacing", spacing + "px");
+        }
+
+        $(this).find('td').each(function () { $(this).css('padding', padding + 'px') });
+      });
+
+      
+    });
+
+    
+  </script>
+
+
+
+<meta property="og:title" content="Google NotebookLM – Access and Usage Guide" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tdx.umsystem.edu/TDClient/36/DoIT/KB/Article/2138/Google-NotebookLM-Access-and-Usage-Guide" />
+<meta property="og:image" content="https://tdx.umsystem.edu/TDPortal/BE/Logo/2/36" />
+<meta property="og:description" content="The document outlines how University of Missouri System (UM System) users can access and use Google NotebookLM, an AI-powered research and note-taking tool. It describes how to log in to NotebookLM with University credentials, highlights key features (such as summarizing documents and interactive..." />
+  <meta property="og:site_name" content="University of Missouri System - Knowledge Base" />
+  <meta property="article:section" content="Software" />
+  <meta property="article:published_time" content="2026-02-23T21:17Z" />
+  <meta property="article:modified_time" content="2026-02-24T14:24Z" />
+    <meta property="article:tag" content="software" />
+    <meta property="article:tag" content="google" />
+    <meta property="article:tag" content="ai" /><title>
+	Article - Google NotebookLM – Access ...
+</title></head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR9V5K73"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<form method="post" action="/TDClient/36/DoIT/KB/Article/2138/Google-NotebookLM-Access-and-Usage-Guide" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/TDClient/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZMSMQxVWLi4fik2rw1_u_hZsCNzwv5c621ov6_ZX_wzTt5vh-g2&amp;t=639190689332169432" type="text/javascript"></script>
+
+
+<script src="/TDClient/ScriptResource.axd?d=1HpV3OVB0CaEXoaafcqmhhToA3UYAg0n5GkD1fLwN7In4apCXsFgpAsBvHJXX45hdMlrpL_urTZ0bx6NohJyhoH0s8X6v--4J5KUQ_G2TrTp9yzfnRAWP48IVw6PV7qBCgbSww2&amp;t=ffffffffa5405632" type="text/javascript"></script>
+<script src="/TDClient/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yArHVu97Uhbr7lONLdlK8nM4hDm6eoCZL2ERm6CtQHpj0CFhj4gKB63PbU5MchdrYzCrvWcqKHfZ22AL6w6WAtiv7CEAlAymwJmkI1Qtw0TEMJ-slq_CRHIG4Ui-Rx1fciBsC1g1&amp;t=ffffffffbec1863d" type="text/javascript"></script>
+<script src="/TDClient/ScriptResource.axd?d=Jw6tUGWnA15YEa3ai3FadFjGkzgoY6ZU4-ppjgDJsxnkOcw7mw7zcSvXUEE0Hk6CWSjHJumr1Wxw2cK1DVvIf1SlrE0DUJ8tMy2Ow7bc52aomV451Lt2SegKlk2pQmP0mPHiEM23PvgSWdLcKSm6ZD3lLyI1&amp;t=ffffffffbec1863d" type="text/javascript"></script>
+<script src="/TDClient/WebResource.axd?d=xtfVMqdF1exC2MBVkOJwMveStDR5kg3dbZWgIXMXZmB1xXom6CcIrWFgHa7jsp4qJuFW2L5XShudyzlBsIO3JhCfiU5HmL2BDz__mCv9dznmBlEMS7LvcYg6wTdPTrAXIXI2CvtjwlnpZd-j4Zpsx2wG_uA1&amp;t=639259596020000000" type="text/javascript"></script>
+<script src="/TDClient/WebResource.axd?d=sp7vCoAo-SSYfpsQ1sYBBeEDnwCGxDYEwZCM0ler88yoVZIPDXMk1C3XF2L2L0xrbB8Rvhli51TswRlmPIOCZgaY58lKhPr-Pv1jTFJ1oUAu7x6RDtNFZUxbtxs3KYQGLK6FpPD5bKuB0e0NmS9HkAqRVks1&amp;t=639259596020000000" type="text/javascript"></script>
+<script src="/TDClient/WebResource.axd?d=icMURy63hv40LPPfq4rTvmm-RfB_YkC6rEEF_2QOO68q3TseXYNBetRKKgBXJ8mn2e8UIgCPiV23HaQUZbjySMHqSgmYZgLcYltBqwD2_EK8aQ08zBuqc3ZBVZITQrbtn6w46dRxFLibMIQg0Aho73rn8Rpxrzg5YMG_JR0UOrUR0wlZ0&amp;t=639259596020000000" type="text/javascript"></script>
+<script src="/TDClient/WebResource.axd?d=1HpFfNpwNihNfEP1lyJHvdPVqbv8KRoFH4-_ZORUgPOP-bqmmtIJRvFQc7828Vf59O_-fdBXcnwdv-hYp5RptPuHmMR0kGQM0_3rS4Z7sKfC7jy9Cc_8fyfcUWa8psszacEQlAXHPXmNwyRymbGSywEmhrE1&amp;t=639259596020000000" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+CKEditor_TextBoxEncode('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody', 0); if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="784CA02E" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$smMain', 'aspnetForm', ['tctl00$ctl00$cpContent$cpContent$UpdatePanel1','','tctl00$ctl00$cpContent$cpContent$upFeedbackGrid','','tctl00$ctl00$cpContent$cpContent$lblResults$ctl00',''], ['ctl00$ctl00$cpContent$cpContent$btnSubmitComments','','ctl00$ctl00$cpContent$cpContent$btnToggleSubscribe','','ctl00$ctl00$cpContent$cpContent$btnToggleFavorite','','ctl00$ctl00$cpContent$cpContent$btnSendShare',''], [], 90, 'ctl00$ctl00');
+//]]>
+</script>
+
+<div id="ctl00_ctl00_upMain" style="display:none;">
+	
+    <div id="ctl00_ctl00_pbMain" class="progress-box-container"><div class="progress-box-body"><div class="well shadow"><h2 class="h4 gutter-top-none">Updating...</h2><div class="progress" style="margin-bottom: 0;"><div class="progress-bar progress-bar-striped active" role="progressbar" aria-label="Updating..." aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></div></div></div>
+  
+</div>
+
+<header id="ctl00_ctl00_navHeader" role="banner">
+
+  <div id="divMstrHeader" class="master-header NoPrint" style="background-color: #fff;">
+
+  <span style="font-size: 36px"><span style="font-family: Helvetica"><strong><span style="background-color: #FFA500"></span></strong><span style="font-size: 36px"><span style="font-family: Helvetica"><span style="font-size: 36px"><span style="font-family: Helvetica"><strong></strong></span></span></span></span><span style="font-size: 36px"><span style="font-family: Helvetica"></span></span></span></span>
+  
+
+  <div class="logo-header-full hidden-xs">
+
+    
+    <div class="pull-left">
+      <a href="#mainContent" class="sr-only sr-only-focusable skip-nav-link">Skip to main content</a>
+    </div>
+
+
+    <div id="ctl00_ctl00_divPageHeader" class="container logo-header clearfix" style="padding: 5px;">
+
+      <div id="divLogo" class="pull-left logo-container">
+
+        <a href="https://www.umsystem.edu/"
+           target="_blank">
+          <img src="/TDPortal/BE/Logo/2/36" alt="Division of Information Technology Logo Yellow and White on Black" class="js-logo img-responsive" />
+          <span class="sr-only">(opens in a new tab)</span>
+        </a>
+
+      </div>
+
+      <div class="master-header-right pull-right padding-top padding-bottom">
+
+        
+
+          <div class="pull-left topLevelSearch input-group">
+            <div id="SiteSearch-1f4a12e52d524d4981ba8ab30fd1f176" class="input-group site-search" style="max-width: 400px;">
+  <div id="SiteSearch-dropdown-1f4a12e52d524d4981ba8ab30fd1f176" class="input-group-btn">
+    <button type="button" id="SiteSearch-filter-1f4a12e52d524d4981ba8ab30fd1f176" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" title="Filter your search by category" data-component="all">
+      <span class="fa-solid fa-solid fa-earth-americas"></span><span class="fa-solid fa-fw fa-nopad fa-caret-down" aria-hidden="true"></span>
+      <span class="sr-only">
+        Filter your search by category. Current category:
+        <span class="js-current-component">All</span>
+      </span>
+    </button>
+    <ul tabindex="-1" aria-label="Filter your search by category" role="menu" class="dropdown-menu" >
+      <li>
+        <a role="menuitem" href="javascript:void(0);" data-component-text="All" data-component="all" data-component-icon="fa-solid fa-earth-americas" title="Search all areas">
+          <span class="fa-solid fa-fw fa-nopad fa-earth-americas" aria-hidden="true"></span>
+          All
+        </a>
+      </li>
+
+      <li aria-hidden="true" class="divider"></li>
+
+        <li role="presentation">
+          <a role="menuitem" href="javascript:void(0);" data-component-text="Knowledge Base" data-component="kb" data-component-icon="fa-lightbulb" title="Search Knowledge Base">
+            <span class="fa-regular fa-fw fa-nopad fa-lightbulb" aria-hidden="true"></span>
+            Knowledge Base
+          </a>
+        </li>
+
+        <li role="presentation">
+          <a role="menuitem" href="javascript:void(0);" data-component-text="Service Catalog" data-component="sc" data-component-icon="fa-compass" title="Search Service Catalog">
+            <span class="fa-solid fa-fw fa-nopad fa-compass" aria-hidden="true"></span>
+            Service Catalog
+          </a>
+        </li>
+
+    </ul>
+  </div>
+
+  <label class="sr-only" for="SiteSearch-text-1f4a12e52d524d4981ba8ab30fd1f176">Search the client portal</label>
+
+  <input id="SiteSearch-text-1f4a12e52d524d4981ba8ab30fd1f176" type="text" class="form-control" autocomplete="off" placeholder="Search the client portal" title="To search for items with a specific tag, enter the # symbol followed by the name of the tag.
+To search for items using exact match, place double quotes around your text." />
+
+  <span class="input-group-btn">
+    <button id="SiteSearch-button-1f4a12e52d524d4981ba8ab30fd1f176" class="btn btn-default" type="button" title="Search">
+      <span class="fa-solid fa-fw fa-nopad fa-search blue" aria-hidden="true"></span>
+      <span class="sr-only">Search</span>
+    </button>
+  </span>
+</div>
+
+<script>
+  $(function() {
+    var siteSearch = new TeamDynamix.SiteSearch({
+      searchUrl: "/TDClient/36/DoIT/Shared/Search",
+      autocompleteSearchUrl: '/TDClient/36/DoIT/Shared/AutocompleteSearch',
+      autocompleteResultsPosition: 'fixed',
+      autocompleteResultsZIndex: 1000,
+      searchTextBoxSelector: '#SiteSearch-text-1f4a12e52d524d4981ba8ab30fd1f176',
+      searchComponentFilterButtonSelector: '#SiteSearch-filter-1f4a12e52d524d4981ba8ab30fd1f176',
+      searchButtonSelector: '#SiteSearch-button-1f4a12e52d524d4981ba8ab30fd1f176',
+      searchFilterDropdownSelector: '#SiteSearch-dropdown-1f4a12e52d524d4981ba8ab30fd1f176',
+      showKnowledgeBaseOption: true,
+      showServicesOption: true,
+      showForumsOption: false,
+      autoFocusSearch: false
+    });
+  });
+</script>
+          </div>
+
+        
+          <div title="Sign In" class="pull-right gutter-top-sm">
+            <a href="/TDClient/36/DoIT/Login.aspx?ReturnUrl=%2fTDClient%2f36%2fDoIT%2fKB%2fArticle%2f2138%2fGoogle-NotebookLM-Access-and-Usage-Guide">
+              Sign In
+            </a>
+          </div>
+        
+      </div>
+
+    </div>
+
+  </div>
+
+  <nav id="ctl00_ctl00_mainNav" class="navbar navbar-default themed tdbar" aria-label="Primary">
+    <div id="navContainer" class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="pull-left navbar-toggle collapsed themed tdbar-button-anchored tdbar-toggle gutter-left" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="tdbar-button-anchored icon-bar"></span>
+          <span class="tdbar-button-anchored icon-bar"></span>
+          <span class="tdbar-button-anchored icon-bar"></span>
+          <span class="sr-only">Show Applications Menu</span>
+        </button>
+        <a class="navbar-brand hidden-sm hidden-md hidden-lg themed tdbar-button-anchored truncate-be" href="#">
+
+          DoIT Client Portal
+        </a>
+      </div>
+
+      <div id="td-navbar-collapse" class="collapse navbar-collapse">
+
+        <ul class="nav navbar-nav nav-collapsing" id="collapseMe">
+
+          
+            <li class="themed tdbar-button-anchored hidden-sm hidden-md hidden-lg">
+              <a href="/TDClient/36/DoIT/Login.aspx?ReturnUrl=%2fTDClient%2f36%2fDoIT%2fKB%2fArticle%2f2138%2fGoogle-NotebookLM-Access-and-Usage-Guide">Sign In</a>
+            </li>
+          
+            <li id="divSearch" class="themed tdbar-button-anchored hidden-sm hidden-md hidden-lg">
+              <a href="/TDClient/36/DoIT/Shared/Search" title="search">Search</a>
+            </li>
+          
+              <li id="divDesktop7500a773-2a8f-4376-a43e-4dbc4ce666fb" class="themed tdbar-button-anchored">
+                <a href="/TDClient/36/DoIT/3862/Home-1">Home</a>
+              </li>
+            
+              <li id="divDesktopad1525d2-d9fc-4518-919d-832271c5bd73" class="themed tdbar-button-anchored">
+                <a href="/TDClient/36/DoIT/3864/New-Students">New Students</a>
+              </li>
+            
+
+          
+            <li id="divTDRequests" class="themed tdbar-button-anchored sr-focusable">
+              <a href="/TDClient/36/DoIT/Requests/ServiceCatalog">Services</a>
+            </li>
+          
+            <li id="divTDKnowledgeBase" class="themed tdbar-button-anchored sr-focusable">
+              <a href="/TDClient/36/DoIT/KB/">Knowledge Base</a>
+            </li>
+          
+
+          <li class="themed tdbar-button-anchored hidden-xs more-items-button" id="moreMenu">
+            <a data-toggle="dropdown" title="More Applications" href="javascript:;">
+              <span class="sr-only">More Applications</span>
+              <span class="fa-solid fa-ellipsis-h" aria-hidden="true"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right themed tdbar" id="collapsed"></ul>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+  </nav>
+
+  </div>
+
+  </header>
+
+
+
+<script>
+(function() {
+  var header = document.getElementById('divMstrHeader');
+  if (header) {
+    var h = header.offsetHeight;
+    var style = document.createElement('style');
+    style.textContent = '#navShim{padding-top:' + h + 'px}#content{padding-top:' + h + 'px;margin-top:-' + h + 'px}';
+    document.head.appendChild(style);
+  }
+})();
+</script>
+<div id="navShim" class="hidden-xs hidden-sm"></div>
+<main role="main">
+  <div id="content">
+    <div id="mainContent" tabindex="-1"></div>
+    
+
+  <nav id="ctl00_ctl00_cpContent_divTabHeader" class="tdbar-sub NoPrint hidden-xs navbar-subnav" aria-label="Knowledge Base">
+      <a href="#kbContent" class="sr-only sr-only-focusable">Skip to Knowledge Base content</a>
+      <div class="container clearfix">
+        <ul class="nav navbar-nav js-submenu" id="kbSubMenu" style="margin-left: -15px;">
+          
+          <li>
+            <a href="/TDClient/36/DoIT/KB/Search">Search <span class="sr-only">Articles</span></a>
+          </li>
+
+          
+          
+        </ul>
+      </div>
+    </nav>
+  
+
+  <div id="kbContent" class="container gutter-top gutter-bottom" tabindex="-1" style="outline:none;">
+    
+
+<input type="hidden" name="ctl00$ctl00$cpContent$cpContent$hdnFeedbackID" id="ctl00_ctl00_cpContent_cpContent_hdnFeedbackID" />
+<input type="hidden" name="ctl00$ctl00$cpContent$cpContent$hdnIsAddressed" id="ctl00_ctl00_cpContent_cpContent_hdnIsAddressed" />
+
+<span id="ctl00_ctl00_cpContent_cpContent_lblResults_ctl00" aria-live="polite" aria-atomic="true"><span id="ctl00_ctl00_cpContent_cpContent_lblResults_lblResults-label" class="red tdx-error-text"></span></span>
+
+<a id="ctl00_ctl00_cpContent_cpContent_btnSendShare" tabindex="-1" class="hidden" aria-hidden="true" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$cpContent$cpContent$btnSendShare&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Blank</a>
+
+<div class="clearfix">
+  <nav aria-label="Breadcrumb">
+    <ol class="breadcrumb pull-left">
+      <li><a href="/TDClient/36/DoIT/KB/">Knowledge Base</a></li><li class="active"><a href="/TDClient/36/DoIT/KB/Category/14/Software">Software</a></li><li class="active">Google NotebookLM – Access and Usage Guide</li>
+    </ol>
+  </nav>
+  <span class="js-open-monitor" style="display: none;"></span>
+</div>
+
+
+
+<div class="row gutter-top">
+
+<div id="divMainContent" class="col-md-8">
+
+<h1 class="gutter-top" style="-ms-word-wrap: break-word; word-wrap: break-word;">
+  Google NotebookLM – Access and Usage Guide
+</h1>
+
+<div id="ctl00_ctl00_cpContent_cpContent_divTags">
+  <span class="sr-only">Tags</span>
+  <span class="fa-solid fa-tags gray gutter-right-sm" aria-hidden="true" title="Tags"></span>
+  
+      <a href="/TDClient/36/DoIT/KB/Search?SearchText=%2523software" id="ctl00_ctl00_cpContent_cpContent_rptTags_ctl00_TagControl1_lnkDisplay" title="software">software</a>
+
+    
+      <span class="fa-solid fa-circle gray gutter-right-sm font-xs vert-middle" aria-hidden="true"></span>
+    
+      <a href="/TDClient/36/DoIT/KB/Search?SearchText=%2523google" id="ctl00_ctl00_cpContent_cpContent_rptTags_ctl02_TagControl1_lnkDisplay" title="google">google</a>
+
+    
+      <span class="fa-solid fa-circle gray gutter-right-sm font-xs vert-middle" aria-hidden="true"></span>
+    
+      <a href="/TDClient/36/DoIT/KB/Search?SearchText=%2523ai" id="ctl00_ctl00_cpContent_cpContent_rptTags_ctl04_TagControl1_lnkDisplay" title="ai">ai</a>
+
+    
+</div>
+
+
+
+<div id="ctl00_ctl00_cpContent_cpContent_divBody" class="gutter-top break-word ckeShim clearfix"><div style="background: #EEEEEE; border: 1px solid #CCCCCC; padding: 5px 10px"><span style="font-family: Helvetica"><span style="font-size: 16px"><strong>Overview</strong></span></span></div>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica">Google NotebookLM is an AI-powered research and note-taking tool from Google. It acts as a “research and thinking partner” by helping you organize and analyze complex documents through summaries, interactive Q&amp;A, and audio overviews. In essence, NotebookLM allows you to upload content (such as PDFs, Google Docs, slides, websites, or even YouTube videos) and then ask questions or request summaries based on that content. The tool uses Google’s advanced Gemini AI models to generate concise explanations, answer your questions about the material, and even create things like outlines or mind maps – all while providing citations and quotes from your sources to back up its answers. It can also produce an Audio Overview, giving you a spoken synopsis of your material for on-the-go review.</span></span></p>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica">At the University of Missouri, NotebookLM is available to all active faculty, staff, and students as a part of our Google Workspace for Education environment. There is no charge to use it – you simply log in with your University (SSO) credentials (see “Obtaining Access” below). NotebookLM can be a powerful productivity aid for academic and administrative use cases, such as studying course materials, conducting literature reviews, extracting insights from reports, or drafting summaries and presentations.</span></span></p>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica">Note: <em>Due to data security and privacy regulations, NotebookLM is not approved for use with any protected health or other highly sensitive personal information. In particular, MU Health Care (MUHC) workforce members and others who handle DCL-4 (highly restricted) data should not use Google NotebookLM for work purposes. Please refer to the Security Information section of this article for details on data classification and usage restrictions.</em></span></span></p>
+
+<div align="center">
+<hr align="center" size="2" width="100%"></div>
+
+<div style="background: #EEEEEE; border: 1px solid #CCCCCC; padding: 5px 10px"><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>1. Obtaining Access to Google NotebookLM (UMC Users)</strong></span></span></div>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica"><em>(UMKC, Missouri S&amp;T, and UMSL users should check with their campus IT departments for any campus-specific access details.)</em></span></span></p>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica">Unlike some other AI tools, Google NotebookLM does not require a special license purchase for UM System users – it is already enabled through our existing Google Workspace for Education agreement. All <strong>UM-Columbia (MU) faculty, staff, and students</strong> are eligible to use NotebookLM. To get started, you simply need to log in with your university-provided Google Workspace account.</span></span></p>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Step 1: Access the NotebookLM Login Page</strong> – Open a web browser and go to the <strong>NotebookLM sign-in page</strong>: <a href="https://notebooklm.google.com" target="_blank">https://notebooklm.google.com</a>&nbsp;</span></span></p>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Step 2: Sign in with University Credentials</strong> – You will be prompted to sign in with a Google account. Enter your <strong>University email address</strong> (your username followed by “@umsystem.edu”). This will redirect you to the UM System login page. <strong>Sign in with your usual University username and password</strong>. If you are already signed into another UM System service, the sign-in may happen automatically.</span></span></p>
+
+<ul>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><em>Tip:</em> If you are already logged into a personal Google/Gmail account in your browser, you may need to <strong>switch accounts</strong> or use a private/incognito window to log in with your UM credentials. In the Google sign-in interface, you can click “Use another account” and then enter your &lt;username&gt;@umsystem.edu email to initiate University SSO login.</span></span></li>
+</ul>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Step 3: Accept Terms (first login only)</strong> – The first time you access NotebookLM, you might be asked to accept Google’s terms of service or an invitation to join the UM System’s Google Workspace. Follow the prompts to proceed. (Using NotebookLM is governed by the standard <a href="https://policies.google.com/terms" target="_blank">Google Terms of Service</a> and our institutional policies.)</span></span></p>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Step 4: Complete Sign-In</strong> – After authenticating, you should be directed into the NotebookLM web application. You’ll know you are in the right place when you see the NotebookLM interface (which typically has a sidebar for your “notebooks” and a welcome message or tutorial for new users). From here, you can begin using NotebookLM’s features.</span></span></p>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica"><em>Once this initial setup is done, your account has access. In the future, you can simply visit the <a href="https://notebooklm.google.com" target="_blank">NotebookLM site</a> and log in with your UM credentials at any time — no additional requests or setup required.</em></span></span></p>
+
+<div align="center">
+<hr align="center" size="2" width="100%"></div>
+
+<div style="background: #EEEEEE; border: 1px solid #CCCCCC; padding: 5px 10px"><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>2. Accessing Google NotebookLM</strong></span></span></div>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica">After you’ve obtained access, using NotebookLM is straightforward:</span></span></p>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Platform Availability:</strong> NotebookLM is a web-based application, so no software installation is needed. It can be accessed on any modern web browser on Windows, macOS, or Linux systems. (There is also a mobile app available for phones/tablets – see Google’s documentation for details – but here we focus on the web version.)</span></span></p>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Finding the App:</strong> You can reach NotebookLM by going to the web URL (noted above) or by clicking the “Apps” (Google Workspace App Launcher) icon when logged into your UM Google account – NotebookLM may appear in the list of available Google apps. If you don’t see it in the app launcher, just navigate directly to the site. Consider bookmarking the NotebookLM webpage for quick access.</span></span></p>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Sign-In Reminders:</strong> Always use your <strong>UM System account</strong> to log in. If prompted to choose an account, select your UM credentials (or enter your SSO email and password). If you unintentionally sign in with a personal Google account, you won’t have access to the enterprise NotebookLM service. Make sure you sign out and sign in with your UM account if this happens.&nbsp;</span></span></p>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Troubleshooting Tips:</strong></span></span></p>
+
+<ul>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Login Issues:</strong> If you cannot log in or receive an “unauthorized”/“access denied” message, double-check that you are using the correct UM System username and password. Remember to include the “@umsystem.edu” part of your email when logging into Google. If you have recently changed your University password, you may need to update saved credentials in your browser.</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Account not found:</strong> If the NotebookLM site says it cannot find your account or you don’t have access, it might indicate that your account is not included in our Google Workspace. Most current faculty, staff, and students should be in the system. However, <strong>MU Health Care and other highly sensitive accounts are excluded by policy</strong> (see <strong>Security Information</strong> below). If you believe you should have access but don’t, contact the Help Desk for assistance.</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Browser Issues:</strong> If you encounter a blank screen or errors while loading NotebookLM, try clearing your browser cache or using a different browser. Also, ensure you are running an up-to-date version of the browser. Google Chrome is recommended for the best compatibility.</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Service Unavailable:</strong> As with any cloud service, there may be rare outages. You can check Google’s Workspace Status Dashboard to see if NotebookLM (sometimes listed under “Gemini” or “Labs”) is experiencing downtime. If an outage is reported, you may need to try again later.</span></span></li>
+</ul>
+
+<div align="center">
+<hr align="center" size="2" width="100%"></div>
+
+<div style="background: #EEEEEE; border: 1px solid #CCCCCC; padding: 5px 10px"><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>3. Using Google NotebookLM</strong></span></span></div>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica">Once you’re logged into Google NotebookLM, you can create “<strong>notebooks</strong>” and leverage the tool’s features to help with studying, research, or other productivity tasks. At a high level, using NotebookLM involves adding source materials to a notebook and then interacting with the AI through a chat interface to ask questions or generate content based on those materials. Here are some tips and examples to help you use NotebookLM effectively:</span></span></p>
+
+<ul>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Create a Notebook &amp; Add Sources:</strong> Start by creating a new notebook for your project or topic. Within NotebookLM, click on “New Notebook” (if it’s your first time, a default notebook may already be created for you). Give it a name related to your topic (for example, “BIOCHEM 4301 Research”). Next, add sources to your notebook: you can upload PDFs, import Google Docs or Slides from your Drive, paste URLs to webpages, or even add YouTube video links. Each notebook can hold multiple sources (documents, articles, etc.), allowing NotebookLM to draw information from all of them collectively. For instance, you might add several journal article PDFs and a Google Doc of your notes to one notebook.</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Ask Questions &amp; Get Summaries:</strong> Once your sources are added, use the chat panel to query the AI about them. You can type questions in natural language – NotebookLM will generate answers based on the content of your added sources. For example:</span></span>
+	<ul>
+		<li><span style="font-size: 16px"><span style="font-family: Helvetica"><em>“Summarize the main findings of Report.pdf.”</em> (NotebookLM will read the file and produce a summary of key points.)</span></span></li>
+		<li><span style="font-size: 16px"><span style="font-family: Helvetica"><em>“What are the prevailing themes across all these articles?”</em> (NotebookLM will synthesize information spanning multiple documents.)</span></span></li>
+		<li><span style="font-size: 16px"><span style="font-family: Helvetica"><em>“Define the concept of X as explained in these papers.”</em> (NotebookLM will provide a definition or explanation drawn from your sources.)</span></span></li>
+	</ul>
+	</li>
+</ul>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica">The responses will typically include citations – you can click on a cited sentence to see which source (and section of the source) it came from. This helps you verify the answers and do further reading as needed. You can follow up with more questions to dig deeper or clarify the summary. NotebookLM maintains the context of the current notebook, so it “remembers” what content is in your sources during the chat session.</span></span></p>
+
+<ul>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Generate Notes, Outlines, or Presentations:</strong> NotebookLM can also help you create new content from your source materials:</span></span>
+
+	<ul>
+		<li><span style="font-size: 16px"><span style="font-family: Helvetica"><em>“Outline the key differences between Theory A and Theory B based on my notes.”</em> – The AI can produce a structured outline or list of bullet points comparing concepts, drawn from your uploaded sources.</span></span></li>
+		<li><span style="font-size: 16px"><span style="font-family: Helvetica"><em>“Draft an email to summarize these findings for my team.”</em> – The AI can compose a draft message (which you should refine before sending) that highlights the important insights from your research.</span></span></li>
+		<li><span style="font-size: 16px"><span style="font-family: Helvetica"><em>“Create a brief presentation outline (5 slides) about the Project XYZ findings.”</em> – NotebookLM can generate a slide-by-slide outline with suggested titles and bullet points, sourced from your materials. This can be a starting point for building a PowerPoint or Google Slides presentation.</span></span></li>
+	</ul>
+	</li>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Use Follow-up and Refinement:</strong> You can have an interactive dialogue with NotebookLM. After an initial response, feel free to ask follow-up questions or ask the AI to adjust its output. For example, <em>“Can you elaborate on the third point?”</em> or <em>“Rewrite this explanation in simpler language.”</em> The more specific you are with your requests, the better the results. You can even ask it to take on a perspective: <em>“Explain the concept to a beginner”</em> vs. <em>“Provide a detailed, technical explanation.”</em> This iterative approach helps in developing and refining your notes or understanding.</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Leverage Advanced Features:</strong> NotebookLM has a few special capabilities:</span></span>
+	<ul>
+		<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Mind Maps:</strong> You can ask NotebookLM to create a visual mind map of the concepts in your notebook. For instance, <em>“Generate a mind map of the topics covered in these sources.”</em> The AI will produce a structured outline or diagram of how key ideas relate (useful for visualizing relationships or studying for an exam).</span></span></li>
+		<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Audio Overviews:</strong> NotebookLM’s Audio Overview feature can give you a spoken summary of a document or a set of notes. This is like having the AI read a summary of your materials out loud. It’s handy if you want to listen to a summary while on the go. Look for the audio icon or command within a notebook to generate an audio overview (currently, the audio is available in English only).</span></span></li>
+		<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Public &amp; Shared Notebooks:</strong> You have the option to share a notebook with colleagues or even access <em>public notebooks</em> shared by others. This can facilitate collaboration – for example, a research team could share a notebook containing common sources, and all members can see and add content or pose questions. <em>(Be cautious to only share notebooks that do not contain confidential information.)</em></span></span></li>
+		<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>“Discover Sources” (Web Integration):</strong> NotebookLM can also help you find related information on the web. Using the “Discover sources” feature, you can have the AI suggest additional reference materials from online sources related to your topic. For example, <em>“Find relevant online articles about this topic and add them as sources.”</em><strong> Important:</strong> When using this feature, do <strong>not</strong> include any sensitive or personal data in your query, because it may be sent to Google’s search services (see Security Information below).</span></span></li>
+	</ul>
+	</li>
+</ul>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Review and Edit Outputs:</strong> Remember that <strong>AI-generated content is a draft</strong>. While NotebookLM excels at pulling together information from your sources, you are responsible for reviewing its output. Always double-check facts and ensure the final work is accurate and meets your needs. Use the cited sources to verify information. If something looks incorrect or unclear, try rephrasing your question or consult the original source material. By iteratively refining NotebookLM’s outputs and combining them with your own expertise, you can save time and improve the quality of your research or writing.</span></span></p>
+
+<div align="center">
+<hr align="center" size="2" width="100%"></div>
+
+<div style="background: #EEEEEE; border: 1px solid #CCCCCC; padding: 5px 10px"><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>For Additional Assistance</strong></span></span></div>
+
+<ul>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>NotebookLM Help Center (Google Support):</strong> Google provides a comprehensive help center for NotebookLM. Visit the <a href="https://support.google.com/notebooklm" target="_blank">NotebookLM Help page</a> for tutorials on creating notebooks, adding sources, using the chat features, and more. This is a great resource for learning about advanced features like mind maps, infographics, and the mobile app.</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Google Terms &amp; Privacy:</strong> Review Google’s documentation on how NotebookLM handles your data. According to Google, content you upload or ask about in NotebookLM is not used to train the public AI models, and it remains within our organization’s protected environment. For more details, you can refer to Google’s <a href="https://support.google.com/notebooklm/answer/15691362" target="_blank">NotebookLM Privacy and Terms</a> and the general <a href="https://policies.google.com/terms" target="_blank">Google Terms of Service</a>.</span></span></li>
+</ul>
+
+<div align="center">
+<hr align="center" size="2" width="100%"></div>
+
+<div style="background: #EEEEEE; border: 1px solid #CCCCCC; padding: 5px 10px"><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Security Information</strong></span></span></div>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica">Google NotebookLM is approved for use with <strong>University data classified as DCL</strong>-<strong>1 (Public)</strong>, <strong>DCL-2 (Sensitive)</strong>, or <strong>DCL-3 (Restricted)</strong>. <strong>It must not be used with any DCL-4 (Highly Restricted) data.</strong> This section outlines important security guidelines and restrictions for using NotebookLM in compliance with University policies:</span></span></p>
+
+<ul>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Prohibited Data (DCL-4):</strong> <em>Do not</em> upload, copy/paste, or ask NotebookLM about any data classified as DCL-4 (Highly Restricted). This includes, but is not limited to, Protected Health Information (PHI), individual social security numbers, credit card or banking information, confidential student records, personnel records, or any other regulated or extremely sensitive information. Even “de-identified” health or student data should not be used, unless you have obtained explicit certification from MUHC Information Security that the data is fully de-identified and approved for use. (If you believe you have a valid use case for using de-identified data, you must consult MUHC Information Security and submit a request for an exception before proceeding.)</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Prompt Content Caution:</strong> When you interact with NotebookLM, do not include any DCL-4 data in your questions or prompts. For example, do not ask questions that include a patient’s name, medical record number, or any sensitive personal identifiers. Anything you type into NotebookLM could be stored on Google’s servers, so it’s essential to only use information that is allowed by University data guidelines. If you wouldn’t email the content or upload it to a cloud service like Google Drive without restrictions, you shouldn’t share it with NotebookLM either.</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Enterprise Data Protection:</strong> NotebookLM is provided as a core service of our Google Workspace, which means Google treats its output and your inputs the same as other protected data in our domain. Your content is not used to train Google’s models, and remains within our organization’s secured environment. Nonetheless, standard data handling rules apply – for instance, do not use a personal Google account to process University data, and do not copy sensitive outputs from NotebookLM into systems that are not approved for that level of data.</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Web-Based Features:</strong> NotebookLM’s “Discover Sources” web integration can search the internet for related information to add to your notebook. Avoid using this feature with any sensitive query that includes protected data. While Google will not intentionally expose your data, using internet search inherently carries more risk of data leaving the secure environment. When in doubt, stick to manually curated sources that you trust, or consult IT security if you need to use web discovery features for work-related research.</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>New Features &amp; Third-Party Integrations:</strong> As NotebookLM evolves, Google may introduce new features (such as third-party app integrations or plugins). Do not enable or use any unapproved add-ons, connectors, or new features in conjunction with University data unless they have been reviewed and approved by UM or MUHC Information Security<strong>.</strong> If you’re unsure about a new feature, check University IT announcements or contact the security office for guidance before using it with sensitive information.</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: Helvetica"><strong>Accuracy and Appropriate Use:</strong> AI tools like NotebookLM can sometimes produce incorrect or misleading information (often called “AI hallucinations”). Use caution and critical thinking when acting on NotebookLM’s output. Cross-verify important answers with authoritative sources, especially before making decisions or sharing information. Employees should consult with their managers or data owners to ensure they are correctly interpreting and applying NotebookLM-generated content in their work. The tool is designed to assist and augment your work, not to replace human judgment.</span></span></li>
+</ul>
+
+<p><span style="font-size: 16px"><span style="font-family: Helvetica">Finally, remember that all usage of NotebookLM must comply with University policies, including data protection rules and the Acceptable Use Policy. By following the guidelines above, you can safely take advantage of Google NotebookLM’s capabilities to enhance your productivity and learning, while keeping University data secure.</span></span></p>
+
+<p>&nbsp;</p></div>
+
+<div id="ctl00_ctl00_cpContent_cpContent_divFeedback2" class="well gutter-top-lg">
+
+  <div class="row" id="divHelpfulYesNo">
+    <div class="col-sm-7">
+      
+        <div>
+          <a href="/TDClient/36/DoIT/Login.aspx?ReturnUrl=%2fTDClient%2f36%2fDoIT%2fKB%2fArticle%2f2138%2fGoogle-NotebookLM-Access-and-Usage-Guide">Sign in to leave feedback</a>
+        </div>
+      
+    </div>
+    <div class="col-sm-5 text-right">
+      <div id="ctl00_ctl00_cpContent_cpContent_UpdatePanel1" aria-live="polite" aria-atomic="true">
+	
+          0 reviews
+        
+</div>
+    </div>
+  </div>
+
+  </div>
+
+
+
+<div class="tab-content gutter-top gutter-bottom">
+  
+  <div id="ctl00_ctl00_cpContent_cpContent_upFeedbackGrid">
+	
+        <a id="ctl00_ctl00_cpContent_cpContent_btnToggleAddressed" tabindex="-1" class="hidden" aria-hidden="true" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$cpContent$cpContent$btnToggleAddressed&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Blank</a>
+        <a id="ctl00_ctl00_cpContent_cpContent_btnDeleteFeedback" tabindex="-1" class="hidden" aria-hidden="true" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$cpContent$cpContent$btnDeleteFeedback&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Blank</a>
+        
+      
+</div>
+    
+    
+
+    
+</div>
+</div>
+
+<div class="col-md-4">
+
+
+
+    <a id="ctl00_ctl00_cpContent_cpContent_btnToggleSubscribe" tabindex="-1" class="hidden" aria-hidden="true" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$cpContent$cpContent$btnToggleSubscribe&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Blank</a>
+
+<a id="ctl00_ctl00_cpContent_cpContent_btnToggleFavorite" tabindex="-1" class="hidden" aria-hidden="true" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$cpContent$cpContent$btnToggleFavorite&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Blank</a>
+
+<a class="DetailAction print-article" href="/TDClient/36/DoIT/KB/PrintArticle?ID=2138" rel="nofollow" target="_blank">  <span class="fa-solid fa-print fa-fw" aria-hidden="true"></span>
+Print Article</a>
+
+<div id="ctl00_ctl00_cpContent_cpContent_divKB" class="panel panel-default">
+
+  <div class="panel-heading">
+    <h2 class="h3 panel-title">Related Articles (4)</h2>
+  </div>
+
+  <div class="panel-body">
+    
+        <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl00_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://tdx.umsystem.edu/TDClient/36/DoIT/KB/Article/2128/ChatGPT-Security-Standard">ChatGPT Security Standard</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl00_ctlArticle_divSummary">
+    This knowledge base article summarizes approved use, licensing requirements, and information security expectations for ChatGPT use by MU Health Academic users.
+  </div>
+  
+</div>
+      
+        <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl01_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://tdx.umsystem.edu/TDClient/36/DoIT/KB/Article/2116/Microsoft-365-Copilot-Premium-Paid-Version-Access-and-Usage-Guide">Microsoft 365 Copilot Premium (Paid Version) – Access and Usage Guide</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl01_ctlArticle_divSummary">
+    The document outlines how University of Missouri System users can request, access, and use the paid version of Microsoft 365 Copilot, explaining where to find Copilot in Microsoft apps, basic troubleshooting steps, and example use cases across Word, Excel, Outlook, PowerPoint, and Teams.
+  </div>
+  
+</div>
+      
+        <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl02_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://tdx.umsystem.edu/TDClient/36/DoIT/KB/Article/2133/Microsoft-Teams-Premium-Access-and-Usage-Guide">Microsoft Teams Premium – Access and Usage Guide</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl02_ctlArticle_divSummary">
+    This document outlines how University of Missouri System users can request, access, and use Microsoft Teams Premium. It includes instructions for locating Teams Premium features in Microsoft Teams, troubleshooting access issues, and understanding appropriate use and security restrictions, especially for users handling sensitive data.
+  </div>
+  
+</div>
+      
+        <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl03_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://tdx.umsystem.edu/TDClient/36/DoIT/KB/Article/2127/Teams-Premium-Security-Standard">Teams Premium Security Standard</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl03_ctlArticle_divSummary">
+    This knowledge base article outlines security and compliance requirements for the use of Microsoft Teams Premium in health‑related academic and clinical environments.
+  </div>
+  
+</div>
+      
+  </div>
+
+</div>
+
+
+
+<div id="divAttachments" class="js-article-attachments"></div>
+
+</div>
+
+</div>
+
+<div id="ctl00_ctl00_cpContent_cpContent_divProgress" style="display: none; z-index: 60;">
+  <div id="ctl00_ctl00_cpContent_cpContent_pbMain" class="progress-box-container"><div class="progress-box-body"><div class="well shadow"><h2 class="h4 gutter-top-none">Deleting...</h2><div class="progress" style="margin-bottom: 0;"><div class="progress-bar progress-bar-striped active" role="progressbar" aria-label="Deleting..." aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></div></div></div>
+</div>
+
+
+
+  </div>
+
+
+  </div>
+</main>
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+setNavPosition('TDKnowledgeBase');window.CKEDITOR_BASEPATH = 'https://tdx.umsystem.edu/TDPortal/Content/ckeditor/';
+//]]>
+</script>
+<script src="https://tdx.umsystem.edu/TDPortal/Content/ckeditor/ckeditor.js?t=C6HH5UF" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var CKEditor_Controls=[],CKEditor_Init=[];function CKEditor_TextBoxEncode(d,e){var f;if(typeof CKEDITOR=='undefined'||typeof CKEDITOR.instances[d]=='undefined'){f=document.getElementById(d);if(f)f.value=f.value.replace(/</g,'&lt;').replace(/>/g,'&gt;');}else{var g=CKEDITOR.instances[d];if(e&&(typeof Page_BlockSubmit=='undefined'||!Page_BlockSubmit)){g.destroy();f=document.getElementById(d);if(f)f.style.visibility='hidden';}else g.updateElement();}};(function(){if(typeof CKEDITOR!='undefined'){var d=document.getElementById('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody');if(d)d.style.visibility='hidden';}var e=function(){var f=CKEditor_Controls,g=CKEditor_Init,h=window.pageLoad,i=function(){for(var j=f.length;j--;){var k=document.getElementById(f[j]);if(k&&k.value&&(k.value.indexOf('<')==-1||k.value.indexOf('>')==-1))k.value=k.value.replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');}if(typeof CKEDITOR!='undefined')for(var j=0;j<g.length;j++)g[j].call(this);};window.pageLoad=function(j,k){if(k.get_isPartialLoad())setTimeout(i,0);if(h&&typeof h=='function')h.call(this,j,k);};if(typeof Page_ClientValidate=='function'&&typeof CKEDITOR!='undefined')Page_ClientValidate=CKEDITOR.tools.override(Page_ClientValidate,function(j){return function(){for(var k in CKEDITOR.instances){if(document.getElementById(k))CKEDITOR.instances[k].updateElement();}return j.apply(this,arguments);};});setTimeout(i,0);};if(typeof Sys!='undefined'&&typeof Sys.Application!='undefined')Sys.Application.add_load(e);if(window.addEventListener)window.addEventListener('load',e,false);else if(window.attachEvent)window.attachEvent('onload',e);})();CKEditor_Controls.push('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody');
+CKEditor_Init.push(function(){if(typeof CKEDITOR.instances['ctl00_ctl00_cpContent_cpContent_shareBody_txtBody']!='undefined' || !document.getElementById('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody')) return;CKEDITOR.replace('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody',{"autoGrow_maxHeight" : 175, "autoGrow_minHeight" : 175, "contentsCss" : ['https://tdx.umsystem.edu/TDPortal/Content/ckeditor/contents.css', '/TDPortal/Content/FontAwesome/css/fontawesome.min.css', '/TDPortal/Content/FontAwesome/css/brands.min.css', '/TDPortal/Content/FontAwesome/css/regular.min.css', '/TDPortal/Content/FontAwesome/css/solid.min.css', '/TDPortal/Content/FontAwesome/css/v4-shims.min.css'], "height" : "175", "htmlEncodeOutput" : true, "image_previewText" : " ", "removePlugins" : "magicline,devtools,templates,elementspath,fontawesome,youtube,uploadimage,simpleimage,remoteimageblocker", "title" : "Message", "toolbar" : "TDSimple"}); });
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":null,"displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ctl00_upMain"));
+});
+//]]>
+</script>
+</form>
+
+
+
+
+
+  <footer role="contentinfo">
+
+    <div class="master-footer">
+      <div style="background-color: #000000">
+   <div class="container" style="display: block">
+      <div style="display: inline; margin: 0 auto">
+         <div style="float: left; vertical-align: middle; margin: 2px" align="left">
+            <a href="http://missouri.edu">
+               <img src="https://tdx.umsystem.edu/TDPortal/Images/Viewer?fileName=033051c7-092e-4d13-b9ab-b60a0d63d795.png&amp;beidInt=2" width="40px" alt="MU Logo Yellow MU Letters on Black Background">
+            </a>
+         </div>
+         <div style="vertical-align: middle; margin: 12px; line-height: 62px" align="left">
+            <a href="http://missouri.edu" style="color: #FFFFFF; outline: none; font-size: 200%; font-family: Graphik Cond Web">
+               University of Missouri
+            </a>
+         </div>
+      </div>
+      <div style="color: #FFFFFF; margin-left: 12px; font-size: 2.441em; font-family: Graphik Cond Web; font-weight: 600" align="left">Contact us
+      </div>
+      <div style="color: #FFFFFF; margin: 3rem 12px 12px" align="left">
+         <a href="mailto:techsupport@missouri.edu" style="color: #FFFFFF; outline: none; font-size: 1.2em">
+            <u>techsupport</u>@<u>missouri.edu</u>
+         </a>
+      </div>
+      <div style="color: #FFFFFF; margin: 2rem 12px 12px; font-size: 1.2em" align="left">
+         920 S. College Ave.
+         <br>
+         Columbia, MO 65211
+      </div>
+      <div style="color: #FFFFFF; margin: 12px; font-size: 1.2em" align="left">
+         <b>Phone:</b> 573-882-5000
+      </div>
+      
+<div style="color: #FFFFFF; margin: 4rem 12px; font-size: 0.9em; line-height: 25px; padding: 2rem 0; border-top: 1px solid #D79900; border-bottom: 1px solid #D79900; border-right-color: #D79900; border-left-color: #D79900">
+<p>MU is an <a href="https://www.umsystem.edu/ums/hr/eeo" style="color: #FFFFFF; font-weight: bold"><u>equal opportunity employer</u></a></p>
+      </div>
+
+      <div name="copyrightdiv" style="color: #FFFFFF; margin: 12px; font-size: 0.9em; line-height: 25px">
+
+      </div>
+   </div>
+</div>
+
+<div name="startingcopyrightyear" style="display: none">2025</div>
+<script src="https://tdxcommon-aqcca7cff7htgbc3.centralus-01.azurewebsites.net/scripts/copyright.js"></script>
+<script src="https://tdxcommon-aqcca7cff7htgbc3.centralus-01.azurewebsites.net/scripts/sandbox_background.js"></script>
+      
+    </div>
+
+  </footer>
+
+
+
+<script>
+
+    
+    
+
+      // Inject the Google Analytics isogram. This must happen here because it
+      // cannot be injected through an external javascript library.
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    
+
+      // Per Incident #6707155. Need to focus on img. pseudo-class :focus-within is not supported in IE
+      (function ($) {
+        var $anchor = $('#divLogo a');
+        var $beLogo = $('#divLogo a img');
+
+        $anchor.focus(function () {
+          $beLogo.addClass('accessibility-focus-on-logo');
+        }).blur(function () {
+          $beLogo.removeClass('accessibility-focus-on-logo');
+        });
+
+        
+        
+          const queryParams = new URLSearchParams(window.location.search);
+          let showChatbot = true;
+          if (queryParams.has('nobot')) {
+            const nobotFlag = queryParams.get('nobot');
+            if (nobotFlag === '1' || nobotFlag === 'true') {
+              showChatbot = false;
+            }
+          }
+
+          if(showChatbot) {
+            $.ajax({
+              url: "/TDClient/36/DoIT/Chatbots/GetScript",
+              type: "GET",
+              dataType: 'text',
+              success: function (data) {
+                
+                var jQueryAjaxSettingsCache = jQuery.ajaxSettings.cache;
+                jQuery.ajaxSettings.cache = true;
+                $(document.body).append(data);
+                jQuery.ajaxSettings.cache = jQueryAjaxSettingsCache;
+              }
+            });
+          }
+        
+
+        window.addEventListener("message", (event) => {
+
+          // Only accept events that come from the same origin
+          if (event.origin != window.location.origin) {
+            return;
+          }
+
+          switch (event.data.type) {
+
+            case "authenticate-using-popup":
+              handleAuthenticateUsingPopup(event.data.payload);
+              break;
+
+            case "authenticated-successfully":
+              handleAuthenticatedSuccessfully(event.data.payload);
+              break;
+
+            default:
+              break;
+          }
+
+        });
+
+        function handleAuthenticateUsingPopup(payload) {
+          let loginUrl = '/TDClient/36/DoIT/Login.aspx';
+
+          if (payload.successCallbackUrl) {
+            loginUrl += '?SuccessCallbackUrl=' + payload.successCallbackUrl;
+          }
+
+          window.open(loginUrl, "_blank", "popup=1");
+        }
+
+        function handleAuthenticatedSuccessfully() {
+          event.source.close();
+          window.location.href = window.location.href;
+        }
+    })(jQuery);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+﻿{
+    "name":  "studyroom-exam-guide",
+    "version":  "2.0.0",
+    "private":  true,
+    "type":  "module",
+    "description":  "Studyroom â€” enterprise-grade TVET NC(V) L2 exam-prep app: verified past-paper sources, notebook ingestion, tutor, focus timer.",
+    "scripts":  {
+                    "lint":  "node scripts/validate.mjs",
+                    "test":  "node --test \"tests/*.test.mjs\"",
+                    "check":  "node scripts/validate.mjs \u0026\u0026 node --test \"tests/*.test.mjs\"",
+                    "index-notebooks":  "node scripts/index_notebooks.mjs",
+                    "serve":  "python -m http.server 8080",
+                    "pull-notebooks":  "node scripts/pull_notebooks.mjs",
+                    "ingest-sources":  "node scripts/ingest_source_captures.mjs",
+                    "extract-papers":  "node scripts/extract_papers.mjs"
+                },
+    "engines":  {
+                    "node":  "\u003e=20"
+                }
+}

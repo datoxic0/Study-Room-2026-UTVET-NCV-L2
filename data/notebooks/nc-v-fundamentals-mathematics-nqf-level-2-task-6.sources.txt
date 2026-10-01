@@ -1,0 +1,20 @@
+# NC(V) Fundamentals Mathematics NQF Level 2 Task 6 - source capture
+
+Notebook: https://notebook.google.com/notebook/f791dbc6-2f12-4296-b879-3cc54aae9ae5
+Captured: 2026-09-30T21:01:47.896Z | walker: notebooklm-ingestion extension | sources: 1/1 | text chars: 0 | page images: 1 | summaries: 1
+Provenance: research/captures/notebooklm_sources/17_NC_V_Fundamentals_Mathematics_NQF_Level_2_Task_6_f791dbc6.json sha256 1E3C11F15F8D407B151CC6C48972279BDC1F1465F3073A695F4E734160BD7B3F
+
+## 1. MathsTask6(V1).pdf
+
+Type: pdf | text chars: 0 | page images: 1 | summary chars: 817
+
+### Summary
+
+This document is a formal **mathematics assessment** for the **National Certificate (Vocational)** at **NQF Level 2**, issued by the South African Department of Higher Education and Training. The test evaluates students on three core mathematical pillars: **analytical geometry** involving coordinate planes and transformations, **spatial measurement** focusing on the volume and surface area of geometric solids, and **right-angled trigonometry**. Students are provided with a comprehensive **formula sheet** to assist in solving problems that range from calculating gradients to determining trigonometric ratios and statistical values. Ultimately, this structured examination serves to verify a learner's **foundational competency** in practical and theoretical math within a controlled vocational academic setting.
+
+### Pages
+
+PDF rendered as 1 page image(s); source text is not exposed in the DOM.
+
+- https://lh3.googleusercontent.com/notebooklm/AKYWMX_3j7pHxjS8rHq_jM9l1W2xSWRM8ipB9hidMyfer7bjkxGp6AVsz0IQ3uxVsYbhJQVbW9URNnxX5lEarrI6O_u-T6K2GffOZm2HHINURI7FkmJF4ikz7p3-62ZAij9A_xihrFTq6w=w1003-h1410-v0?authuser=0
+

@@ -1,0 +1,46 @@
+# Electrotechnology NQF Level 2 November 2025 Examination Paper - Gemini Notebook
+
+Source: https://notebook.google.com/notebook/625ae2a2-3198-4f9e-b906-dbd9915ca3a9
+Fetched: 2026-09-30T17:58:05.568Z
+Auth: authenticated CDP session (Edge, debug port 9222)
+
+---
+
+link_2
+Shared
+add_2
+share_1
+more_vert
+settings
+PRO
+Sources
+Chat
+Studio
+landscape_2
+⚡
+Electrotechnology NQF Level 2 November 2025 Examination Paper
+1 source
+·
+23 Feb 2026
+
+This document presents an Electrotechnology NQF Level 2 examination paper administered by the South African Department of Higher Education and Training on November 21, 2025. The three-hour assessment is worth 100 marks and is designed to test vocational students on fundamental electrical principles, circuit diagrams, and mathematical calculations. It includes five main questions covering true-or-false statements, schematic symbols, electrical block diagrams, multiple-choice theory, and practical fault-finding scenarios. Additionally, the examination package provides a comprehensive formula sheet with thirty-one mathematical equations alongside an addendum for recording maintenance work reports.
+
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+How do electrical components and symbols differ in domestic installations?
+subdirectory_arrow_right
+What tools and safety procedures are essential for electrical maintenance?
+subdirectory_arrow_right
+Explain the core principles of Ohm's law and circuit calculations.
+subdirectory_arrow_right
+1 source
+arrow_upward
+Gemini Notebook can make mistakes, so double-check it.
+
+## Sources (1)
+
+- Electrotechnology NQF Level 2 - November 2025 - Y-Paper.pdf
+

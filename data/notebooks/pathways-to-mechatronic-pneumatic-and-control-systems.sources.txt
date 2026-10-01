@@ -1,0 +1,517 @@
+# Pathways to Mechatronic Pneumatic and Control Systems - source capture
+
+Notebook: https://notebook.google.com/notebook/213c22a8-b8cf-4bcf-8d06-491d43eae7b7
+Captured: 2026-09-30T21:01:37.992Z | walker: notebooklm-ingestion extension | sources: 3/3 | text chars: 26992 | page images: 0 | summaries: 3
+Provenance: research/captures/notebooklm_sources/03_Pathways_to_Mechatronic_Pneumatic_and_Control_Systems_213c22a8.json sha256 5F5FE6EE53DE3DCCAC0655A7A762D858E958B20A4DA215DE522F8EB4B2B9D8FA
+
+## 1. Advanced Mechatronics Study Guide: The Comprehensive Question 5 Master Series (Exam & Memorandum)
+
+Type: doc | text chars: 11727 | page images: 0 | summary chars: 813
+
+### Summary
+
+This study guide serves as a comprehensive manual for mechatronic technicians, focusing on the vital intersection of **systematic troubleshooting methodologies** and industrial maintenance. The text establishes a strong theoretical foundation by defining common diagnostic terminology before diving into practical fault-isolation strategies like the **Output-Input-Through method** and the **Half-cut method**. Furthermore, it addresses the unique operational challenges of both electrical control circuits and pneumatic systems, emphasizing the critical need for **contamination management and circuit protection**. Ultimately, the document aims to equip technicians with the essential skills required to **minimize costly downtime** and ensure the continuous, efficient operation of modern industrial equipment.
+
+### Text
+
+Tab 1
+Advanced Mechatronics Study Guide: The Comprehensive Question 5 Master Series (Exam & Memorandum)
+1. Strategic Overview of Mechatronic Troubleshooting
+In the modern industrial landscape, a technical system is designed to perform a usable function that creates monetary gain for the enterprise. The mechatronic technician plays a pivotal role in this ecosystem; they are the primary safeguard against the cessation of production. Effective troubleshooting is not merely a repair skill but a strategic necessity to ensure the smooth and continuous operation of systems, directly impacting the bottom line by minimizing downtime and maximizing efficiency. The following glossary defines the core linguistic framework required for professional diagnostics in the mechatronics field:
+Term
+	
+Definition (Source: Pathways to Mechatronic Systems )
+
+Disturbance
+	
+Includes an interruption in the execution of a defined task of an item under consideration.
+
+Fault
+	
+A condition where at least one component has failed and the operation of the system has stopped.
+
+Failure
+	
+A condition where the performance of a fixed task of an item under consideration totally fails because of an unknown cause.
+
+Function
+	
+Is determined by the activity, the effect, the purpose or the task of an item under consideration.
+
+Malfunction
+	
+Occurs if the function of a component has failed and does not perform as intended, or if the function is not performed at all.
+
+Symptom
+	
+Evidence that something is wrong within the system.
+
+Troubleshooting
+	
+The process of systematically isolating and eliminating faults.
+These definitions form the logical basis for the diagnostic methodologies—such as the Output-Input-Through and Half-cut methods—explored in the sections that follow.
+2. Section A: Electrical Control Circuits & Motor Diagnostics (Question Set 1)
+Maintaining motor control circuits requires a transition from a "commissioning" mindset (initial installation) to a "maintenance" mindset (fault isolation). While a circuit commissioned in 2017 may have been logically sound at installation, environmental wear and component fatigue now necessitate a structured diagnostic approach. The "Output-Input-Through" the circuit method is the industry standard for localized isolation because it allows the technician to trace the flow of energy systematically, identifying the exact point of interruption without unnecessary component replacement.
+Question Paper: Question Set 1
+5.1 What would be tested first using the recommended approach when the motor fails to start? (2)
+5.2 What should be done if the motor (M1) is found to have a supply voltage present? (2)
+5.3 What should be done if it is found that the motor does not have a supply present on its terminal but the amber run lamp (L2) is illuminated? (2)
+5.4 What should be done if there is no supply found on contact 4.4? (2)
+5.5 What should be done if there was a supply found on contact 4.4 and it has been established that there is continuity on the negative side of the motor (M1)? (2)
+5.6 Provide a structured verbal procedure (visualizing the drawing) for how a buzzer should be used on a dead circuit to check the continuity between contact 3.4 of CR1 and terminal X1 of lamp 2. (4)
+5.7 State SIX skills a mechatronic technician must possess to effectively troubleshoot a mechatronic system. (6)
+Marking Memorandum
+5.1: Test for the presence of supply voltage at the motor terminals (the Output). (2)
+5.2: Perform a continuity test on the motor windings to check for an open circuit or check for mechanical seizure of the motor shaft. (2)
+5.3: The fault is located in the wiring between the parallel branch point and the motor terminal. Since the lamp (L2) is on, supply is reaching the parallel branch; the interruption is specific to the motor leg. (2)
+5.4: Trace the circuit backward toward the power source to the previous logical test point or control component (e.g., the relay contact or fuse) to find the break in energy flow. (2)
+5.5: Inspect the physical wiring and connections between contact 4.4 and the motor positive terminal, as the fault must reside in this specific segment. (2)
+5.6 Visual Procedure:
+Step 1: Isolate the system from the main power supply and verify the circuit is "dead" using a voltmeter.
+Step 2: Set the Multimeter/Buzzer to the continuity (diode) setting.
+Step 3: Place one probe firmly onto contact 3.4 of the CR1 relay.
+Step 4: Place the second probe onto terminal X1 of Lamp 2.
+Observation: A continuous "beep" indicates the path is intact; silence indicates an open circuit/fault in the wire. (4)
+5.7: 1. Ability to read circuit diagrams and symbols. 2. Understanding how components function. 3. Understanding energy flow and system operation. 4. Knowledge of safety standards. 5. Understanding troubleshooting techniques. 6. Proficiency in using measuring equipment. (6)
+3. Section B: Pneumatic Fundamentals & Contamination Management (Question Set 2)
+Pneumatics is the study of gaseous pressure and flow used to transmit power. Compressed air is an abundant, fast-working medium, yet it is highly sensitive. "Preparation" remains the most significant disadvantage of these systems, as raw air must be treated for dirt and condensate to prevent system-wide malfunctions.
+Question Paper: Question Set 2
+5.1 Define air contamination. (2)
+5.2 Name TWO forms of contamination. (2)
+5.3 Name TWO problems resulting from contamination in an electro-pneumatic system. (2)
+5.4 Provide a step-by-step textual breakdown of an "Output-Input-Through" flow chart for an electro-pneumatic application. (10)
+5.5 Evaluate the efficiency of the "Half-cut method" in pneumatic troubleshooting. (4)
+Marking Memorandum
+5.1: The presence of unwanted foreign substances (dirt or moisture) within the compressed air supply. (2)
+5.2: 1. Dirt (Particulates). 2. Condensate (Water/Moisture). (2)
+5.3: 1. Malfunctioning of components. 2. Accelerated wear of mechanical parts. (2)
+5.4 Output-Input-Through Logic:
+Step 1: Assess the Output. Logic: If the cylinder fails to move, the fault is in the drive or control section.
+Step 2: Check Input to the Final Element. Logic: Check if air is reaching the cylinder ports. IF air is present, the cylinder (Output) is faulty.
+Step 3: Check the "Through" signal. Logic: IF no air is at the cylinder, check if the solenoid valve is shifting. IF the valve has a signal but won't shift, the valve is faulty.
+Step 4: Verify Supply. Logic: IF the valve has no air, check the Service Unit/FRL.
+Step 5: Conclusion. Isolate the specific failed component in the chain based on where the "flow" stops. (10)
+5.5: The Half-cut method is used to bisect a long serial chain. By checking the midpoint of a signal path (e.g., a terminal strip halfway between the PLC and a solenoid), the technician eliminates 50% of the possible fault area with a single test, making it the most efficient method for large-scale systems. (4)
+4. Section C: Methodology & System Commissioning (Question Set 3)
+Troubleshooting aims to restore a system's usable function. Commissioning is the formal process of verifying that an electro-pneumatic application is installed and operating correctly according to technical specifications before it enters production.
+Question Paper: Question Set 3
+5.1 What is the purpose of troubleshooting an electro-pneumatic application? (2)
+5.2 What is meant by the commissioning process? (2)
+5.3 Action-Logic Walkthrough: Troubleshoot a pneumatic subsystem using the Output-Input-Through approach. (8)
+5.4 Action-Logic Walkthrough: Locate a fault in an electrical control system using the Half-cut method. (8)
+Marking Memorandum
+5.1: To systematically isolate and eliminate faults to restore the system to its intended operational state. (2)
+5.2: The stage where the system is tested and verified against design requirements to ensure it is ready for industrial use. (2)
+5.3 Action-Logic (Pneumatic):
+Logic (4 marks): Systematic progression from the Actuator (Output) → Final Control Element (Input) → Air Distribution (Through).
+Application (4 marks): The technician observes the Cylinder (Output). If it fails, they check for air at the Directional Control Valve (Input). If no air is present, they check the FRL (Service Unit) and main lines (Through) to ensure the energy supply is consistent.
+5.4 Action-Logic (Electrical):
+Logic (4 marks): Bisection of the circuit path into halves and quarters to isolate the fault location.
+Application (4 marks): Using a Multimeter , the technician tests for voltage at a central Terminal Strip (the halfway point). If voltage is present there, the fault is between the terminal strip and the motor. If absent, the fault is between the terminal strip and the power source.
+5. Section D: Component-Level Faults & System Protection (Question Set 4)
+Electromechanical relays bridge the gap between electrical signals and mechanical motion. However, they are prone to failures that contribute to system downtime. Protection via Miniature Circuit Breakers (MCBs) is essential for safeguarding these hybrid systems.
+Question Paper: Question Set 4
+5.1 Analyze FIGURE 7 (Relay) and list FIVE possible faults tied to its construction. (5)
+5.2 Determine the sequence for a Fault-Tree Analysis (FTA). (5)
+5.3 Explain how to protect a circuit from an overload current. (4)
+5.4 List FIVE common causes of malfunctions in an electro-pneumatic system. (5)
+5.5 What diagnostic information is provided when an MCB keeps tripping? (2)
+Marking Memorandum
+5.1 (Referencing Figure 7 Labels): 1. Spring breakage or loss of tension. 2. Armature sticking to the Core (residual magnetism). 3. Burnt or open Coil (Coil Terminal failure). 4. Carbon buildup/pitting on NO or NC Contacts. 5. Mechanical failure of the Switching Element. (5)
+5.2 FTA Sequence: 1. Define the top-level event (the system failure). 2. Identify immediate causes. 3. Use logic gates (AND/OR) to link causes. 4. Break causes down into basic component failures. 5. Finalize the visual tree for analysis. (5)
+5.3: Install a protection device like an MCB or fuse. This device must be rated to "open" the circuit if the current exceeds the safe operating limits of the components. (4)
+5.4 (Source p. 223): 1. Failure of mechanical components due to wear. 2. Wiring overheating. 3. Components burning open. 4. Short circuits. 5. Air contamination/moisture. (5)
+5.5: An instant trip usually indicates a Short Circuit , while a delayed trip typically indicates an Overload condition (excessive current draw over time). (2)
+6. Final Technical Synthesis: Characteristics & Competencies
+Technical Fact Sheet: Pneumatics
+Advantages of Pneumatics
+	
+Disadvantages of Pneumatics
+
+Available practically everywhere in unlimited quantities.
+	
+Requires high-quality preparation (removal of dirt/condensate).
+
+Easy to transport over long distances via pipes.
+	
+Difficult to achieve uniform and constant piston speeds.
+
+Insensitive to temperature fluctuations.
+	
+
+No risk of explosion or fire.
+	
+
+Fast working medium for high-speed applications.
+	
+
+Overload safe (components can be loaded to a stop).
+	
+Types of Motion
+	
+Material Handling Methods
+
+Linear: Straight line movement.
+	
+Clamping: Securing a workpiece.
+
+Swivel: Partial arc/rotation.
+	
+Shifting: Moving items between stations.
+
+Rotary: Continuous circular motion.
+	
+Positioning: Precise placement.
+
+	
+Orientation: Correct alignment of parts.
+The mechatronic technician's primary duty is to maintain production through the systematic isolation and elimination of faults. By mastering both the generation of compressed air and the complex logic of electrical control circuits, the technician ensures the operational health and monetary productivity of the industrial environment.
+
+## 2. Mechatronics June Practice Test Paper Continued.pdf
+
+Type: pdf | text chars: 7513 | page images: 0 | summary chars: 885
+
+### Summary
+
+Pneumatics is the engineering study and application of **utilising compressed gas to generate power**, control automated industrial machinery, and execute various mechanical movements efficiently. Because **pressurized air is easily transported, stored, and safely operated** across extensive factory environments, it serves as an ideal medium for high-speed manufacturing tasks despite requiring careful filtration to prevent moisture and impurities. However, maintaining these automated networks demands a thorough understanding of system components, circuit diagrams, and **systematic troubleshooting techniques to safely isolate and resolve equipment faults**. Ultimately, technicians must master both the foundational physics of pneumatic gases and **practical maintenance skills to ensure uninterrupted production** and prevent costly operational downtime in industrial settings.
+
+### Text
+
+casic pneumatic technical systems
+Describe and apply one
+natic tech
+1
+J 1
+F
+The following are listed and explained:
+the three types of motion that can be performed by pneumatic comporen general methods of material handling (clamping, shifting, positioning and
+(linear, swivel and rotary).
+orientation).
+systems (work/output requirements, preferred control methods, resource the factors that have to be considered when selecting pneumatic technica requirements, new integrated into old system).
+the operation of basic pneumatic system components.
+Air generation and distribution in a pneumatic system (quality of air and possible malfunctions) are explained.
+The function of components that make up an air supply system is identified and explained.
+Components that make up a pneumatic technical sub-system are identified arc a materials list drawn up.
+Pneumatic components are connected in accordance with a given circuit diagar Flow lines are connected in accordance with regulations.
+Connecting elements (friction, clamping and crimping types) are used.
+In this unit, we will define and learn about pneumatics. We will also look 21 how pneumatics is used in different technical systems.
+What is pneumatics?
+The word pneumatics is derived from the Greek word pneuma, which means air, wind or breath. Today it is defined as the scientific study of gaseous pressure and flow in which compressed air is used to transmit and control power to actuate mechanisms.
+Pneumatics is used where high speed applications are required. We can sayt pneumatics is the process of using compressed air to do useful work.
+Useful work in industry refers to automated production lines that involves moving of materials, assembling products and packaging that relies on a constant supply of compressed air to do the work.
+What is compressed air?
+space Air under pressure possesses energy that can be released under contn Compressed air is ordinary air that has been forced under pressure into a sel to do useful work.
+In commercial applications pneumatic systems have many uses. These inclus things such as moving materials, assembling products, dentistry, road-works fairgrounds, air-brakes on trucks, tyre inflation, and so on.
+112 Pathways to Mechatronic Systems
+The constant supply of compressed air is commonly produced by an air pump driven by an electric motor or an internal combustion engine.
+Characteristics of gas
+Gas is one of the states of matter and has characteristics similar to a liquid. These are:
+⚫ it has no definite shape but conforms to the shape of its container it readily transmits pressure.
+Gases, however, do not have a definite volume. It can therefore be compressed and has a much lower density than liquids.
+Compressibility and expansion of gas
+Gasses are readily compressed and are assumed to be perfectly elastic. This combination of properties allows the gas to yield a force and return promptly to its original state when the force is removed.
+Advantages and distinguishing characteristics of compressed air Here are some of the advantages and distinguishing characteristics of compressed air:
+air is available practically everywhere and in unlimited quantities ⚫ air can be transported in pipes (even over long distances)
+compressed air can be stored in a reservoir and can be transported compressed air is relatively insensitive to temperature fluctuations, thus ensuring reliable operation, even under extreme conditions
+compressed air offers no risk of explosion or fire
+⚫ un-lubricated exhaust air is clean, therefore air that escapes through leaking pipes or components does not cause any contamination
+the operation of components are simple in design and construction and therefore relatively inexpensive
+compressed air is a very fast working medium, thus enabling high speeds to be attained
+pneumatic tools and operating components can be loaded to the point of stopping and are therefore overload safe.
+Disadvantages of pneumatics
+Here are some of the advantages of pneumatics:
+compressed air requires good preparation as dirt and condensate should not be present
+it is not always possible to achieve uniform and constant piston speeds with compressed air
+Pathways to Mechatronic Systems 113
+Apply troubleshooting techniques on electro- pneumatic control systems
+By the end of this topic you will have completed the following:
+Subject Outcomes:
+apply troubleshooting electro-pneumatic sub-systems.
+Introduction
+It is likely that faults may occur in a technical system that you will encounter and work with. You must be able to apply troubleshooting techniques in order to maintain a system in good working order.
+In Topic 1 we said that a technical system performs some usable function within industries and factories, which in turn creates monetary gain. You, as the mechatronic person, should be able to ensure the smooth running of the technical system that you are working with.
+In this topic, we will discuss different troubleshooting techniques that can be used when faults occur in a technical system.
+Pathways to Mechatronic Systems 221
+Apply troubleshooting fed
+Glossary
+disturbance: includes an interruption in the execution of a defined task of
+an item under consideration
+fault: a condition where at least one component has failed and the operation of the system has stopped
+failure: a condition where the performance of a fixed task of an item under consideration totally fails because of an unknown cause
+function: is determined by the activity, the effect, the purpose or the task of an item under consideration
+malfunction: if the function of a component has failed and does not perform as intended, or if it is not performed, a malfunction has occurred
+symptom: evidence that something is wrong
+troubleshooting: to systematically isolate and eliminate faults
+222 Pathways to Mechatronic Systems
+Troubleshooting in electro- pneumatic sub-systems
+By the end of this unit you will have completed the following Learning Outcomes and Assessment Standards:
+Learning Outcomes:
+List common faults that can normally occur in a drive section (cylinders and motors).
+List common faults that can occur in energy control, energy supply, tubes and
+pipes, service unit and electrical control sections.
+Safely eliminate faults in an electro-pneumatic system.
+Assessment Standards:
+Common faults that can normally occur in a drive section (cylinders and motors) are listed.
+Common faults that can occur in energy control, energy supply, tubes and pipes, service unit and electrical control sections are listed.
+Faults in an electro-pneumatic system are safely eliminated.
+Systems and related elements can malfunction for a number of reasons. These could include things such as failure of mechanical components due to wear, wiring or components overheating and burning open, or a short circuit in the system.
+Troubleshooting
+The knowledge of troubleshooting techniques and the application thereof plays an important role in the mechatronic person being able to perform the duties of maintaining production in a factory.
+It is important that the mechatronic person has the following abilities before undertaking troubleshooting and repair. They should be able to:
+read circuit diagrams and related symbols
+understand how components/elements function
+understand energy flow and how a system operates
+understand the various related safety standards
+understand the various troubleshooting techniques
+use various measuring equipment that is used in fault finding.
+Pathways to Mechatronic Systems
+223
+
+## 3. Mechatronics June Practice Test Paper.pdf
+
+Type: pdf | text chars: 7752 | page images: 0 | summary chars: 1112
+
+### Summary
+
+The provided source outlines a comprehensive curriculum and assessment framework for **mechatronics and pneumatic systems**, guiding students through both theoretical foundations and practical applications. It details essential learning topics ranging from basic technical systems and control circuits to advanced **electro-pneumatic hybrid configurations** and specialized component analysis like electromechanical relays. A significant portion of the text is dedicated to cultivating **technical troubleshooting skills**, instructing learners on systematic diagnostic approaches such as fault-tree analysis, the half-cut method, and input-output circuit tracking. Furthermore, the material explores the mechanics of **compressed air technology**, covering everything from air generation and system contamination to the specific functions of pneumatic actuators and control circuits. Ultimately, the purpose of this document is to equip mechatronics technicians with the critical knowledge and **diagnostic methodologies** required to design, connect, maintain, and repair complex industrial automation systems.
+
+### Text
+
+Topic 1:
+	
+Basic technical systems
+	
+1
+
+Unit 1:
+	
+Defining a technical system
+	
+3
+
+Unit 2:
+	
+Define, analyse and apply technical systems
+	
+35
+
+Topic 2:
+	
+Analyse and connect basic control circuits for technical systems
+	
+55
+
+Unit 1:
+	
+The fundamentals of basic control
+	
+57
+
+Unit 2:
+	
+Explain and demonstrate the role of computers in industry
+	
+83
+
+Topic 3:
+	
+Analyse and connect basic pneumatic technical
+	
+	
+systems
+	
+109
+
+Unit 1:
+	
+Describe and apply pneumatic technology
+	
+111
+
+Unit 2:
+	
+Identify and apply pneumatic component symbols
+	
+147
+
+Unit 3:
+	
+Connect basic pneumatic manual control systems
+	
+157
+
+Topic 4:
+	
+Analyse and connect basic electro-pneumatic
+	
+	
+hybrid control systems
+	
+179
+
+Unit 1:
+	
+Electro-pneumatic systems
+	
+181
+
+Unit 2:
+	
+Define, analyse and apply technical systems
+	
+196
+
+Topic 5:
+	
+Apply troubleshooting techniques on electro- pneumatic control systems
+	
+221
+
+Unit 1:
+	
+Troubleshooting in electro-pneumatic sub-systems
+	
+223
+CONTENTS
+QUESTION 5
+FIGURE 2, circuit A in QUESTION 2 is the circuit of a motor start/stop control circuit commissioned in 2017. The circuit has become faulty and the output/input through the circuit approach has been recommended to troubleshoot this control circuit.
+5.1
+What would be tested first using the recommended approach, when the motor fails to start?
+(2)
+5.2
+What should be done if the motor (M1) is found to have a supply voltage present?
+(2)
+5.3
+What should be done if it is found that the motor does not have a supply present on its terminal but the amber run lamp (L2) is illuminated?
+(2)
+5.4
+What should be done if there is no supply found on contact 4.4?
+(2)
+5.5
+What should be done if there was a supply found on contact 4.4 and it has been established that there is continuity on the negative side of the motor (M1)?
+5.6
+Make a simplified drawing and explain how a buzzer should be used on a dead circuit to check the continuity between contact 3.4 of CR1 and the terminal X1 of lamp 2.
+(2)
+(4)
+5.7
+State SIX skills a mechatronic technician should have to troubleshoot a mechatronic system.
+(6) [20]
+QUESTION 5
+5.1
+What is air contamination?
+(2)
+5.2
+Name TWO forms of contamination.
+(2)
+5.3
+5.4
+Name TWO problems due to contamination in an electropneumatic system. Draw a flow chart that will assist a mechatronic technician to apply the output- input-through the circuit in an electropneumatic application.
+(2)
+(10)
+5.5
+Explain how the half-cut method is used in troubleshooting electropneumatic systems.
+(4) [20]
+QUESTION 5
+5.1
+What is the purpose of troubleshooting an electro-pneumatic application? $(1\times2)$
+(2)
+5.2
+What is meant by the commissioning process of an electro-pneumatic application?
+$(1\times2)$
+(2)
+5.3
+Explain, using a drawing, how you would troubleshoot the pneumatic subsystem of an electro-pneumatic application using the output-input-through- the-system approach.
+$(4+4)$
+(8)
+5.4
+Explain, using a drawing, how you would locate a fault in the electrical control system of an electro-pneumatic application using the half-cut method. ( $(4+4)$
+(8) [20]
+(6040102)
+QUESTION 5
+5.1
+-8-
+NC2100(E)(N11)V
+Electromechanical relays are important elements in mechatronic systems. As a mechatronics technician, you will be expected to troubleshoot on
+electromechanical relays.
+FIGURE 7 below represents an electromechanical relay.
+Spring
+Switching Element
+Armature
+NC Contact
+NO Contact
+Common
+K
+Coil Terminal
+لم
+Coil Terminal
+Coil
+Core FIGURE 7
+NC
+NO
+COM
+List FIVE possible faults that may be encountered in the relay shown in FIGURE 7.
+(5)
+5.2
+A fault-tree analysis yields a clear logical understanding of troubleshooting a mechatronic element, subsystem or system.
+Determine the sequence that you would follow to draw up a fault-tree analysis
+(5)
+5.3
+Explain how you would protect a circuit from an overload current.
+(4)
+5.4
+List -FIVE common causes of malfunctions that may occur in a pneumatic control system...
+(5)
+5.5
+When the MCB keeps on tripping, what does that tell you about the possible fault that could exist?
+(2)
+[21]
+TOTAL:
+100
+Copyright reserved
+Downloaded from NCV Study Guides App
+1
+Analyse and connect basic pneumatic technical systems
+By the end of this topic you will have completed the following:
+Subject Outcomes:
+• describe and apply pneumatic technology
+identify and apply pneumatic component symbols
+connect basic pneumatic manual control systems.
+Introduction
+As you have already learnt, pneumatic systems use compressed air in systems. Pneumatic power is used in industry, but is also used in applications such as dentistry, construction and mining.
+In this topic we will describe and apply pneumatic technology. We will also identify and apply pneumatic component symbols and connect basic pneumatic systems.
+TOPIC 3
+Pathways to Mechatronic Systems 109
+Glossary
+accumulator, a device used for storing air under pressure used to smooth out surges in the air supply
+actuator: a device that converts pneumatic power into mechanical force and/or motion
+bleeder for the removal of air
+circuit: an arrangement of interconnected components of parts
+compressed air. air at any pressure greater than the atmospheric pressure compressor: a device that converts mechanical force and motion into pneumatic power
+controller: a device that is used to regulate the function of a component or system
+cylinder a device that converts pneumatic energy into a mechanical linear force or rotary motion
+cylinder (double action): a cylinder that can be operated in both directions cylinder (single action): a cylinder that is actuated in one direction by a pneumatic force and the other by means of a mechanical spring
+electric control: control actuated electrically
+manual control: control actuated by the operator
+mechanical control: control actuated by linkages, gears, screws, cams or other mechanical elements
+nomenclature: technical names used in any particular branch of science pneumatic control: control actuated by air or other gas
+Describe and apply pneumatic technology
+By the end of this unit you will have completed the following Learning Outcomes and Assessment Standards:
+Learning Outcomes:
+Define what is meant by the term pneumatics.
+Define and describe the terms preparation, compressibility, force requirements. noise levels and costs.
+State the four functions of compressed air applications (status of processes, information processing, switching final control elements and performing work function).
+List and explain the three types of motion that can be performed by pneumatic components (linear, swivel and rotary).
+• List and explain general methods of material handling (clamping, shifting positioning and orientation).
+List and explain the factors that must be considered when selecting pneumatic technical systems (work/output requirements, preferred control methods, resource requirements, new/integrated into old system).
+List and explain the operation of basic pneumatic system components. Explain the air generation and distribution in a pneumatic system (quality of air and possible malfunctions).
+Identify and explain the function of components that make up an air supply system.
+Identify components that make up a pneumatic technical sub-system and draws up a materials list.
+Connect pneumatic components in accordance with a given circuit diagram, Connect flow lines in accordance with regulation.
+Use connecting elements, friction, clamping and crimping types.
+Assessment Standards:
+The term pneumatics is defined.
+The terms preparation, compressibility, force requirements, noise leveis and Costs are defined and described.
+The four functions of compressed air applications (status of processes information processing, switching final control elements and performing work function) are stated
+110 Sea
+111
+

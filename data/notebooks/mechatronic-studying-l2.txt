@@ -1,0 +1,51 @@
+# Mechatronic Studying L2 - Gemini Notebook
+
+Source: https://notebook.google.com/notebook/0b9ba18c-4ccc-43b5-b2f3-f009a665d25d
+Fetched: 2026-09-30T17:55:57.834Z
+Auth: authenticated CDP session (Edge, debug port 9222)
+
+---
+
+link_2
+Shared
+add_2
+share_1
+more_vert
+settings
+PRO
+Sources
+Chat
+Studio
+landscape_2
+🤖
+Mechatronic Studying L2
+8 sources
+·
+14 Feb 2026
+
+These educational materials and assessment documents focus on the National Certificate (Vocational) NQF Level 2 curriculum, specifically covering Mathematics, Electrotechnology, and Mechatronic Systems. The texts provide past examination papers, official marking guidelines, and comprehensive study guides tailored for technical training. Students are tested on essential engineering concepts, including circuit analysis, control logic, proximity sensors, and industrial safety standards. Furthermore, the resources outline practical fault-finding methodologies and troubleshooting techniques for various electrical and mechanical components.
+
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+How do sensors differ in detecting metal versus non-metal objects?
+subdirectory_arrow_right
+What are the essential safety procedures and protective gear required?
+subdirectory_arrow_right
+How do simple and compound interest calculations affect investment outcomes?
+subdirectory_arrow_right
+8 sources
+arrow_upward
+Gemini Notebook can make mistakes, so double-check it.
+
+## Sources (6)
+
+- MATHEMATICS_L2_NOVEMBER_2015_1ST_PAPER_PAPER_tvetpapers.co.za.pdf
+- Mechatronic Systems L2 topic 2.docx
+- NC1000 - ELECTROTECHNOLOGY L2 MEMO NOV 2022 EDITED.pdf
+- NC1000 - ELECTROTECHNOLOGY L2 MEMO SUPP 2023 (1).pdf
+- NC1000_-_ELECTROTECHNOLOGY-L2-MEMO-NOV-2023_from_tvetpapers.co.za.pdf
+- NC1000_-_ELECTROTECHNOLOGY-L2-QP-NOV-2023_from_tvetpapers.co.za (1).pdf
+

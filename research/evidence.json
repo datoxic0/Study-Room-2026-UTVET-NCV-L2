@@ -1,0 +1,339 @@
+{
+  "case": "Studyroom past-paper and notebook source verification",
+  "queries_run": [
+    {
+      "engine": "exa-websearch",
+      "query": "Umgungundlovu TVET College past exam papers memoranda",
+      "date": "2026-09-30",
+      "results": 8,
+      "ran": true
+    },
+    {
+      "engine": "exa-websearch",
+      "query": "education.gov.za NSC past exam papers and memoranda download",
+      "date": "2026-09-30",
+      "results": 8,
+      "ran": true
+    },
+    {
+      "engine": "exa-websearch",
+      "query": "TVET NATED N1-N6 past question papers and memoranda download official",
+      "date": "2026-09-30",
+      "results": 8,
+      "ran": true
+    },
+    {
+      "engine": "exa-websearch",
+      "query": "\"Mechatronic Systems\" \"Manual Manufacturing\" TVET exam paper past",
+      "date": "2026-09-30",
+      "results": 6,
+      "ran": true
+    },
+    {
+      "engine": "exa-websearch",
+      "query": "\"Life Skills and Computer Literacy\" TVET level 2 exam paper",
+      "date": "2026-09-30",
+      "results": 0,
+      "ran": false,
+      "note": "provider rate limit returned before any results; query never executed"
+    },
+    {
+      "engine": "exa-websearch",
+      "query": "DHET NOLS examination papers repository official TVET",
+      "date": "2026-09-30",
+      "results": 6,
+      "ran": true
+    },
+    {
+      "engine": "exa-websearch",
+      "query": "Umgungundlovu TVET College official website campuses",
+      "date": "2026-09-30",
+      "results": 6,
+      "ran": true
+    },
+    {
+      "engine": "exa-websearch",
+      "query": "NotebookLM requires Google account sign in help guide university library",
+      "date": "2026-09-30",
+      "results": 6,
+      "ran": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Public NCV Level 2 past question papers and memoranda for the exam subjects are downloadable online: mytvet.co.za lists QP+Memo pairs per subject (e.g. Mechatronic Systems L2, 2015-2025) and edupstairs.org indexes official DHET/NOLS exam sittings.",
+      "type": "FACT"
+    },
+    {
+      "id": "C2",
+      "text": "The exam subject set (Introduction to Computers, Electrotechnology, Manual Manufacturing, Mechatronic Systems, Life Skills and Computer Literacy, English FAL, Mathematics at Level 2) corresponds to the NC(V) Level 2 Mechatronics programme.",
+      "type": "FACT"
+    },
+    {
+      "id": "C3",
+      "text": "The Department of Higher Education and Training's NOLS repository is the official publication channel for TVET exam question papers and memoranda.",
+      "type": "FACT"
+    },
+    {
+      "id": "C4",
+      "text": "The notebook.google.com notebook URLs in notebooks.txt require Google sign-in: an unauthenticated automated fetch is redirected to accounts.google.com sign-in.",
+      "type": "FACT"
+    },
+    {
+      "id": "C5",
+      "text": "Past NSC/matric question papers and memoranda are published by the South African Department of Basic Education and are publicly downloadable.",
+      "type": "FACT"
+    },
+    {
+      "id": "C6",
+      "text": "NotebookLM gates notebook access behind Google sign-in: unauthenticated clients are redirected to accounts.google.com, while a signed-in session (Edge + CDP debug port) returns full content for all 17 notebook.google.com URLs in notebooks.txt; the author-flagged cant share annotations mean not-link-sharable to anonymous clients, not inaccessible to the signed-in account.",
+      "type": "FACT"
+    },
+    {
+      "id": "C7",
+      "text": "Deep source extraction completed for all 17 authenticated notebooks: the notebooklm-ingestion extension walked 76/76 sources, capturing 1,363,766 characters of source text (docx/text sources), 449 rendered PDF page images and 65 per-source Gemini summaries; 17 hashed JSON captures (sha256-verified against research/captures/notebooklm_sources/manifest.json with 0 mismatches) were ingested as 17 data/notebooks/*.sources.txt files, growing the search index to 34 documents.",
+      "type": "FACT"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "claim": "C1",
+      "source": "https://mytvet.co.za/mechatronic-systems",
+      "publisher": "Mytvet SA",
+      "independence_key": "host:mytvet.co.za",
+      "type": "document",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "C566B33908ED2C01DF4AC4E08024FB1F30525F9A0230CDCF6EA2ABC6CE8FD501",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest save + SHA256"
+    },
+    {
+      "id": "E2",
+      "claim": "C1",
+      "source": "https://www.edupstairs.org/tvet-colleges/past-exam-papers/",
+      "publisher": "Edupstairs",
+      "independence_key": "host:edupstairs.org",
+      "type": "document",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "8E37182B9507F3FEC787F3FE23CD3FA8FA4126651D1B8F6669BC21C7B316C633",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest save + SHA256"
+    },
+    {
+      "id": "E3",
+      "claim": "C2",
+      "source": "http://www.thutong.doe.gov.za/Default.aspx?alias=www.thutong.doe.gov.za%2Fmechatronics",
+      "publisher": "Department of Basic Education (Thutong)",
+      "independence_key": "host:thutong.doe.gov.za",
+      "type": "official",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "949226BFA7786526485735977D045771D794CE96F9B8EA8FEB40DF656F2F806D",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest save + SHA256"
+    },
+    {
+      "id": "E4",
+      "claim": "C2",
+      "source": "https://mytvet.co.za/mechatronic-systems",
+      "publisher": "Mytvet SA",
+      "independence_key": "host:mytvet.co.za",
+      "type": "document",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "C566B33908ED2C01DF4AC4E08024FB1F30525F9A0230CDCF6EA2ABC6CE8FD501",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest save + SHA256"
+    },
+    {
+      "id": "E5",
+      "claim": "C2",
+      "source": "https://witness.co.za/tvet-college/",
+      "publisher": "The Witness (Independent Media)",
+      "independence_key": "host:witness.co.za",
+      "type": "press",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "3A5E14624E26EFEA994225DF32F79F046172A3C8D17989868217A028122A65EB",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest save + SHA256"
+    },
+    {
+      "id": "E6",
+      "claim": "C3",
+      "source": "https://www.dhet.gov.za/SitePages/NOLS.aspx",
+      "publisher": "Department of Higher Education and Training",
+      "independence_key": "org:dhet",
+      "type": "official",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "2BF267647992700D0E784C9A3CF151156C239176F6DAED606BD374D021DF793D",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest save + SHA256"
+    },
+    {
+      "id": "E7",
+      "claim": "C3",
+      "source": "https://sharepoint.dhet.gov.za/dhetnols/",
+      "publisher": "Department of Higher Education and Training",
+      "independence_key": "org:dhet",
+      "type": "official",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "EA066B8FAC51E2611D67817CDC89EAA448F819739F9CFACAFDFBC42A7EF99882",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest save + SHA256"
+    },
+    {
+      "id": "E8",
+      "claim": "C3",
+      "source": "https://www.edupstairs.org/tvet-colleges/past-exam-papers/",
+      "publisher": "Edupstairs",
+      "independence_key": "host:edupstairs.org",
+      "type": "document",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "8E37182B9507F3FEC787F3FE23CD3FA8FA4126651D1B8F6669BC21C7B316C633",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest save + SHA256"
+    },
+    {
+      "id": "E9",
+      "claim": "C4",
+      "source": "https://notebook.google.com/notebook/0b9ba18c-4ccc-43b5-b2f3-f009a665d25d",
+      "publisher": "Google (observed by agent)",
+      "independence_key": "host:notebook.google.com",
+      "type": "primary",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "0FF8F58D4D53588A99ABFA91AE0FF9A449DACAEC414F2CCBD15DB875D0A048A4",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest following redirects to final accounts.google.com URL, save + SHA256"
+    },
+    {
+      "id": "E10",
+      "claim": "C4",
+      "source": "https://tdx.umsystem.edu/TDClient/36/DoIT/KB/Article/2138/Google-NotebookLM-Access-and-Usage-Guide",
+      "publisher": "University of Missouri System IT",
+      "independence_key": "host:tdx.umsystem.edu",
+      "type": "document",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "0700B8D01A3E3487B43D8BACA67DADAA89287E296AE70325999122FA8C2156EA",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest save + SHA256"
+    },
+    {
+      "id": "E11",
+      "claim": "C5",
+      "source": "https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx",
+      "publisher": "Department of Basic Education",
+      "independence_key": "host:education.gov.za",
+      "type": "official",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "884A526C8A704B7CE8E087C2136F58514DBA8D6D40A402288FA1E866E5C78FB2",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest save + SHA256"
+    },
+    {
+      "id": "E12",
+      "claim": "C5",
+      "source": "https://www.edupstairs.org/school-past-exam-papers/",
+      "publisher": "Edupstairs",
+      "independence_key": "host:edupstairs.org",
+      "type": "document",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "21FA0D064D08C970210F3C38DAF1B0D1318112DD13C0EE67E9932C7EB0E51F5C",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest save + SHA256"
+    },
+    {
+      "id": "E13",
+      "claim": "C6",
+      "source": "https://notebook.google.com/notebook/0b9ba18c-4ccc-43b5-b2f3-f009a665d25d",
+      "publisher": "Google (observed by agent, authenticated CDP session)",
+      "independence_key": "host:notebook.google.com",
+      "type": "primary",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "A6D87DC756C136772D6AB9693C0D0C294AB1B3B440DFB306FBF09D1531CD3897",
+      "captured_at": "2026-09-30",
+      "capture_method": "scripts/pull_notebooks.mjs over CDP WebSocket; 17/17 captures hashed in research/captures/notebooklm/manifest.json"
+    },
+    {
+      "id": "E14",
+      "claim": "C4",
+      "source": "https://notebook.google.com/notebook/0b9ba18c-4ccc-43b5-b2f3-f009a665d25d",
+      "publisher": "Google (observed by agent, browser UA re-test)",
+      "independence_key": "host:notebook.google.com",
+      "type": "primary",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "914529EA23DE7112BD0E167E7176AEDCC4CAE07A51C1A0207D9F1533AE8FD531",
+      "captured_at": "2026-09-30",
+      "capture_method": "curl.exe with Edge UA following redirects, 3x302 to accounts.google.com, headers saved research/captures/notebook_retest.headers.txt"
+    },
+    {
+      "id": "E15",
+      "claim": "C6",
+      "source": "https://tdx.umsystem.edu/TDClient/36/DoIT/KB/Article/2138/Google-NotebookLM-Access-and-Usage-Guide",
+      "publisher": "University of Missouri System IT",
+      "independence_key": "host:tdx.umsystem.edu",
+      "type": "document",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "0700B8D01A3E3487B43D8BACA67DADAA89287E296AE70325999122FA8C2156EA",
+      "captured_at": "2026-09-30",
+      "capture_method": "Invoke-WebRequest save + SHA256 (same capture artifact as E10, independently hosted origin)"
+    },
+    {
+      "id": "E16",
+      "claim": "C7",
+      "source": "https://notebook.google.com/notebook/0b9ba18c-4ccc-43b5-b2f3-f009a665d25d",
+      "publisher": "Google (observed by agent, authenticated extension walker)",
+      "independence_key": "host:notebook.google.com",
+      "type": "primary",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "FCD05AA9C52F525E40CDF0E8D21A4AD4210D70E03F94E1ABDF49B21E9E9798C2",
+      "captured_at": "2026-09-30",
+      "capture_method": "notebooklm-ingestion extension walk over 17 notebooks; per-notebook JSON captures sha256-listed in research/captures/notebooklm_sources/manifest.json and re-verified via Get-FileHash (17/17 match, 0 mismatches); manifest itself hashed here"
+    },
+    {
+      "id": "E17",
+      "claim": "C7",
+      "source": "local:studyroom-exam-guide/data/notebooks/index.json",
+      "publisher": "Studyroom exam guide (independent ingest pipeline)",
+      "independence_key": "pipeline:ingest_source_captures",
+      "type": "primary",
+      "direct": true,
+      "date": "2026-09-30",
+      "supports": true,
+      "sha256": "A5A041DD1ABD99FFD6BBD7EC6B2E41287AC2F8B92E90F3E19F23853262764851",
+      "captured_at": "2026-09-30",
+      "capture_method": "scripts/ingest_source_captures.mjs -> scripts/index_notebooks.mjs; index.json documents=34 (17 exports + 17 source captures, 1,526,581 capture chars), hashed via Get-FileHash SHA256"
+    }
+  ]
+}

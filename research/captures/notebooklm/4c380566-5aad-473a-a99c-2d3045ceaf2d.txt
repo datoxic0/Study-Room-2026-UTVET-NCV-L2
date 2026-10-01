@@ -1,0 +1,329 @@
+# NC (V) Mechatronics Level 2 Integrated Summative Assessment Task - Gemini Notebook
+
+Source: https://notebook.google.com/notebook/4c380566-5aad-473a-a99c-2d3045ceaf2d
+Fetched: 2026-09-30T17:57:56.239Z
+Auth: authenticated CDP session (Edge, debug port 9222)
+
+---
+
+add_2
+share_1
+more_vert
+settings
+PRO
+Sources
+Chat
+Studio
+landscape_2
+⚙️
+NC (V) Mechatronics Level 2 Integrated Summative Assessment Task
+4 sources
+·
+07 Aug 2026
+
+The provided documents detail the Mechatronics Integrated Summative Assessment Task framework for Level 2 vocational students in South Africa. This comprehensive technical guide outlines the practical requirements across three core engineering disciplines: Programmable Logic Controller automation, electronic circuit integration, and mechanical G-clamp fabrication. Additionally, the texts establish strict criteria for material lists, component assembly standards, and quality assurance. Finally, the sources mandate rigorous occupational health and safety protocols alongside a standardized marking grid to evaluate student competency.
+
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+Friday, 07 August
+
+Based on The Assessment. Focus on First and Second Activities only. don't dwell on G-clamp.
+
+Thoughts
+expand_more
+Sub-Task 1: PLC Automation and Computer Assembly
+Sub-Task 1 is allocated 50 marks and must be completed within 180 minutes
+1
+2
+. It consists of four practical activities that transition from basic hardware assembly to software control programming:
+Activity 1.1: Identify Computer Peripherals (6 Marks | 15 Minutes) Under supervised conditions, you must complete Worksheet 1 to identify key computer peripherals using a pen
+1
+.
+Activity 1.2: Connect Peripherals to the Computer (9 Marks | 45 Minutes) You are required to physically connect the identified peripherals to the computer tower chassis and successfully boot up the computer
+3
+.
+Activity 1.3: MS Word Material List & PLC Wiring Diagram (15 Marks | 50 Minutes)
+Material List Table: You must create a new MS Word document with your name, student number, and date in the header
+4
+. Within this document, you will construct a materials list table
+5
+. The table formatting must strictly utilize Arial 12 Bold for headers, Italics for the data entries, and double spacing for the first row
+5
+6
+. The list must correctly map the system's electrical hardware, including the start and stop pushbuttons, detent switch, relay K1, and on-delay timer
+6
+.
+Wiring Diagram: You will complete a physical PLC wiring diagram on Worksheet 2 to represent the physical connections of the start/stop pushbuttons and the relay output
+7
+.
+Activity 1.4: PLC Program Design and Simulation (20 Marks | 80 Minutes)
+Logic Mapping & Sequence: You must use PLC programming software to design and simulate a "Start/Stop/Latch" control sequence
+8
+9
+. When the Normally Open Start Pushbutton (I1) is pressed, Output 1 (Q1) (which drives Relay K1) must energize immediately and latch closed through a parallel branch utilizing the Q1 Auxiliary Contact
+7
+more_horiz
+.
+Timing Control: Simultaneously, an On-Delay Timer (T1) set for 10 seconds is activated
+7
+11
+. Once the 10 seconds expire, the PLC logic must automatically de-energize Q1
+7
+more_horiz
+.
+Priority Stop Override: The Normally Closed Stop Pushbutton (I2) serves as a priority safety override
+10
+more_horiz
+. Pressing the Stop button at any point in the cycle must immediately de-energize Q1 and completely reset the timer logic
+7
+more_horiz
+.
+Physical Integration: After successfully simulating and debugging the PLC program, you must upload the code to the physical PLC unit and connect its outputs to the electronic circuit board fabricated in Sub-Task 2
+9
+.
+Sub-Task 2: Layout and Wiring of the Electrical/Electronic Circuit
+Sub-Task 2 is allocated 50 marks and must be completed in 150 minutes
+2
+9
+. It bridges the gap between software control logic and physical hardware actuation:
+Activity 2.1: Enclosure Layout and Component Mounting (15 Marks | 30 Minutes)
+Enclosure Preparation: You must measure, mark, and precision-drill holes on the protective enclosure to house the Start/Stop pushbuttons, the power detent switch (toggle switch), and the female plugs
+13
+14
+. All components must be mounted securely and neatly
+13
+.
+Terminal Integrity: Secure mounting is vital because it maintains the physical integrity of the terminal connections
+14
+15
+. Loose hardware causes mechanical stress on the fly leads and solder joints, which leads to wire fatigue and total system failure
+14
+15
+.
+Knowledge Questionnaire: You must complete an accompanying theory questionnaire on Worksheet 3 regarding enclosure layout and hand tools
+13
+16
+.
+Activity 2.2: Vero Board Layout Planning and Soldering (25 Marks | 90 Minutes)
+Layout Planning: You must draft a layout diagram on Worksheet 4 (a Vero board template), clearly indicating where components will be mounted, their polarities, and where physical track breaks must be made to isolate circuits
+17
+18
+.
+Assembly and Soldering: After the lecturer approves your diagram, you must prepare your workstation, select the correct hand tools, and solder the components onto the Vero board
+17
+19
+. Solder joints must be shiny and conical to prevent dry joints or shorts, and component leads must be trimmed to 1–2mm post-soldering to ensure mechanical stability
+20
+21
+.
+Wiring Integration: You will connect the fly leads from the Vero board to the pushbuttons, power switch, and female plugs mounted on the enclosure, then thoroughly inspect the board for short circuits, broken tracks, and incorrect polarities
+19
+.
+Activity 2.3: Knowledge Questionnaire (10 Marks | 30 Minutes) To conclude the sub-task, you must complete and submit Worksheet 5 to your lecturer
+19
+22
+.
+Note: While the full mechatronics assessment includes a third sub-task for the mechanical fabrication of a G-clamp, we have excluded those details here to focus entirely on your first two practical automation and electronic integration tasks
+2
+22
+.
+🔧 I can help you draft a step-by-step assembly checklist for Sub-task 2's Vero board soldering phase, or we can look closer at the specific questions in the knowledge questionnaires.
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+
+Create an Detailed Infographic, and Slide deck and a Cinematic Video. These must make students pass this and understand everything at the end!
+
+Thoughts
+expand_more
+To make sure your students completely understand the requirements, avoid common pitfalls, and achieve an Outstanding (80%–100%) score on the Mechatronics Level 2 ISAT, I have designed a comprehensive, 3-part educational package
+1
+2
+. As requested, this package focuses exclusively on Sub-Task 1 (PLC Automation & Computer Assembly) and Sub-Task 2 (Electronic Layout & Wiring), leaving out the G-clamp work piece
+3
+4
+.
+Here is my proposed structure and content for each artifact, mapped directly to the assessment's official criteria and technical standards:
+🗺️ Artifact 1: Detailed Infographic
+Purpose: A quick-reference visual "cheat sheet" to hang in the workshop or keep on workbenches.
+Aspect Ratio & Style: Portrait orientation, using a clean, structured professional visual layout.
+Key Sections:
+Sub-Task 1 Checklist (50 Marks | 180 Mins): Visual step-by-step for peripheral connection, computer bootup, and the specific MS Word formatting requirements (Arial 12 Bold headers, Italics entries, and double-spacing for row 1)
+4
+more_horiz
+.
+The Self-Latching Logic Loop: A visual schematic mapping out the PLC logic flow (I1 NO Start, I2 NC Stop, Q1 Latching Relay, and the 10-second T1 On-Delay)
+8
+more_horiz
+.
+Sub-Task 2 Electronic Standards (50 Marks | 150 Mins): An inspection checklist for Vero board soldering (shiny, conical joints and 1–2mm trimmed leads) and the crucial rule of terminal integrity (why loose enclosure components destroy solder joints)
+8
+more_horiz
+.
+📊 Artifact 2: Comprehensive Lecture Slide Deck
+Purpose: An instructional, step-by-step presentation for lectures or self-study to walk students through the practical sequence.
+Deck Type & Length: Presentation format, long length (approx. 8–10 highly-focused slides) to ensure thorough coverage.
+Slide Outline:
+Slide 1: Welcome to the ISAT: High-level breakdown of the 150-mark structure, grading scales (Outstanding, Highly Competent, Competent), and time management
+1
+more_horiz
+.
+Slide 2: Activity 1.1 & 1.2 — PC Assembly & Peripherals: Correct slotting of peripherals and safe tower bootup sequence
+5
+more_horiz
+.
+Slide 3: Activity 1.3 — The MS Word Materials List: A live example of the table formatting and the physical PLC wiring diagram for Worksheet 2
+6
+more_horiz
+.
+Slide 4: Activity 1.4 — PLC Logic Breakdown: Deconstructing the logic of how the Q1 auxiliary contact maintains the latch and how the NC Stop button acts as a priority override
+8
+more_horiz
+.
+Slide 5: Activity 2.1 — Enclosure Layout & Drilling: Marking off, securing, and safely drilling the protective housing
+8
+more_horiz
+.
+Slide 6: The "So What?" of Terminal Integrity: An in-depth slide explaining the mechanical stress on fly leads and how poor mounting causes wire fatigue and total system failure
+8
+15
+.
+Slide 7: Activity 2.2 — Vero Board Layout & Solder QA: How to trace track breaks on Worksheet 4 and achieve the perfect shiny, conical solder joint
+8
+more_horiz
+.
+Slide 8: Workshop Health, Safety & Housekeeping: Mandatory PPE (goggles during drilling), soldering iron safety, and tool stewardship
+1
+more_horiz
+.
+Slide 9: Key Pitfalls to Avoid: The common errors that cause automatic failure (e.g., shorting the relay coil or bypassing the STOP button in the simulation)
+23
+.
+🎥 Artifact 3: Cinematic Educational Video
+Purpose: An inspiring and clear documentary-style walkthrough that bridges the gap between software programming and physical hardware.
+Format: Cinematic video, using an objective, technical, yet highly engaging narrative voice.
+Narrative Arc:
+Act I: The Mind of the Machine: Explores the invisible logic programmed into the PLC. Narrates how a simple press of the Start button triggers a cascade of latching contacts and automated timing de-energisation
+8
+more_horiz
+.
+Act II: The Physical Bridge: Transitions to the workshop floor. Follows the physical layout and drilling of the enclosure, emphasizing how securely mounting the pushbuttons protects the delicate terminal integrity inside
+8
+more_horiz
+.
+Act III: Precision in Practice: Shows the meticulous art of Vero board planning and soldering
+8
+more_horiz
+. Explains why a shiny, conical joint is the hallmark of a professional mechatronics technician
+8
+14
+. Closes on a triumphant bootup of the fully integrated, simulated, and running automated system
+8
+more_horiz
+.
+🚦 Ready to Build?
+Please let me know if this plan matches your teaching objectives:
+Should I adjust the emphasis of any section (e.g., adding more focus to the simulation pitfalls
+23
+)?
+Are you happy for me to begin generating these three artifacts sequentially?
+I will start with the Detailed Infographic first as soon as you give the word!
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+
+Yes go ahead.
+
+Thoughts
+expand_more
+I have created three comprehensive educational resources to support your students: a detailed Infographic, a structured Instructional Slide Deck, and a Cinematic Educational Video focusing exclusively on Sub-Tasks 1 and 2. These artifacts are designed to guide students sequentially from PLC latching logic to precision Vero board soldering and enclosure assembly while emphasizing critical grading standards like terminal integrity and proper documentation formatting.
+Please note that these newly initiated files may take a brief moment to finish generating in your Studio panel.
+📝 Would you like me to construct a practice quiz based on these exact activities to help students test their knowledge before the actual assessment?
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+
+Yes
+
+Thoughts
+expand_more
+I have initiated the generation of the Practice Quiz to help your students test their knowledge of the material.
+The quiz focuses strictly on the technical and practical details of Sub-Task 1 and Sub-Task 2, covering key concepts such as:
+Computer Peripherals & Setup
+MS Word Formatting Rules (Arial 12 Bold headers, italic data, double-spaced first row)
+PLC Programming Logic & Wiring (Start/Stop/Latch sequence, auxiliary contacts, and the 10-second timer)
+Vero Board & Enclosure Assembly (track breaks, shiny conical solder joints, 1–2mm trimmed leads, and the critical importance of terminal integrity)
+The new quiz will appear in your Studio panel shortly as it finishes generating.
+✏️ Once the students take the quiz and review the slide deck, would you like me to generate a set of detailed flashcards to help them memorize the specific tool names, safety precautions, and technical standards for the practical exam?
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+
+Ok, just saw slide deck. Not detailed and clear as I need it to be. So now just do two more. Dedicate each for one. Not mix.
+
+Thoughts
+expand_more
+I have split the material into two completely separate, highly detailed slide decks in your Studio panel so your students can focus on one sub-task at a time without any confusion:
+NC (V) Mechatronics Level 2 ISAT: Sub-Task 1 Detailed Guide (PLC Automation & Computer Assembly) This deck is dedicated entirely to the computer assembly sequence and the detailed requirements of the PLC automation logic. It covers Worksheet 1 (peripheral identification), safe bootup checks, the exact MS Word material list table formatting standards, and the step-by-step logic behind the Start/Stop self-latching sequence and the 10-second delay timer
+1
+more_horiz
+.
+NC (V) Mechatronics Level 2 ISAT: Sub-Task 2 Detailed Guide (Electronic Integration & Soldering) This deck focuses strictly on physical hardware fabrication. It covers marking, securing, and drilling the enclosure
+6
+7
+, the critical industry principle of terminal integrity to prevent wire fatigue
+7
+, Vero board planning on Worksheet 4
+8
+, selecting tools, achieving perfect shiny, conical solder joints
+9
+10
+, and workshop housekeeping
+9
+11
+.
+Both presentations are tailored specifically to the official grading checklists to help your students achieve an Outstanding (80%–100%) score
+10
+11
+.
+🛠️ Would you like me to compile a printable step-by-step workshop instruction sheet for the Vero board layout and track-cutting phase to hand out directly to the students?
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+
+Also for the infographic
+
+Thoughts
+expand_more
+I have split the combined infographic into two completely separate, highly detailed infographics so your students can have clean, uncluttered visual guides at their workstations:
+NC (V) Mechatronics Level 2 ISAT: Sub-Task 1 Infographic (PLC & PC Assembly) This visual guide is dedicated entirely to Sub-Task 1. It details Worksheet 1's peripheral identification, the tower bootup checks, the exact formatting rules for the MS Word materials list (Arial 12 Bold headers, italicised entries, double-spaced first row), and a clear step-by-step schematic of the PLC self-latching sequence and its 10-second timer logic.
+NC (V) Mechatronics Level 2 ISAT: Sub-Task 2 Infographic (Electronics & Soldering) This visual guide focuses strictly on Sub-Task 2's physical fabrication. It illustrates correct enclosure drilling, highlights the critical concept of terminal integrity (why secure mounting is vital to prevent wire fatigue and mechanical stress), and maps out the perfect Vero board layout workflow—including track breaks, shiny conical solder joints, and trimming component leads to 1–2mm.
+Both files are now processing and will appear in your Studio panel shortly.
+📋 Would you like me to generate a printable "Common Mistakes & Quick Fixes" troubleshooting cheat sheet that students can keep with them during their practical workshop hours?
+keep_pin
+Save to note
+copy
+thumb_up
+thumb_down
+Today • 19:57
+4 sources
+arrow_upward
+Gemini Notebook can make mistakes, so double-check it.
+
+## Sources (1)
+
+- ElectroAndIntro-ISAT.pdf
+
