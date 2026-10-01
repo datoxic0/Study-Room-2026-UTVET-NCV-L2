@@ -1,6 +1,7 @@
 import { paperShelf, paperById, PAPERS_BUILT_ON } from "../data/paper_shelf.js";
 import { studyGuides } from "../data/study_guides.js";
 import { renderRich } from "../core/math_notation.js";
+import { syncBodyScrollLock } from "../core/dialog_lock.js";
 
 const KIND_LABEL = {
   qp: "QUESTION PAPER",
@@ -249,6 +250,18 @@ export function openPaper(id) {
   if (!paper || !dialog) return;
 
   const layout = el("div", "paper-dialog-layout");
+
+  // Topbar is a direct child of the layout: pinned grid row on desktop,
+  // sticky header of the single scroll area on mobile (close always reachable).
+  const topBar = el("div", "guide-dialog-topbar");
+  const meta = el("span", "guide-dialog-meta", `${KIND_LABEL[paper.kind] || paper.kind} · ${paper.level} · ${paperStats(paper)}`);
+  topBar.append(meta);
+  const close = el("button", "guide-close", "Close ×");
+  close.type = "button";
+  close.addEventListener("click", () => dialog.close());
+  topBar.append(close);
+  layout.append(topBar);
+
   const side = el("aside", "paper-dialog-side");
   const sideHead = el("div", "guide-dialog-side-head");
   sideHead.append(el("p", "eyebrow", "PAPERS & MEMOS WORKROOM"));
@@ -279,13 +292,6 @@ export function openPaper(id) {
   layout.append(side);
 
   const main = el("div", "paper-dialog-main");
-  const topBar = el("div", "guide-dialog-topbar");
-  topBar.append(el("span", "guide-dialog-meta", `${KIND_LABEL[paper.kind] || paper.kind} · ${paper.level} · ${paperStats(paper)}`));
-  const close = el("button", "guide-close", "Close ×");
-  close.type = "button";
-  close.addEventListener("click", () => dialog.close());
-  topBar.append(close);
-  main.append(topBar);
 
   main.append(el("p", "paper-note", paper.note));
 
@@ -310,6 +316,7 @@ export function openPaper(id) {
   layout.append(main);
   dialog.replaceChildren(layout);
   if (!dialog.open) dialog.showModal();
+  syncBodyScrollLock();
 }
 
 function renderFilters(container, cards) {

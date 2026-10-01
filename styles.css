@@ -18,7 +18,7 @@
 
 * { box-sizing: border-box; }
 
-html { min-width: 320px; background: var(--paper); scroll-behavior: smooth; }
+html { min-width: 320px; background: var(--paper); scroll-behavior: smooth; scrollbar-gutter: stable; }
 
 body {
   margin: 0;
@@ -539,6 +539,7 @@ h1 em {
   width: min(1000px, 94vw);
   max-width: none;
   max-height: 88vh;
+  max-height: 88dvh;
   padding: 0;
   border: 0;
   border-radius: 11px;
@@ -547,9 +548,12 @@ h1 em {
   overflow: hidden;
 }
 .guide-dialog::backdrop { background: rgba(24, 38, 32, .45); backdrop-filter: blur(2px); }
-.guide-dialog-layout { display: grid; grid-template-columns: 275px minmax(0, 1fr); max-height: 88vh; }
+.guide-dialog-layout { display: grid; grid-template-columns: 275px minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); max-height: 88vh; max-height: 88dvh; }
 .guide-dialog-side {
   display: grid;
+  grid-column: 1;
+  grid-row: 1 / 3;
+  min-height: 0;
   align-content: start;
   gap: 16px;
   padding: 24px 21px;
@@ -565,8 +569,8 @@ h1 em {
 .guide-side-note { margin: 2px 0 0; color: #8d978f; font-size: 8.5px; line-height: 1.55; }
 .guide-side-link { color: var(--green); font-size: 9.5px; font-weight: 600; text-decoration: none; line-height: 1.5; }
 .guide-side-link:hover { text-decoration: underline; }
-.guide-dialog-main { padding: 20px 26px 26px; overflow: auto; max-height: 88vh; }
-.guide-dialog-topbar { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 2px 0 10px; background: var(--panel); border-bottom: 1px solid var(--line); }
+.guide-dialog-main { grid-column: 2; grid-row: 2; min-height: 0; padding: 14px 26px 26px; overflow: auto; max-height: none; }
+.guide-dialog-topbar { position: sticky; top: 0; z-index: 6; grid-column: 2; grid-row: 1; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 26px 11px; background: var(--panel); border-bottom: 1px solid var(--line); }
 .guide-dialog-meta { color: #97a19a; font-family: var(--mono); font-size: 8px; letter-spacing: .04em; }
 .guide-close { padding: 5px 10px; color: #5f6f65; background: #f3f6f2; border: 1px solid var(--line); border-radius: 5px; cursor: pointer; font-size: 10px; font-weight: 600; }
 .guide-close:hover { color: var(--green); border-color: #b8d2c1; }
@@ -588,16 +592,45 @@ h1 em {
 .guide-prov-item { margin: 0; color: #77837a; font-family: var(--mono); font-size: 8px; line-height: 1.6; overflow-wrap: anywhere; }
 
 @media (max-width: 850px) {
-  .guide-dialog-layout { grid-template-columns: 1fr; }
-  .guide-dialog-side { border-right: 0; border-bottom: 1px solid var(--line); }
-  .guide-dialog-main { max-height: none; }
-  .guide-dialog { max-height: 92vh; }
-  .guide-dialog-layout { max-height: 92vh; }
+  /* Phone/tablet: the dialog is a fixed-height shell (dvh, no URL-bar jump) and
+     the layout is ONE scroll area — sticky topbar keeps Close reachable. */
+  .guide-dialog { display: flex; flex-direction: column; max-height: 92vh; max-height: 92dvh; }
+  .guide-dialog-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    min-height: 0;
+    max-height: none;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+  .guide-dialog-topbar { grid-column: 1; grid-row: 1; padding: 12px 16px 10px; }
+  .guide-dialog-side {
+    grid-column: 1;
+    grid-row: 2;
+    min-height: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    overflow: visible;
+  }
+  .guide-dialog-main { grid-column: 1; grid-row: 3; max-height: none; overflow: visible; }
+  /* comfortable tap targets on all touch widths */
+  .guide-close { min-height: 44px; padding: 10px 15px; display: inline-flex; align-items: center; font-size: 12.5px; }
+  /* background page must not scroll under an open modal */
+  body:has(dialog[open]) { overflow: hidden; }
 }
 @media (max-width: 600px) {
   .guide-grid { grid-template-columns: 1fr; }
-  .guide-dialog-main { padding: 16px 16px 22px; }
+  .guide-dialog-main { padding: 16px 16px 24px; }
   .guide-dialog-side { padding: 18px 16px; }
+  /* reading sizes for phones */
+  .guide-dialog-summary { font-size: 13px; }
+  .guide-section p { font-size: 12px; }
+  .guide-points li { font-size: 12px; }
+  .guide-question summary { font-size: 12.5px; padding: 11px 13px; }
+  .guide-question p { font-size: 12px; }
+  .guide-paper-link { padding: 12px 13px; }
+  input, select, textarea { font-size: 16px; }
 }
 
 /* -------------- PAPERS & MEMOS WORKROOM -------------- */
@@ -669,6 +702,7 @@ h1 em {
   width: min(1040px, 94vw);
   max-width: none;
   max-height: 88vh;
+  max-height: 88dvh;
   padding: 0;
   border: 0;
   border-radius: 11px;
@@ -677,9 +711,12 @@ h1 em {
   overflow: hidden;
 }
 .paper-dialog::backdrop { background: rgba(24, 38, 32, .45); backdrop-filter: blur(2px); }
-.paper-dialog-layout { display: grid; grid-template-columns: 262px minmax(0, 1fr); max-height: 88vh; }
+.paper-dialog-layout { display: grid; grid-template-columns: 262px minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); max-height: 88vh; max-height: 88dvh; }
 .paper-dialog-side {
   display: grid;
+  grid-column: 1;
+  grid-row: 1 / 3;
+  min-height: 0;
   align-content: start;
   gap: 14px;
   padding: 24px 20px;
@@ -687,7 +724,7 @@ h1 em {
   border-right: 1px solid var(--line);
   overflow: auto;
 }
-.paper-dialog-main { display: grid; gap: 13px; align-content: start; padding: 20px 26px 26px; overflow: auto; max-height: 88vh; }
+.paper-dialog-main { grid-column: 2; grid-row: 2; min-height: 0; display: grid; gap: 13px; align-content: start; padding: 14px 26px 26px; overflow: auto; max-height: none; }
 .paper-note { margin: 0; padding: 10px 12px; color: #7a6547; background: #fbf6ee; border: 1px solid #f0e4d3; border-radius: 7px; font-size: 10.5px; line-height: 1.5; }
 .paper-toolbar {
   display: flex;
@@ -741,6 +778,7 @@ h1 em {
 .paper-verbatim {
   max-height: 52vh;
   overflow: auto;
+  overscroll-behavior: contain;
   padding: 12px 13px;
   color: #37453d;
   background: #f7f8f6;
@@ -754,15 +792,44 @@ h1 em {
 .paper-prov { display: grid; gap: 5px; padding-top: 12px; border-top: 1px solid var(--line); }
 
 @media (max-width: 850px) {
-  .paper-dialog-layout { grid-template-columns: 1fr; }
-  .paper-dialog-side { border-right: 0; border-bottom: 1px solid var(--line); }
-  .paper-dialog-main { max-height: none; }
-  .paper-dialog, .paper-dialog-layout { max-height: 92vh; }
+  /* Phone/tablet: single scroll area (same architecture as the guide dialog). */
+  .paper-dialog { display: flex; flex-direction: column; max-height: 92vh; max-height: 92dvh; }
+  .paper-dialog-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    min-height: 0;
+    max-height: none;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+  .paper-dialog-side {
+    grid-column: 1;
+    grid-row: 2;
+    min-height: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    overflow: visible;
+  }
+  .paper-dialog-main { grid-column: 1; grid-row: 3; max-height: none; overflow: visible; }
+  /* comfortable tap targets on all touch widths */
+  .paper-btn { min-height: 44px; padding: 10px 15px; display: inline-flex; align-items: center; justify-content: center; font-size: 12.5px; }
+  .workroom-chip { padding: 9px 13px; font-size: 11.5px; }
+  .paper-reveal summary { padding: 14px 0; font-size: 11.5px; min-height: 44px; box-sizing: border-box; }
 }
 @media (max-width: 600px) {
   .workroom-grid { grid-template-columns: 1fr; }
-  .paper-dialog-main { padding: 16px 16px 22px; }
+  .paper-dialog-main { padding: 16px 16px 26px; }
   .paper-dialog-side { padding: 18px 16px; }
+  /* reading sizes for phones */
+  .paper-q-text { font-size: 13px; }
+  .paper-stem { font-size: 12.5px; }
+  .paper-memo-text { font-size: 13px; }
+  .paper-memo-analysis { font-size: 12px; }
+  .paper-note { font-size: 12px; }
+  .paper-summary { font-size: 13px; }
+  .paper-formula-math { font-size: 15px; }
+  input, select, textarea { font-size: 16px; }
 }
 
 /* ---------- maths & notation rendering (js/core/math_notation.js) ---------- */

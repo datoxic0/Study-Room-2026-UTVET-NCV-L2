@@ -1,4 +1,4 @@
-const CACHE_NAME = "studyroom-shell-v5";
+const CACHE_NAME = "studyroom-shell-v6";
 const SHELL = [
   ".",
   "index.html",
@@ -15,6 +15,7 @@ const SHELL = [
   "js/core/storage.js",
   "js/core/search.js",
   "js/core/math_notation.js",
+  "js/core/dialog_lock.js",
   "js/ui/dashboard.js",
   "js/ui/papers.js",
   "js/ui/notebooks.js",
@@ -47,16 +48,17 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET" || new URL(request.url).origin !== self.location.origin) return;
   event.respondWith(
     caches.match(request, { ignoreSearch: true }).then((cached) => {
-      if (cached) return cached;
-      return fetch(request)
+      const refresh = fetch(request)
         .then((response) => {
-          if (response.ok) {
+          if (response.ok && response.type === "basic") {
             const copy = response.clone();
             caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
           }
           return response;
         })
-        .catch(() => caches.match("index.html"));
+        .catch(() => cached || caches.match("index.html"));
+      if (cached) return cached;
+      return refresh;
     })
   );
 });

@@ -5,6 +5,7 @@ import { subjectByName, VERIFIED_ON } from "../data/sources.js";
 import { buildIndex, search } from "../core/search.js";
 import { parseExamDate, weekdayFormatter } from "../core/dates.js";
 import { initWorkroom, openPaper } from "./paper_reader.js";
+import { syncBodyScrollLock } from "../core/dialog_lock.js";
 
 const shortDate = new Intl.DateTimeFormat("en", { day: "numeric", month: "short" });
 
@@ -96,6 +97,17 @@ function openDialog(guide) {
   if (!dialog) return;
   const layout = el("div", "guide-dialog-layout");
 
+  // Topbar is a direct child of the layout: it pins as a grid row on desktop
+  // and sticks above the single scroll area on mobile (close is always reachable).
+  const topBar = el("div", "guide-dialog-topbar");
+  const meta = el("span", "guide-dialog-meta", `Built from ${guide.captures.length} hashed capture${guide.captures.length === 1 ? "" : "s"} · library rebuilt ${GUIDE_BUILT_ON}`);
+  topBar.append(meta);
+  const close = el("button", "guide-close", "Close ×");
+  close.type = "button";
+  close.addEventListener("click", () => dialog.close());
+  topBar.append(close);
+  layout.append(topBar);
+
   const side = el("aside", "guide-dialog-side");
   const sideHead = el("div", "guide-dialog-side-head");
   sideHead.append(el("p", "eyebrow", "STUDY GUIDE"));
@@ -140,14 +152,6 @@ function openDialog(guide) {
   layout.append(side);
 
   const main = el("div", "guide-dialog-main");
-  const topBar = el("div", "guide-dialog-topbar");
-  const meta = el("span", "guide-dialog-meta", `Built from ${guide.captures.length} hashed capture${guide.captures.length === 1 ? "" : "s"} · library rebuilt ${GUIDE_BUILT_ON}`);
-  topBar.append(meta);
-  const close = el("button", "guide-close", "Close ×");
-  close.type = "button";
-  close.addEventListener("click", () => dialog.close());
-  topBar.append(close);
-  main.append(topBar);
 
   main.append(el("p", "guide-dialog-summary", guide.summary));
 
@@ -221,6 +225,7 @@ function openDialog(guide) {
   layout.append(main);
   dialog.replaceChildren(layout);
   if (!dialog.open) dialog.showModal();
+  syncBodyScrollLock();
 }
 
 function renderCards(container) {
