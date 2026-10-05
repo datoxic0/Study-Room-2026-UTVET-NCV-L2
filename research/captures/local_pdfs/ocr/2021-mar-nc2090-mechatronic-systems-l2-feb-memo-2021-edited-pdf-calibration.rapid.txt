@@ -1,0 +1,279 @@
+highereducation
+&training
+Department:
+HigherEducationandTraining
+REPUBLICOFSOUTHAFRICA
+MARKINGGUIDELINE
+NATIONAL CERTIFICATE (VOCATIONAL)
+MECHATRONICS SYSTEMS
+NQF LEVEL 2
+XX February 2021
+This marking guideline consists of 6 pages.
+Copyright reserved
+Pleaseturnover
+
+MARKINGGUIDELINE
+-2-
+MECHATRONICSSYSTEMSL2
+QUESTION1
+1.1
+ENERGY
+TECHNICAL
+INFORMATION
+SYSTEM
+MATTER/
+MATERIAL
+(4 × 1)
+(4)
+1.2
+The energy flow and related conversion.
+The information flow.
+The material flow.
+The operator panel and related components.
+The machine/application and related components.
+The control panel and related components
+Feedback status sensors indicated.
+Open or closed loop control canbe determined.
+(Any other relevant information 8 × 1)
+(8)
+1.3
+INPUT√
+PROCESS
+OUTPUT
+(Reference)
+FEEDBACK
+(6 × 1)
+(6)
+1.4
+The process of changing one form of energy into another, such as nuclear
+(2)
+[20]
+Copyright reserved
+Pleaseturnover
+
+MARKINGGUIDELINE
+-3-
+MECHATRONICSSYSTEMSL2
+QUESTION2
+2.1
+24V
+SW
+X2
+(2)
+2.2
+24V
+SW
+R1
+11
+A1
+X1
+R1
+A2
+X2
+oV
+(2)
+2.3
+12
+22
+24
+32
+34
+42
+A1
+R1
+A2
+21
+31
+41
+ONE mark, if all termninals are correctly labelledv
+(6)
+2.4
+Remote control is when the operator sits and monitors and manages the
+processesVa distance awayfromthe actual workarea.v
+(2)
+2.5
+             s
+(1-5ov) that will not shock a person under normal conditions is used in control
+circuits.v
+(2)
+2.6
+Intrinsic safety is the region where a flash over arc will not cause a fire or
+explosionv in an area where chemicals are used.v
+(2)
+2.7
+ Indication lamp
+Horn
+Siren
+Buzzer
+Dial
+Gauge
+(Any 3 × 1)
+(3)
+2.8
+Indication lamp is commonly used.
+(1)
+[20]
+Copyrightreserved
+Pleaseturnover
+
+MARKINGGUIDELINE
+MECHATRONICSSYSTEMSL2
+QWESTIONAir generation
+·Air distribution
+Air application
+(3)
+3.2
+PVC tubing
+(1)
+3.3
+Pneumatic valve
+(1)
+3.4
+The spool by virtue of its position will control the flow of air in the application.
+(2)
+3.5
+Put the system into zero pressure.
+Reset all cylinders into the initial positions.
+Stop all cylinders in their current position.
+Combine two or more abovementioned options.
+(4)
+3.6
+ELECTRICAL
+MECHANICAL
+PNEUMATIC
+MECHNICAL
+ENERGY
+ENERGY
+ENERGY
+ENERGY
+(5 × 1)
+(5)
+3.7
+A1
+OR
+2V1
+2
+1V1
+1V2
+(Direct control or indirect control is acceptable 4 × 1)
+(4)
+[20]
+Copyright reserved
+Please turnover
+
+MARKINGGUIDELINE
+-5-
+MECHATRONICSSYSTEMSL2
+QUESTION4
+4.1
+Emergency stops are used to prevent injury or death to workers or damage to
+machinery when a fault condition or hazardous condition existsv to ensure that
+the mechatronic system must be reset after the emergency stop has been
+activatedv as required by legislation.v
+(3)
+4.2
+24V
+SW1
+SW2
+SR
+11
+A1
+SR
+CONTROLCIRCUITS
+ov
+A2
+(7)
+4.3
+(2)
+4.4
+24
+Indirect control is achieved by
+using other control elements to
+SW
+activate the solenoid which are
+not connected directly to the
+24V
+solenoid terminals. V√
+In direct control
+SW
+the component
+used to activate
+S
+the solenoid is
+1
+connected directly
+R1
+1M1
+to the solenoid
+terminals. √
+oV
+R1
+1M1
+(6)
+4.5
+I =V/Rv
+= 24/48
+= 0,5 A (unit must be shown to get the mark)
+(2)
+[20]
+Copyright reserved
+Please turn over
+
+MARKINGGUIDELINE
+-6-
+MECHATRONICSSYSTEMSL2
+QUESTION5
+5.1
+Check if water is coming out of the nozzle (output).
+Check if water is coming out the tap (input).
+Check along the hose pipe for cracks, breaks, kinks, blockages, etc.
+(through the circuit).
+(3)
+5.2
+START
+Checktheoperationofor
+Yes
+Is there voltage
+the resistance of the
+to the output
+output device, the
+terminals for loose
+connections.
+No
+Check each component
+Yes
+Is there input
+for function and replace if
+required and fill out the
+voltage to the
+fault report.
+system?
+No
+Check the mains supply
+voltage, the fuse, the MCB,
+thecableforopencircuit
+conditions and the plug top
+STOP
+for loose connections.
+(9)
+5.3
+The sole purpose of the mechatronic person is to ensure that fault elimination
+is carried outy with the minimum production down timev to maintain
+production.v
+(3)
+5.4
+Ensure that the supply is switched off and locked out.v
+(2)
+5.5
+Blockedlines
+Seizure of units
+Breakages
+Leakages
+Dropping of air pressure
+Incorrect switching
+(Any relevant faults 3 × 1)
+(3)
+[20]
+TOTAL:
+100
+Copyright reserved

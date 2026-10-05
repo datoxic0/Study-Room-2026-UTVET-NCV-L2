@@ -1,0 +1,348 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+UltraDeep.co.za
+&training
+Department:
+HigherEducation and Training
+REPUBLICOFSOUTHAFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+INTRODUCTIONTOCOMPUTERS
+NQFLEVEL2
+(10040052)
+19 February 2026 (Y-paper)
+13:00-16:00
+Thisquestionpaper consists of6 pages.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+-SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+52)
+NCV
+ExamPapers
+StudyGuides
+DEPARTMENTOFHIGHEREDUCATIONANDTRAINING
+REPUBLICOFSOUTHAFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+INTRODUCTIONTOCOMPUTERS
+NQFLEVEL2
+TIME:3HOURS
+MARKS:100
+INSTRUCTIONSANDINFORMATION
+1.
+Answerallthequestions.
+2.
+Readall thequestionscarefully.
+3.
+Number the answersaccording to thenumberingsystem used in thisquestionpaper.
+4.
+Use only ablackorbluepen.
+5.
+Writeneatly and legibly.
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+52)
+-3-
+NCV
+ExamPapers
+StudyGuides
+QUESTION1
+1.1
+Explain the following terms.
+1.1.1
+Logic gates
+(2 × 1)
+(2)
+1.1.2
+Logic symbols
+(2 × 1)
+(2)
+1.1.3
+Truth table
+(2 ×1)
+(2)
+1.2
+Answerthefollowingrelatedquestions.
+1.2.1
+Identify the logicgate
+X
+≥1
+Z
+(1)
+1.2.2
+Complete the truth tablefor thelogic gate inQUESTION 1.2.1.
+X
+Y
+Z
+(4 × 1)
+(4)
+1.2.3
+Design therelated circuit using lamps and switching symbols.
+(7 ×1)
+(7)
+1.3
+What would the following voltage levelsrepresent on a TTL device?
+1.3.1
+Between5Vand2,4V
+(1)
+1.3.2
+Between0Vand0,8V
+(1)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+52)
+NCV
+ExamPapers
+StudyGuides
+1.4
+thatdifferintheircharacteristics,functions,anduses.
+Name the differencesbetween a primary memory and a secondarymemory in
+thetablebelow.
+ThetablebelowmustberedrawnandcompletedinyourANSWERBOOK.
+Differences
+PrimaryMemory
+SecondaryMemory
+Volatility
+Accessspeed
+Capacity
+Function
+Usage
+(5×2)
+(10)
+[30]
+QUESTION2
+2.1
+To ensure successful host-to-host communication,network engineers must
+adherestrictlytowrittenrules.
+StatetheFouRrulesthatapplytodifferentaspectsofconnectivity.
+(4×1)
+(4)
+2.2
+The seven layersofconnectivityof the opensystemsinterconnection(OSl)
+referencemodelworktogethertoenableseamlesscommunicationanddata
+exchangebetweendevicesandanetwork.
+7
+Application
+65
+Presentation
+Session
+4
+Transport
+3
+Network
+2
+Data link
+1
+Physical
+Brieflyexplainhoweachlayerfunctions.
+(7 × 2)
+(14)
+2.3
+Throughwhichdevice(s)canprotocolsbeimplemented?
+(2 × 1)
+(2)
+2.4
+Explainthefunctionofacomputerbus.
+(2 × 1)
+(2)
+2.5
+ListTHREEpropertiesforprotocols.
+(3 × 1)
+(3)
+[25]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+52)
+-5-
+NCV
+ExamPapers
+StudyGuides
+QUESTION3
+3.1
+What are the errors at the levels mentioned in QUESTION 2.2 called?(2 × 1)
+(2)
+3.2
+Whendo theseerrorsoccur?
+(2 × 1)
+(2)
+3.3
+Howwill youknowthat there issuchaproblemonyourcomputer?
+(3 × 1)
+(3)
+3.4
+HowwillyouaccesstheWindowsTaskManager?
+(2 × 1)
+(2)
+3.5
+Whatwill happen ifyou press thekey(WindowsTask Manager)twicein
+succession?
+(1)
+3.6
+The computer in the admin office of a robotics company gets very hot.You are
+contactedtorectifytheproblem.
+3.6.1
+Explain why this computer gets too hot.
+(1)
+3.6.2
+Write down the steps to solve the overheating problem mentioned
+inQUESTION3.6.1.
+(5 ×1)
+(5)
+3.7
+Explain theFIVEstepstomoveadocumenttoaflashdisk.
+(5 × 1)
+(5)
+3.8
+What isthepurposeof thefollowingWindowsapplications?
+3.8.1
+Disk Cleanup
+(2 × 1)
+(2)
+3.8.2
+Compression
+(2 × 1)
+(2)
+[25]
+QUESTION4
+4.1
+Brieflyexplainashortcutonacomputer.
+(4 × 1)
+(4)
+4.2
+Give the shortcut keysfor the following:
+4.2.1
+Newfile
+(1)
+4.2.2
+Cut
+(1)
+4.3
+ListFouRstepstocreateanewfile.
+(4× 1)
+(4)
+[10]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+52)
+-6-
+NCV
+ExamPapers
+StudyGuides
+QUESTION5
+5.1
+You can change the look and the contents of your presentation in many ways,
+forexample,by adding orformattingtext,rearranging the slides,changing the
+colourscheme,insertingpictures,usinghyperlinks,andpreviewingyourslide
+show.
+Explainthedifferencebetweenaddingtextandformattingtext.
+(2 × 2)
+(4)
+5.2
+GiveTwOtipsfortheeffectiveuseofcolourinapresentation.
+(2 ×1)
+(2)
+5.3
+Presentationscanbeinteractive.
+Explainwhatyouunderstandunderinteractivepresentation.
+(3 × 1)
+(3)
+5.4
+WhatdoestheacronymURLmean?
+(1)
+[10]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

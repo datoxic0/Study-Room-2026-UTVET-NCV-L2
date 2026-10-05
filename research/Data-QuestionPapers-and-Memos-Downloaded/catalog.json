@@ -1,0 +1,46 @@
+{
+  "note": "Metadata overrides for local files whose meaning is NOT fully encoded in the filename (Y-papers/X-papers with unusual dates, task sheets, mislabelled downloads). Everything else is derived by scripts/paper_naming.mjs. Keep overrides minimal — only fields the filename cannot supply.",
+  "overrides": [
+    {
+      "file": "2021 MAR NC2090 - MECHATRONIC SYSTEMS L2 FEB QP 2021 edited.pdf",
+      "overrides": {
+        "id": "mech-nc2090-qp-2021",
+        "session": "26 March 2021 (Y-paper)",
+        "title": "NC2090 Mechatronic Systems — 2021 Y-paper"
+      }
+    },
+    {
+      "file": "2021 MAR NC2090 - MECHATRONIC SYSTEMS L2 FEB MEMO 2021 edited.pdf",
+      "overrides": {
+        "id": "mech-nc2090-memo-2021",
+        "session": "26 March 2021 (Y-paper)",
+        "title": "NC2090 Mechatronic Systems — 2021 Y-paper memo"
+      }
+    },
+    {
+      "file": "NCV2 Mechatronic Systems December 2020.pdf",
+      "overrides": {
+        "id": "mech-nc2090-qp-2020dec",
+        "kind": "qp",
+        "session": "2 December 2020 (X-paper)",
+        "title": "NC2090 Mechatronic Systems — December 2020 X-paper"
+      }
+    },
+    {
+      "file": "NCV-MATHEMATICS-PAPER -2- TASK 07 QP.docx",
+      "overrides": {
+        "id": "math-task7-qp",
+        "session": "Task 7(V1) · Paper 2 · 11 September 2026",
+        "title": "Mathematics L2 — Task 7(V1)"
+      }
+    },
+    {
+      "file": "NCV-MATHEMATICS-PAPER-2-TASK 07 MG.docx",
+      "overrides": {
+        "id": "math-task7-mg",
+        "session": "Task 7(V1) · Paper 2 · 11 September 2026",
+        "title": "Mathematics L2 — Task 7 marking guideline"
+      }
+    }
+  ]
+}

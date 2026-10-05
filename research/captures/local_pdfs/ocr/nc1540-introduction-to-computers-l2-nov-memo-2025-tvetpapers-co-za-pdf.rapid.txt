@@ -1,0 +1,368 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+&training
+Department:
+HigherEducationandTraining
+REPUBLICOFSOUTHAFRICA
+MARKINGGUIDELINE
+NATIONALCERTIFICATE(VOCATIONAL)
+INTRODUCTIONTOCOMPUTERS
+NQFLEVEL2
+19 November2025
+This marking guideline consists of 5pages.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+-SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+IGGUIDELINE
+-2-
+NCV
+INTRODUCTIONTOCOMPUTERSL2
+ExamPapers
+StudyGuides
+QUESTION1
+1.1
+1.1.1
+A+B=Z√√
+(2 × 1)
+(2)
+1.1.2
+≥1
+Z
+B
+(3×1)
+(3)
+1.2
+AND gatev
+OR gatev
+NOT gatev
+Set/Reset(SR) gatev
+(4×1)
+(4)
+1.3
+B
+Z
++V
+OV
+(8 × 1)
+(8)
+1.4
+A
+B
+C
+Z
+0
+0
+0
+0
+0
+0
+1
+1
+0
+1
+0
+1
+0
+1
+1
+1
+1
+0
+0
+1
+1
+0
+1
+1
+1
+0
+1
+1
+1
+1
+(8× 1)
+(8)
+1.5
+Mechatronic products are intelligent systems that integratemechanical,
+electrical,andsoftware engineering toperform complextasks.
+Whereas
+A harddriveisanon-volatilestoragedevicethatstoresdigitaldataona
+magneticdisk.√√
+(2 ×2)
+(4)
+1.6
+Digital circuitsoperate atahighspeed.
+Digitalcircuitsconsumelowpower.
+Digitalcircuitsarelesspronetoerrors.
+(Any ONErelevantanswer)
+(1)
+[30]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-3-
+NCV
+INTRODUCTIONTOCOMPUTERSL2
+ExamPapers
+StudyGuides
+QUESTION2
+2.1
+ArithmeticLogicUnit(URL)
+(1)
+2.2
+By coupling computer storage with the CPUv
+(2 × 1)
+(2)
+2.3
+Calculators
+Computers
+Specialiseddevicev
+General-purposedevicev
+Limitedfunctionality
+Multi-functionalv
+Noprogrammingcapability
+Programmingcapabilityy
+No data storagev
+Data storagev
+Simple input/outputy
+Advancedinput/output
+(5 ×2)
+(10)
+2.4
+·Magnetic tapes
+Magneticdisksv
+(2 x 1)
+(2)
+2.5
+Ethernety
+WLAN(WirelessLAN)
+VLAN(Virtual LAN)
+Token ring
+FDDl(Fibre-distributeddatainterface)y
+(5 × 1)
+(5)
+2.6
+By using anti-static mats,  chairs or bracelets.v
+MARKERTOUSEDISCRETION
+(2 × 1)
+(2)
+2.7
+Can causeoverheating or catchfire.V√
+(2 × 1)
+(2)
+2.8
+No.
+(1)
+[25]
+QUESTION3
+3.1
+Refers to the process oforganising,storing,and retrieving digital files on a
+computer.v√
+(2 × 1)
+(2)
+3.2
+3.2.1
+·Cold bootv
+·Warm bootv
+(2 × 1)
+(2)
+3.2.2
+Coldbootisusedwheninstallingnewhardware,updatingtheBlos,
+or troubleshooting hardware issues.V
+Whereas
+Warmbootisusedwhenrestartingthecomputerquickly,suchas
+afterinstalling
+softwareupdatesorclosing
+unresponsive
+applications.V
+(2 × 2)
+(4)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-4-
+NCV
+INTRODUCTIONTOCOMPUTERSL2
+ExamPapers
+StudyGuides
+3.3
+·PLCsoftware
+CNCsoftware
+CADsoftware
+Industrialrobotsoftware
+(Any THREErelevant answers) (3x1)
+(3)
+3.4
+FileExplorer is a filemanagement application inWindowsoperating systems
+that allowsuserstonavigate,manage,andorganisefilesandfoldersontheir
+computer.V√
+(2 × 1)
+(2)
+3.5
+Make sure computer is switched off.
+Open CPU box.
+Close CPU
+Replace CPU
+Unclip CPU holder
+boxandtest.
+andcloseholder.
+&remove CPU.
+(5 × 1)
+(5)
+3.6
+Power supply deadv
+Powersourceinterruptedattheplug
+Establishwhether theprinter isplugged in or not.
+Establishwhether thepowercableisproperlyconnected totheprinteror
+not.v
+The transformer in thepowersupply
+(5 × 1)
+(5)
+3.7
+Tocontrol thedisplayinWindowsv
+Toactasafilefolderv
+(2 × 1)
+(2)
+[25]
+QUESTION4
+4.1
+ClickonMicrosoftOfficebutton andselectOPEN.
+Right-clickonthefileinthelook-inwindowthatyouwanttocopy.
+Click on COPY.
+Navigate to the place in the look-in window where you want to paste.
+Right-clickandclickPASTE.√
+(5 × 1)
+(5)
+4.2
+ClickontheMicrosoftOfficebuttonandhighlightPRINT.
+SelectPRINTPREVIEW.
+(2 × 1)
+(2)
+4.3
+Used to create presentations.V
+(2 × 1)
+(2)
+4.4
+Yesv
+(1)
+[10]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-5-
+NCV
+INTRODUCTIONTOCOMPUTERSL2
+ExamPapers
+StudyGuides
+QUESTION5
+5.1
+Backbuttonv
+Forwardbutton
+Reload/Refreshbuttonv
+Stop button
+(4 × 1)
+(4)
+5.2
+Image linkv
+(1)
+5.3
+Emailallowsuserstosendandreceivemessagesfromeverywhere.
+Email isafastwaytocommunicate.
+Email isalow-costwaytocommunicate.
+Provideapermanentrecordofcommunication.
+Emailcanbeaccessedfromavarietyofdevices.
+Anyrelevantanswer(2x1)
+(2)
+5.4
+URL is thewebaddress used toidentify and locate a specificresource on the
+internet, such as a website,web page, or online file.
+(2 ×1)
+(2)
+5.5
+Whensendingemailstoagroup.
+(1)
+[10]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

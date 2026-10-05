@@ -2,10 +2,11 @@ import { initDashboard } from "./js/ui/dashboard.js";
 import { initPapers } from "./js/ui/papers.js";
 import { initNotebooks } from "./js/ui/notebooks.js";
 import { initGuides } from "./js/ui/guides.js";
+import { initPractice } from "./js/ui/practice.js";
 import { initTutor } from "./js/ui/tutor.js";
 import { initTimer } from "./js/ui/timer.js";
 
-const VIEWS = ["dashboard", "guides", "papers", "notebooks"];
+const VIEWS = ["dashboard", "guides", "papers", "practice", "notebooks"];
 const initialised = new Set();
 
 function resolveView() {
@@ -30,6 +31,7 @@ function show(view) {
     initialised.add(target);
     if (target === "guides") initGuides();
     if (target === "papers") initPapers();
+    if (target === "practice") initPractice();
     if (target === "notebooks") initNotebooks();
   }
 }
@@ -60,3 +62,40 @@ if ("serviceWorker" in navigator && window.location.protocol.startsWith("http"))
     });
   });
 }
+
+const netBadge = document.querySelector("#net-badge");
+let netCached = false;
+
+function renderNetBadge() {
+  if (!netBadge) return;
+  if (!navigator.onLine) {
+    netBadge.hidden = false;
+    netBadge.dataset.mode = "offline";
+    netBadge.textContent = "Offline — showing saved copy";
+  } else if (netCached) {
+    netBadge.hidden = false;
+    netBadge.dataset.mode = "cached";
+    netBadge.textContent = "Network unreachable — showing saved copy";
+  } else {
+    netBadge.hidden = true;
+    netBadge.textContent = "";
+  }
+}
+
+window.addEventListener("offline", renderNetBadge);
+window.addEventListener("online", () => {
+  netCached = false;
+  renderNetBadge();
+});
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.addEventListener("message", (event) => {
+    const msg = event.data;
+    if (!msg || typeof msg !== "object") return;
+    if (msg.type === "net-fallback") netCached = true;
+    if (msg.type === "net-ok") netCached = false;
+    renderNetBadge();
+  });
+}
+
+renderNetBadge();

@@ -1,0 +1,81 @@
+{
+  "note": "Files in this folder that are deliberately NOT ingested into the papers shelf. Every .pdf/.docx here must be either hashed into research/captures/local_pdfs/manifest.json (ingested) or listed below with a measured reason — the test suite enforces the split both ways. Add a new row whenever you drop in a file that is not a question paper or memorandum.",
+  "excluded": [
+    {
+      "file": "NC1240_-_ENGLISH_FIRST_ADDITIONAL_LANGUAGE_L2_P1_MEMO_NOV_2025_-_tvetpapers.co.za (1).pdf",
+      "reason": "Exact byte duplicate (sha256) of the ingested NC1240 memo without the ' (1)' suffix."
+    },
+    {
+      "file": "NC1240_-_ENGLISH_FIRST_ADDITIONAL_LANGUAGE_L2_P1_QP_NOV_2025_-_tvetpapers.co.za (1).pdf",
+      "reason": "Exact byte duplicate (sha256) of the ingested NC1240 question paper without the ' (1)' suffix."
+    },
+    {
+      "file": "NC2090_-_MECHATRONIC_SYSTEMS_L2_NOV_MEMO_2025_-_tvetpapers.co.za (1).pdf",
+      "reason": "Exact byte duplicate (sha256) of the ingested NC2090 memo without the ' (1)' suffix."
+    },
+    {
+      "file": "NC2090_-_MECHATRONIC_SYSTEMS_L2_NOV_QP_2025_-_tvetpapers.co.za (1).pdf",
+      "reason": "Exact byte duplicate (sha256) of the ingested NC2090 question paper without the ' (1)' suffix."
+    },
+    {
+      "file": "ElectroAndIntro-ISAT (1).pdf",
+      "reason": "Exact byte duplicate (sha256) of ElectroAndIntro-ISAT.pdf, which is ingested via its NotebookLM capture as shelf entry mech-isat."
+    },
+    {
+      "file": "ElectroAndIntro-ISAT.pdf",
+      "reason": "Already ingested from its NotebookLM capture as shelf entry mech-isat (ISAT questionnaire, not a QP/memo sitting)."
+    },
+    {
+      "file": "MathsTask6(V1).pdf",
+      "reason": "Already ingested from its NotebookLM capture as shelf entry math-task6 (image-mode source, summary-level)."
+    },
+    {
+      "file": "Blueprint_to_Workbench.pdf",
+      "reason": "Teaching blueprint/workbench material — not a question paper or memorandum."
+    },
+    {
+      "file": "Industrial_Pneumatic_Systems.pdf",
+      "reason": "Topic study material (industrial pneumatics) — not a question paper or memorandum."
+    },
+    {
+      "file": "Level_2_Volunteer_Field_Guide.pdf",
+      "reason": "Volunteer field guide — not a question paper or memorandum."
+    },
+    {
+      "file": "Manual_Manufacturing_Exam_Blueprint.pdf",
+      "reason": "Exam blueprint (assessment framework document) — not a question paper or memorandum."
+    },
+    {
+      "file": "Mathematics_L2_Functions_Graphs.pdf",
+      "reason": "Topic notes on functions and graphs — not a question paper or memorandum."
+    },
+    {
+      "file": "Mechatronic_Diagnostic_Logic.pdf",
+      "reason": "Diagnostic-logic study material — not a question paper or memorandum."
+    },
+    {
+      "file": "Mechatronics_ISAT_Blueprint.pdf",
+      "reason": "ISAT exam blueprint — not a question paper or memorandum."
+    },
+    {
+      "file": "Mechatronics_ISAT_Sub-Task_2_Playbook.pdf",
+      "reason": "ISAT sub-task teaching playbook — not a question paper or memorandum."
+    },
+    {
+      "file": "NCV2 Mechatronic Systems November 2020.pdf",
+      "reason": "Filename says November but the document header reads '2 December 2020 (X-paper)' — same exam already ingested as mech-nc2090-qp-2020dec (word-bag overlap 0.946 between the two transcriptions, both 6 pages, 09:00-12:00)."
+    },
+    {
+      "file": "NCV_Level_2_Computer_Blueprint.pdf",
+      "reason": "NCV Level 2 computer exam blueprint — not a question paper or memorandum."
+    },
+    {
+      "file": "PLC_Assembly_and_Automation_Blueprint.pdf",
+      "reason": "PLC exam blueprint — not a question paper or memorandum."
+    },
+    {
+      "file": "Volunteer+Experience+Report.pdf",
+      "reason": "Volunteer experience report — not a question paper or memorandum."
+    }
+  ]
+}

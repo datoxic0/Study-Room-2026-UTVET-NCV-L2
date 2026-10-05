@@ -1,15 +1,17 @@
-export const exams = [
-  { date: "2026-10-19", time: "09:00", subject: "Life Skills and Computer Literacy", level: "L2", duration: "2 hr", paper: "Paper 2" },
-  { date: "2026-10-27", time: "13:00", subject: "Mathematics", level: "L2", duration: "3 hr", paper: "Paper 1" },
-  { date: "2026-10-28", time: "13:00", subject: "Mathematics", level: "L2", duration: "3 hr", paper: "Paper 2" },
-  { date: "2026-10-29", time: "09:00", subject: "English First Additional Language", level: "L2", duration: "2 hr", paper: "Paper 1" },
-  { date: "2026-10-30", time: "09:00", subject: "English First Additional Language", level: "L2", duration: "2 hr", paper: "Paper 2" },
-  { date: "2026-11-05", time: "13:00", subject: "Life Skills and Computer Literacy", level: "L2", duration: "2 hr", paper: "Paper 1" },
-  { date: "2026-11-06", time: "13:00", subject: "Electrotechnology", level: "L2", duration: "3 hr", paper: "Paper 1" },
-  { date: "2026-11-11", time: "13:00", subject: "Introduction to Computer", level: "L2", duration: "3 hr", paper: "Paper 1" },
-  { date: "2026-11-12", time: "13:00", subject: "Manual Manufacturing", level: "L2", duration: "3 hr", paper: "Paper 1" },
-  { date: "2026-11-16", time: "13:00", subject: "Mechatronic Systems", level: "L2", duration: "3 hr", paper: "Paper 1" },
-];
+// The timetable the app renders — derived, never hand-edited.
+// Annual updates go in js/data/timetable.js (append a year block); this module
+// picks the block a student should see right now and exposes its exam list so
+// every consumer (dashboard, guides, tutor, papers) shares one selection rule.
+import { selectExamBlock, startOfDay } from "../core/dates.js";
+import { timetable } from "./timetable.js";
+
+export { timetable };
+
+export const activeExamBlock = selectExamBlock(timetable, startOfDay());
+export const activeExamYear = activeExamBlock ? activeExamBlock.year : null;
+
+// Consumers (dashboard/guides/tutor/papers) keep importing `exams` unchanged.
+export const exams = activeExamBlock ? activeExamBlock.exams : [];
 
 export const plan = [
   { title: "Recall what you know", description: "Close your notes and write down key ideas.", duration: "25 min" },

@@ -1,0 +1,491 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+UltraDeep.co.za
+&training
+Department:
+HigherEducationandTraining
+REPUBLICOFSOUTHAFRICA
+MARKINGGUIDELINE
+NATIONALCERTIFICATE(VOCATIONAL)
+ELECTROTECHNOLOGY
+NQFLEVEL2
+17February2026
+Thismarking guideline consists of 7pages.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+-SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-2-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+QUESTION1
+1.1
+1.1.1
+Molecule
+1.1.2
+Diode
+1.1.3
+Faraday'slawofinduction
+1.1.4
+Element
+1.1.5
+Compound
+(5 × 1)
+(5)
+1.2
+1.2.1
+Theresistors areconnected in a series-parallel circuit.
+(1)
+1.2.2
+R2×R3
+1
+1
+1
+Rp
+R2+ R3
+Rp
+R2
+4×6
+1
+1
+Rp
+4+6
+4
+6
+Rp=2,4Ω√
+5
+12
+RT=R+Rp+R4
+Rp=2,4Ω
+R=2+2,4+3
+R=7,4Ω
+(3)
+1.2.3
+VT
+IT
+RT
+12
+IT
+7,4
+IT=
+1,622A
+(2)
+1.2.4
+P=VxIT
+P=12×1,622√
+P=19,464W√
+(2)
+1.3
+Typeofmaterialoftheconductor
+Cross-sectionalareaoftheconductor
+Lengthoftheconductor
+Temperature
+(Any 2 × 1)
+(2)
+1.4
+1.4.1
+N
+V
+V2
+N
+V
+N2
+300×24
+V
+60
+V=120V√
+(3)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-3-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+1.4.2
+N
+N2
+N
+N2
+300×2
+I2
+60
+I2=10A√
+(2)
+[20]
+QUESTION2
+2.1
+Direct contact
+Indirect contact
+(2)
+2.2
+B
+Ironbar
+Lamp
+Electromagnet
+Spring steel
+Relay circuit
+Lamp circuit
+(6)
+2.3
+2.3.1
+2,2 m
+2.3.2
+2,2m
+2.3.3
+1,2 m
+2.3.4
+0,2 m
+(4 × 1)
+(4)
+2.4
+Lessexpensivethanmetalconduit
+Weighslessthanametalpipe
+Quickandeasytoinstall
+Easytotransport
+Hasanattractivefinish
+Has good insulatingproperties toprevent earthfailure short circuit
+Doesnotrust(isanti-corrosive)
+(Any 4×1)
+(4)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-4-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+2.5
+Screwdrivers
+Voltagetester/Multimeter
+Wire strippers
+Crimping tool
+Pliers(combination,long-nose,side-cutters)
+Insulation tape
+Cabletest
+Drill and drill bits
+Measuring tape
+Labelmakerormarkers
+(Any 4 x 1)
+(4)
+2.6
+Bending spring
+(1)
+2.7
+Sizeandtypeofloadtobesupplied
+Permissiblevoltagedrop
+Prospectivefaultcurrent
+Circuitprotection
+Installation conditions
+(Any 4× 1)
+(4)
+[25]
+QUESTION3
+3.1
+Thedevicemustbefitforpurpose.
+Equipmentandtestinstrumentsmustbetestedeverysixmonthsand
+recalibratedonceeveryyeartoensurethattheyareinproperworkingorder.
+Repairsandmaintenanceshouldmeetappropriatestandardsandthe
+manufacturer'sspecifications.
+Immediatelybeforeandafteruse,thedeviceshouldbeinspectedand
+functionalchecksperformedtoconfirm thatthedeviceisoperatingcorrectly.
+Theworkpracticesemployedduringuseshouldbeinlinewithdocumented
+procedures.
+Thesedocumented
+proceduresshouldaddressthe
+manufacturer'sinstructionsandrecommendations.
+Thefunction,rangeandclassaccuracyofthedeviceshouldbeappropriate
+toboththejobat hand and thegeneral workingconditions.Thecombination
+ofleadsandinstrumentsusedshouldbecapableofwithstandingthe
+impulsevoltagesandfaultcurrentlevels.
+(Any5×1)
+(5)
+3.2
+3.2.1
+1kΩ±10%
+3.2.2
+8,2kΩ±5%
+3.2.3
+910kΩ±5%
+3.2.4
+6,8MΩ±5%
+(4× 1)
+(4)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-5-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+3.3
+Bywhatdatemustthetaskbecompleted?
+Whenmustthetaskstart?
+How manyworkerswill be available?
+What toolsand equipmentwill beneeded?
+Whatmaterialsmustbeordered?
+Whatdocumentationisneededaccordingtothejobinstructions?
+Mustanyrequestsbe submitted to thesupplyauthority,forexample an
+applicationforanelectricityconnection?
+Whatwill happen in thecaseof unforeseencircumstances,such asheavy
+rain,unavailabilityofmaterials,etc.?
+(Any 6 × 1)
+(6)
+3.4
+ITEMNUMBER
+DESCRIPTION
+QUANTITY
+1
+Resistor
+3
+2
+Potentiometer/Trimmer
+1
+3
+Diode
+5
+4
+LDR
+1
+5
+Capacitor
+2
+9
+NPNtransistor
+2
+7
+Transformer
+1
+(7)
+3.5
+Theresistancemaydriftfromitsnormalvalue.
+Theymaybecompletelyopen.
+Theymaybemechanicallydamaged.
+(3)
+[25]
+QUESTION4
+4.1
+4.1.1
+True
+4.1.2
+False
+4.1.3
+False
+4.1.4
+True
+4.1.5
+True
+(5 × 1)
+(5)
+4.2
+Visual inspection
+Half-cutmethod
+Input-to-outputtechnique
+Operational method
+Circuitcontinuitytest
+(5)
+4.3
+Electric shock isa dangerousphysical effect as aresultof thepassing of an
+electriccurrentthroughthebodyofapersonoranimal.
+(1)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+IGGUIDELINE
+-6-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+4.4
+4.4.1
+Rs=R1+R2
+Rs=50+100
+Rs=150Ω√
+Rs × R3
+RP
+Rs+R3
+150×150
+Rp
+150+150
+Rp=75Ω√
+(3)
+4.4.2
+VT
+IT
+RT
+3
+75
+IT=0,04A~or40mA
+(2)
+4.4.3
+WhenR3is open:
+RT=R+R2=50+100=150Ω
+VT
+3
+0,022
+T
+RT
+150
+(2)
+4.4.4
+Whenresistor(Ri) isshort-circuited:
+R2×R3
+Rp
+R2+ R3
+100×150
+Rp
+100+150
+Rp
+60Ω／
+VT
+3
+0,05Ω√
+RT
+60
+(2)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+IGGUIDELINE
+-7-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+QUESTION5
+5.1
+Step 1:Fill in the form.
+Step2:Givetheformtotheattendingdoctor.
+Step3:Sendtheformstothecompensationfund.
+Step4:Paycompensationto theworker.
+Step5:Sendfollow-upforms.
+(5)
+5.2
+Decide on a goal or goals.
+Listthekeytasksrequiredto accomplishthegoals.
+Describemeasurableresultsoroutcomesforeachofthekeytasks.
+Testthegoalsagainstthetasksandtheexpectedresults.
+Arrangethetasksintheorderinwhichtheymustbeperformed
+the tasks.
+Puteverything ina timeframe,indicating datesforthecompletion of the
+task.
+(Any5×1)
+(5)
+[10]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

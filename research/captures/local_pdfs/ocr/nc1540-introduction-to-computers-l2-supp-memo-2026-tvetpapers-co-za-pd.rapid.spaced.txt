@@ -1,0 +1,368 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+UltraDeep.co.za
+&training
+Department:
+Higher Education and Training
+REPUBLIC OF SOUTH AFRICA
+MARKINGGUIDELINE
+NATIONALCERTIFICATE(VOCATIONAL)
+INTRODUCTION TO COMPUTERS
+NQFLEVEL2
+19 February2026
+This marking guideline consists of 5 pages.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+-SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-2-
+NCV
+INTRODUCTION TO COMPUTERS L2
+ExamPapers
+StudyGuides
+QUESTION1
+1.1
+1.1.1
+Logic gates are electronic circuits that perform logic operations on
+one or more input signals to produce an output signal.
+(2× 1)
+(2)
+1.1.2
+Logic symbols are graphical representations to denote logic
+operations,inputs,and outputs in alogic circuit.
+(2 × 1)
+(2)
+1.1.3
+A truth table displays the output of a logic operation for all possible
+combinations of input values.V
+(2 × 1)
+(2)
+1.2
+1.2.1
+OR-gate
+(1)
+1.2.2
+X
+Y
+Z
+0
+0
+0
+0
+1
+1
+1
+0
+1
+1
+1
+(4×1)
+(4)
+1.2.3
+2
+S1E
+S2
+K1
+E1
+OV
+O
+市
+(7 × 1)
+(7)
+1.3
+1.3.1
+“1"TRUE,HI
+(1)
+1.3.2
+"O"FALSE, LO
+(1)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-3-
+NCV
+INTRODUCTION TO COMPUTERS L2
+ExamPapers
+StudyGuides
+1.4
+Differences
+PrimaryMemory
+SecondaryMemory
+Volatility
+Aprimarymemoryis
+Asecondarymemoryis
+volatile.v
+non-volatile.v
+Accessspeed
+Has a fast accessspeed.
+Hasasloweraccess
+speed.v
+Capacity
+Hasalimitedcapacity.
+Hasalargercapacity.
+Function
+Stores data temporarily.
+Stores data permanently
+Usage
+Used to execute programs
+Used forstoring a large
+and store data temporarily.
+amountofdata.
+(5×2)
+(10)
+[30]
+QUESTION2
+2.1
+Whichphysical connectionstouse.
+How the connected computers should listen.
+How to interrupt.
+How to say goodbye.v
+(4×1)
+(4)
+Layer1:
+Physical transmits raw bits over a physical medium and enables
+communication between devices.V
+Layer 2:
+Data link breaks data into frames for transmission.Italsodetects
+and corrects errors in frames.v
+Layer3:
+Network determines the best path for data transmission and assigns
+IPaddressestodevices.V
+Layer4:
+Transport not only breaks down and reassembles data packets but
+alsoregulates data flow to prevent congestion.v
+Layer5:
+Besidesmanaging theconnection,sessionalsosetsupand tears
+downconnections.It also establishes a connection between
+devices.Vv
+Layer 6:
+Presentation translates data into a compatible format and encrypts
+ittoensuresecurity.Inaddition,presentation compresses data to
+reduce transmission time.v
+Layer 7:
+It not only supports email,filetransfer,andwebbrowsingbutalso
+enables communication between apps and network services.V√
+(7 ×2)
+(14)
+2.3
+Bywayof either thehardware or thesoftwareora combination of the two.
+(2)
+2.4
+A computer bus allows different components of a computer system to
+exchangedata,instructionsand control signals.
+(2)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-4-
+NCV
+INTRODUCTION TO COMPUTERS L2
+ExamPapers
+StudyGuides
+2.5
+How to start and end a message.
+How to format a message.
+How to terminate a session or connection.v
+How to detect unexpected loss of the connection,andwhattodonext.
+Negotiates various connection characteristics.
+What to do with a corrupted or improperly formatted message.
+Detects the underlying physical connection or the existence of other end
+points or nodes.
+(Any3×1)
+(3)
+[25]
+QUESTION3
+3.1
+Runtimeerrors.v
+(2)
+3.2
+When you are running an application and something causes it to fail.
+(2)
+3.3
+A program will alert you by opening a dialog box that reports the error, or if
+you are caught in an error and areunaware of it, theprogramwill simply hang
+and not respond to your mouse clicks or keys strokes on the
+keyboard.vv
+(3×1)
+(3)
+3.4
+BypressingCTRL+ALT+DELonyourkeyboard once.V
+(2)
+3.5
+It will reboot the computer.
+(1)
+3.6
+3.6.1
+Faultypowersupplyto thecomputerfan.
+(1)
+3.6.2
+Open the case of the computer.
+Unplug all the power supply cables from thevarious devices.
+Loosen the screws of the power supply at the back of the
+computer.Remove the power supply and replace it with a new
+one.v
+Tighten the screws andre-plug all power cables to the
+appropriate devices.v
+Close the case and switch on the computer.
+(5 × 1)
+(5)
+3.7
+Open the My Documents folder.
+Select the file Year Plan2025'.
+Right-clickonthefile.
+SelectCutinthedrop-downmenu.
+Open the flash disk drive through My Computer or Explorer.
+Right-clickontheflashdisk.
+Select Paste from the menu.
+Make sure the file is on the flash disk,then close the drive and make sure
+the file is no longer in the My Documents folder.
+(Any5×1)
+(5)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-5-
+NCV
+INTRODUCTION TO COMPUTERS L2
+ExamPapers
+StudyGuides
+3.8
+3.8.1
+Disk Cleanup is a utility to free up space on a computer's hard drive
+orsolid-statedriveby deleting unnecessary files and data on it.
+(2)
+3.8.2
+Compression reduces the size of files,making them easier to store,
+transmit,andshare.It can also be used to encrypt data,makingit
+more secure.v
+(2)
+[25]
+QUESTION4
+4.1
+Shortcuts on a computer are keys or combinations of keys that allow you to
+perform specific tasks or actions quickly and efficiently.Because they
+reduce theneed tousemenus,icons or other navigation methods,shortcuts
+(4×1)
+(4)
+4.2
+4.2.1
+Ctrl +N
+(1)
+4.2.2
+Ctrl +Xv
+(1)
+4.3
+Click on the Microsoft Office button and select New.
+Fromthenextmenu,selectBlankdocument.
+ClickonCreate.
+A newfile can also be created with a shortcutkey.
+(4 × 1)
+(4)
+[10]
+QUESTION5
+5.1
+Addingtext involves inserting new text and creating new content in a slide.
+Whereas
+       s  
+text.Vv
+(2 × 2)
+(4)
+5.2
+Simplev
+Pleasingtotheeyes
+Avoidclutter
+Createvisualappeal
+(Anyrelevantanswer)(2×1)
+(2)
+5.3
+and feedback.v
+(3 × 1)
+(3)
+5.4
+Uniform Resource Locator.
+(1)
+[10]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NcV Study Guides App

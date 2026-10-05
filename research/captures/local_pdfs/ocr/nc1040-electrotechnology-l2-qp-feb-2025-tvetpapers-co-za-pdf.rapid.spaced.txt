@@ -1,0 +1,691 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+&training
+Department:
+HigherEducation and Training
+REPUBLIC OF SOUTH AFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+ELECTROTECHNOLOGY
+NQF LEVEL 2
+(12040212)
+19 February 2025 (Y-paper)
+13:00-16:00
+Calculatorsmaybeused.
+Thisquestionpaper consists of7pages and1formula sheet.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+TVET
+tvetpapers.co.za
+U1traDeep.co.za
+MyNATED.co.za
+Exam Papers
+ULTRADEEP
+f
+You
+Tube
+THANKYOU FOR DOWNLOADING THIS PAST EXAM PAPER/MEMO,WE HOPE IT WILL BE OF HELP TO YOU
+These are the only apps affiliated with tvetpapers.co.za
+Download Papers from
+tvetpapers.co.za
+MyNATED.co.za
+10
+These are some of our apps
+(visit tvetpapers.co.za)
+TVET
+SOUTH AFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+Uitra-Deep
+Uitra-Deep
+National:
+National:
+Uitra-Deep
+ultradeep.co.za
+Question Papers
+National:
+Question Papers
+Ultra-Deep
+Question Papers
+Study Guides
+Study Guides
+Study Guides
+tvetpapers.co.za
+TVET
+TVET
+TVET
+MyNATED
+lite
+ExamPapers
+NATED
+tvetpapers
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Uitra-Deep
+National:
+Uitra-Deep
+QuestionPapers
+Ultra-Deep
+QuestionPapers
+Uitra-Deep
+QuestionPapers
+QuestionPapers
+Study Guides
+StudyGuides
+StudyGuides
+Study Guides
+NATED
+TVET
+NCV
+NCV
+LITE
+StudyGuides
+ExamPapers
+StudyGuides
+GETITON
+Downloadonthe
+EXPLOREITON
+Downloadfor
+Availableon the
+Google Play
+App Store
+HUAWEI
+AppGallery
+Windows
+MacAppStore
+Startyour rvET journey with the best apps to helpyou achieve the best results
+inyour exams.Our apps and websites caterforNated and Ncy students
+SOUTHAFRICA
+TVETPapers
+Ultra-DeepTM
+National
+stionPapers
+StudyafterMatric
+Ultra-DeepMultimedia
+TVET
+StartyourTVETjourney
+doeswebandmobile
+withthebestsitefor
+appdevelopment.We
+Papers
+TVETstudents
+50%
+ULTRADEEP
+OFF
+aimtohelpstudents
+tvetpapers.co.za
+UltraDeep.co.za
+SIFY
+Click on the banner above to visit tvetpapers.co.za or UitraDeep.co.za
+DISCLAIMER
+tvetpapers.co.za, mynated.co.za and ultradeep.co.za are
+partofUitra-DeepMultimediaTM assuch,
+no one;business orindividual;arepermitted
+touse(publish,display,transimit orbroadcast)them in any other app/website/server/medium.
+Copyright2oz4-2oz5Uitra-DeepMultimedia-AllRightsReserved
+
+SOUTHAFRICA
+Downloaded from TVET Ncv Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+12)
+NCV
+2
+ExamPapers
+StudyGuides
+DEPARTMENT OF HIGHER EDUCATION AND TRAINING
+REPUBLIC OF SOUTH AFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+ELECTROTECHNOLOGY
+NQFLEVEL2
+TIME:3HOURS
+MARKS:100
+INSTRUCTIONS AND INFORMATION
+1.
+Answer all the questions.
+2.
+Readall the questions carefully.
+3.
+Number the answersaccording to the numbering system used in thisquestionpaper.
+4.
+Start each question on a new page.
+5.
+Use only a black or blue pen.
+6.
+Write neatly and legibly.
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+12)
+-3-
+NCV
+ExamPapers
+StudyGuides
+QUESTION1
+1.1
+Indicate whether the following statements are TRUE or FALSE by writing only
+'True'or'False' next to the question number (1.1.1-1.1.5) in the ANSWER
+BOOK.
+1.1.1
+An inductor stores energy in a magnetic field when electric current
+flows through it.
+1.1.2
+A diode allows current to flow in both directions.
+1.1.3
+A capacitor stores electrical energy in a magnetic field.
+1.1.4
+Directcurrent(DC)isanelectriccurrent thatreverses itsdirection
+periodically.
+1.1.5
+Semi-conductors have electrical conductivity between that of a
+conductorandanisolator.
+(5 × 1)
+(5)
+1.2
+An RLC circuit consists of a12Qresistor,aninductorof0,2H,andacapacitor
+of50Fall connected in series.The circuit is connected across a230V,50Hz
+supply.Calculate the following:
+1.2.1
+Inductivereactance
+1.2.2
+Capacitivereactance
+1.2.3
+Theimpedanceof the circuit
+1.2.4
+Thetotal current
+(4×2)
+(8)
+1.3
+Analysethecircuit inFiGURE1and answer the questions that follow.
+R2
+10Q
+R1
+R3
+R5
+P
+Q
+5Q
+20Q
+4Q
+R4
+WW
+30Q
+FIGURE1
+1.3.1
+Calculate the total resistance between point P and point Q.
+(4)
+1.3.2
+Calculate the voltage if a totalcurrentof12Aflowsthroughthe
+circuit.
+(2)
+1.4
+StateJoule'slaw.
+(1)
+[20]
+Copyright reserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+12)
+NCV
+ExamPapers
+StudyGuides
+QUESTION2
+2.1
+Draw the IECsymbolsfor thefollowing:
+2.1.1
+AC motor
+2.1.2
+Two-way switch
+2.1.3
+Coil
+2.1.4
+Pushbuttonswitch
+(4 × 1)
+(4)
+2.2
+Draw an eat and fully labelled circuit diagram to show how two socket outlets
+are connected to the same circuit breaker.
+(6)
+2.3
+State the recommended conductor(wire)size used in a domestic installation
+forthefollowing sub-circuits:
+2.3.1
+Geyser
+2.3.2
+Stove
+2.3.3
+Distribution board wiring
+2.3.4
+Socketoutlet
+2.3.5
+Bell circuit
+(5 × 1)
+(5)
+2.4
+It isessential tounderstand the difference between various typesof conduits
+used in electrical wiring.
+Give THREE advantages and disadvantagesofmetal conduit.
+(6 × 1)
+(6)
+2.5
+Define the following:
+2.5.1
+Fault current
+2.5.2
+Earthing
+(2 × 2)
+(4)
+[25]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+12)
+-5-
+NCV
+ExamPapers
+StudyGuides
+QUESTION3
+3.1
+Identify the components shown in FIGURE2by writing only the answers next
+totheletter(A-F)intheANSWERBOOK.
+DI
+1n4001
+R1
+240V
+D1
+065
+TR1
+AC
+1n4001
+TIP4IA
+output9V
+C2
+stabilised
+100/25
+100/15
+D3
+BZYS3
+12-0-12volts
+9.1V
+B
+D
+FIGURE2
+(6)
+3.2
+Explain how one would test a transistor using a digital multimeter.
+(4)
+3.3
+Withtheaidofacircuitdiagram,show how one would connect the following
+instruments in a circuit:ammeter,voltmeter,andohmmeter.
+Hint:The circuit diagram must consistofa DC supply,tworesistorsinseries,
+andanopenswitch.
+(6)
+3.4
+Whenplanning,it is important to tackle any job in the right order of events.
+What are theFOuR questions one should ask oneself whenplanning a job?
+(4)
+3.5
+A basic toolkit that contains the basic hand tools needed to do any work should
+be available in all electronic workshops.
+List FiVE tools needed to build an electronic circuit on a Vero board.
+(5)
+[25]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+12)
+-6-
+NCV
+ExamPapers
+StudyGuides
+QUESTION4
+4.1
+Choosea description from COLUMN B that matches a term in COLUMN A.
+Write only theletter(A-F)next tothequestionnumber(4.1.1-4.1.5)inthe
+ANSWERBOOK.
+COLUMNA
+COLUMNB
+4.1.1
+High-resistance
+A
+A troubleshooting technique that involves
+joint
+using sight to identify visible signs of faults
+ordamage
+4.1.2
+Continuity testing
+B
+A fault condition where connections have
+4.1.3
+Corrective
+higher than normal resistance,causing
+maintenance
+voltagedrops andpotential overheating
+4.1.4
+Visual inspection
+C
+A process of tracing and correcting faults
+inmachineryand technicalequipment
+4.1.5
+Preventive
+maintenance
+D
+Activities performed routinely to extend
+the life or increase the performance of the
+equipment
+E
+A method to test the continuous electrical
+path in a circuit to ensure that there are
+nobreaks
+These are activities done because
+partial or total equipment failure
+(5× 1)
+(5)
+4.2
+Complete the following sentences by writing only the missing word or words
+next to the question number(4.2.1-4.2.5)intheANSWERBOOK.
+4.2.1
+Plastic does not conduct electricity because it has...electrical
+resistance.
+4.2.2
+Metals are good conductors because they have...resistanceto the
+flowofelectricity.
+4.2.3
+A short circuit provides an .. path for current to flow to earth.
+4.2.4
+An open circuit is defined as any..in the current path of a series
+circuit that will cause the entire circuit to become dysfunctional.
+4.2.5
+Soldering provides electrical...between the device and the board.
+(5 × 1)
+(5)
+Copyright reserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+12)
+-7-
+NCV
+Exam Papers
+StudyGuides
+4.3
+RefertoFiGURE3and answer the questions that follow.
+R1
+R2
+W
+20
+4Q
+R3
+A1
+A2
+30
+12VDC
+三
+FIGURE3
+4.3.1
+WhenswitchS1 is closed,what will thereading on meterA1be?
+(4)
+4.3.2
+What will the reading on meter A2 be?
+(2)
+4.3.3
+Whatwill thereadingonammeterAibe,ifswitchS1isclosedbut
+switchS2isopened?
+(2)
+4.3.4
+Whatcould thepossiblecausefor the following readings be?
+·V1=0V
+·A2=0A
+(2)
+[20]
+QUESTION5
+An electrical contract is made upof activities A to E.
+·ActivityAtakes2weeks,startinginweek1.
+·ActivityBtakes3weeks,endinginweek6.
+ActivityCtakes3weeks,startinginweek3.
+ActivityD takes2weeks,startinginweek6.
+ActivityEtakes4weeks.
+Note that Activity B does not prevent any other activity from taking place,butActivityE
+can only start after Activity Chas been completed.
+5.1
+Draw a bar chart to display the activities of the contract.
+(8)
+5.2
+Due to unforeseen circumstances,ActivityCtakes5weekstocomplete.When
+will Activity E be completed?
+(2)
+[10]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+12)
+NCV
+ExamPaperS ULA SHEET
+StudyGuides
+ELECTRO TECHNOLOGY LEVEL2
+1.
+P=V 1 CosΦ
+16.
+RT=R+R2+R3+..+Rn
+2.
+Q=VISinp
+1
+1
+1
+1
+1
+17.
++
+R3
++
+R1
+...
+RT
+R2
+3.
+S=V1
+18.
+CT
+=C+C2+C3+..·+
+4.
+V=IR
+1
+1
+1
+1
+19.
++
+CT
+C1
+C2
+Cn
+5.
+P=V1
+20.
+LT
+L+L2+L3++Ln
+6.
+X=2πfL
+1
+1
+21.
+LT
+L
+1
+22.
+Q=CV
+7.
+Xc=
+2πfC
+Z=√R²+(x-xc)²
+23.
+R,=R(1+at)
+8.
+V
+N
+9.
+V+(V-Vc)²
+VT=
+24.
+V2
+N2
+R
+R2
+10.
+V
+25.
+I
+R,
+R,+R2
+11.
+V =IXL
+26.
+Vc =IXc
+12.
+IT
+1+(L- 1c)2
+27.
+R=Pl
+A
+IL-Ic
+XL-Xc
+13.
+tanO=
+28.
+tan0=
+IR
+R
+V
+29.
+E=I²Rt
+14.
+Z=
+πd2
+f
+15.
+A=
+30.
+ns
+4
+p
+31.
+E=V+Ir
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

@@ -1,5 +1,6 @@
 import { getUpcomingExams, getNextExam, getNextExamDate } from "./dashboard.js";
 import { fullDateFormatter } from "../core/dates.js";
+import { chat, hasApiKey, maskKey, setApiKey } from "../core/ai_client.js";
 
 const conversation = [];
 
@@ -58,20 +59,17 @@ async function sendToBuddy(text) {
   const typing = addMessage("Thinking through that with you…", "typing");
 
   try {
-    if (!window.websim?.chat?.completions?.create) {
-      throw new Error("The study buddy is unavailable right now. Please try again in a moment.");
-    }
-    const completion = await window.websim.chat.completions.create({
-      messages: [{ role: "system", content: systemPrompt() }, ...conversation.slice(-12)],
-    });
-    const answer = completion?.content?.trim() || "I couldn't shape a helpful answer just now. Try asking that a different way.";
+    const answer = await chat(conversation.slice(-12), { system: systemPrompt() });
     conversation.push({ role: "assistant", content: answer });
     typing.remove();
     addMessage(answer, "buddy");
   } catch (error) {
     typing.remove();
     conversation.pop();
-    addMessage(error?.message || "I couldn't connect just now. Please try again.", "buddy");
+    const hint = error?.code === "no-key"
+      ? "AI is off. Paste an OpenRouter API key in the key box above and press Save key — it stays on this device."
+      : error?.message || "I couldn't connect just now. Please try again.";
+    addMessage(hint, "buddy");
   } finally {
     sendButton.disabled = false;
     input.focus();
@@ -81,6 +79,23 @@ async function sendToBuddy(text) {
 export function initTutor() {
   const form = document.querySelector("#chat-form");
   const input = document.querySelector("#chat-input");
+
+  const settings = document.querySelector("#tutor-ai-settings");
+  const keyInput = document.querySelector("#tutor-ai-key");
+  const keyStatus = document.querySelector("#tutor-ai-status");
+  const renderKeyStatus = () => {
+    keyStatus.textContent = hasApiKey() ? `AI ready (${maskKey()})` : "AI off — paste a key to unlock";
+    keyStatus.classList.toggle("is-on", hasApiKey());
+  };
+  renderKeyStatus();
+  settings.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const value = keyInput.value.trim();
+    if (!value) return;
+    setApiKey(value);
+    keyInput.value = "";
+    renderKeyStatus();
+  });
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();

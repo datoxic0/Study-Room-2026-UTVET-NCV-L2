@@ -1,0 +1,369 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+&training
+Department:
+HigherEducation and Training
+REPUBLIC OF SOUTH AFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+MECHATRONICSYSTEMS
+NQF LEVEL2
+(6040102)
+28 November 2025 (Y-paper)
+13:00-16:00
+Thisquestionpaper consists of6 pages.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+NCV
+2)
+ExamPapers
+StudyGuides
+DEPARTMENT OF HIGHER EDUCATION AND TRAINING
+REPUBLIC OF SOUTH AFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+MECHATRONICSYSTEMS
+NQFLEVEL2
+TIME:3HOURS
+MARKS:100
+INSTRUCTIONS AND INFORMATION
+1.
+Answerall thequestions.
+2.
+Readall the questions carefully.
+3.
+Number the answersaccording to thenumberingsystem used in thisquestionpaper.
+4.
+Use only a black orbluepen.
+5.
+Writeneatly and legibly.
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+-3-
+NCV
+2）
+ExamPapers
+StudyGuides
+QUESTION1
+1.1
+forms.
+ListFiVEenergyforms thatmaybeconverted toelectrical energy.
+(5 × 1)
+(5)
+1.2
+FIGuRE1below shows a diagram of a basic technical system.
+Fill in the missing labels by writing only the answer next to the question number
+(1.2.1-1.2.4) intheANSWERBOOK.
+(4 × 1)
+(4)
+Forces/movement
+Work/Production
+1.2.1
+Energy
+Environment
+Energy
+1.2.4
+1.2.2
+Information
+1.2.3
+Feedback
+Referencevariable
+FIGURE1
+1.3
+Show,bymeansofadrawing,thedifferencebetweenahotandcoldbimetal
+strip.
+(2 ×2)
+(4)
+1.4
+Explain theimportanceof the carbonbrushesin aDCmotor.
+(4 × 1)
+(4)
+1.5
+Briefly explain the function of a worm and wheel gear transmission.
+(3 × 1)
+(3)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+-4-
+NCV
+2）
+ExamPapers
+StudyGuides
+QUESTION2
+2.1
+Define the following terms
+2.1.1
+Comparator
+(2 × 1)
+(2)
+2.1.2
+Truthtable
+(2 ×1)
+(2)
+2.1.3
+Switch
+(2 × 1)
+(2)
+2.2
+Drawa labelledsymbolof a NOTgateusing S1 asan input and E1 asan
+output.
+(3 × 1)
+(3)
+2.3
+Draw the symbol for a magnetic reed switch.
+(4 × 1)
+(4)
+2.4
+Name theFIVE steps to follow when implementing a problem-solving
+technique.
+(5 × 1)
+(5)
+2.5
+Write the following acronyms in full
+2.5.1
+CNC
+(1)
+2.5.2
+CIM
+(1)
+[20]
+QUESTION3
+3.1
+Define the term,compressed air.
+(2 × 1)
+(2)
+3.2
+List FOuR characteristics of compressed air.
+(4 × 1)
+(4)
+3.3
+Drawanon-simplified service unit.
+(7 × 1)
+(7)
+3.4
+Drawadouble-acting cylinder indicating the unequal forces when it goes
+positive andnegative.
+(3 × 1)
+(3)
+3.5
+What is a two-pressure valve mainly used for?
+(4× 1)
+(4)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+-5-
+NCV
+2）
+ExamPapers
+StudyGuides
+QUESTION4
+4.1
+Mention FouR safety devices that areusedforover-currentprotection.
+(4)
+4.2
+FIGURE2below shows a circuit diagram of a control box.Studythecircuit
+diagram and answer the questions that follow.
++24V
+1
+E/STOPH
+ON/OFF
+2
+3
+STARTH
+NVR
+NVR
+4
+5
+6
+RESETH
+MANH
+K1
+AUTOH
+K2
+K2
+K1
+NVR
+K1
+OV
+2
+3
+FIGURE2
+4.2.1
+Explain thepurposeof theNVR in this circuit.
+(2 × 1)
+(2)
+4.2.2
+Explainwhy anE/Stopisusedin the circuit.
+(2 × 1)
+(2)
+4.2.3
+Identify the TWO contacts that prevent the manual and automatic
+controls from being activated at the sametime.
+(2 × 1)
+(2)
+4.2.4
+Explain the operation of thecircuitshown in thediagram.
+(7 × 1)
+(7)
+4.3
+Safety voltage results in low risk of shock.
+Give the voltage that is used in electro-pneumatic control and state how this
+voltage is achieved from the supply voltage.
+(3×1)
+(3)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+-6-
+NCV
+2)
+ExamPapers
+StudyGuides
+QUESTION5
+5.1
+List FOuR faults that may occur on a service unit.
+(4 × 1)
+(4)
+5.2
+Mention THREE faults that may occur on tubing andpipes.
+(3 × 1)
+(3)
+5.3
+Brieflyexplainwhymaintenance isimportant.
+(2 × 1)
+(2)
+5.4
+What are the following features used for in a flowchart?
+5.4.1
+(1×1)
+(1)
+5.4.2
+(1×1)
+(1)
+5.4.3
+(1 ×1)
+(1)
+5.5
+Copy and complete the diagram below in the ANSWER BOOK to show how
+onewoulddohalf-cuttesting.
+Stage
+Stage
+Stage
+Stage
+Stage
+Stage
+Stage
+Stage
+1
+2
+3
+4
+5
+6
+7
+8
+(7)
+5.6
+Writethe acronym,SFC,infull
+(1×1)
+(1)
+[20]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

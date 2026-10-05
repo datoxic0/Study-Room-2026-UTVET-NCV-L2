@@ -55,3 +55,17 @@ export function groupByMonth(examList) {
   }
   return groups;
 }
+
+// Which timetable block does the app show? The first (oldest) block that still
+// has at least one exam on/after `from` — i.e. the sitting a student is
+// currently preparing for. If every block is historical, show the latest block
+// so the dashboard can say "complete" against real dates instead of going blank.
+export function selectExamBlock(blocks, from = startOfDay()) {
+  if (!Array.isArray(blocks) || blocks.length === 0) return null;
+  const sorted = [...blocks].sort((a, b) => a.year - b.year);
+  const floor = startOfDay(from);
+  for (const block of sorted) {
+    if (block.exams.some((exam) => parseExamDate(exam.date) >= floor)) return block;
+  }
+  return sorted[sorted.length - 1];
+}

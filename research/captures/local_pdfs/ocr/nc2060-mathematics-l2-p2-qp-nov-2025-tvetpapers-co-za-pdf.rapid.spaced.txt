@@ -1,0 +1,771 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+&training
+Department:
+HigherEducation and Training
+REPUBLIC OF SOUTH AFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+MATHEMATICS
+(Second paper)
+NQFLEVEL2
+(10501042)
+12 November 2025 (Y-paper)
+13:00-16:00
+Non-programmable scientific calculators maybe used.
+This questionpaper consists of 9pages,3 addenda and 1formula sheet.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+Qoestien Fapers
+StudyGuides
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV ExamPapers
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+NCV
+2
+ExamPapers
+StudyGuides
+DEPARTMENT OF HIGHER EDUCATION AND TRAINING
+REPUBLIC OF SOUTH AFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+MATHEMATICS
+NQFLEVEL2
+(Second paper)
+TIME:3HOURS
+MARKS:100
+INSTRUCTIONS AND INFORMATION
+Answerall thequestions.
+2.
+Readall the questions carefully.
+3.
+Number the answers according to the numbering system used in this question paper.
+4.
+Clearly showall calculations,diagrams andgraphs usedin determining theanswers.
+5.
+Roundoff answers to THREE decimals unless stated otherwise.
+6.
+Diagramsarenotdrawn toscale.
+7.
+Useonly ablackorbluepen.
+8.
+Write neatly and legibly.
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+-3-
+NCV
+2
+Exam Papers
+StudyGuides
+QUESTION1
+1.1
+A traffic police officer records the different brands of cars atapolicecheckpoint,as
+showninthetablebelow.
+Toyota
+Hyundai
+Toyota
+Hyundai
+VW
+Toyota
+Mercedes
+Toyota
+Toyota
+Mercedes
+Ford
+Mercedes
+Hyundai
+Toyota
+Mercedes
+Mercedes
+Mercedes
+Vw
+Toyota
+VW
+Toyota
+Ford
+Ford
+Toyota
+Ford
+Toyota
+Vw
+Toyota
+VW
+Mercedes
+Ford
+Ford
+Hyundai
+Toyota
+Toyota
+Ford
+Toyota
+Mercedes
+Toyota
+Ford
+Thedistribution tableof thedifferentcarbrandsisshownbelow:
+Car brand
+Tally
+Frequency
+Toyota
+VW
+Hyundai
+Mercedes
+Ford
+Total
+40
+1.1.1
+Complete the distribution table on ADDENDUM A(attached).
+(5)
+1.1.2
+Which carbrand is the most popular?
+(1)
+1.1.3
+Use the information from QUESTION1.1.1above to construct a bar chart
+onADDENDUMA (attached).
+(4)
+1.2
+Use the databelow to answer the following questions:
+72
+63
+23
+71
+72
+84
+76
+42
+53
+13
+37
+1.2.1
+Arrange the data in ascending order.
+(1)
+1.2.2
+Determine themiddle quartile(Qz).
+(1)
+1.2.3
+Calculate the lower quartile (Q1).
+(2)
+1.2.4
+Calculate the lower quartile (Q3).
+(2)
+1.2.5
+Calculate therange.
+(1)
+1.2.6
+Calculate the interquartile range (IQR).
+(1)
+1.2.7
+Calculate the 85th percentile.
+(3)
+Copyrightreserved
+Pleaseturn over
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NCV
+2
+ExamPapers
+StudyGuides
+1.3
+Thepiechart(notdrawntoscale)below shows the proportion of men,women and
+children who attended a soccer match at the FNB stadium between Orlando Pirates and
+KaizerChiefs.Amongthe90000spectators who attended the match,4500were
+childrenand21000werewomen.
+Calculate thefollowing:
+NUMBER OF SPECTATORS ATA SOCCER
+MATCH
+Women
+Children
+Men
+1.3.1
+Thesize(indegrees) of thesectorforwomen.
+1.3.2
+The size (in degrees) of the sector for children.
+1.3.3
+The size (in degrees) of the sector for men.
+(3×2)
+(6)
+1.4
+The table below represents the marks(outof100)of20students in a Mathematics
+examination.Itisalsonoted that the mode of the data is32.
+42
+12
+72
+82
+32
+22
+12
+42
+62
+62
+72
+M
+22
+52
+42
+32
+22
+62
+32
+52
+1.4.1
+DeterminethevalueofM.
+(1)
+1.4.2
+Drawastem-and-leafplotforthedata.
+(8)
+1.4.3
+Calculate the mean of the data.
+(2)
+Copyrightreserved
+Pleaseturn over
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+NCV
+2
+Exam Papers
+StudyGuides
+1.5
+Define thefollowing terminology as used in statistics:
+1.5.1
+Quartile
+1.5.2
+Percentile
+(2×1)
+(2)
+[40]
+QUESTION2
+2.1
+Givenbelow are two triangularprisms(not drawn to scale) labelledA and B.
+10cm
+14cm
+5cm
+B
+7cm
+6cm
+3cm
+4cm
+8cm
+2.1.1
+Calculate the surface area (Sa) of prism A.
+(2)
+2.1.2
+Calculate the surface area (SB) of prism B.
+(2)
+2.1.3
+Determine and simplify the ratioS a:SB
+(2)
+2.1.4
+What conclusion can you draw from your answer to
+QUESTION2.1.3above?
+(1)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+NCV
+2
+-6-
+ExamPapers
+StudyGuides
+2.2
+Thediagrambelowis a quadrilateralwith verticesA(-6;6);B(x;-3);C(4;-4)and
+D(5;y).Given that M(1;-1) is themidpoint of BDwhile N is themidpoint of AC,
+calculate the following:
+A(-6;6)
+D(5;y)
+M(1;-1)
+B(x;-3)
+C(4;-4)
+2.2.1
+ThecoordinatesofN.
+(2)
+2.2.2
+The value of y.
+(2)
+2.2.3
+The value of x.
+(2)
+2.2.4
+Thelength ofAB.Leaveyour answerinsurdform.
+(3)
+2.2.5
+ThegradientofCD.
+(2)
+Copyrightreserved
+Pleaseturn over
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NCV
+2
+7-
+ExamPapers
+StudyGuides
+2.3
+Consider ABC in the diagram below.
+B(2:5)
+4
+A(1;2)
+2.3.1
+DrawtheimageA'B'C'of ABC after a reflection about they-axison
+ADDENDUMB(attached).
+2.3.2
+Draw the image A'B"C"of △ABC after a reflection about the x-axis on
+ADDENDUMB(attached).
+2.3.3
+Draw the image A"B""c" of △ABC after a translation of 6 units
+downwardsand7units to the left on ADDENDUM B(attached).
+2.3.4
+Write down the coordinates of△PQ R formed by translating ABC about
+the line x=y.
+(4×3)
+(12)
+[30]
+Copyrightreserved
+Pleaseturn over
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NcV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+StudyGuides
+QuestionPapers
+NCV
+-8-
+NCV
+2
+ExamPapers
+StudyGuides
+QUESTION3
+3.1
+Define thefollowing terminology used in trigonometry:
+3.1.1
+Period
+3.1.2
+Amplitude
+(2×1)
+(2)
+3.2
+Givenf（x)=2cosx+2andg（x)=2sinxfor0°≤x≤360°.
+3.2.1
+Calculate thevalues ofA,B,C,D,E,P,Q,R,SandTin the tablebelow.
+x
+0
+30
+60
+90
+120
+150
+180
+210
+240
+270
+300
+330
+360
+f(x)
+4
+3,7
+A
+2
+B
+0,3
+C
+0,3
+1
+D
+3
+3,7
+E
+g(x)
+0
+P
+1,7
+Q
+1,7
+1
+0
+R
+-1,7
+S
+-1,7
+T
+0
+(2)
+3.2.2
+MakeuseofADDENDUMC(attached)and thetableinQUESTION3.2.1
+above to draw thegraphs of f(x) and g(x).
+(4)
+3.2.3
+Determine
+A+A2
+where
+A1 =Amplitude of f(x)
+andA2=
+Amplitude of g(x).
+(2)
+3.2.4
+Read from the graph in QUESTION 3.2.2 above,the values of x for
+which f(x)=3.
+(2)
+3.3
+Giventhattan0=
+6
+for180°≤0≤270°:
+8
+3.3.1
+Represent theinformation on a Cartesianplane usinga triangle.
+(1)
+3.3.2
+Calculate the hypotenuse of the triangle in QUESTION3.3.1above.
+(2)
+3.3.3
+Calculate thevalue of3sinθ-cos0.
+(3)
+3.3.4
+Calculate thevalueof2sin0cos0-
+2
+(3)
+tan0
+3.4
+Solvefor0inthefollowingwhere0°≤0≤90°
+1
+(2)
+Copyrightreserved
+Pleaseturn over
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+NCV
+2
+9
+ExamPapers
+StudyGuides
+3.5
+Consider the diagram below where AD=34cm;CD=y;BC=20 cm;
+AB=26 cm;BD=x and BDC=α.
+Calculate thefollowing:
+26cm
+34cm
+B
+20cm
+3.5.1
+The value of x.
+(2)
+3.5.2
+The value of y.
+(2)
+3.5.3
+Thevalueofα.
+(3)
+[30]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+NCV
+2
+-1-
+ExamPapers
+StudyGuides
+ADDENDUMA
+EXAMINATIONNUMBER:
+QUESTION1
+1.1
+1.1.1
+Car brand
+Tally
+Frequency
+Toyota
+VW
+Hyundai
+Mercedes
+Ford
+Total
+40
+1.1.3
+Abarchartofcarbrands
+16
+14
+12
+Frequency
+10
+Toyota
+vW
+Hyundai
+Mercedes
+Ford
+CARBRAND
+Copyrightreserved
+Pleaseturn over
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NCV
+2
+ExamPapers
+StudyGuides
+ADDENDUMB
+EXAMINATIONNUMBER:
+QUESTION2
+2.3
+2.3.1;2.3.2&2.3.3
+B(2;5)
+C(7:4)
+A(1;2)
+Copyrightreserved
+Pleaseturn over
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NCV
+2
+ExamPapers
+StudyGuides
+ADDENDUMC
+EXAMINATIONNUMBER:
+QUESTION3
+3.2
+3.2.2
+25
+15
+220°240°260°280°
+320
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NCV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+NCV
+2
+ExamPapers
+TULASHEET
+StudyGuides
+1.
+Asquare = lxl=2
+2.
+Arectangle = l ×w
+1
+3.
+Atriangle
+=-bxh
+2
+4.
+Acircle =Tr2
+5.
+C=2πr
+6.
+Area ofparallelogram=base x perpendicular height
+3√3
+7.
+Anexagon
+L2
+2
+V3
+8.
+Anexagon
+W2
+2
+9.
+Acylinder = 2πr(h +r)
+10.
+Volume=Area of base x perpendicular height
+11.
+Vcylinder =πr²h
+12.
+Total surface area of a triangular prism
+=(height of prism x perimeter of base)+ 2(areaofbase)
+△y
+y2-y1
+13.
+m=
+△x
+x2-x1
+14.
+D=√(x2-x1)²+(y2-y1)²
+(x1+x2y1+y2）
+15.
+M:
+2
+2
+16.
+θ = tan-1m
+fixi
+17.
+ORMean=（totalorsumofallitems)÷（numberofitems)
+n
+18.
+R=Xn-XORRange=highestvalue-lowestvalue
+19.
+Qjposition
+(n+1)
+4
+20.
+1
+Q3-Q1
+21.
+Semi-interquartilerange
+（upperquartile-lowerquartile=
+12
+2
+22.
+1
+Pjposition
+(n +1)
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

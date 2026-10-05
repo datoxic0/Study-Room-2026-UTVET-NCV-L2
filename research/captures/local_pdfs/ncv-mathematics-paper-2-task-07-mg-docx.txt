@@ -1,0 +1,406 @@
+  
+NATIONAL CERTIFICATE (VOCATIONAL)
+NATIONAL CERTIFICATE (VOCATIONAL)
+FUNDAMENTALS
+MATHEMATICS 
+NQF LEVEL 2
+7 P2 (V1)
+7 P2 (V1)
+TASK:
+1000000
+1000000
+11/09/2026
+11/09/2026
+DATE:                                              MARKS:
+This MARKING GUIDELINE consists of    pages.
+MARKING GUIDELINE
+INSTRUCTIONS AND INFORMATION
+1.
+2.
+3.
+4.
+5.
+This marking guideline consists of 5 pages.
+Mark ALL mathematically correct answers.
+Put your ticks and crosses neatly and legibly.
+Mark All questions. 
+√   half mark       one mark
+One mark = 
+Half mark = √ QUESTION 1
+1.1
+1.1.1
+The mean is the average set of the numbers(2)
+1.1.2
+The mode is the value that appears most frequently in a given dataset
+(2)
+  1.2.3
+      The median is the middle value in a sorted dataset
+(2)
+Stem
+Leaf
+1
+5
+
+2
+5, 8
+
+3
+0, 4, 5, 7, 7, 9
+
+4
+4, 7
+
+5
+0, 0, 5, 6, 7, 7, 7, 7, 7
+
+Stem
+Leaf
+1
+5
+
+2
+5, 8
+
+3
+0, 4, 5, 7, 7, 9
+
+4
+4, 7
+
+5
+0, 0, 5, 6, 7, 7, 7, 7, 7
+
+1.21.2.1
+(5)
+1.2.2
+Mean  867 
+20
+ 43,35 
+(2)
+1.2.3
+Median  1 20  1 position
+2
+ 10,5 position 
+ 44  47
+2
+ 45,5 
+(2)
+1.3
+65, 66, 66, 67, 71, 72, 74, 75, 77, 80, 81, 88
+1.3.1
+Q1  1 (12  1)
+4
+ 3,25 position
+ 66  0,25 (67  66)
+ 66,25 
+or
+Q1  66  67  66,5 
+2
+(2)
+1.3.2
+Q3  3 (12  1)
+4
+ 9,75 position
+ 77  0,75 (80  77)
+ 79,25 
+or
+Q3= 77  80 
+    =157 * 1/2
+ 78,5 
+                
+(2)
+1.3.3
+Interquartile  Q3  Q1
+ 79,25  66,25 
+ 13 
+Or
+Interquartile  Q3  Q1
+ 78,5  66,5 
+ 12 
+(2)
+1.3.4
+1.3.5
+Range  88  65  23
+68th percentile  68 (12  1) 
+100
+ 8,84 position 
+ 75  0,84 (77  75)
+ 76,68 
+(1)
+(3)
+SPORTS
+TALLY
+FREQUENCY
+Cricket
+1111  1√
+6√
+Hockey
+1111 1111√
+9√
+Soccer
+11111111  11√
+12√
+Golf
+1111√
+5√
+Tennis
+1111 111√
+8√
+TOTAL:
+40
+SPORTS
+TALLY
+FREQUENCY
+Cricket
+1111  1√
+6√
+Hockey
+1111 1111√
+9√
+Soccer
+11111111  11√
+12√
+Golf
+1111√
+5√
+Tennis
+1111 111√
+8√
+TOTAL:
+40
+1.41.4.1
+(½ mark for each tally + ½ mark for each frequency)(5)
+1.4.2
+
+
+
+
+
+One mark for each correct bar.
+(5)
+SPORTS
+DEGREE
+Cricket
+54°√
+Hockey
+81°√
+Soccer
+108°√
+Golf
+45°√
+Tennis
+72°√
+SPORTS
+DEGREE
+Cricket
+54°√
+Hockey
+81°√
+Soccer
+108°√
+Golf
+45°√
+Tennis
+72°√
+1.4.3
+(½ mark for each degree + ½ mark for each correct sector)
+(5)
+[40]
+QUESTION 2
+2.1
+2.1.1
+𝐴 = 2𝜋𝑟ℎ + 2𝜋𝑟2                                         
+33 2
+= 2𝜋 ( ) (8) + 2𝜋 ( )
+22
+= 24𝜋 + 4,5𝜋
+= 28,5𝜋 𝑐𝑚2  or 89,535 𝑐𝑚2                                        
+(3)
+2.1.2
+𝑉𝐵𝐸𝐴𝑀 = 𝑙 × 𝑤 × ℎ
+= 12 × 8 × 6
+= 576𝑐𝑚3
+𝑉𝐶F𝐿𝐼𝑁𝐷𝐴𝑅 = 𝜋𝑟2ℎ
+3 2
+= 𝜋 ( ) × 8    2
+9
+= 𝜋 ×× 8
+4
+= 18 𝜋 𝑐𝑚3
+= 56,549 𝑐𝑚3
+𝑇𝑜𝑡𝑎𝑙 𝑣𝑜𝑙𝑢𝑚𝑒 = 576 + 56,549 + 56,549
+= 689,098 𝑐𝑚3
+(7)
+2.22.2.1𝐷𝐴𝐶 = (𝑥2 − 𝑥1)2 + (𝑦2 − 𝑦1)2
+=√ (3 − (−1))2 + (5 − 2)2
+=√ (4)2 + (3)2
+= 5(3)
+2.2.2
+𝐷𝐵𝐶 = �(𝑥2 − 𝑥1)2 + (𝑦2 − 𝑦1)2
+= �(3 − 4)2 + (5 − 2)2
+= �(−1)2 + (3)2
+= √10
+(3)
+2.2.3
+𝑥1+𝑥2 ; 𝑦1+𝑦2) 
+M𝐴𝐶(22
+=−1+3 ; 2+5) 
+(
+22
+= (1; 7  
+)
+2
+(3)
+2.2.4
+𝑦2 − 𝑦1
+𝑀 =
+𝑥2 − 𝑥1
+5 − 2
+=
+3 − (−1)
+= 3 
+4
+𝜃𝜃 = tan−1 (3
+)
+4
+= 36,87𝑜 
+(5)
+2.3
+2.3.1
+(0; 0)
+(2)
+2.3.2
+(-2; 5)
+(2)
+2.3.3
+(5; -3)
+(2)
+[30]
+QUESTION 3
+3.1
+3.1.1
+𝑥2 + 𝑦2 = 𝑟2   
+𝑟 = �(2)2 + (1)2
+= √5 
+(3)
+3.1.2
+tan 𝜃 =Opposite             
+   Hypotenuse    
+=   1
+     2
+                                       (2)
+3.1.3
+cos 𝜃 =adjacent 
+                       Hypotenuse
+                      = 2
+            √5
+                                        (2                                                             
+3.1.4
+Sin𝜃    =opposite
+                 Hypotenuse
+                         =    1
+                              √5 
+                                       (2)
+3.1.5
+3𝑐𝑜𝑠𝜃 + 2sin
+    3 x    2     + 2 x       1     
+            √5                 √5                                                                                                                                        
+                                         
+
+(3)
+3.2.1
+x
+0°
+30°
+60°
+90°
+120°
+150°
+180°
+210°
+240°
+270°
+300°
+330°
+360𝑜
+f (x)  sin x +1
+
+2
+1,73
+1
+0
+-1
+-1,73
+-2
+-1,73
+-1
+√
+√
+0
+1
+1,73
+2
+g(x)  2cos x
+
+1
+1,5
+1,86
+2
+1,86
+1,5
+1
+0,5
+0,13
+√
+√
+0
+0,13
+0,5
+1
+√
+√
+√
+√
+√
+√
+√
+√
+(3 for table + 5(10× ½) for graph)
+2shapes
+√
+√
+√
+√
+√
+√
+√
+√
+(3 for table + 5(10× ½) for graph)
+2shapes
+√
+√
+3.2.2
+2
+                                                               (2)
+3.2.3
+360º 
+(2)
+3.2.3
+360º 
+(2)
+3.2.4Range of 𝑔(𝑥): 0 ≤ 𝑦 ≤ 🗸2 𝑜𝑟 [0; 2]
+Domain of 𝑔(𝑥): 0° ≤ x ≤🗸360° or [0o; 360o](2)
+3.2.5
+Continuous 
+                                                               (2)
+                                  [30]
+TOTAL:
+100
+√
+√
+3.2.2
+2
+(2)
+3.2.2
+2
+(2)

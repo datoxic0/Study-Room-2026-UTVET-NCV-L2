@@ -58,6 +58,7 @@ function paperStats(paper) {
   }
   if (paper.mode === "solutions") return `${paper.blocks.length} worked questions with answers`;
   if (paper.mode === "images") return `${paper.pages} page images · ${paper.summaryChars} chars of captured summary`;
+  if (paper.mode === "pdf") return `${paper.pages} scanned page${paper.pages === 1 ? "" : "s"} · opens the original downloaded PDF`;
   if (paper.mode === "raw") return `${paper.textChars} chars shown verbatim`;
   return "";
 }
@@ -84,6 +85,8 @@ function cardBadges(paper) {
   if (paper.embeddedMemo) wrap.append(el("span", "wk-badge wk-pair", "MEMO INSIDE CAPTURE"));
   if (paper.formulaSheet) wrap.append(el("span", "wk-badge wk-sheet", "FORMULA SHEET"));
   if (paper.mode === "images") wrap.append(el("span", "wk-badge wk-images", "SUMMARY-ONLY"));
+  if (paper.mode === "pdf") wrap.append(el("span", "wk-badge wk-pdf", "SCANNED PDF"));
+  if (paper.ocr) wrap.append(el("span", "wk-badge wk-ocr", "OCR TRANSCRIPTION"));
   if (paper.mode === "raw") wrap.append(el("span", "wk-badge wk-images", "VERBATIM TEXT"));
   return wrap;
 }
@@ -211,6 +214,26 @@ function renderRawBody(paper) {
   return body;
 }
 
+function renderPdfBody(paper) {
+  const body = el("div", "paper-body");
+  const panel = el("section", "paper-question paper-pdf-panel");
+  panel.append(el("h4", null, "Scanned original — byte-for-byte the downloaded PDF"));
+  panel.append(
+    el(
+      "p",
+      "paper-pdf-note",
+      `No text layer was extracted from this file (${paper.textChars} characters of page furniture), so nothing is re-typed or guessed: the reader embeds the original itself. Hash verified at build time and by the test suite.`
+    )
+  );
+  const frame = el("iframe", "paper-pdf-frame");
+  frame.src = paper.capture.file;
+  frame.title = `${paper.title} — original PDF`;
+  frame.loading = "lazy";
+  panel.append(frame);
+  body.append(panel);
+  return body;
+}
+
 function renderFormulaSheet(paper) {
   if (!Array.isArray(paper.formulaSheet) || paper.formulaSheet.length === 0) return null;
   const panel = el("section", "paper-question paper-formula-sheet");
@@ -235,12 +258,25 @@ function renderFormulaSheet(paper) {
 
 function provenanceFooter(paper) {
   const footer = el("footer", "paper-prov");
-  footer.append(el("p", "guide-side-label", "PROVENANCE — verbatim from this hashed capture"));
+  const local = paper.capture.local === true;
+  footer.append(
+    el("p", "guide-side-label", local ? "PROVENANCE — ORIGINAL DOWNLOADED FILE, SHA256-VERIFIED" : "PROVENANCE — verbatim from this hashed capture")
+  );
   footer.append(
     el("p", "guide-prov-item", `${paper.capture.file} — sha256 ${paper.capture.sha256.slice(0, 16)}…`)
   );
   footer.append(el("p", "guide-prov-item", `source: ${paper.capture.sourceName}`));
-  footer.append(el("p", "guide-side-note", `Parsed by scripts/extract_papers.mjs · workroom rebuilt ${PAPERS_BUILT_ON} · hashes verified against manifest.json by the test suite.`));
+  footer.append(
+    el(
+      "p",
+      "guide-side-note",
+      paper.ocr
+        ? `Transcribed with ${paper.ocr.parsedFrom} and independently cross-checked against ${paper.ocr.crossCheck} (agreement: characters f1=${paper.ocr.cbigramF1}, digit runs f1=${paper.ocr.digitRunF1}); hashes verified against research/captures/local_pdfs/ocr_manifest.json at build time and by the test suite. The downloaded PDF itself (Open original file, top of this card) is the source of truth.`
+        : local
+          ? "Parsed by scripts/extract_papers.mjs · hash re-verified against research/captures/local_pdfs/manifest.json at build time and by the test suite."
+          : `Parsed by scripts/extract_papers.mjs · workroom rebuilt ${PAPERS_BUILT_ON} · hashes verified against manifest.json by the test suite.`
+    )
+  );
   return footer;
 }
 
@@ -288,6 +324,13 @@ export function openPaper(id) {
   provBlock.append(el("p", "guide-side-label", "CAPTURE FILE"));
   provBlock.append(el("p", "guide-prov-item", paper.capture.file));
   provBlock.append(el("p", "guide-prov-item", `sha256 ${paper.capture.sha256.slice(0, 24)}…`));
+  if (paper.capture.local === true) {
+    const original = el("a", "paper-btn paper-original-link", "Open original file →");
+    original.href = paper.capture.file;
+    original.target = "_blank";
+    original.rel = "noopener noreferrer";
+    provBlock.append(original);
+  }
   side.append(provBlock);
   layout.append(side);
 
@@ -310,6 +353,7 @@ export function openPaper(id) {
   else if (paper.mode === "solved") main.append(renderSolvedBody(paper));
   else if (paper.mode === "solutions") main.append(renderSolutionsBody(paper));
   else if (paper.mode === "images") main.append(renderImagesBody(paper));
+  else if (paper.mode === "pdf") main.append(renderPdfBody(paper));
   else main.append(renderRawBody(paper));
 
   main.append(provenanceFooter(paper));
@@ -362,8 +406,10 @@ export function initWorkroom() {
 
   const revealable = paperShelf.filter((paper) => hasAnswers(paper)).length;
   const imageOnly = paperShelf.filter((paper) => paper.mode === "images").length;
+  const scanned = paperShelf.filter((paper) => paper.mode === "pdf").length;
   status.textContent =
     `${paperShelf.length} captured papers & memos · ${revealable} with answers to reveal · ` +
-    `${imageOnly} image-only (summary-level, labelled honestly) · every item cites its hashed capture file`;
+    `${imageOnly} image-only (summary-level, labelled honestly) · ${scanned} scanned PDFs (original file opens in place) · ` +
+    `every item cites its hashed source file`;
   count.textContent = `${paperShelf.length} ITEMS`;
 }

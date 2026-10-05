@@ -1,0 +1,665 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+&training
+Department:
+HigherEducation and Training
+REPUBLICOFSOUTHAFRICA
+MARKINGGUIDELINE
+NATIONAL CERTIFICATE (VOCATIONAL)
+MATHEMATICS
+(Second paper)
+NQFLEVEL 2
+12 November2025
+MARKINGLEGEND
+SYMBOL
+EXPLANATIONOFSYMBOL
+(A)
+Accuracy
+M
+Method
+(CA)
+Consistent accuracy(follow-up)
+B/D
+Breakdown
+S
+Statement
+R
+Reason
+S/R
+Statementandreason
+F
+Choosing correctformula
+SF
+Substitutionintocorrectformula
+tvetpapers.co.za
+ultradeep.co.za
+-SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+Qucstien Faprs
+Study Guides
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+JGGUIDELINE
+-2-
+NCV
+MATHEMATICSL2
+ExamPapers
+(Second paper)
+StudyGuides
+Half mark √ Full mark
+QUESTION1
+1.1
+Explanation
+Mark
+1.1.1
+Car brand
+Tally
+Frequency
+1 mark for
+Toyota
+15√
+eachrowwith
+Vw
+5√
+correct
+Hyundai
+IIII
+4√
+information
+Mercedes
+8
+Ford
+8
+(5)
+Total
+40
+1.1.2
+Toyota √
+1A
+(1)
+1.1.3
+1mark for
+Abarchartofcarbrands
+eachbarwith
+16
+thecorrect
+14
+height
+12
+Frequency
+10
+8
+6
+4
+2
+0
+Toyota
+VW
+Hyundai
+Mercedes
+Ford
+Carbrand
+<√√√
+(4)
+1.2
+Explanation
+Mark
+1.2.1
+13;23;37;42;53;63;71;72;72;76;84
+1mark for
+order
+(1)
+1.2.2
+Q2 = 63
+2
+1CA
+Q2Position=
+（11+1)=6th
+4
+(1)
+Q2=63√
+1.2.3
+1
+1SF
+QPosition=
+（11+1)=3rd√
+4
+Q = 37√
+1A
+(2)
+1.2.4
+3
+1SF
+QPosition=
+（11+1)=gth√
+Q3=72√
+1A
+(2)
+1.2.5
+Range=84-13=71√
+1CA
+(1)
+1.2.6
+IQR=72-37=35√
+1CA
+(1)
+Copyright reserved
+Pleaseturn over
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NGGUIDELINE
+-3-
+NCV
+MATHEMATICSL2
+ExamPapers
+(Second paper)
+StudyGuides
+1.2.7
+85
+1SF
+Pas Position=
+(11 +1)=10,2th√
+100
+Pg5=76+0,2(84-76)
+1M
+=77,6
+1A
+(3)
+1.3
+Explanation
+Mark
+1.3.1
+21000
+1M
+Women=
+×360°
+90000
+=84°√
+1A
+(2)
+1.3.2
+4500
+1M
+Children =
+×360°
+90000
+=18°√
+1A
+(2)
+1.3.3
+Men
+Men=360°-84°-18°
+1M
+21000
+×360°~
+90000
+=258°
+1A
+=258°
+(2)
+1.4
+Explanation
+Mark
+1.4.1
+M=32√
+1A
+(1)
+1.4.2
+STEM
+LEAF
+1
+22√
+1 mark for
+2
+222√
+eachrow
+3
+2222√
+4
+222√
+5
+22√
+6
+222√
+7
+22√
+8
+2
+(8)
+1.4.3
+12+12+..+72+82
+1SF
+x=
+20
+860
+1A
+OR43
+20
+(2)
+1.5
+Explanation
+Mark
+1.5.1
+Aquartileisusedtodivideadatasetintofourequal
+1A
+groups.V
+(1)
+1.5.2
+Apercentileisusedtodivideadatasetinto100equal
+1A
+groups.v
+(1)
+[40]
+Copyright reserved
+Pleaseturn over
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NGGUIDELINE
+-4-
+NCV
+MATHEMATICSL2
+ExamPapers
+(Second paper)
+StudyGuides
+QUESTION2
+2.1
+Working
+Explanation
+Mark
+2.1.1
+SA=7(3+4+5)+2
+1SF
+=96cm²
+1A
+(2)
+2.1.2
+SB=7(3+4+5)+2
+1SF
+=384cm²
+1A
+(2)
+2.1.3
+SA:SB=96
+SA
+96
+1
+1M
+:384√
+384
+4
+1A
+=1:40R1:22√
+(2)
+2.1.4
+When alldimensionsofaprism aremultiplied by a constant
+1S
+factork,thevolumeismultipliedbyk²
+(1)
+2.2
+Working
+Explanation
+Mark
+2.2.1
+（-6+46-4）
+N:
+2
+2
+1SF
+=(-1;1)√√
+1A
+(2)
+2.2.2
+y-3
+1SF
+→-1
+2
+-2=y-3
+1A
+>y=1v
+(2)
+2.2.3
+x+5
+1SF
+>1=
+2
+→2=x+5
+1A
+→x=-3√
+(2)
+2.2.4
+AB=√(-6--3)²+（6--3)²
+1SF
+=√90
+1M
+=3√10
+1A
+(3)
+2.2.5
+y2-y1
+1SF
+mcD
+x2-x1
+1A
+1--4
+5-4
+=5√
+(2)
+Copyrightreserved
+Pleaseturn over
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+Study Guides
+QuestionPapers
+Study Guides
+NCV
+NGGUIDELINE
+-5-
+NCV
+MATHEMATICSL2
+ExamPapers
+(Second paper)
+StudyGuides
+2.3
+Working
+Explanation
+Mark
+2.3.1
+1markfor
+each
+B(2;5)
+coordinate
+B
+plotted
+correctly
+A(1;2)
+(3)
+2.3.2
+See Question 2.3.1
+(3)
+2.3.3
+SeeQuestion2.3.1√√√
+(3)
+2.3.4
+P(2;1)Q(5;2)andR(4;7)
+1A;1A;1A
+(3)
+[30]
+QUESTION3
+3.1
+Working
+Explanation
+Mark
+3.1.1
+Theperiodisthetime agraph takestorepeatitself.
+1S
+(1)
+3.1.2
+The amplitudeis themaximum distanceofagraphabove
+1S
+orbelowthex-axis.
+(1)
+3.2
+Working
+Explanation
+Mark
+3.2.1
+A=3;B=1;C=0;D=2andE=4√
+1A
+P=1;Q=2;R=-1;S=-2;andT=-1√
+1A
+(2)
+3.2.2
+SeeADDENDUMCbelowV√√
+4CA
+(4)
+Copyrightreserved
+Pleaseturn over
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NGGUIDELINE
+-6-
+NCV
+MATHEMATICSL2
+ExamPapers
+(Second paper)
+StudyGuides
+3.2.3
+A+A2=4+2√
+1M
+=6v
+1A
+(2)
+3.2.4
+00=xpue09=x
+1A;1A
+(2)
+3.3
+Working
+Explanation
+Mark
+3.3.1
+-8
+(1)
+3.3.2
+1SF
+r=√(-6)²+(-8)²
+1A
+=10√
+(2)
+3.3.3
+8
+1SF
+3sinθ-cos0=3
+10
+10
+-18
+8
+1M
+10
+10
+1A
+(3)
+3.3.4
+2
+1SF
+2sin0cos0
+tanθ
+6
+1M
+96
+100
+128
+OR-1,707√
+1A
+75
+(3)
+3.4
+1
+sin(0- 12°) =
+2
+→0-12°=sin-
+30°
+1M
+>0=42°√
+1A
+(2)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Question Papers
+Study Guides
+Study Guides
+QuestionPapers
+NCV
+NGGUIDELINE
+-7-
+NCV
+MATHEMATICSL2
+ExamPapers
+(Second paper)
+StudyGuides
+3.5
+Working
+Explanation
+Mark
+3.5.1
+x=√(34)²-(26)²√
+1SF
+1A
+=4√30cm0R21,909cm
+(2)
+3.5.2
+1SF
+y=√(4√30)²-(20)²
+1A
+=4√5cm0R8,944cm
+(2)
+3.5.3
+tanα
+20
+4√5
+ISF
+sinα=
+20
+4√30
+=xSO
+4√30
+4√5
+20
+1M
+√5
+α=sin-1
+x
+α=cos-1
+√30
+20
+=tan
+=65,905°√
+1A
+4V
+=65,905°√
+=65,905°
+(3)
+[30]
+Copyrightreserved
+Pleaseturn over
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NGGUIDELINE
+-8-
+NCV
+MATHEMATICSL2
+ExamPapers
+(Second paper)
+StudyGuides
+ADDENDUMC
+3.2
+3.2.2
+3.5
+g(x)
+0.5
+Shape of f(x)
+Shape of g(x)
+(180°,0) for f(x)
+(90°,2); (180°,0) and (270%; -2) for g(x) 
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

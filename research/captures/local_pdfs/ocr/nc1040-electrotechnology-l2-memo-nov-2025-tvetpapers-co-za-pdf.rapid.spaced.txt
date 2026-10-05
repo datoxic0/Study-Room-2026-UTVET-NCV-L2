@@ -1,0 +1,418 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+&training
+Department:
+Higher Education and Training
+REPUBLIC OF SOUTH AFRICA
+MARKINGGUIDELINE
+NATIONALCERTIFICATE(VOCATIONAL)
+ELECTROTECHNOLOGY
+NQFLEVEL2
+21 November 2025
+This marking guideline consists of 6 pages.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+-SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NCV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-2-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+QUESTION1
+1.1
+1.1.1
+True
+1.1.2
+True
+1.1.3
+False
+1.1.4
+False
+1.1.5
+True
+(5 × 1)
+(5)
+1.2
+Given:L=1km=1000m,d=6mm,p=1,72×10-8Q·m
+Td2
+A=
+4
+π(6 × 10-6)2
+A=
+4
+A=28,274×10-6m²√
+pL
+R=
+A
+(1,72×10-8) ×1000
+R=
+28,274×10-6
+R=0,608Ω√
+(3)
+1.3
+1.3.1
+The resistors are connected inparallel.
+(1)
+1.3.2
+1
+Rp
+R
+R
+Rp
+10
+Rp=1,429Ω
+(4)
+1.3.3
+VT
+IT
+RT
+12
+IT
+1,429
+IT=
+8,397AV
+(2)
+1.3.4
+P=VxIT
+P=12×8,397√
+P=100,764 W
+(2)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-3-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+1.4
+Lines of force always travel from the north pole to the south pole outside the
+magnet,and from the south pole to the north pole inside the magnet.
+Each line of the magnetic flux forms a closed loop.
+Magnetic lines never intersect.
+Magnetic lines are like stretched elastic cords always trying to shorten
+themselves.
+Lines of magnetic flux are parallel and in the same direction.
+(Any3×1)
+(3)
+[20]
+QUESTION2
+2.1
+2.1.1
+Double-poleisolator
+2.1.2
+Transformer
+2.1.3
+Push-buttonswitch
+2.1.4
+Fuse
+2.1.5
+ACmotor
+(5 × 1)
+(5)
+2.2
+CB
+lamp
+Two-way switchesV
+N
+(6)
+2.3
+Single-corePvCinsulatedcable
+Flat twin and earth cable
+Surfixcable
+Barecopperearthwire
+(4)
+2.4
+2.4.1
+40A
+2.4.2
+20A
+2.4.3
+20Aor30A
+2.4.4
+10A
+(4 × 1)
+(4)
+2.5
+Earthbar
+Neutralbar
+(2)
+2.6
+Skirting is a material that lies along and protects and finishes the exposed
+edgesofwireways.
+(1)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-4-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+2.7
+2.7.1
+To cut conduit to the required length
+2.7.2
+To ensure that anenclosure isvertical or horizontally straight
+2.7.3
+TobendPVCconduit
+(3 × 1)
+(3)
+[25]
+QUESTION3
+3.1
+3.1.1
+Power supply unit (PSU)
+(1)
+3.1.2
+A-Transformer
+B-Rectifier
+C-Filter
+D-Regulator/Voltageregulator
+(4)
+3.1.3
+The charge and discharge of thecapacitorduring thepulsatingcycle
+produce a smoothed DC output.
+(2)
+3.2
+Only hold the soldering iron by the handle,or you will burn your hands.
+Store the soldering iron in a soldering iron stand.
+Be careful not to burn the electrical cord of the soldering iron.
+(3)
+3.3
+Switchoffthecircuit.
+Removeonelegoftheresistorbydesolderingoneside.
+Connect theohmmeter(or multimeter in ohm range) andread off the value.
+Compare this value to the colour code of the resistor,takingthetolerance
+into consideration.
+(4)
+3.4
+Whatneedstobedone?
+Where does it have to be done?
+Howwill itbedone?
+What resources are available?
+(4)
+3.5
+Anode
+Gate
+Cathode
+(3)
+3.6
+Soldering iron
+Soldersucker
+Side cutters
+Longnosepliers
+(4)
+[25]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-5-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+QUESTION4
+4.1
+4.1.1
+B
+4.1.2
+B
+4.1.3
+D
+4.1.4
+B
+4.1.5
+B
+(5 × 1)
+(5)
+4.2
+Scope or purpose of the task
+Safe work practices to be used
+Personal protective equipment(PPE)
+Use of insulating materials and tools
+Special precautionary steps to take
+Lubrication procedures
+Repair procedures and inspections
+Electrical diagrams
+Equipmentconnections
+Sketches and otherpictorial materials
+Datasheets
+(Any 5 × 1)
+(5)
+4.3
+4.3.1
+R2 × R3
+Rp
+R2+ R3
+5×10
+Rp
+5+10
+Rp
+=3,333Ω√
+RT=R+Rp
+RT = 2 + 3,333
+RT
+=5，333Ω√
+12
+=2,25Av
+RT
+5,333
+(4)
+4.3.2
+RT=R+R3
+R=2+10
+R=12Ω√
+VT
+12
+IT
+1.AV
+RT
+12
+(2)
+4.3.3
+V1=IxR
+V=1x2v
+V=2V√
+(2)
+4.3.4
+Thetotal resistancewill increase(R1plusR3).
+The currentwill decrease(current is inversely proportional to
+resistance).
+(2)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NCV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National
+National:
+Study Guides
+QuestionPapers
+StudyGuides
+QuestionPapers
+NCV
+IGGUIDELINE
+-6-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+QUESTION5
+ABCELECTRIC
+225BothaAve,AmpPark2025
+DATE
+Customer
+CSGcafeteriav
+2 April 2025√
+department
+Customerphone
+0723456789√
+Workrequest
+Stovemaintenancev
+Workdone
+Check isolator,check conductor size,check
+earthbonding,checkvoltage atstove,check
+circuitbreaker sizev
+Remarks
+Noearthcontinuity.Install theearthfromthe
+stovetotheDB.
+Timeofarrival
+09:20
+Timeofdeparture
+11:20
+Workdoneby
+Studentnamev
+SUPERVISOR:
+MrDlamini
+[10]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

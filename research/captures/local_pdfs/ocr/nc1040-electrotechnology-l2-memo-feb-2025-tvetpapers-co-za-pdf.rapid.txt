@@ -1,0 +1,520 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+&training
+Department:
+HigherEducationandTraining
+REPUBLICOFSOUTHAFRICA
+MARKINGGUIDELINE
+NATIONALCERTIFICATE(VOCATIONAL)
+ELECTROTECHNOLOGY
+NQFLEVEL2
+19 February2025
+Thismarkingguidelineconsistsof6pages.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+-SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+TVET
+tvetpapers.co.za
+U1traDeep.co.za
+MyNATED.co.za
+Exam Papers
+ULTRADEEP
+f
+You
+Tube
+THANKYOUFORDOWNLOADINGTHISPASTEXAMPAPER/MEMO,WEHOPEITWILLBEOFHELPTOYOU
+These are the only apps affiliated with tvetpapers.co.za
+Download Papers from
+tvetpapers.co.za
+MyNATED.co.za
+10
+These are some of our apps
+(visit tvetpapers.co.za)
+TVET
+SOUTH AFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+Uitra-Deep
+Uitra-Deep
+National:
+National:
+Uitra-Deep
+ultradeep.co.za
+Question Papers
+National:
+Question Papers
+Ultra-Deep
+Question Papers
+Study Guides
+Study Guides
+Study Guides
+tvetpapers.co.za
+TVET
+TVET
+TVET
+MyNATED
+lite
+ExamPapers
+NATED
+tvetpapers
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Uitra-Deep
+National:
+Uitra-Deep
+QuestionPapers
+Ultra-Deep
+QuestionPapers
+Uitra-Deep
+QuestionPapers
+QuestionPapers
+Study Guides
+StudyGuides
+StudyGuides
+Study Guides
+NATED
+TVET
+NCV
+NCV
+LITE
+StudyGuides
+ExamPapers
+StudyGuides
+GETITON
+Downloadonthe
+EXPLOREITON
+Downloadfor
+Availableon the
+Google Play
+App Store
+HUAWEI
+AppGallery
+Windows
+MacAppStore
+Startyour rvET journey with the best apps to helpyou achieve the best results
+inyour exams.Our apps and websites caterforNated and Ncy students
+SOUTHAFRICA
+TVETPapers
+Ultra-DeepTM
+National
+stionPapers
+StudyafterMatric
+Ultra-DeepMultimedia
+TVET
+StartyourTVETjourney
+doeswebandmobile
+withthebestsitefor
+appdevelopment.We
+Papers
+TVETstudents
+50%
+ULTRADEEP
+OFF
+aimtohelpstudents
+tvetpapers.co.za
+UltraDeep.co.za
+SIFY
+Click on the banner above to visit tvetpapers.co.za or UitraDeep.co.za
+DISCLAIMER
+tvetpapers.co.za, mynated.co.za and ultradeep.co.za are
+partofUitra-DeepMultimediaTM assuch,
+no one;business orindividual;arepermitted
+touse(publish,display,transimit orbroadcast)them in any other app/website/server/medium.
+Copyright2oz4-2oz5Uitra-DeepMultimedia-AllRightsReserved
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-2-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+QUESTION1
+1.1
+1.1.1
+True
+1.1.2
+False
+1.1.3
+False
+1.1.4
+False
+1.1.5
+True
+(5 ×1)
+(5)
+1.2
+1.2.1
+X=2πfL
+=2π×50×0,2√
+=62,832Ω√
+1.2.2
+1
+1
+Xc=
+=63,662Ω
+2πfC
+2π×50×50×10-6
+1.2.3
+Z=√R2+(Xc-X)²
+√122+（63,662-62,832)2
+=12,029
+1.2.4
+A
+230
+19,12A
+Z
+12,029
+(4× 2)
+(8)
+1.3
+1.3.1
+1
+1
+Rp
+R2
+1
+1
+Rp
+10
+20
+30
+1
+11
+Rp
+60
+Rp
+=5,455Ω
+RT=R+Rp+R5
+R=5+5,455+4
+R=14,455Ω
+(4)
+1.3.2
+VT=IxRT
+V=12×14,455√
+V=173,46 V√
+(2)
+1.4
+Joule'slawstatesthattheheatproducedbythecurrentflowinaconductoris
+directlyproportionaltothesquareofthecurrent,theresistanceandtime.
+(1)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+IGGUIDELINE
+-3-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+QUESTION2
+2.1
+2.1.1
+M
+2.1.2
+2.1.3
+2.1.4
+(4×1)
+(4)
+2.2
+Circuitbreaker
+Socket
+Outlet
+(6)
+2.3
+2.3.1
+4mm²
+2.3.2
+6/8 mm2
+2.3.3
+10 mm²
+2.3.4
+2,5mm²
+2.3.5
+1 mm²
+(5 × 1)
+(5)
+2.4
+Advantages:
+Providesmechanicalprotection
+LastslongerthanPVC
+Canbeextendedeasily
+Disadvantages:
+Cancorrodeeasily
+MoreexpensivethanPvc
+Time-consumingtoinstalle.g.threadingandbending
+(6 ×1)
+(6)
+2.5
+2.5.1
+Afaultcurrentisacurrentthatresultsfromaninsulationfailureor
+frombridgingof insulation.
+2.5.2
+Earthing is theprocess bywhich all sub-circuits and metal parts in a
+buildingarelinkedtotheground.
+(2 × 2)
+(4)
+[25]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+IGGUIDELINE
+-4-
+NCV
+ELECTROTECHNOLOGYL2
+Exam Papers
+StudyGuides
+QUESTION3
+3.1
+A-Centre-tapped transformer
+B-DiodeorPNjunctiondiode
+C-Polarised capacitor
+D-Zener diode
+E-Fixed resistor
+F-NPNtransistor
+(6)
+3.2
+Setthedigitalmultimetertodiodetest.
+Connecteachpartofthetransistor,N,P,and N to give a total of three
+connections.
+Withthetwoconnectionsofadiode,onlytworesistancereadingsaretaken,
+thatis,ineachdirectionacrossthetwoterminals.
+Withthreeterminals,sixresistancereadingsarepossible
+(4)
+3.3
+R1
+R2
+A
+S1
+DCVoltage
+(6)
+3.4
+Whatneedstobedone?
+Wheredoesithavetobedone?
+Howwill it bedone?
+Whatresources-time,materials,andtoolsareavailable?
+（4）
+3.5
+Soldering iron and stand
+Agoodorreliablemultimeter
+Screwdrivers
+Smallside cutter
+Small long-nosepliers
+Autilityknife/cableknife
+Desolderingpump
+(Any 5×1)
+(5)
+[25]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-5-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+QUESTION4
+4.1
+4.1.1
+B
+4.1.2
+E
+4.1.3
+F
+4.1.4
+A
+4.1.5
+D
+(5 ×1)
+(5)
+4.2
+4.2.1
+High
+4.2.2
+Low
+4.2.3
+Unwanted
+4.2.4
+Break or opening
+4.2.5
+Continuityor connection
+(5 × 1)
+(5)
+4.3
+4.3.1
+R=R+R2
+=2+4
+=6Ω
+RsxR3
+Rp=
+Rs+R3
+6×3
+6+3
+2Ω√
+:RT
+Rp=2Ω
+VT
+12
+6A
+RT
+2
+(4)
+4.3.2
+V
+12
+IA2
+=4A
+R3
+3
+(2)
+4.3.3
+V
+12
+=4A
+A1
+R3
+3
+(2)
+4.3.4
+S1couldbein theopenposition
+The ammeterisfaulty(opencircuit)
+There isapossiblebreak inthewire afterammeterA1(open
+circuit)
+Thebatterycouldbetotallydischarged/flat/dead
+(Any 2 × 1)
+(2)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-6-
+NCV
+ELECTROTECHNOLOGYL2
+ExamPapers
+StudyGuides
+QUESTION5
+5.1
+TIME
+WEEKSV
+ACTIVITY
+1
+2
+3
+4
+5
+6
+7
+8
+9
+A
+B
+C
+D
+E
+(1markforthechart)
+(8)
+5.2
+ActivityEwillbecompletedonweek11.
+(2)
+[10]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

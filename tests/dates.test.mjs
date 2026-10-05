@@ -5,6 +5,7 @@ import {
   groupByMonth,
   localDateKey,
   parseExamDate,
+  selectExamBlock,
   startOfDay,
   upcomingFrom,
 } from "../js/core/dates.js";
@@ -51,4 +52,25 @@ test("groupByMonth keeps chronological groups", () => {
   assert.match(groups[1].key, /^NOVEMBER 2026$/);
   assert.equal(groups[0].exams.length, 2);
   assert.equal(groups[1].exams.length, 2);
+});
+
+test("selectExamBlock picks the sitting with exams ahead, across years", () => {
+  const blocks = [
+    { year: 2026, exams: [{ date: "2026-10-19" }, { date: "2026-11-16" }] },
+    { year: 2027, exams: [{ date: "2027-10-18" }, { date: "2027-11-15" }] },
+    { year: 2028, exams: [{ date: "2028-10-17" }] },
+  ];
+  // before every sitting: show the earliest upcoming block
+  assert.equal(selectExamBlock(blocks, new Date(2026, 0, 5)).year, 2026);
+  // mid-sitting: stay on the block whose exams are still ahead
+  assert.equal(selectExamBlock(blocks, new Date(2026, 9, 20)).year, 2026);
+  // between sittings: roll forward automatically (no code edit needed)
+  assert.equal(selectExamBlock(blocks, new Date(2027, 1, 1)).year, 2027);
+  // every block historical: show the latest block (dashboard reads "complete")
+  assert.equal(selectExamBlock(blocks, new Date(2029, 0, 1)).year, 2028);
+  // robust to out-of-order input
+  assert.equal(selectExamBlock([...blocks].reverse(), new Date(2027, 1, 1)).year, 2027);
+  // degenerate inputs
+  assert.equal(selectExamBlock([], new Date()), null);
+  assert.equal(selectExamBlock(null, new Date()), null);
 });

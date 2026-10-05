@@ -1,0 +1,477 @@
+Downloaded from TVET NcV Exam Papers App
+highereducation
+&training
+Department:
+HigherEducationand Training
+REPUBLICOFSOUTHAFRICA
+FXARRO
+NATIONAL CERTIFICATE (VOCATIONAL)
+MECHATRONICSYSTEMS
+NQF LEVEL2
+(6040102)
+3 March 2025 (Y-paper)
+13:00-16:00
+Thisquestionpaperconsistsof7pages.
+tvetpapers.co.za
+ultradeep.co.za
+-SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+TVET
+tvetpapers.co.za
+U1traDeep.co.za
+MyNATED.co.za
+Exam Papers
+ULTRADEEP
+f
+You
+Tube
+THANKYOUFORDOWNLOADINGTHISPASTEXAMPAPER/MEMO,WEHOPEITWILLBEOFHELPTOYOU
+These are the only apps affiliated with tvetpapers.co.za
+Download Papers from
+tvetpapers.co.za
+MyNATED.co.za
+10
+These are some of our apps
+(visit tvetpapers.co.za)
+TVET
+SOUTH AFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+Uitra-Deep
+Uitra-Deep
+National:
+National:
+Uitra-Deep
+ultradeep.co.za
+Question Papers
+National:
+Question Papers
+Ultra-Deep
+Question Papers
+Study Guides
+Study Guides
+Study Guides
+tvetpapers.co.za
+TVET
+TVET
+TVET
+MyNATED
+lite
+ExamPapers
+NATED
+tvetpapers
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Uitra-Deep
+National:
+Uitra-Deep
+QuestionPapers
+Ultra-Deep
+QuestionPapers
+Uitra-Deep
+QuestionPapers
+QuestionPapers
+Study Guides
+StudyGuides
+StudyGuides
+Study Guides
+NATED
+TVET
+NCV
+NCV
+LITE
+StudyGuides
+ExamPapers
+StudyGuides
+GETITON
+Downloadonthe
+EXPLOREITON
+Downloadfor
+Availableon the
+Google Play
+App Store
+HUAWEI
+AppGallery
+Windows
+MacAppStore
+Startyour rvET journey with the best apps to helpyou achieve the best results
+inyour exams.Our apps and websites caterforNated and Ncy students
+SOUTHAFRICA
+TVETPapers
+Ultra-DeepTM
+National
+stionPapers
+StudyafterMatric
+Ultra-DeepMultimedia
+TVET
+StartyourTVETjourney
+doeswebandmobile
+withthebestsitefor
+appdevelopment.We
+Papers
+TVETstudents
+50%
+ULTRADEEP
+OFF
+aimtohelpstudents
+tvetpapers.co.za
+UltraDeep.co.za
+SIFY
+Click on the banner above to visit tvetpapers.co.za or UitraDeep.co.za
+DISCLAIMER
+tvetpapers.co.za, mynated.co.za and ultradeep.co.za are
+partofUitra-DeepMultimediaTM assuch,
+no one;business orindividual;arepermitted
+touse(publish,display,transimit orbroadcast)them in any other app/website/server/medium.
+Copyright2oz4-2oz5Uitra-DeepMultimedia-AllRightsReserved
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+2)
+NCV
+2
+ExamPapers
+StudyGuides
+DEPARTMENTOFHIGHEREDUCATIONANDTRAINING
+REPUBLICOFSOUTHAFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+MECHATRONICSYSTEMS
+NQFLEVEL2
+TIME:3HOURS
+MARKS:100
+INSTRUCTIONSANDINFORMATION
+Readallthequestionscarefully.
+2.
+Answerallthequestions.
+3.
+Number theanswers according to thenumbering systemused in this
+questionpaper.
+4.
+Starteachquestiononanewpage.
+5.
+UsefullylabelledIECsymbols.
+6.
+Writeneatlyandlegibly.
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+-3-
+NCV
+2)
+ExamPapers
+StudyGuides
+QUESTION1
+StudyFIGURE1thatdepictsadirectlycontrolledDCmotor.
+24VDC
+ON/OFF
+SW
+INDICATION
+LAMP
+DC
+MOTOR
+OVDC
+FIGURE1
+1.1
+Explain energy conversion (NOT the definition).
+(2)
+1.2
+WhatisthefunctionoftheON/OFFswitch?
+(2)
+1.3
+Whatis thefunctionof theindicationlamp?
+(2)
+1.4
+Drawthesimplifiedtechnicalblockdiagramoftheindicationlamp,showingthe
+energyconversionthattakesplace.
+(4)
+1.5
+Brieflyexplainhowenergyconversion takesplace in theDCmotor.
+(2)
+1.6
+NameTWO advantagesofbeingabletoanalysea technical system.
+(2)
+1.7
+Draw the systems diagram of the directly controlled DC motor, showing energy
+flowandinformationflow.
+(6)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NCV
+2)
+Exam Papers
+StudyGuides
+QUESTION2
+StudyFIGURE2andanswerthequestions.
+24VDC
+ON/OFF
+SW
+0000
+00000
+INDICATION
+MOTOR
+LAMP
+CONTROL
+RELAY
+DC
+MOTOR
+OVDC
+FIGURE2
+2.1
+Whattypeofcontrol isbeingused inFIGURE2?
+(1)
+2.2
+FIGURE2 depicts componentswhich are difficult to draw;therefore,symbols
+thatrepresentthecomponentsareused.
+Drawthefullylabelled IECsymbolsof the:
+2.2.1
+ON/OFFdetentswitch
+2.2.2
+Motorcontrolrelay
+2.2.3
+Indication lamp
+2.2.4
+DC motor
+(4×1)
+(4)
+2.3
+(RLL)IECformatthatisrepresentedbythepictorialdrawingshowninFIGURE
+2.
+(5)
+2.4
+ListFouRtypesofcontrol usedinmechatronicsystems.
+(4)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+Study Guides
+QuestionPapers
+Study Guides
+NCV
+2)
+-5-
+NCV
+ExamPapers
+StudyGuides
+2.5
+Actuatorsareused tolink thecontrol circuit to theworkingcircuit inrelayladder
+logichardwiredmechatronicapplications.
+2.5.1
+Explaintheoperationof theactuatorsolenoid.
+(2)
+2.5.2
+Brieflyexplainthedifferenceinactionbetweenrelayandsolenoid
+valve-typeactuators.
+(2 ×2)
+(4)
+[20]
+QUESTION3
+3.1
+Pneumatic systemsuse drives suchascylindersfor linear motion and air
+motorsforrotarymotion.
+ListFouRprocessesthatusepneumatics.
+(4)
+3.2
+Drawthesimplified technicalsystemsblockdiagram thatrepresents the
+pneumaticsystem.
+(4)
+3.3
+Name theTWOpneumaticdistribution systems thatonewill encounterin the
+industry.
+3.4
+Explain howfrictionconnectorsare usedwhenfitting andremovingpneumatic
+pipes in a pneumatic application.
+(2 × 2)
+(4)
+3.5
+You arerequested to construct apneumatic applicationrequiring apneumatic
+piping diagram.
+Explain how the basic piping rules will be applied in the design process.
+(6)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+-6-
+NCV
+2)
+Exam Papers
+StudyGuides
+QUESTION4
+StudythepictorialdrawinginFIGURE3ofatwo-handed-controlledelectro-pneumatic
+embossingmachine.
+FIGURE3
+4.1
+List FivE related electro-pneumatic components that you would use to
+construct the embossingmachine shown inFIGURE 3,usingindirect control.
+(5)
+4.2
+Drawthe24-Vtwo-handed-controlledDCcircuitfortheembossingmachine
+showninFIGURE3thatwillreturnautomaticallyafterthepushbuttonsare
+releasedusingindirectcontrol.
+(5)
+4.3
+Draw theelectro-pneumaticworkingcircuit for the embossingmachineshown
+inFIGURE3thatwillreturnautomaticallyafterthepushbuttonsarereleased
+usingindirectcontrol.
+(4)
+4.4
+Brieflyexplaintheoperationof theembossingmachineshowninFIGURE3.
+(3)
+4.5
+Brieflyexplainhowyouwouldmodifythetwo-handed-controlledcircuitofthe
+retractafteracertainperiodhaselapsed.
+(3)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+2)
+-7-
+NCV
+Exam Papers
+StudyGuides
+QUESTION5
+5.1
+Explainwhatismeantbythetermtroubleshooting.
+(2)
+5.2
+Oneof thestructuredmethodsusedwhentroubleshooting isthe'output-input-
+through-the-circuit'method.
+Explainwhatmustbedoneateachstagewhenusing thistroubleshooting
+method.
+(3× 2)
+(6)
+5.3
+Explain the differencebetween live and dead circuit testing.
+(2×2)
+(4)
+5.4
+Explainhowthe'output-input-through-the-circuit'method isappliedforeachof
+thescenarios
+giveninthefollowingquestions（5.4.1-5.4.4)when
+troubleshootingusinglive'or'dead'circuittestingontheelectro-pneumatic
+embossingmachineshowninFIGURE3.
+5.4.1
+If the solenoidvalvedoesnot energisewhen thetwo-handed control
+isapplied and thesupplyispresent,howwould thisfaultbecleared?
+5.4.2
+If thesolenoidvalve is inworkingorder,but itdoesnotenergise
+whenthetwopushbuttonsareoperatedatthesametime,how
+wouldthisfaultbecleared?
+5.4.3
+If thesolenoidvalve is energised,but thecylinder doesnotextend,
+howwould thisfaultbecleared?
+5.4.4
+If the solenoidvalve is not energised,butthe cylinder doesnot
+retractafterthepre-settimehaselapsed,howcouldthisfaultbe
+fixed?
+(4×2)
+(8)
+[20]
+TOTAL
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

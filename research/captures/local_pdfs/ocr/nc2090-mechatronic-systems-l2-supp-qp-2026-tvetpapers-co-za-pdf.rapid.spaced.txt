@@ -1,0 +1,341 @@
+Downloaded from TVET NcV Exam Papers App
+UitraDeep.co.za
+highereducation
+&training
+Department:
+HigherEducation and Training
+REPUBLIC OF SOUTH AFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+MECHATRONICSYSTEMS
+NQF LEVEL2
+(6040102)
+27 February 2026 (Y-paper)
+13:00-16:00
+This questionpaper consistsof 6pages.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+-SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+NCV
+2)
+ExamPapers
+StudyGuides
+DEPARTMENT OF HIGHER EDUCATION AND TRAINING
+REPUBLIC OF SOUTH AFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+MECHATRONICSYSTEMS
+NQFLEVEL2
+TIME:3HOURS
+MARKS:100
+INSTRUCTIONS AND INFORMATION
+1.
+Answerall thequestions.
+2.
+Readall the questions carefully.
+3.
+Number the answersaccording to thenumberingsystem used in thisquestionpaper.
+4.
+Use only a black orbluepen.
+5.
+Writeneatly and legibly.
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+-3-
+NCV
+2）
+ExamPapers
+StudyGuides
+QUESTION1
+1.1
+Colour plays an important role with regard to input and output information in a
+technical system.
+1.1.1
+Explain the purpose of colour as an input.
+(2 × 1)
+(2)
+1.1.2
+Explain thepurpose of colour as an output.
+(2 × 1)
+(2)
+1.2
+A bimetal is a device that converts temperature changes into mechanical
+movement.
+1.2.1
+Brieflyexplaintheconstructionofabimetal.
+(4 × 1)
+(4)
+1.2.2
+ListFOuR applicationsof abimetallic strip.
+(4 × 1)
+(4)
+1.3
+Explainunder the following heading show thebimetal principleworks.
+1.3.1
+Heating
+(2 × 1)
+(2)
+1.3.2
+Bending
+(2 × 1)
+(2)
+1.3.3
+Cooling
+(2 × 1)
+(2)
+1.4
+Machines aredesigned to takeoneform of energy and convert itbymeansof
+a process into another form of energy.These processes can either be
+mechanical or electrical.
+convert it.
+(2 ×1)
+(2)
+[20]
+QUESTION2
+2.1
+List FIVE types of proximity switches.
+(5 × 1)
+(5)
+2.2
+2.2.1
+Explain by listing FOuR strengths of an optical proximity switch.
+(4 × 1)
+(4)
+2.2.2
+Explain by listing THREE weaknesses of theopticalproximity
+switch.
+(3)
+(3 × 1)
+2.3
+Withreference to mechatronic systems,briefly explainwhy computers are
+being used in industry.
+(3 × 1)
+(3)
+2.4
+List FIVE disadvantages of using aCAD system.
+(5 × 1)
+(5)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+NCV
+2)
+ExamPapers
+StudyGuides
+QUESTION3
+3.1
+Explainhowyou would prepare a pneumatic systemunder the following
+headings:
+3.1.1
+Air supply
+(2 × 1)
+(2)
+3.1.2
+Filtering
+(2 × 1)
+(2)
+3.1.3
+Regulation
+(2×1)
+(2)
+3.1.4
+Lubrication
+(2 × 1)
+(2)
+3.2
+3-port valves are used to control the flow of air in the circuit.Theportsofthe
+valves are opened and closed by means of as pool.
+FIGURE1andFIGURE2below show the normally closed and the activated
+3-port valves.
+NORMALLY
+CLOSED
+ACTIVATED
+FIGURE1
+FIGURE2
+Explain the difference between a normally closed valve and anactivatedvalve.
+(3 ×2)
+(6)
+3.3
+Draw the symbol for a 5/3-way valve with exhaust ports,pressure port and
+output ports or working ports.
+(3 × 1)
+(3)
+3.4
+When maintaining or working with pneumatic systems,caremustbetakenwith
+the removal and connection of the airlines.
+Give THREE examples of protection by control and signalling devices.(3x1)
+(3)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+-5-
+NCV
+2）
+ExamPapers
+StudyGuides
+QUESTION4
+4.1
+Electricity is commonly used for control signals in remote control applications
+due to its unique advantages.
+4.1.1
+List FiVE advantages of using electricity for the control signals for
+remote control applications.
+(5×1)
+(5)
+4.1.2
+Explain protection by earthing or grounding
+(3 × 1)
+(3)
+4.2
+List FOuR applications where counters are used in electro-pneumaticcontrol.
+(4 × 1)
+(4)
+4.3
+Explainwiththeaidofthegivenelectro-pneumatic control diagram shown
+belowinFIGURE3,how a cylinder can be retracted after the timer has timed
+out.
+(5 × 1)
+(5)
++24V
+2
+K1
+K1
+S1H
+K1
+1M1
+OV
+23
+FIGURE3
+4.4
+Draw the symbol of a normally closed time delay valve
+(3 × 1)
+(3)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+-6-
+NCV
+2）
+ExamPapers
+StudyGuides
+QUESTION5
+5.1
+Differentiate between fault finding and fault diagnosis.
+(3 × 2)
+(6)
+5.2
+The maintenance work can be carried out atshort intervals or longer intervals.
+List SiX maintenance works that can be carried out at longer time intervals
+(6 × 1)
+(6)
+5.3
+Under the Personal Safety explain precautions to take when performing
+continuitytesting.
+(3× 1)
+(3)
+5.4
+What precautions should be takenwhenremoving tubing from a pneumatic
+circuit?
+(2 × 1)
+(2)
+5.5
+Explain how you would protect acircuit fromanover-loadcurrent.
+(3 × 1)
+(3)
+[20]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

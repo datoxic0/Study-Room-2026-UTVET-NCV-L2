@@ -1,0 +1,390 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+UltraDeep.co.za
+&training
+Department:
+HigherEducationandTraining
+REPUBLICOFSOUTHAFRICA
+MARKING GUIDELINE
+NATIONALCERTIFICATE(VOCATIONAL)
+MECHATRONICSYSTEMS
+NQFLEVEL2
+27 February 2026
+Thismarking guidelineconsistsof 6pages.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+-SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+IGGUIDELINE
+-2-
+NCV
+MECHATRONICSYSTEMSL2
+ExamPapers
+StudyGuides
+QUESTION1
+1.1
+1.1.1
+Colourasaninputisusedtoindicatetotheoperatororuserwhat
+thefunctionof thespecificswitchingdeviceoperationis.√(2×1)
+(2)
+1.1.2
+Colourasanoutput isused toenableoperatorsorusersoftechnical
+systemstoidentifytheoperatingstatusofamachine,especially
+dangerousormalfunctionsituations.
+(2×1)
+(2)
+1.2
+1.2.1
+A bimetal is constructed bybonding two differentmetalswith
+distinctcoefficientsofthermalexpansion,meaningtheyexpandat
+differentrateswhenheated.Thesemetalsareusuallylaminated
+or riveted together in strips.
+(4 × 1)
+(4)
+1.2.2
+Thermostats
+Temperaturesensors
+Thermal Switches
+Circuitbreakers
+Analogue thermometers
+Electricironsortoasters
+(Any 4×1)
+(4)
+1.3
+1.3.1
+When the bimetal is heated, the metal with the higher coefficient of
+thermalexpansion(usuallybrass)expandsmorethanthemetalwith
+the lower coefficient (usually steel).V√
+(2 × 1)
+(2)
+1.3.2
+Asthebrassexpandsmorethanthesteel,thebimetalbendsor
+curves,causingthefreeendtomove.V
+(2 × 1)
+(2)
+1.3.3
+Whenthebimetaliscooled,theprocessisreversed,andthebimetal
+returns to its original position.V
+(2 × 1)
+(2)
+1.4
+Pulley system
+Chain and sprocket system
+Gear systems
+Any TWO√ (2×1)
+(2)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+IGGUIDELINE
+-3-
+NCV
+MECHATRONICSYSTEMSL2
+Exam Papers
+StudyGuides
+QUESTION2
+2.1
+Capacitiveproximityswitchv
+Inductiveproximityswitch
+Optical proximity switchv
+Ultrasonic proximity switch
+Magneticreedswitchv
+(5 × 1)
+(5)
+2.2
+2.2.1
+Optical proximityswitchescandetectobjectswithhighaccuracy.
+Candetectobjectsatadistanceofuptoseveralmeters.
+Opticalsignalsarenotaffectedbyelectromagneticinterference.
+Candetecttransparentobjects,suchasglassorplastic.
+(4×1)
+(4)
+2.2.2
+Dirtanddustcanblocktheoptical signal.
+Ambient lightcaninterferewiththeoptical signal.
+Theopticalswitchrequiresalignmentwiththeobjectbeing
+detected.
+(3×1)
+(3)
+2.3
+Inmechatronicsystems,computersareused inindustryprimarilybecause they
+enableprecision,automation,andefficiency.
+(3 × 1)
+(3)
+2.4
+High initial cost
+TrainingRequirements
+Dependence on technology
+Limited creativity
+Data managementissues
+Securityconcerns
+Limitedstandardisation
+Over-relianceonautomation
+Environmental impact
+Potentialforerrors
+(Any 5 ×1)
+(5)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+IGGUIDELINE
+-4-
+NCV
+MECHATRONICSYSTEMSL2
+ExamPapers
+StudyGuides
+QUESTION3
+3.1.1
+rate.v
+(2 × 1)
+(2)
+3.1.2
+Installairfilterstoremovecontaminantsandmoisturefromthe
+compressedair.v
+(2 × 1)
+(2)
+3.1.3
+Regulateairpressureto therecommendedlevel for thepneumatic
+system.v√
+(2 × 1)
+(2)
+3.1.4
+Lubricate pneumatic components, such as cylinders and valves, to
+reduce friction andwear.
+(2×1)
+(2)
+3.2
+In FIGURE 1, port 1 is “blocked off"while ports 2 and 3 are connected, when
+thespool isinthenormalposition,thispositionwillallowairtoexhaustviaports
+2 and 3.V√
+InFIGURE2,whenthe3/2-wayvalveisactivated,theexhaustport3is
+"blockedoff'bythespool,thusallowingairtoflowviathevalvefromport2to
+1.√√
+(3 ×2)
+(6)
+3.3
+7
+5v1 3
+(3 × 1)
+(3)
+3.4
+Warninglights.
+Two-handedsafetycontrol
+PressureReliefValves
+Emergency Stop(E-Stop)Buttons
+PressureSensorsandAlarms
+(Any 3 × 1)
+(3)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-5-
+NCV
+MECHATRONICSYSTEMSL2
+Exam Papers
+StudyGuides
+QUESTION4
+4.1
+4.1.1
+Reliability
+Easy signal processing
+Lowpowerconsumption
+Fastsignaltransmission
+Flexibility
+Long-Distance Control
+EasyIntegrationwithElectronicDevices
+PrecisionandAccuracy
+(Any relevant 5×1)
+(5)
+4.1.2
+Protectionbyearthing orgrounding is a safetymeasure thatprotects
+peopleandequipmentyfromelectricalshockanddamage.v
+Earthing involves connecting electrical equipment,wiring,and
+systems to the earth, typically a grounded conductor.
+(3 × 1)
+(3)
+4.2
+Sequence control
+Cycle counting
+Production counting
+Qualitycontrol
+Time-basedcontrol
+PackagingMachines
+AutomaticDrillingMachines
+Part Sorting Systems
+Press Machines (Punching or Stamping)
+(Any relevant 4×1)
+(4)
+4.3
+removingthesupplyfromthecoilof1M1.√Thespringwillthenreturnthevalve
+to its normal position, thus causing the cylinder to retract.
+(5 × 1)
+(5)
+4.4
+2
+12
+100%
+(3 × 1)
+(3)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-6-
+NCV
+MECHATRONICSYSTEMSL2
+ExamPapers
+StudyGuides
+QUESTION5
+5.1
+FaultFinding
+Fault Diagnosis
+Focusesonidentifying and
+Faultdiagnosisfocuseson
+isolatingthefault.
+analysingandunderstandingthe
+rootcause.
+Involvesanarrowerscope,
+Involvesabroaderscope,
+focusingonaspecificsymptom
+considering theentiresystemand
+or component.
+itsinteractions.
+Oftenreliesonobservationaland
+Involvesmoreanalyticaland
+deductivetechniques.
+scientificmethods,suchasdata
+analysisandexperimentation.
+(Anyrelevant3x2)
+(6)
+5.2
+Checkthesealsoftheconnectorsforleaks
+Replacelinesconnectedtomovingparts
+Checktherodbearingsinthecylindersforwearandreplaceifnecessary
+Checkthefunctionofsafetyvalves
+Checkmountings
+InspectandReplaceAirFilters
+CheckandCleanAirDryers
+TestSystemPressureSettings
+LubricationofMovingParts
+(Any relevant 6 ×1)
+(6)
+5.3
+Wear PPE, such as safety glasses and gloves, to prevent injury.
+Ensure the circuit is de-energisedbeforeperforming continuity testing.v
+Useinsulatedtoolstopreventelectricalshock.
+(Any relevant 3×1)
+(3)
+5.4
+Beforeremovingtubing,ensurethepneumaticcircuitisdepressurisedto
+prevent injury from escaping air.
+Disconnectpowertothepneumaticsystemtopreventaccidentalstart-up.
+Ensuresafedisposal of theremovedtubing and anyassociated
+components.
+(Any relevant 2 ×1)
+(2)
+5.5
+Toprotect a circuit from overload current,you would useprotective devices
+that automaticallyinterrupt thepowersupplywhen thecurrent exceedssafe
+levels.v
+(3× 1)
+(3)
+[20]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

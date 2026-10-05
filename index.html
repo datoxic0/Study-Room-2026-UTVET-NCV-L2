@@ -22,10 +22,12 @@
         <a href="#dashboard" data-nav="dashboard" class="is-active" aria-current="page">Desk</a>
         <a href="#guides" data-nav="guides">Study guides</a>
         <a href="#papers" data-nav="papers">Past papers</a>
+        <a href="#practice" data-nav="practice">Practice</a>
         <a href="#notebooks" data-nav="notebooks">Notebooks</a>
       </nav>
 
       <div class="topbar-meta">
+        <span class="offline-badge" id="net-badge" role="status" aria-live="polite" hidden></span>
         <div class="term-label"><span class="status-dot"></span> EXAM SEASON <span class="term-divider">/</span> LEVEL 2</div>
         <div class="today-label" id="today-label"></div>
       </div>
@@ -118,6 +120,12 @@
                 <label class="sr-only" for="chat-input">Ask your study buddy</label>
                 <textarea id="chat-input" rows="1" placeholder="Ask anything about your studies…" required></textarea>
                 <button class="send-button" type="submit" aria-label="Send message"><span aria-hidden="true">↑</span></button>
+              </form>
+              <form class="tutor-ai-settings" id="tutor-ai-settings" autocomplete="off">
+                <label class="sr-only" for="tutor-ai-key">OpenRouter API key</label>
+                <input id="tutor-ai-key" type="password" placeholder="OpenRouter API key (stored on this device only)" />
+                <button class="prompt-chip" type="submit">Save key</button>
+                <span class="practice-hint" id="tutor-ai-status" aria-live="polite"></span>
               </form>
               <p class="tutor-hint">Answers are designed to help you understand and remember.</p>
             </section>
@@ -270,6 +278,101 @@
         </section>
       </section>
 
+      <!-- ══════════════ PRACTICE ══════════════ -->
+      <section id="view-practice" hidden>
+        <section class="view-hero">
+          <p class="eyebrow">QUIZ · TEST · EXAM ENGINE</p>
+          <h1>Build a paper.<br><em>Take it. Beat it.</em></h1>
+          <p class="welcome-note">
+            Assembled from your hashed capture bank — <strong>works fully offline, no AI needed</strong>.
+            Same seed = the identical paper, so a whole class can write the same test.
+            AI can draft extra questions when you add a key, and every AI item stays labelled.
+          </p>
+        </section>
+
+        <section class="panel view-panel" aria-labelledby="practice-build-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">GENERATOR</p>
+              <h2 id="practice-build-title">Set up your paper</h2>
+            </div>
+            <span class="small-count" id="practice-status">bank loading…</span>
+          </div>
+          <div class="practice-builder">
+            <div class="practice-field">
+              <label for="practice-subject">Subject</label>
+              <select id="practice-subject"><option value="">All subjects</option></select>
+            </div>
+            <fieldset class="practice-field practice-kinds">
+              <legend>Sources</legend>
+              <label class="practice-chip"><input type="checkbox" id="practice-kind-past" checked> Past-paper questions</label>
+              <label class="practice-chip"><input type="checkbox" id="practice-kind-drill" checked> Recall drills</label>
+              <label class="practice-chip"><input type="checkbox" id="practice-kind-mine" checked> My bank (AI)</label>
+              <label class="practice-chip" title="Questions that reference a figure the offline bank has no image for"><input type="checkbox" id="practice-figs"> Figure questions <span class="practice-hint" id="practice-fig-count"></span></label>
+            </fieldset>
+            <div class="practice-field">
+              <label for="practice-count">Questions <output id="practice-count-out">10</output></label>
+              <input type="range" id="practice-count" min="5" max="30" step="1" value="10">
+            </div>
+            <div class="practice-field">
+              <label for="practice-seed">Seed <span class="practice-hint">same seed = same paper</span></label>
+              <input type="text" id="practice-seed" placeholder="e.g. class-42" autocomplete="off">
+            </div>
+            <div class="practice-field">
+              <label for="practice-minutes">Minutes <span class="practice-hint">0 = auto from marks</span></label>
+              <input type="number" id="practice-minutes" min="0" max="240" step="5" value="0">
+            </div>
+            <div class="practice-actions">
+              <button type="button" class="prompt-chip practice-primary" id="practice-start">Start test</button>
+              <button type="button" class="quiet-button" id="practice-print">Build print sheet</button>
+            </div>
+          </div>
+          <div class="practice-resume" id="practice-resume" hidden>
+            <span>Draft test in progress.</span>
+            <button type="button" class="quiet-button" id="practice-resume-go">Resume</button>
+            <button type="button" class="quiet-button" id="practice-resume-drop">Discard</button>
+          </div>
+        </section>
+
+        <section class="panel view-panel" id="practice-stage" hidden aria-live="polite"></section>
+
+        <section class="panel view-panel" aria-labelledby="practice-history-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">PROGRESS</p>
+              <h2 id="practice-history-title">Attempts &amp; weak spots</h2>
+            </div>
+            <span class="small-count" id="practice-bank-count">—</span>
+          </div>
+          <div class="practice-two-col">
+            <div>
+              <h3 class="practice-subhead">Recent attempts</h3>
+              <ul class="practice-attempts" id="practice-attempts"><li>Nothing yet — build your first paper above.</li></ul>
+            </div>
+            <div>
+              <h3 class="practice-subhead">Retest queue <span class="practice-hint">missed more than once</span></h3>
+              <ul class="practice-weak" id="practice-weak"><li>Miss a question and it queues here for retesting.</li></ul>
+            </div>
+          </div>
+          <div class="practice-ai-bar" id="practice-ai-bar">
+            <button type="button" class="quiet-button" id="practice-ai-add">+ Draft questions with AI</button>
+            <span class="practice-hint" id="practice-ai-note"></span>
+            <form class="practice-ai-form" id="practice-ai-form" hidden autocomplete="off">
+              <input id="practice-ai-topic" type="text" placeholder="Topic, e.g. Boolean algebra" required aria-label="Topic for AI questions" />
+              <select id="practice-ai-kind" aria-label="Question type">
+                <option value="short">Short answer</option>
+                <option value="mcq">Multiple choice</option>
+              </select>
+              <select id="practice-ai-count" aria-label="How many questions">
+                <option>3</option><option selected>5</option><option>8</option>
+              </select>
+              <button class="prompt-chip" type="submit" id="practice-ai-go">Generate</button>
+              <span class="practice-hint" id="practice-ai-status" aria-live="polite"></span>
+            </form>
+          </div>
+        </section>
+      </section>
+
       <dialog id="guide-dialog" class="guide-dialog" aria-label="Study guide reader"></dialog>
       <dialog id="paper-dialog" class="paper-dialog" aria-label="Paper and memorandum reader"></dialog>
 
@@ -278,5 +381,6 @@
         <span>YOUR NEXT STEP, MADE CLEAR <b>·</b> 2026</span>
       </footer>
     </main>
+  <div id="print-sheet" aria-hidden="true"></div>
   </body>
 </html>

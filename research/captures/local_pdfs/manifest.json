@@ -1,0 +1,198 @@
+{
+  "builtOn": "2026-10-05",
+  "files": [
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/2021 MAR NC2090 - MECHATRONIC SYSTEMS L2 FEB MEMO 2021 edited.pdf",
+      "sha256": "c36d3b815d012e6ae2ca61083605a6c1a396d4560aec57e87ce5dbeb171b0bc8",
+      "pages": 6,
+      "textChars": 5938,
+      "textFile": "2021-mar-nc2090-mechatronic-systems-l2-feb-memo-2021-edited-pdf.txt"
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/2021 MAR NC2090 - MECHATRONIC SYSTEMS L2 FEB QP 2021 edited.pdf",
+      "sha256": "7d2481bd78b01db5287d7179da0a36655d2e82b1517c6787917e9fbfeb48958e",
+      "pages": 4,
+      "textChars": 4634,
+      "textFile": "2021-mar-nc2090-mechatronic-systems-l2-feb-qp-2021-edited-pdf.txt"
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1040_-_ELECTROTECHNOLOGY_L2_MEMO_FEB_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "61bb0f6fd2a7abb0fd41452afbd8bba58294c024bbb61517f58a8cf992ccfda9",
+      "pages": 7,
+      "textChars": 6
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1040_-_ELECTROTECHNOLOGY_L2_MEMO_NOV_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "31cd20b0c198d062a9982d8c2776693789215e285e602599d068451d113fdfe8",
+      "pages": 6,
+      "textChars": 5
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1040_-_ELECTROTECHNOLOGY_L2_MEMO_SUPP_2026_-_tvetpapers.co.za.pdf",
+      "sha256": "e5b33a22e01a5939f9106e5fb5c970c6a1756097fca4e17cd0a411a0fc7fb3f1",
+      "pages": 7,
+      "textChars": 6
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1040_-_ELECTROTECHNOLOGY_L2_QP_FEB_2025-_-_tvetpapers.co.za.pdf",
+      "sha256": "a969622d3b423fcdeaed53e7c185f7ae50cd0e157967778f9db65ad3d931a1c5",
+      "pages": 9,
+      "textChars": 8
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1040_-_ELECTROTECHNOLOGY_L2_QP_NOV_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "8f08d3ef237bedde8c376e824c319c83d428c866f9e9a1700d05f452b09150b5",
+      "pages": 10,
+      "textChars": 9
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1040_-_ELECTROTECHNOLOGY_L2_QP_SUPP_2026_-_tvetpapers.co.za.pdf",
+      "sha256": "3bdf8ae8649e8c8b73a765a86c22402cfbce1144cacf490561bcd2d71c39466b",
+      "pages": 9,
+      "textChars": 8
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1240_-_ENGLISH_FIRST_ADDITIONAL_LANGUAGE_L2_P1_MEMO_NOV_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "90bffb5df7c6f074ef867e32567720aa4814940c37c38eba7316b6fa7b71fdb6",
+      "pages": 7,
+      "textChars": 6
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1240_-_ENGLISH_FIRST_ADDITIONAL_LANGUAGE_L2_P1_QP_NOV_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "9673d089bc3677d6bebf7f17637ad3f1e8aea1b5a9232a4e2230353cc984f3be",
+      "pages": 12,
+      "textChars": 11
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1540_-_INTRODUCTION_TO_COMPUTERS_L2_NOV_MEMO_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "4d91570da55f8591edcce53221354e5d4f6b80081292421aca3e67e0d80bb4e2",
+      "pages": 5,
+      "textChars": 4
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1540_-_INTRODUCTION_TO_COMPUTERS_L2_NOV_QP_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "8a0f3347d1af9261ba390f9c5c0a0765d4c8e277b4948e97365d2370866ae375",
+      "pages": 5,
+      "textChars": 4
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1540_-_INTRODUCTION_TO_COMPUTERS_L2_SUPP_MEMO_2026_-_tvetpapers.co.za.pdf",
+      "sha256": "d77716e9399fc581e35d688f77bcf1b39959818c3510493d3d9ec8c5b2e516f7",
+      "pages": 5,
+      "textChars": 4
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1540_-_INTRODUCTION_TO_COMPUTERS_L2_SUPP_QP_2026_-_tvetpapers.co.za.pdf",
+      "sha256": "205974c84fc255a84b751452248ba81e40f50d7f79c63e660dfa4ca746c9357d",
+      "pages": 6,
+      "textChars": 5
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1710_-_LIFE_SKILLS_AND_COMPUTER_LITERACY_L2_P2_MEMO_NOV_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "e0396360c81eb421993b24e8d8558fdfe2211623f75f528e4d76a2a7c5fa0f3b",
+      "pages": 15,
+      "textChars": 14
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1710_-_LIFE_SKILLS_AND_COMPUTER_LITERACY_L2_P2_QP_NOV_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "945f465010f70a2c6cab721c8eb1c5bc4650b5d5726d216cc356022844402fd9",
+      "pages": 13,
+      "textChars": 12
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1750_-_LIFE_SKILLS_AND_COMPUTER_LITERACY_L2_P1_MEMO_NOV_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "b627fd3059464739982af8959529acf8f01fc31d8e2bb403b198f9e3d40e966e",
+      "pages": 6,
+      "textChars": 5
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC1750_-_LIFE_SKILLS_AND_COMPUTER_LITERACY_L2_P1_QP_NOV_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "4991f729073df2243ad75e04249b33b43d4fc7571947775467ceefb98bb8f02c",
+      "pages": 8,
+      "textChars": 7
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC2050_-_MATHEMATICS_L2_P1_MEMO_NOV_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "e9b5f959e8d405965566cb43ecd19485f2893d880652e07d94b7975ef908bd85",
+      "pages": 13,
+      "textChars": 12
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC2050_-_MATHEMATICS_L2_P1_QP_NOV_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "aff13e4bc3ea57a8258030e1b9d584a6b8806929042a9a4eb3660ca722b043c6",
+      "pages": 9,
+      "textChars": 8
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC2060_-MATHEMATICS_L2_P2_MEMO_NOV_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "27ac6adc114bb1762233c4862b5c8cf899d507a8ba8a9557c7e55af68a681c57",
+      "pages": 8,
+      "textChars": 7
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC2060_-MATHEMATICS_L2_P2_QP_NOV_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "a3923f357acb220870148617bc416b9bfff348085fc1f89c368d14779f275676",
+      "pages": 13,
+      "textChars": 12
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC2090_-_MECHATRONIC_SYSTEMS_L2_MEMO_FEB_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "476dfd4fd5ffc12585c399a9de8a8202a45a3b6aae810602d06c4657783f66f9",
+      "pages": 8,
+      "textChars": 7
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC2090_-_MECHATRONIC_SYSTEMS_L2_NOV_MEMO_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "28e226732ac4ed2366d71d6db07383a7dd1261cca17d2f9e9d85a05ca00ba533",
+      "pages": 6,
+      "textChars": 5
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC2090_-_MECHATRONIC_SYSTEMS_L2_NOV_QP_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "d92a924ae6d3e6ed26de2540a05064fb5576eb4b58b932aa08eeafcd2e7a4607",
+      "pages": 6,
+      "textChars": 5
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC2090_-_MECHATRONIC_SYSTEMS_L2_QP_FEB_2025_-_tvetpapers.co.za.pdf",
+      "sha256": "4810df37e7057139c734961969d4a2378a8cfdfe3eaf9d8bb674ae8e6a636726",
+      "pages": 8,
+      "textChars": 7
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC2090_-_MECHATRONIC_SYSTEMS_L2_SUPP_MEMO_2026_-_tvetpapers.co.za.pdf",
+      "sha256": "fcccfa967bec7b9ceba97845f1f6315b00fc132760372d2f55fb5bac52d9b1f0",
+      "pages": 6,
+      "textChars": 5
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NC2090_-_MECHATRONIC_SYSTEMS_L2_SUPP_QP_2026_-_tvetpapers.co.za.pdf",
+      "sha256": "dd4c27a7dc4cf908eb08062e1a4c5ec1e83f92e5008d76031df81a12b57b6d5a",
+      "pages": 6,
+      "textChars": 5
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NCV-MATHEMATICS-PAPER -2- TASK 07 QP.docx",
+      "sha256": "12bb869b2d3eea8d3d41c85ed15626b333e7c48ea1f9f303c96fc7db3ea448a8",
+      "pages": 0,
+      "textChars": 5261,
+      "textFile": "ncv-mathematics-paper-2-task-07-qp-docx.txt",
+      "docx": true
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NCV-MATHEMATICS-PAPER-2-TASK 07 MG.docx",
+      "sha256": "137c56cf996ea808f74037b55930daf030df9aa8a78fa3c21836362a3635ac80",
+      "pages": 0,
+      "textChars": 4518,
+      "textFile": "ncv-mathematics-paper-2-task-07-mg-docx.txt",
+      "docx": true
+    },
+    {
+      "file": "research/Data-QuestionPapers-and-Memos-Downloaded/NCV2 Mechatronic Systems December 2020.pdf",
+      "sha256": "fddb4232f56439f72d5c987e70a80e35ad1ff29dda934df479c46c237ee3d047",
+      "pages": 6,
+      "textChars": 6336,
+      "textFile": "ncv2-mechatronic-systems-december-2020-pdf.txt"
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+Copyright reserved P lease turn over 
+ 
+MECH
+ATRONIC SYSTEMS 
+NQF LEVEL 2 
+(6040102) 
+2 December 2020 (X-paper) 
+09:00–12:00
+This question paper consists of 6 pages. 
+N
+ATIONAL CERTIFICATE (VOCATIONAL) 
+213Q1N2002 
+
+(6040102) -2-  
+Copyright reserved  Please turn over 
+ 
+ 
+ 
+TIME: 3 HOURS 
+MARKS: 100 
+ 
+ 
+ 
+ 
+ 
+ 
+INSTRUCTIONS AND INFORMATION 
+ 
+1. 
+ 
+2. 
+ 
+3. 
+ 
+ 
+4. 
+ 
+5. 
+ 
+6. 
+Answer all the questions. 
+ 
+Read all the questions carefully. 
+ 
+Number the answers according to the numbering system used in this 
+question paper. 
+ 
+Sketches must be large and neat. 
+ 
+Use fully labelled IEC symbols. 
+ 
+Write neatly and legibly. 
+  
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Downloaded from NCV Exam Papers App
+Downloaded from NCV Study Guides App
+(6040102) -3-  
+Copyright reserved  Please turn over 
+ 
+ 
+QUESTION 1 
+ 
+1.1 Study FIGURE 1 of a simple conveyor belt system used in a mechatronic 
+transfer application. 
+  
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 1.1.1 What type of diagram is shown in FIGURE 1?     (1) 
+ 
+ 1.1.2 How does a pictorial diagram assist you in designing a mechatronic 
+system? 
+ 
+  (5) 
+ 
+ 1.1.3 Why is it important to analyse the operation and general make- up 
+of a mechatronic system?  
+  
+  (2) 
+ 
+1.2 Draw a mechatronic system diagram that would represent the conveyor 
+transfer system depicted in FIGURE 1.  
+  
+  (8) 
+ 
+1.3 Draw the INPUT-PROCESS-OUTPUT single-block technical diagram that will 
+represent the DC-geared motor.  
+  
+  (4) 
+[20] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FIGURE 1 
+CONVEYOR 
+MOTOR 
+X1 
+START 
+STOP RUN 
+STANDY 
+POWER SUPPLY 
+CONTROL RELAY 
+STAND-BY 
+ 
+ 
+ 
+Downloaded from NCV Exam Papers App
+Downloaded from NCV Study Guides App
+(6040102) -4-  
+Copyright reserved  Please turn over 
+ 
+ 
+QUESTION 2 
+ 
+Study the two control circuits A and B shown in FIGURE 2.    
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+2.1 What type of diagram is shown by control circuit A?     (1) 
+  
+2.2 What type of diagram is shown by control circuit B?     (1) 
+ 
+2.3 What enables you to distinguish between circuits A and B?     (2) 
+ 
+2.4 Explain the operation of circuit A.    (4) 
+ 
+2.5 Answer the questions below about FIGURE 2, circuit A. 
+ 
+Give the full description of each of the following that would be writte n on an 
+order form or materials list: 
+  
+ 
+ 2.5.1 What type of push button is PB1?   
+ 
+ 2.5.2 What type of push button is PB2?   
+ 
+ 2.5.3 What type of lamp is L1?    
+ 
+ 2.5.4 What relay is CR1?    
+ 
+ 2.5.5 What type of lamp is L2?    
+ 
+ 2.5.6 What type of motor is M1?                                                       
+(6 × 2) 
+  
+(12) 
+[20] 
+24V 0V 
+A2 A1 
+CR1 
+CR1 
+CR1 
+CR1 
+CR1 
+X1 
+X1 
+X1 
+X2 
+X2 
+X2 
+3 4 1 2 
+11 
+21 
+31 
+41 44 
+34 
+14 
+22 
+L1 
+GREEN 
+L2 
+AMBER 
+M1 
+PB1 
+PB2 
+A 
+I1 I2 AR1 
+AR1 
+AR1 
+AR1 
+AR1 
+Q1 
+Q2 
+Q3 
++V -V 
+B 
+ 
+FIGURE 2 
+ 
+ 
+ 
+Downloaded from NCV Exam Papers App
+Downloaded from NCV Study Guides App
+(6040102) -5-  
+Copyright reserved  Please turn over 
+ 
+ 
+QUESTION 3 
+ 
+The soft-drink can crusher shown in FIGURE 3 is used to make the transport of the 
+cans easier. It is manually operated using pneumatics to do the work. 
+ 
+The system operates as follows:  
+ 
+ The system is manually operated. 
+ Pneumatic cylinder A1 weakens the can from the side. 
+ Pneumatic cylinder A2 compress es the can from the top. 
+ Pneumatic cylinder A3 ejects the crushed can from the crusher machine. 
+  
+ 
+ 
+FIGURE 3   
+ 
+3.1 Name the type of pneumatic cylinder represent by A2 in FIGURE 3.     (1) 
+ 
+3.2 Draw the IEC symbol of the cylinder represented by A2 in FIGURE 3.    (2) 
+ 
+3.3 What type of pneumatic cylinder is represented by A1 and A3 in FIGURE 3?    (1) 
+ 
+3.4 Draw the IEC symbol of the cylinder represented by A1 and A3 in FIGURE 3.    (2) 
+ 
+3.5 Explain the purpose of using a status displacement step diagram in the 
+design or fault-finding process of a pneumatic application. 
+  
+  (2) 
+ 
+3.6 Draw the status step diagram representing the task process represented by 
+the three cylinders in FIGURE 3. 
+  
+(10) 
+ 
+3.7 What pneumatic device would you use to detect the position of the three  
+cylinders used in the task shown in FIGURE 3?  
+  
+  (2) 
+[20] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+A1 
+A2 
+A3 
+A2 
+ 
+ 
+ 
+Downloaded from NCV Exam Papers App
+Downloaded from NCV Study Guides App
+(6040102) -6-  
+Copyright reserved   
+ 
+ 
+QUESTION 4 
+ 
+4.1 What energy type is used in the control circuit of an electropneumatic 
+application?  
+  
+  (1) 
+ 
+4.2 Why is the energy type mentioned in QUESTION 4.1 used for control o f 
+electropneumatic applications?  
+  
+  (2) 
+ 
+4.3 Explain how the link between the electrical control circuit and the pne umatic 
+working circuit is achieved.                                                                      (2 × 2) 
+  
+  (4) 
+ 
+4.4 Draw a electropneumatic control circuit using fully labelled IEC symbols to 
+meet the requirements of the task outcomes of FIGURE 3 and the status step  
+diagram developed in QUESTION 3 .6, using push buttons, solenoid valves, 
+sensors and cascaded timers. 
+ 
+  (8) 
+ 
+4.5 State the safe DC voltage that would be used in a pneumatic control circuit.    (1) 
+ 
+4.6 Make simple drawings and explain the difference between delay-on timers  
+and delay-off timers used in electro-pneumatic control circuits.              (2 × 2) 
+  
+  (4) 
+[20] 
+ 
+ 
+QUESTION 5  
+ 
+FIGURE 2, circuit A in QUESTION 2 is the circuit of a motor start/stop control circuit 
+commissioned in 2017. The circuit has become faulty and the output/ input through the 
+circuit approach has been recommended to troubleshoot this control circuit. 
+  
+ 
+5.1 What would be tested first using the recommended approach, when the motor 
+fails to start? 
+  
+  (2) 
+ 
+5.2 What should be done if the motor (M1) is found to have a supply v oltage 
+present?  
+  
+  (2) 
+ 
+5.3 What should be done if it is found that the motor does not have a supply 
+present on its terminal but the amber run lamp (L2) is illuminated? 
+  
+  (2) 
+ 
+5.4 What should be done if there is no supply found on contact 4.4?    (2) 
+ 
+5.5 What should be done if there was a supply found on contact 4.4 and it has 
+been established that there is continuity on the negative side of the      
+motor (M1)? 
+  
+ 
+  (2) 
+ 
+5.6 Make a simplified drawing and explain how a buzzer should be used on a 
+dead circuit to check the continuity between contact 3.4 of CR1 and the 
+terminal X1 of lamp 2. 
+  
+ 
+  (4) 
+ 
+5.7 State SIX skills a mechatronic technician should have to troubleshoot a 
+mechatronic system. 
+  
+  (6) 
+[20] 
+ 
+ TOTAL:  100 
+ 
+ 
+ 
+ 
+ 
+Downloaded from NCV Exam Papers App
+Downloaded from NCV Study Guides App

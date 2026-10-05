@@ -1,4 +1,4 @@
-﻿# Studyroom â€” TVET Exam Desk
+﻿# Studyroom — TVET Exam Desk
 
 Enterprise-grade exam-prep app for **NC(V) Level 2** students (uMgungundlovu TVET College). Static-first: no backend, no tracking, works on websim / GitHub Pages / any static host.
 
@@ -16,7 +16,7 @@ Enterprise-grade exam-prep app for **NC(V) Level 2** students (uMgungundlovu TVE
 
 - Every external link carries a verification date (`2026-09-30`) and class: `official`, `community`, `unreachable`.
 - Research lives in `research/`: search log (J9), captures with **sha256** (J2), and `evidence.json` gated by
-  `corroborate.py --strict --require-hash` â†’ **PASS, 7/7 claims CORROBORATED** (17/17 evidence hash-provenanced).
+  `corroborate.py --strict --require-hash` → **PASS, 7/7 claims CORROBORATED** (17/17 evidence hash-provenanced).
 - Links that failed from the build network (`nols.gov.za`, `utvet.co.za`) are shown **flagged**, not hidden.
 - NotebookLM: unauthenticated fetches are **always** redirected to sign-in (measured, captured). With a signed-in Edge session via CDP, **17/17 notebooks were fetched and ingested** (see `research/02_NOTEBOOKLM_ACCESS_AUDIT.md`).
 
@@ -29,15 +29,16 @@ npm run test             # node:test suite
 npm run index-notebooks  # rebuild data/notebooks/index.json from exports
 npm run ingest-sources   # rebuild data/notebooks/*.sources.txt from hashed source captures
 npm run extract-papers   # regenerate js/data/paper_shelf.js from the 17 hashed captures (deterministic)
+npm run update-papers    # full annual refresh: measure folder -> OCR new scans -> rebuild shelf -> lint -> tests
 npm run serve            # local server at http://localhost:8080
 ```
 
 ## Notebook ingestion
 
-1. NotebookLM â†’ Export â†’ Markdown/Text.
+1. NotebookLM → Export → Markdown/Text.
 2. Drop files into `data/notebooks/`.
 3. `npm run index-notebooks`.
-4. Open **Notebooks** tab â†’ search across everything. Each file shows its sha256 prefix.
+4. Open **Notebooks** tab → search across everything. Each file shows its sha256 prefix.
 
 ## Structure
 
@@ -88,10 +89,42 @@ sw.js                 offline shell (Angel: background cache worker)
 - Verified: mobile CDP probe at **390×844 and 768×1024** — `clipped: false`, scroller reaches the bottom (last element visible), Close on-screen at scroll bottom, `bodyOverflow: hidden`, `tapTargets: []`, no horizontal overflow, 0 page exceptions; desktop sweeps unchanged (30 cards, 7/7 guide modals, reveal 23/23, 0 page exceptions); `npm run check` **39/39**.
 - Known data limitation (deliberately not "fixed"): two memos carry Private-Use-Area chars (`U+F050`, `U+F0B2`) from the source PDF's symbol font — no Unicode mapping survived extraction, so they render as tofu; guessing glyph meanings would violate strict-truth. Honest fix = re-extraction with font cmap/OCR (skill v0.3 territory).
 
+## Quiz, test & exam builder + optional AI (2026-10-04)
+
+- **New Practice tab** (`js/ui/practice.js` + `js/core/assessment.js`): build a quiz, test or exam from the merged bank — **341 items** measured (274 past-paper subs + 67 authored drills + anything you add to My bank), **96 auto-scored** against memo keys, the rest honestly self-marked. Filters: subject (8 options), kind (past paper / drills / My bank), count, minutes, seeded shuffle — same seed rebuilds the identical paper; every item shows provenance (paper id + capture sha, or guide id, or AI label).
+- **Timed take → results → history**: countdown with auto-submit at zero, per-item answers saved as a resumable draft (Save & exit), score splits auto / self-mark / unanswered (blank never fakes a zero into "pending"), Missed-again items queue into a retest list, attempt history records score + seed so any past paper can be rebuilt.
+- **Printable paper + memo**: Build print sheet renders an exam front sheet (instructions, per-question answer rules) and a separate MEMORANDUM page; `@media print` isolates it from the screen UI. Questions without keys print `[no key — mark against the study guide / notes]` instead of invented answers.
+- **AI is optional and never required**: the app works fully offline with the built-in bank. With an OpenRouter key (own account, own cost) you can (a) chat with the Study buddy and (b) draft new questions into My bank — every AI item is labelled with model + timestamp + topic and passes strict JSON/shape validation before it is stored (invalid replies add nothing).
+- **Key security**: the key lives only in this device's `localStorage` (`studyroom.openrouter_key`), is never echoed into the DOM (masked as `sk-or-…abcd`), never logged, and is sent only to `openrouter.ai`. Remove it by clearing that storage key. Default model `openai/gpt-4o-mini` (override: `studyroom.openrouter_model`).
+- **Verified (2026-10-04)**: `npm run check` → lint clean (36 modules, 70 DOM ids) + **50/50 tests** (11 new engine tests: bank counts, determinism, rules enforcement, scoring modes, retest queue); CDP E2E on **1280×900 and 390×844**: builder → timed take → answer → submit → results → self-mark → save attempt → history/weak queue → print sheet (6/6 items, memo page, 0 page exceptions); print-media emulation shows only the sheet with body hidden; AI probe: no-key message, key save + masking (full key absent from DOM), and a **real OpenRouter round-trip failing cleanly with `401`** on a fake key — transport proven; the success path with a valid key is untested here (no real key on this machine).
+- **Data hygiene fix**: recovered double-encoded UTF-8 (PowerShell ANSI re-read) in `index.html`, `README.md`, the roadmap and `package.json` (cluster-level repair; correct characters left untouched; hash-pinned NotebookLM captures deliberately untouched).
+
 ## Verification record (2026-09-30)
 
-- `npm run check` â†’ exit 0 (lint clean, 16/16 tests).
-- HTTP smoke â†’ **20/20 assets 200**.
-- Headless Edge render â†’ Desk (10 exam rows, 3 plan items, live countdown), Papers (7 subject cards, 8 sources, 21 search chips), Notebooks (**17 cards**, library status "17 exported notebook files indexed", seeded search hits with sha256).
-- NotebookLM pull â†’ `scripts/pull_notebooks.mjs` over CDP: **17/17 OK**, manifest sha256 re-verified against `Get-FileHash` (0 mismatches).
-- Indexer round-trip â†’ sha256 matches `Get-FileHash` exactly.
+- `npm run check` → exit 0 (lint clean, 16/16 tests).
+- HTTP smoke → **20/20 assets 200**.
+- Headless Edge render → Desk (10 exam rows, 3 plan items, live countdown), Papers (7 subject cards, 8 sources, 21 search chips), Notebooks (**17 cards**, library status "17 exported notebook files indexed", seeded search hits with sha256).
+- NotebookLM pull → `scripts/pull_notebooks.mjs` over CDP: **17/17 OK**, manifest sha256 re-verified against `Get-FileHash` (0 mismatches).
+- Indexer round-trip → sha256 matches `Get-FileHash` exactly.
+
+## Annual updates — timetable & new papers (2026-10-05)
+
+Everything a new sitting year needs is data, not code.
+
+### 1. Exam timetable
+- Append a block to `js/data/timetable.js`: `{ year, exams: [{ date, time, subject, level, duration, paper, term }] }`.
+- `term` = 1..4. Term 4 = October–December: a sitting may start in October, run through November or finish in December — all of it is term 4 (never tag an exam by its month). Every date must sit inside the block's year; `subject` must exist in the `js/data/sources.js` registry (the suite fails loudly otherwise).
+- The app shows the first block with exams ahead of today (`selectExamBlock` in `js/core/dates.js`); when every block is historical it shows the latest one. Consumers keep importing `exams` from `js/data/exams.js` — no edits.
+
+### 2. New question papers / memoranda
+- Drop the files into `research/Data-QuestionPapers-and-Memos-Downloaded/`.
+- Not a paper (guide, blueprint, duplicate, mislabelled file): add `{ file, reason }` to `exclusions.json` — reason >=15 chars, enforced; folder coverage is tested both ways (ingested XOR excluded).
+- Irregular filename whose meaning is not in the name (Y-paper, X-paper, task sheet): add one override row to `catalog.json`. Ordinary tvetpapers names classify with no entry.
+- Run `npm run update-papers`: measures the folder (text layer >=200 chars parses to Q&A, scans go through the dual-engine OCR gate), rebuilds `js/data/paper_shelf.js` from filenames + overrides, lints and tests. Exit 0 = everything in sync.
+
+### 3. Invariants the suite enforces (no frozen hand lists)
+- Folder <-> manifest <-> shelf: every .pdf/.docx ingested or excluded with a measured reason; manifest and shelf 1:1.
+- Capture archive ids frozen (30 NotebookLM entries); download ids/titles/sessions pinned only by the classifier golden set (the original 31 hand-curated rows).
+- Figure honesty derived: every figure reference is a verified asset (shown) or gated (hidden) — never both, never neither.
+- Memo joins structural: a question card joins its memo iff both sides parsed; joins cover >=50% of sub-answers.
+- Timetable blocks structurally validated (dates inside block year, term 1..4, registry links) with the active block computed, not asserted.

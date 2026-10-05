@@ -1,0 +1,1101 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+&training
+Department:
+Higher Education and Training
+REPUBLIC OF SOUTH AFRICA
+MARKINGGUIDELINE
+NATIONALCERTIFICATE(VOCATIONAL)
+LIFE SKILLS AND COMPUTER LITERACY
+(ICT COMPONENT)
+(Second paper)
+NQFLEVEL2
+3November2025
+This marking guideline consists of15pages.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+NCV
+GGUIDELINE
+-2-
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Secondpaper)
+StudyGuides
+INSTRUCTIONS TO MARKERS
+To facilitate marking and moderation,the following must be adhered to:
+1.
+Markers are required to workout the question paper before the memorandum
+isdiscussed.
+2.
+Accuracyismarkednegativelywitharedpen()
+Manipulation is marked with a blue pen(XorV)and the manipulation number
+must be written next to every tick(V)orcrossX(e.g.1/1x.
+To ensure that candidates are rewarded for tasks done well,e.g.lf3marksare
+allocated for accuracy but a candidate made5errors,he/sheonlylosesa
+maximumof3marks for accuracy and is still rewarded for the manipulation that
+wasdonecorrectly.
+3.
+Accuracy errors include spelling errors/keying-inerrors,omissionsand
+repetitions.Uppercase,lowercase,line and letter spacing are marked as
+manipulationerrors.
+4.
+To aid with the marking process, it is suggested that a transparency template
+is made of the breakdown of the marks at the beginning of the marking
+guideline discussion for each question.All marking on the PRINTOUT(ticks
+andcrosses)must be made in the same position as indicated on the marking
+guidelinetemplate.
+5.
+The following table format can be used to write marks achieved for each
+question on the PRINTOUT.(NB:numbers inthe tablearefor
+demonstration purposes only):
+A
+M
+T
+Write the total possible mark in this line
+9
+12
+21
+Write the errors made by the candidate in this line
+1
+2
+3
+Write themarks achievedby thecandidate in this line
+8
+10
+18
+6.
+Thecandidate'stotalmarksiswrittenonthecoverpageofthe
+EXAMINATION FOLDER next to the correSponding QUESTION NUMBER.
+7.
+If the candidate handed in a PRINTOUT,butachievedO(zero)forthe
+question,0(zero) iswritten on the coverpage next to the corresponding
+QUESTIONNUMBER.
+8.
+IfthecandidatedidnothandinaPRINTOuT,a line is drawn across the block
+next to the corresponding QUESTION NUMBER.
+If a candidate handed in DUPLICATE PRINTOUT Saline must be drawn across
+theDUPLICATEPRINTOUT,withthetermDUPLICATE'writtenacrossit.
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+NCV
+GGUIDELINE
+-3-
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Second paper)
+StudyGuides
+9.
+All PRINTOUTS must include the candidate'sEXAMINATIONNUMBERanda
+CONSISTENTWATERMARK.If a candidate handed in a PRINTOUT without
+a printed EXAMINATION NUMBER and/or a CONSISTENT WATERMARK,the
+question must be marked and reported as an irregularity.
+10.
+All irregularities are marked,and marks are transferred to the COVER PAGE.
+The code‘IRR'or word‘IRREGULARITY'is written next to thepercentage and
+an irregularityreport is completed.
+11.
+ONLYmarkwhat themarkingguidelineindicatesanddonotpenalise
+candidates for automatic formats or styles used for example in MS Office2007.
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NCV
+GGUIDELINE
+-4-
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Secondpaper)
+StudyGuides
+SECTIONA:WORDPROCESSING
+QUESTION1
+MARKALLOCATION
+ACCURACY
+5
+MANIPULATION
+15
+TOTAL
+20
+QUESTION
+MARKS
+ACCURACY
+NUMBER
+1.1
+N√√√√
+Penaliseforalltyping
+gerrors such as spelling，
+omission and repetition of text.DeductONEmark
+per error in the document up to a MAxIMuM of FIVE
+marks.
+DoNoTpenalisethesameerrorsrepeatedly.
+Rather encircle them toindicate thatyouhave
+identifiedthem.DoNOTpenaliselineandletter
+QUESTION
+NUMBERING
+MARKS
+MANIPULATION
+NUMBER
+1
+Insertedheader
+1.2
+EXAMINATIONNUMBERand
+2
+QUESTION1right-aligned
+Font type:CenturyGothic(consistent
+3
+throughout the entire document)
+1.3
+Fontsize:12(consistentthroughout
+4
+the entire document)
+5
+Mainheading:Underlined
+1.4
+6
+Mainheading:Centre-aligned
+1.5
+7
+√
+Paragraph 2:Right-aligned
+1.6
+8
+Paragraph3:Typedinuppercase
+9
+Sub-heading:‘Dashed'underline style
+1.7
+10
+Sub-heading:Bold
+Numbered list inserted (accept ANY
+1.8
+11
+√
+alignment)
+Uppercase and lowercase consistent
+12
+√
+throughout the document
+1.1
+Line and letter spacing consistent
+13
+throughout the document
+1.10
+14
+PrintedONEA4page
+15
+Pageorientation:Portrait
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+NCV
+GGUIDELINE
+-5-
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Second paper)
+StudyGuides
+EXAMINATION NUMBER QUESTION1
+Header:1.Insertedheader2.Examination number and QUEsTIoN1Right-aligned
+3.Font type:Century Gothic/4.Fontsize:12√
+Mainheading5.Underlined6.Centre-aligned
+Timemanagement
+Getting things done requires having time to do them.Hence,timemanagement isvery
+important because it helps you take charge of your time by avoiding waste or loss of
+boostsyourconfidence.You become the person who ensures that things get done.
+Being organized also gives you the opportunity to make the most of your time.
+Important factors that can help you,asastudent,take control of your time are
+planning and managing your time effectively.
+7.Paragraph2:Right-alignedv
+PLANNING YOUR TIME INVOLVES SETTING GOALS AND CREATING A SCHEDULE TO USE
+YOURTIMEWISELY.IT HELPS STUDENTS AVOID LAST-MINUTE RUSHES AND ENSURES THEY
+COMPLETE TASKS EFFICIENTLY.
+8.Paragraph 3:Typed in upper casev
+EXAMPLES_OFPLANNINGYOURTIME:
+Sub-heading9.Dashedunderlined10.Boldv
+1.Creatinga daily or weekly study plan
+2.
+Setting deadlines for assignments
+3.
+Prior it ising important tasks
+4.Allocating specific time for homework,revision,and relaxation
+11.Numbered list inserted（acceptANy alignment)
+12.Uppercase and lowercase consistent
+13.Line and letter spacing consistent
+A
+M
+T
+14.PrintedONEA4pagev
+5
+15
+20
+15.Pageorientation:Portrait
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NCV
+GGUIDELINE
+-6-
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Secondpaper)
+StudyGuides
+QUESTION2
+MARKALLOCATION
+ACCURACY
+3
+MANIPULATION
+17
+TOTAL
+20
+QUESTION
+MARKS
+ACCURACY
+NUMBER
+2.6
+Penalise for all typing errors such as spelling,
+omission and repetition of text,inthenewlyinserted
+textONLY.DeductONEmarkper errorinthe
+document up to a MAXIMUM of THREE marks.
+DoNoTpenalisethesameerrorsrepeatedly.
+Rather encircle them to indicate that you have
+identified them.DoNOTpenaliselineand letter
+spacing, upper case and lower case under
+accuracy.
+QUESTION
+NUMBERING
+MARKS
+MANIPULATION
+NUMBER
+Header:ChangedQUESTION1to
+2.1
+1
+QUESTION2
+2
+Mainheading:Fonttype:BritannicBold
+2.2
+3
+Mainheading:Fontsize:16
+4
+Mainheading:Uppercase
+2.3
+5
+Mainheading:Bold
+6
+√
+Paragraph3:Sentencecase
+2.4
+7
+Paragraph3:Centre-aligned
+Numbering:Replacedwithbullets
+2.5
+8
+(acceptANYstyle)
+9
+√
+Inserted new text and numbered list
+Uppercase and lowercase consistent
+10
+2.6
+(newtextONLY)
+Line and letter spacing consistent(new
+11
+√
+textONLY)
+2.7
+12
+√
+Newsubheading:Bold
+13
+√
+New sub-heading:Italics
+2.8
+14
+Line spaces between paragraphs
+Spellcheck:Spelling error corrected
+2.9
+15
+(distractions)
+2.11
+16
+√
+Printed:ONEA4page
+17
+√
+Pageorientation:Portrait
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+NCV
+GGUIDELINE
+-7-
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Secondpaper)
+StudyGuides
+1.Header:ChangedtoQUEsTION2
+EXAMINATION NUMBER QUESTION2
+Mainheading:2.Fonttype:BritannicBold3.Fontsize:164.Uppercase/5.Bold
+TIMEMANAGEMENT
+Getting things done requires having time to do them.Hence,time
+management is very important because it helps you take charge of your time
+by avoiding waste or loss of time.when you manage your time well,youarein
+full control of your life,which also boosts your confidence.Youbecomethe
+opportunity to make the most of your time.
+Important factors that can help you,asastudent,take control of your time are
+hingand managing your time effectively.
+Paragraph3:6.Sentencecase7.c/A
+Planning your time involves setting goals and creating a schedule to use your
+timewisely.It helps students avoid last-minute rushes and ensures they
+complete tasks efficiently.
+EXAMPLES OF PLANNING YOUR TIME:
+8.Numbering:Replacedwithbulletsv
+Creating a daily or weekly study plan
+Setting deadlines for assignments
+Prior it ising important tasks
+Allocating specific time for homework,revision,andrelaxation
+9.Inserted new text and numbered list
+New sub-heading:12.Bold√13.Italicsv
+WHAT DOES MANAGING TIME MEAN?
+when necessary to stay on track.It helps students avoid procrastination and
+becomemoreproductive.
+14.Line spaces between paragraphsv
+Examplesofmarg
+1.Usingato-do list to track progress
+15.Spelling corrected (distractions)
+2.Avoidingdistractions(likesocial media)whilestuaying
+3.Taking short breaks to improve focus
+4.Balancing schoolwork with play and rest
+A
+M
+T
+10.Uppercase&lowercaseconsistent(newtextONLy)
+3
+17
+20
+11.Line& letter spacing consistent(new textONLy)
+16.Printed:ONE A4pageV17.Page orientation:Portrait
+[20]
+Copyright reserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NCV
+GGUIDELINE
+-8-
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Secondpaper)
+StudyGuides
+QUESTION3
+MARKALLOCATION
+ACCURACY
+3
+MANIPULATION
+12
+TOTAL
+15
+QUESTION
+MARKS
+ACCURACY
+NUMBER
+3.1
+<<√
+Penalise for all typing errors such as spelling,
+omission and repetition of text.DeductONEmark
+per error in the document up to a MAxIMuM of
+THREEmarks.
+DoNoTpenalisethesameerrorsrepeatedly.Rather
+encircle them to indicate that you have identified
+them.DoNOTpenaliselineandletterspacing,upper
+case and lowercase under accuracy.
+QUESTION
+NUMBERING
+MARKS
+MANIPULATION
+NUMBER
+1
+Insertedheader
+3.2
+Header:EXAMINATION NUMBER left-
+2
+aligned
+3
+Header:QUESTION3right-aligned
+Fonttype:ComicSansMS(consistent
+4
+throughout the document)
+3.3
+Fontsize:12(consistent throughout the
+5
+document)
+3.4
+6
+Open row(Row2)
+Horizontal and vertical linescorrectly
+3.5
+7
+inserted
+Columnwidthsadjusted(allinformation
+8
+3.6
+is clearly visible)
+9
+Pageorientation:Portrait
+Uppercase and lowercase consistent
+3.1
+10
+√
+throughout the document
+11
+√
+Printed:ONEA4page
+3.8
+Printed:WITHOUTrowandcolumn
+12
+headings
+Copyright reserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+NCV
+GGUIDELINE
+-9-
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Second paper)
+StudyGuides
+Header:1.Headerinserted2.Examinationnumber:L/A3.QUESTION3:R/Av
+EXAMINATIONNUMBER
+QUESTION3
+4.Fonttype:ComicSansMS
+5.Font size:12√
+TIMETRACKINGFROM5:00AMTO15:00PM
+6.Openrow:Row2
+Activity
+StartTime
+End Time
+Wake Up and Morning Routine
+05:00
+06:00
+Study Session 1
+06:00
+08:00
+Exercise
+08:00
+08:30
+BreakfastandBreak
+08:30
+00:60
+Study Session 2
+00:60
+11:00
+Chores
+11:00
+12:00
+Lunch and Rest
+12:00
+13:00
+Leisure Time
+13:00
+14:00
+ReviewandHomework
+14:00
+15:00
+TOTAL
+7.Horizontal and vertical linesinserted
+8.Column widths correctly adjustedv
+9.Pageorientation:Portrait
+10. Upper case and lower case consistent
+A
+M
+T
+3
+12
+15
+11.Printed ONE A4pagev
+12.Printed WITHOUT row and column headings
+[15]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+NCV
+GGUIDELINE
+-10-
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Second paper)
+StudyGuides
+QUESTION4
+MARKALLOCATION
+ACCURACY
+2
+MANIPULATION
+23
+TOTAL
+25
+QUESTION
+MARKS
+ACCURACY
+NUMBER
+4.5
+√√
+Penalise for all typing errors such as spelling,omission and
+repetitionoftext,in thenewlyinserted textONLY.Deduct
+ONE mark per error in the document up to a MAxIMuM of
+TWOmarks.
+DoNoTpenalise the same errorsrepeatedly.Rather encircle
+them to indicate that you have identified them.DoNOT
+penaliseline andletterspacing,uppercase and lowercase
+underaccuracy.
+QUESTION
+NUMBERING
+MARKS
+MANIPULATION
+NUMBER
+4.1
+1
+√
+Header:ChangedQUESTION3toQUESTION4
+2
+Mainheading:Fonttype:FranklinGothicHeavy
+4.2
+3
+√
+Mainheading:Font size:20
+4
+Mainheading:MergedacrosscellsA1toE1
+4.3
+5
+Mainheading:Right-aligned
+Columnheadingincell A3'Activity':Changedto
+6
+4.4
+'ACTIVITIES'
+7
+Content incellsA4 toA12:Right-aligned
+8
+√
+New column inserted:DURATION(HOURS)
+9
+Newcolumninserted:DURATION(MIN)
+4.5
+Upper case and lower case consistent(new text
+10
+ONLY)
+11
+Column headings:Uppercase
+4.6
+12
+Columnheadings:Bold
+13
+Column headings:Centre-aligned
+A:DURATION(HOURS)calculatedcorrectly
+14
+(CellsD4toD12formattedto'General')
+15
+B:DURATION(MIN)calculatedcorrectly
+4.7
+C:TOTALofDURATION(HOURS)column
+16
+calculated correctly
+C:TOTALofDURATION(MIN)column
+17
+calculated correctly
+4.8
+18
+Horizontal andvertical lines correctly inserted.
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+NCV
+GGUIDELINE
+-11-
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Second paper)
+StudyGuides
+Columnwidthscorrectlyadjusted(all information
+19
+4.9
+isclearlyvisible)
+20
+Pageorientation:Landscape
+21
+Printed:ONEA4page
+4.11
+22
+Printed:WiTH row and column headings
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Question Papers
+Study Guides
+QuestionPapers
+Study Guides
+NCV
+NCV
+GGUIDELINE
+-12-
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Second paper)
+StudyGuides
+EXAMINATIONNUMBER
+QUESTION4
+Mainheading:2.Fonttype:Franklin GothicHeavy3.Fontsize204.Merged acrossA1:E15.R/A
+1.ChangedtoQUESTION4
+A
+B
+C
+D
+E
+1
+TIMETRACKINGFR0M5:00AMTO15:00PM
+6.'Activitychanged to'ACTIVITIES'√
+2
+Columnheadings:11.UppercaseV12.Bold13.Centre
+3
+ACTIVITIES
+START TIME
+END TIME
+DURATION (HOURS)
+DURATION (MIN)
+4
+Wake Up and Morning Routine
+05:00
+06:00
+1
+60
+8.New column
+9.New column
+5
+StudySession1
+06:00
+08:00
+2
+120
+insertedv
+insertedv
+6
+Exercise
+08:00
+08:30
+0,5
+30
+7
+BreakfastandBreak
+08:30
+00:60
+0,5
+30
+8
+Study Session2
+00:60
+11:00
+2
+120
+9
+Chores
+11:00
+12:00
+1
+60
+10
+Lunch and Rest
+12:00
+13:00
+1
+60
+11
+LeisureTime
+13:00
+14:00
+1
+60
+12
+ReviewandHomework
+14:00
+15:00
+1
+60
+13
+TOTAL
+7.Content inA4toA12right-aligned
+10
+600
+10.Uppercase&lowercaseconsistent(newtextONLy)
+19.Column widths adjusted
+A
+M
+T
+14.A:DURATION(HOURS)calculatedcorrectly
+20.Page orientation:Landscapev
+15.B:DURATION(MIN)calculatedcorrectly
+21.Printed ONE A4pagev
+2
+23
+25
+16.C:TOTALofDURATION(HOURS)column calculated correctly
+22.PrintedWITHrow&columnheadingsv
+17.C:TOTALofDURATION(MIN)column calculated correctly
+18.Horizontal and vertical lines inserted v
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NcV Study Guides App
+
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+GGUIDELINE
+-13-
+NCV
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Second paper)
+StudyGuides
+QUESTION5
+MARKALLOCATION
+ACCURACY
+2
+MANIPULATION
+18
+TOTAL
+20
+QUESTION
+MARKS
+ACCURACY
+NUMBER
+5.1
+√√
+Penalise for all typing errors such as spelling,omission and
+repetitionoftext.Deduct ONE mark per error up to a MAXIMUM
+ofTWOmarks.DoNOTpenalisethesameerrorsrepeatedly.
+Rather encircle them to indicate that you have identified them.Do
+NOTpenalise line and letterspacing,uppercase and lowercase
+underaccuracy.
+Ifacandidatetyped theslidelayoute.g.SLIDE1:TITLESLIDE'
+or the instructions,deductONEmarkin theTOTALforaccuracy.
+QUESTION
+NUMBERING
+MARKS
+MANIPULATION
+NUMBER
+SLIDE1:TITLESLIDE
+5.2
+1
+Title slide inserted
+2
+√
+Title:Fonttype:ErasBoldITC
+5.2.1
+3
+Title:Font size:32
+5.2.2
+4
+Title:Centre-aligned
+5
+Subtitle:Insertedcorrectly,inuppercase
+5.2.3
+6
+Sub-title:Italics
+SLIDE2:TITLEANDCONTENTSLIDE
+5.3
+7
+Title and content slide inserted
+8
+√
+Title:Fonttype:ArialBlack
+5.3.1
+9
+Title:Font size:36
+5.3.2
+10
+Title:Typedinuppercase
+11
+Numbering correctly inserted
+5.3.3
+12
+Bullets correctly inserted
+13
+Sub-headings:Bold
+5.3.4
+14
+Sub-headings:Right-aligned
+Footerinserted:QUESTION5and
+15
+√
+5.4
+EXAMINATIONNUMBER
+16
+Footer:AppliedtoBOTHslides
+17
+Printed:FULL-PAGEslides
+5.6
+18
+Printed:TWOA4pages
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Question Papers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+GGUIDELINE
+-14-
+NCY
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Secondpaper)
+StudyGuides
+1.Titleslideinsertedv
+2.Title:Fonttype:ErasBold
+ITC√
+3.Title:Fontsize:32√
+The Negative Effects of Poor Time
+4.Title:Centre-alignedv
+Management on Students
+5.Sub-title:Correctly
+inserted in upper casev
+6.Sub-title:Italicsv
+BY:MRKGODUMO(SRC)
+QUESTION5EXAMINATIONNUMBER
+ultradeep.co.za
+tvetpapers.co.za
+Copyrightreserved
+Pleaseturnover
+Downloaded from TVET NcV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+GGUIDELINE
+-15-
+NCV
+LIFE SKILLS AND COMPUTER LITERACY(ICTCOMPONENT)
+ExamPapers
+(Second paper)
+StudyGuides
+7.Titleslideinsertedv
+POOR TIME MANAGEMENT CAN LEAD TO
+8.Title:Font type:Arial
+NEGATIVECONSEQUENCES
+Blackv
+9.Title:Fontsize:36√
+10.Title:Upper casev
+1.Poor academic performance
+11.Numbering correctly
+·Missed deadlines for assignments, projects, and homework.
+insertedv
+·Inadequate time for studying and exam preparation,leadingtolowergrades.
+12.Bullets correctly inserted v
+·Difficulty keeping up with lessons, causing a knowledge gap.
+13.Sub-headings:Bold
+2.Procrastination and lack of productivity
+14.Sub-headings:Right
+·Studentswaste timeondistractions(socialmedia,TV,games)insteadofstudying.
+alignedv
+·Tasks pile up,making them harder to complete.
+15.Footer:QUESTION5&
+·Leads to a cycle of delaying important work and struggling to catch up.
+Examination Numbery
+16.Footer:AppliedtoBOTH
+3.Poorqualityofwork
+slidesv
+·Rushed assignmentsandlast-minute studying result in low-qualityoutput.
+17.Printed:Full-page slidesv
+·Less time for understanding concepts, leading to shallow learning.
+18.Printed:TWOA4pages
+·Increased chancesofplagiarism or copying due to lackofpreparation
+QUESTION 5 EXAMINATION NUMBER
+TOTALSECTIONC:
+20
+GRANDTOTAL:100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NcV Study Guides App

@@ -1,0 +1,267 @@
+ 
+Copyright reserved  Please turn over 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MECHATRONIC SYSTEMS 
+NQF LEVEL 2 
+ 
+(6040102) 
+ 
+26 March 2021 (Y-paper) 
+13:00–16:00 
+ 
+ 
+ 
+This question paper consists of 4 pages. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NATIONAL CERTIFICATE (VOCATIONAL) 
+ 
+501Q1S2126 
+
+(6040102) -2- 
+Copyright reserved  Please turn over 
+ 
+ 
+ 
+TIME: 3 HOURS 
+MARKS: 100 
+ 
+ 
+ 
+ 
+ 
+INSTRUCTIONS AND INFORMATION 
+ 
+1. 
+ 
+2. 
+ 
+3. 
+ 
+ 
+4. 
+ 
+5. 
+ 
+6. 
+Read all the questions carefully. 
+ 
+Answer all the questions. 
+ 
+Number the answers according to the numbering system used in this  
+question paper. 
+ 
+Start each question on a new page. 
+ 
+Use fully labelled IEC symbols. 
+ 
+Write neatly and legibly. 
+  
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(6040102) -3- 
+Copyright reserved  Please turn over 
+ 
+ 
+QUESTION 1   
+ 
+1.1 Draw a simplified technical block diagram showing energy, information and 
+material flow using the correct arrowhead-related flow lines.             
+  
+  (4) 
+ 
+1.2 List EIGHT forms of information that can be found on a mechatronic syste m 
+diagram.    
+  
+  (8) 
+ 
+1.3 Draw a neat fully labelled simplified block diagram that will represent  
+closed-loop control.                
+  
+  (6) 
+ 
+1.4 Explain what you understand about energy conversion.          (2) 
+   [20] 
+ 
+ 
+QUESTION 2   
+ 
+2.1 Draw a neat fully labelled circuit representing direct control using IEC symbols.                    (2) 
+ 
+2.2 Draw a neat fully labelled circuit diagram representing indirect control.        (2) 
+ 
+2.3 Draw a neat fully labelled drawing of a 24 V relay with a four changeover contact 
+set arrangement.         
+  
+  (6) 
+ 
+2.4 Briefly explain what is meant by remote control in mechatronic system 
+applications.      
+  
+  (2) 
+ 
+2.5 What is meant by employing safety voltage in a mechatronic control circuit?    (2) 
+ 
+2.6 What is meant by intrinsic safety?              (2) 
+ 
+2.7 List THREE components that learnt about in mechatronic systems that are used 
+to generate a feedback signal on the status of a machine. 
+  
+  (3) 
+ 
+2.8 What component is commonly used to give status of the mechatronic system 
+to the operator?        
+  
+  (1) 
+   [20] 
+ 
+ 
+QUESTION 3   
+ 
+3.1 List the THREE subsystems found in a pneumatic system.       (3) 
+ 
+3.2 What is used to distribute the pressurised air in a pneumatic application?     (1) 
+ 
+3.3 What component controls the on/off flow of air in a pneumatic application?    (1) 
+ 
+ 
+ 
+(6040102) -4- 
+Copyright reserved  Please turn over  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+QUESTION 4   
+ 
+4.1 What is the purpose of an emergency stop in a mechatronic electro-pneumatic 
+application?        
+  
+  (3) 
+ 
+4.2 Draw a neat fully labelled sketch of an emergency stop control circuit using IEC 
+symbols that can be used with electro-pneumatic applications. 
+ 
+The following components are to be used: NO detent pushbutton, NC detent 
+push button with mushroom head and a safety relay.   
+  
+ 
+ 
+ 
+  (7) 
+ 
+4.3 Draw the labelled IEC symbol of the selector switch used to select automatic 
+and manual control in an electro-pneumatic application.             
+  
+  (2) 
+ 
+4.4 Using neat diagrams, explain the difference between direct and indirect control 
+of a solenoid valve.     
+  
+  (6) 
+ 
+4.5 Calculate the current flowing through a solenoid valve having a coil resistance 
+of 48 Ω and is supplied by a 24 V DC source.        
+  
+  (2) 
+   [20] 
+ 
+ 
+QUESTION 5   
+ 
+5.1 Explain the troubleshooting procedure to follow when using the ‘output -input-
+through-the-circuit’ method using a hose pipe.   
+  
+  (3) 
+ 
+5.2 Draw up a broad flow chart that can be used to represent the ‘output -input-
+through-the-circuit’ troubleshooting approach on an electro -pneumatic control 
+circuit. 
+  
+ 
+  (9) 
+ 
+5.3 What is the purpose of troubleshooting mechatronic systems?            (3) 
+ 
+5.4 What precaution must one take when doing dead circuit testing on                 
+electro-pneumatic systems?    
+  
+  (2) 
+ 
+5.5  List THREE faults that may occur on the pneumatic subsystem of an  
+electro-pneumatic system.   
+ 
+ 
+ 
+  (3) 
+[20] 
+ 
+ 
+3.4 Explain the purpose of the spool used in a pneumatic valve.        (2) 
+3.5 An emergency stop has to be included in a pneumatic application. 
+ 
+List FOUR considerations that are necessary for the design.           
+ 
+ 
+  (4) 
+3.6 Draw a neat fully labelled energy flow block diagram of a pneumatic system.    (5) 
+3.7 A two-handed AND control circuit for an unprotected embossing machine has 
+to be designed. 
+ 
+Draw the manually operated circuit using IEC symbols for the embossing 
+machine.                
+  
+ 
+ 
+ 
+  (4) 
+   [20] 
+ TOTAL:  100 
+ 
+ 
+ 

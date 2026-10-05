@@ -1,0 +1,678 @@
+Copyright reserved  Please turn over 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NATIONAL CERTIFICATE (VOCATIONAL) 
+ 
+MECHATRONICS SYSTEMS 
+NQF LEVEL 2 
+ 
+XX February 2021 
+ 
+ 
+ 
+This marking guideline consists of 6 pages. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MARKING GUIDELINE 
+ 
+
+MARKING GUIDELINE -2- 
+MECHATRONICS SYSTEMS L2 
+Copyright reserved  Please turn over 
+ 
+ 
+QUESTION 1   
+ 
+1.1  
+ 
+ 
+ 
+ 
+ 
+(4 × 1) 
+ 
+ 
+ 
+ 
+ 
+ 
+  (4) 
+ 
+1.2  The energy flow and related conversion.  
+ The information flow. 
+ The material flow.  
+ The operator panel and related components. 
+ The machine/application and related components. 
+ The control panel and related components  
+ Feedback status sensors indicated. 
+ Open or closed loop control can be determined.  
+ 
+(Any other relevant information 8 × 1) 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  (8) 
+ 
+1.3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(6 × 1) 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  (6) 
+ 
+1.4 The process of changing one form of  energy into another, such as nuclear 
+energy into heat or solar energy into electrical energy. 
+  
+  (2) 
+[20] 
+ 
+TECHNICAL 
+SYSTEM 
+ENERGY 
+INFORMATION 
+MATTER / 
+MATERIAL 
+ 
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+INPUT 
+(Reference) 
+PROCESS 
+ OUTPUT 
+FEEDBACK 
+ 
+ 
+ 
+ 
+ 
+ 
+MARKING GUIDELINE -3- 
+MECHATRONICS SYSTEMS L2 
+Copyright reserved  Please turn over 
+ 
+ 
+QUESTION 2   
+ 
+2.1  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  (2) 
+ 
+2.2  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  (2) 
+ 
+2.3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  (6) 
+ 
+2.4 Remote control is when the operator sits and monitors and manages the  
+processes a distance away from the actual work area. 
+  
+  (2) 
+ 
+2.5 Safety voltage refers to a voltage that is considered to be a low voltage                      
+(1–50V) that will not shock a person under normal conditions is used in control 
+circuits.   
+  
+ 
+  (2) 
+ 
+2.6 Intrinsic safety is the region where a flash over arc will not cause a fire or 
+explosion in an area where chemicals are used.  
+  
+  (2) 
+ 
+2.7  Indication lamp 
+ Horn 
+ Siren  
+ Buzzer  
+ Dial 
+ Gauge                                                                             (Any 3 × 1) 
+ 
+  (3) 
+ 
+2.8 Indication lamp is commonly used.    (1) 
+   [20] 
+ 
+ 
+24V 
+SW 
+3 
+4 
+L1 
+X1 
+X2 
+ 
+  
+24V 
+SW 
+3 
+4 
+0V 
+X1 
+X2 
+R1 
+A1 
+A2 
+L1 
+R1 
+14 
+11 
+ 
+  
+  
+ONE mark, if all termninals are correctly labelled 
+ 
+ 
+R1 
+A1 
+A2 
+ 11 
+ 21 
+ 31 
+ 41 
+12 
+ 14 
+ 22 
+ 24 
+ 32 
+ 34 
+ 42 
+ 44 
+MARKING GUIDELINE -4- 
+MECHATRONICS SYSTEMS L2 
+Copyright reserved  Please turn over 
+ 
+ 
+ 
+3.2 PVC tubing    (1) 
+ 
+3.3 Pneumatic valve    (1) 
+ 
+3.4 The spool by virtue of its position will control the flow of air in the application.    (2) 
+ 
+3.5  Put the system into zero pressure.   
+ Reset all cylinders into the initial positions.  
+ Stop all cylinders in their current position.    
+ Combine two or more abovementioned options.   
+ 
+  (4) 
+ 
+3.6  
+ 
+ 
+ 
+ 
+ 
+ 
+(5 × 1) 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  (5) 
+ 
+3.7   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  (4) 
+   [20] 
+QUESTION 3   3.1  Air generation    
+ Air distribution   
+ Air application   
+  
+ 
+  (3) 
+ELECTRICAL 
+ENERGY 
+MECHANICAL 
+ENERGY 
+PNEUMATIC 
+ENERGY 
+MECHNICAL 
+ENERGY 
+    
+ 
+(Direct control or indirect control is acceptable 4 × 1) 
+ 
+ 
+ 
+ 
+1 
+1 
+2 
+2 
+3 
+3 
+ A1 
+ V2 
+ V1 
+ A1 
+1 
+2 
+3 
+ 1V1 
+2V1 
+2 
+1 
+ 3 
+ 1V2 
+2 
+1 
+ 1 
+OR 
+ 
+ 
+ 
+ 
+MARKING GUIDELINE -5- 
+MECHATRONICS SYSTEMS L2 
+Copyright reserved  Please turn over 
+ 
+ 
+QUESTION 4   
+ 
+4.1 Emergency stops are used to prevent injury or death to workers or damage to 
+machinery when a fault condition or hazardous condition exists to ensure that 
+the mechatronic system must be reset after the emergency stop has been 
+activated as required by legislation. 
+  
+ 
+ 
+  (3) 
+ 
+4.2  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  (7) 
+ 
+4.3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+  (2) 
+ 
+4.4  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  (6) 
+ 
+4.5 I = V/R 
+  = 24/48 
+  = 0,5 A (unit must be shown to get the mark) 
+  
+ 
+  (2) 
+[20] 
+ 
+ 
+3 
+4 
+4 
+ 
+ 
+ 
+ 
+ 
+ 
+SR 
+SW1 
+SR SW2 
+24 V 
+3 
+4 
+1 
+2 
+A1 
+A2 
+11 
+14 
+0 V 
+CONTROL CIRCUITS 
+ 
+Indirect control is achieved by 
+using other control elements to 
+activate the solenoid which are 
+not connected directly to the 
+solenoid terminals.   
+ 
+R1 
+ 1M1 
+S
+1 
+SW
+1 
+R1 
+24 
+V 
+0 V 
+ 
+ 
+1M1 
+SW
+1 
+24V 
+0V 
+In direct control 
+the component 
+used to activate 
+the solenoid is 
+connected directly 
+to the solenoid 
+terminals. 
+  
+  
+MARKING GUIDELINE -6- 
+MECHATRONICS SYSTEMS L2 
+Copyright reserved   
+ 
+ 
+QUESTION 5   
+ 
+5.1  Check if water is coming out of the nozzle (output).  
+ Check if water is coming out the tap (input).   
+ Check along the hose pipe for cracks, breaks, kinks, blockages, etc. 
+(through the circuit).   
+  
+ 
+ 
+  (3) 
+ 
+5.2  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  (9) 
+ 
+5.3 The sole purpose of the mechatronic person is to ensure that fault elimination 
+is carried out  with the minimum production down time  to maintain 
+production.                                                                                          
+  
+ 
+  (3) 
+ 
+5.4 Ensure that the supply is switched off and locked out.        (2) 
+ 
+5.5  Blocked lines 
+ Seizure of units 
+ Breakages 
+ Leakages  
+ Dropping of air pressure 
+ Incorrect switching                                                (Any relevant faults 3 × 1) 
+  
+ 
+ 
+ 
+ 
+  (3) 
+   [20] 
+ 
+TOTAL:  100 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STOP 
+START 
+Check the operation of or 
+the resistance of the 
+output device, the 
+terminals for loose 
+connections. 
+Is there voltage 
+to the output 
+device? 
+Yes 
+No 
+Is there input 
+voltage to the 
+system? 
+Check each component 
+for function and replace if 
+required and fill out the 
+fault report. 
+Yes  
+Check the mains supply 
+voltage, the fuse, the MCB, 
+the cable for open circuit 
+conditions and the plug top 
+for loose connections. 
+No  
+ 
+ 
+ 

@@ -122,6 +122,21 @@ button { color: inherit; }
   white-space: nowrap;
 }
 .badge-official { color: #1c5b41; background: #e6f2ea; border: 1px solid #cfe6d8; }
+.offline-badge {
+  display: inline-block;
+  justify-self: end;
+  padding: 3px 7px;
+  border-radius: 3px;
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #7a4a06;
+  background: #fdf3e0;
+  border: 1px solid #f0dcb4;
+}
+.offline-badge[data-mode="offline"] { color: #7c2d12; background: #fdeae2; border-color: #f3cdbd; }
 .badge-community { color: #6b5a3a; background: #f7f1e4; border: 1px solid #ece0c8; }
 .badge-flagged { color: #8a5a3a; background: #f9efe7; border: 1px solid #eed9c8; }
 
@@ -594,7 +609,9 @@ h1 em {
 @media (max-width: 850px) {
   /* Phone/tablet: the dialog is a fixed-height shell (dvh, no URL-bar jump) and
      the layout is ONE scroll area — sticky topbar keeps Close reachable. */
-  .guide-dialog { display: flex; flex-direction: column; max-height: 92vh; max-height: 92dvh; }
+  /* [open] is load-bearing: an author `display` would otherwise beat the UA
+     `dialog:not([open]) { display: none }` and leak the closed dialog inline. */
+  .guide-dialog[open] { display: flex; flex-direction: column; max-height: 92vh; max-height: 92dvh; }
   .guide-dialog-layout {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
@@ -690,6 +707,8 @@ h1 em {
 .wk-level { color: #6b5b95; background: #f2effa; border-color: #e4ddf3; }
 .wk-pair { color: #8a5a2b; background: #fdf6e3; border-color: #f0e4c1; }
 .wk-images { color: #77817a; background: #f6f7f5; border-color: #e7eae4; }
+.wk-pdf { color: #4a5a6a; background: #f2f5f8; border-color: #dde5ec; }
+.wk-ocr { color: #46707c; background: #edf5f6; border-color: #d9e8ea; }
 
 .guide-papers { display: grid; gap: 7px; }
 .guide-paper-link { display: grid; gap: 3px; text-align: left; padding: 10px 12px; background: #fbfcfa; border: 1px solid #e9ede7; border-radius: 8px; cursor: pointer; }
@@ -790,10 +809,16 @@ h1 em {
   white-space: pre-wrap;
 }
 .paper-prov { display: grid; gap: 5px; padding-top: 12px; border-top: 1px solid var(--line); }
+.paper-original-link { display: inline-flex; width: fit-content; margin-top: 6px; text-decoration: none; }
+.paper-pdf-panel { display: grid; gap: 10px; }
+.paper-pdf-note { margin: 0; color: var(--muted, #5b6b62); font-size: 12.5px; line-height: 1.55; }
+.paper-pdf-frame { display: block; width: 100%; height: 72vh; min-height: 460px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
 
 @media (max-width: 850px) {
   /* Phone/tablet: single scroll area (same architecture as the guide dialog). */
-  .paper-dialog { display: flex; flex-direction: column; max-height: 92vh; max-height: 92dvh; }
+  /* [open] is load-bearing: an author `display` would otherwise beat the UA
+     `dialog:not([open]) { display: none }` and leak the closed dialog inline. */
+  .paper-dialog[open] { display: flex; flex-direction: column; max-height: 92vh; max-height: 92dvh; }
   .paper-dialog-layout {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
@@ -874,3 +899,128 @@ sup, sub { font-size: 0.7em; line-height: 1; }
 .paper-formula-n { color: #7fa491; font-family: var(--mono); font-size: 9px; }
 .paper-formula-math { font-size: 13px; color: #17362a; }
 .wk-sheet { color: #2f6b4d; background: #eef7f1; border-color: #c8e2d3; }
+
+/* ══════════════ PRACTICE ENGINE ══════════════ */
+.practice-builder { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px 20px; align-items: end; }
+.practice-field { display: flex; flex-direction: column; gap: 6px; border: 0; padding: 0; margin: 0; min-width: 0; }
+.practice-field > label, .practice-field > legend { font-family: var(--mono); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: #7d877f; }
+.practice-hint { font-family: var(--mono); font-size: 9.5px; letter-spacing: .06em; color: #9aa39c; text-transform: none; }
+.practice-field select, .practice-field input[type="text"], .practice-field input[type="number"] {
+  font: inherit; font-size: 14px; padding: 9px 11px; color: var(--ink); background: #fff;
+  border: 1px solid #d9ded8; border-radius: 8px; width: 100%;
+}
+.practice-field input[type="range"] { accent-color: var(--green); width: 100%; }
+.practice-field output { font-family: var(--mono); color: var(--green); font-weight: 700; margin-left: 6px; }
+.practice-kinds { display: flex; flex-wrap: wrap; gap: 8px; }
+.practice-chip {
+  display: inline-flex; align-items: center; gap: 7px; padding: 9px 13px; min-height: 40px;
+  border: 1px solid #d9ded8; border-radius: 999px; background: #fff; cursor: pointer;
+  font-family: var(--mono); font-size: 11px; letter-spacing: .05em; color: var(--ink);
+}
+.practice-chip:has(input:checked) { border-color: var(--green); background: #eef4ef; color: var(--green); }
+.practice-chip input { accent-color: var(--green); margin: 0; }
+.practice-actions { display: flex; align-items: center; gap: 14px; grid-column: 1 / -1; }
+.practice-primary { cursor: pointer; }
+.practice-resume { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin-top: 14px; padding: 11px 14px; background: #fbf3e2; border: 1px solid #ead9b4; border-radius: 10px; font-size: 13px; }
+.practice-subhead { font-family: var(--display); font-size: 14px; letter-spacing: -.03em; margin: 18px 0 8px; }
+.practice-head { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: flex-start; margin-bottom: 14px; }
+.practice-head h3 { margin: 0; font-family: var(--display); font-size: 20px; letter-spacing: -.05em; }
+.practice-meta { margin: 5px 0 0; font-family: var(--mono); font-size: 10.5px; letter-spacing: .07em; color: #7d877f; }
+.practice-tools { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.practice-clock { font-family: var(--mono); font-size: 22px; font-weight: 700; color: var(--ink); letter-spacing: .06em; }
+.practice-clock.is-urgent { color: #b4442f; animation: practice-blink 1s steps(2) infinite; }
+@keyframes practice-blink { 50% { opacity: .45; } }
+.practice-progress { font-family: var(--mono); font-size: 10.5px; color: #7d877f; }
+.practice-section { border: 0; padding: 0; margin: 0 0 8px; }
+.practice-legend { font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--green); padding: 0; margin-bottom: 8px; }
+.practice-item { border: 1px solid #e2e6e0; border-radius: 12px; padding: 14px 16px 12px; margin: 0 0 12px; background: #fcfdfb; }
+.practice-item legend { font-family: var(--mono); font-size: 11px; font-weight: 700; color: var(--ink); padding: 0 6px; }
+.practice-marks { font-weight: 400; color: #7d877f; margin-left: 8px; font-size: 10px; letter-spacing: .08em; }
+.practice-item-text { margin: 4px 0 10px; font-size: 15px; line-height: 1.55; }
+.practice-answer {
+  width: 100%; font: inherit; font-size: 16px; line-height: 1.5; padding: 10px 12px; resize: vertical;
+  border: 1px solid #d9ded8; border-radius: 8px; background: #fff; color: var(--ink);
+}
+.practice-answer:focus { outline: 2px solid var(--green); outline-offset: 1px; }
+.practice-option { display: flex; gap: 10px; align-items: flex-start; padding: 8px 4px; font-size: 14.5px; cursor: pointer; min-height: 40px; }
+.practice-option input { accent-color: var(--green); margin-top: 3px; }
+.practice-src { margin: 8px 0 0; font-family: var(--mono); font-size: 9.5px; letter-spacing: .06em; color: #9aa39c; }
+.practice-selfmark { border: 1px solid #ead9b4; background: #fdf9f0; border-radius: 12px; padding: 6px 16px 14px; margin-bottom: 16px; }
+.practice-self-card { border-bottom: 1px dashed #ead9b4; padding: 12px 0; }
+.practice-self-card:last-child { border-bottom: 0; }
+.practice-mine { margin: 6px 0; font-size: 13.5px; color: #5d6a61; }
+.practice-mark-row { display: flex; gap: 8px; margin-top: 8px; }
+.practice-mark {
+  min-width: 46px; min-height: 44px; border: 1px solid #d9ded8; background: #fff; border-radius: 9px;
+  font-family: var(--mono); font-size: 14px; cursor: pointer; color: var(--ink);
+}
+.practice-mark.is-on { border-color: var(--green); background: var(--green); color: #fff; }
+.practice-review-row { display: flex; gap: 12px; padding: 11px 4px; border-bottom: 1px solid #edf0ec; }
+.practice-review-badge { flex: 0 0 26px; height: 26px; display: grid; place-items: center; border-radius: 50%; font-family: var(--mono); font-size: 13px; font-weight: 700; background: #eceff1; color: #5d6a61; margin-top: 2px; }
+.practice-review-row.is-right .practice-review-badge { background: #e3f0e6; color: #1e6b3a; }
+.practice-review-row.is-auto:not(.is-right) .practice-review-badge { background: #f7e6e1; color: #b4442f; }
+.practice-review-body { min-width: 0; }
+.practice-review-q { margin: 0 0 4px; font-size: 14.5px; line-height: 1.5; }
+.practice-review-a, .practice-review-memo, .practice-review-why { margin: 3px 0; font-size: 13.5px; line-height: 1.5; color: #4a564e; }
+.practice-review-memo strong { color: var(--green); }
+.practice-review-why { color: #7d877f; font-style: italic; }
+.practice-two-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 8px 28px; }
+.practice-attempts, .practice-weak { list-style: none; padding: 0; margin: 0; }
+.practice-attempts li, .practice-weak li { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; padding: 8px 0; border-bottom: 1px solid #edf0ec; font-size: 13.5px; }
+.practice-attempt-when { font-family: var(--mono); font-size: 10.5px; letter-spacing: .07em; color: #7d877f; min-width: 96px; }
+.practice-attempt-score { font-weight: 700; color: var(--ink); }
+.practice-attempt-seed { font-family: var(--mono); font-size: 10px; color: #9aa39c; margin-left: auto; }
+.practice-weak-text { flex: 1; min-width: 0; color: #4a564e; }
+.practice-ai-bar { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin-top: 16px; padding-top: 14px; border-top: 1px dashed #e2e6e0; }
+
+/* Print sheet: hidden on screen, isolated in print */
+#print-sheet { display: none; }
+@media print {
+  body > * { display: none !important; }
+  #print-sheet { display: block !important; color: #000; font-family: Georgia, serif; }
+  .print-head h1, .print-memo h1 { font-size: 22px; margin: 4px 0 6px; }
+  .print-eyebrow { font-family: var(--mono); font-size: 9px; letter-spacing: .18em; margin: 0; }
+  .print-meta, .print-instructions { font-size: 11.5px; margin: 4px 0; }
+  .print-section h2 { font-size: 14px; margin: 18px 0 8px; border-bottom: 1px solid #000; padding-bottom: 3px; }
+  .print-q { margin: 0 0 10px; font-size: 12.5px; page-break-inside: avoid; }
+  .print-rule { border-bottom: 1px dotted #999; height: 17px; margin: 3px 0 0; }
+  .print-memo { page-break-before: always; font-size: 12px; }
+  .print-memo-row { margin: 0 0 7px; page-break-inside: avoid; }
+  @page { margin: 16mm; }
+}
+
+/* Tutor AI key settings + practice AI drafting form */
+.tutor-ai-settings { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 12px; padding-top: 10px; border-top: 1px dashed #e2e6e0; }
+.tutor-ai-settings input {
+  flex: 1; min-width: 150px; font-size: 13px; padding: 8px 10px; color: var(--ink);
+  background: #fff; border: 1px solid #d9ded8; border-radius: 8px;
+}
+.tutor-ai-settings #tutor-ai-status.is-on { color: var(--green); }
+.practice-ai-form { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; width: 100%; }
+.practice-ai-form input[type="text"] {
+  flex: 1; min-width: 160px; font-size: 14px; padding: 9px 11px; color: var(--ink);
+  background: #fff; border: 1px solid #d9ded8; border-radius: 8px;
+}
+.practice-ai-form select { font-size: 13px; padding: 8px 9px; color: var(--ink); background: #fff; border: 1px solid #d9ded8; border-radius: 8px; }
+.practice-ai-form button:disabled, .quiet-button:disabled { opacity: .55; cursor: wait; }
+
+/* Figure-question honesty */
+.practice-figwarn {
+  margin: 0 0 10px; padding: 8px 11px; border-left: 3px solid #d9a441; background: #fdf6e7;
+  border-radius: 6px; font-family: var(--mono); font-size: 11px; line-height: 1.5; color: #7a5c1e;
+}
+.print-fig-note { margin: 2px 0 0; font-size: 10.5px; font-style: italic; color: #444; }
+
+/* Curated figure assets (figure_map.js) */
+.practice-figbox {
+  margin: 0 0 10px; padding: 0; border: 1px solid #e3e7e2; border-radius: 8px;
+  background: #fff; overflow: hidden;
+}
+.practice-figure {
+  display: block; width: 100%; max-height: 440px; height: auto;
+  object-fit: contain; margin: 0; padding: 8px; background: #fff;
+}
+.print-figure {
+  display: block; max-width: 100%; max-height: 340px; height: auto;
+  object-fit: contain; margin: 6px 0 2px; page-break-inside: avoid;
+}

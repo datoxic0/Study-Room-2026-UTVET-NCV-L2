@@ -1,7 +1,8 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync, existsSync } from "node:fs";
-import { join, dirname } from "node:path";
+import { readFileSync, existsSync, readdirSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { join, dirname, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 import { paperShelf, papersBySubject, paperById, PAPERS_BUILT_ON } from "../js/data/paper_shelf.js";
 import { studyGuides } from "../js/data/study_guides.js";
@@ -10,7 +11,16 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const capDir = join(root, "research", "captures", "notebooklm_sources");
 const manifest = JSON.parse(readFileSync(join(capDir, "manifest.json"), "utf8"));
 const manifestByFile = new Map(manifest.notebooks.map((entry) => [entry.file, entry]));
+const localDir = join(root, "research", "captures", "local_pdfs");
+const localManifest = JSON.parse(readFileSync(join(localDir, "manifest.json"), "utf8"));
+const localByPath = new Map(localManifest.files.map((entry) => [entry.file, entry]));
+// Phase 2: scanned originals are transcribed by scripts/ocr_papers.py (rapidocr
+// parses, Windows OCR cross-checks) and hashed in ocr_manifest.json.
+const ocrManifest = JSON.parse(readFileSync(join(localDir, "ocr_manifest.json"), "utf8"));
+const ocrByFile = new Map(ocrManifest.files.map((entry) => [entry.file, entry]));
 const captureCache = new Map();
+
+const sha256Of = (absPath) => createHash("sha256").update(readFileSync(absPath)).digest("hex");
 
 function loadSource(file, sourceName) {
   const key = `${file}::${sourceName}`;
@@ -22,9 +32,25 @@ function loadSource(file, sourceName) {
   return source;
 }
 
+function loadLocalText(entry) {
+  const record = localByPath.get(entry.capture.file);
+  assert.ok(record, `${entry.id}: local manifest entry missing for ${entry.capture.file}`);
+  if (entry.ocr) {
+    // scanned original: the verbatim haystack is both OCR transcripts (the
+    // parse source plus the cross-check engine fillFromCross may pull from)
+    const ocr = ocrByFile.get(entry.capture.file);
+    assert.ok(ocr, `${entry.id}: ocr manifest entry missing for ${entry.capture.file}`);
+    const primary = readFileSync(join(localDir, ocr.spacedFile || ocr.rapidFile), "utf8");
+    const cross = ocr.winrtFile ? readFileSync(join(localDir, ocr.winrtFile), "utf8") : "";
+    return `${primary}\n${cross}`;
+  }
+  assert.ok(record.textFile, `${entry.id}: qa entry has no extracted text file`);
+  return readFileSync(join(localDir, record.textFile), "utf8");
+}
+
 const norm = (value) => value.replace(/\s+/g, " ").trim();
 
-const EXPECTED_IDS = [
+const EXPECTED_CAPTURE_IDS = [
   "intro-2010-qp", "intro-2018mar-qp", "intro-2018nov-qp", "intro-2021-qp", "intro-2021-memo",
   "math-2015p1", "math-task1-2025", "math-task2-2026", "math-exercize-memo", "math-task6",
   "elec-nc1000-qp-2023", "elec-nc1000-memo-2023", "elec-nc1000-memo-2022", "elec-nc1000-memo-supp2023",
@@ -33,20 +59,26 @@ const EXPECTED_IDS = [
   "mech-gclamp", "mech-isat",
   "mm-nc1780-qp", "mm-nc1810-qp-2019", "mm-qp-2025", "mm-memo-2025", "mm-qp-supp2024", "mm-memo-supp2024",
 ];
+// NOTE: locally downloaded entries are NOT frozen here — their ids/titles/
+// sessions are derived by scripts/paper_naming.mjs (golden-tested against the
+// historical set) and their folder coverage is enforced by the test below.
 
 const KIND_MODE = {
   qa: ["qp", "memo", "practice", "solutions"],
   images: ["qp", "memo"],
+  pdf: ["qp", "memo"],
   raw: ["solutions", "practice"],
   solved: ["solved"],
   solutions: ["solutions"],
 };
 
-test("shelf has the stable curated id set", () => {
+test("shelf: frozen capture archive + structurally sound entries", () => {
   assert.ok(PAPERS_BUILT_ON.match(/^\d{4}-\d{2}-\d{2}$/), "PAPERS_BUILT_ON must be ISO");
-  assert.equal(paperShelf.length, EXPECTED_IDS.length);
-  assert.deepEqual(paperShelf.map((entry) => entry.id).sort(), [...EXPECTED_IDS].sort());
-  assert.equal(new Set(paperShelf.map((entry) => entry.id)).size, EXPECTED_IDS.length);
+  const captures = paperShelf.filter((entry) => !entry.capture.local).map((entry) => entry.id).sort();
+  assert.deepEqual(captures, [...EXPECTED_CAPTURE_IDS].sort(), "NotebookLM capture archive must not drift");
+  const local = paperShelf.filter((entry) => entry.capture.local);
+  assert.ok(local.length >= 31, `expected at least the 31 shipped downloads, got ${local.length}`);
+  assert.equal(new Set(paperShelf.map((entry) => entry.id)).size, paperShelf.length, "unique ids");
   for (const entry of paperShelf) {
     assert.ok(entry.title && entry.session, `${entry.id} missing title/session`);
     assert.ok(entry.note && entry.note.length >= 40, `${entry.id} note too short`);
@@ -57,8 +89,71 @@ test("shelf has the stable curated id set", () => {
   }
 });
 
-test("provenance: every entry cites a manifest-verified capture file", () => {
+test("download folder coverage: every file ingested or excluded with a reason", () => {
+  const dataDir = join(root, "research", "Data-QuestionPapers-and-Memos-Downloaded");
+  const exclusions = JSON.parse(readFileSync(join(dataDir, "exclusions.json"), "utf8"));
+  const folderFiles = readdirSync(dataDir).filter((f) => /\.(pdf|docx)$/i.test(f));
+  const excluded = new Map(exclusions.excluded.map((e) => [e.file, e.reason]));
+  const manifestFiles = new Set(localManifest.files.map((e) => basename(e.file)));
+  const shelfLocal = new Set(paperShelf.filter((e) => e.capture.local).map((e) => e.capture.sourceName));
+
+  assert.equal(exclusions.excluded.length, excluded.size, "duplicate exclusion rows");
+  for (const file of excluded.keys()) assert.ok(folderFiles.includes(file), `exclusion names missing file: ${file}`);
+  for (const file of folderFiles) {
+    const inManifest = manifestFiles.has(file);
+    const inExcluded = excluded.has(file);
+    assert.ok(inManifest || inExcluded, `${file}: neither ingested (in manifest) nor excluded (exclusions.json)`);
+    assert.ok(!(inManifest && inExcluded), `${file}: listed as both ingested and excluded`);
+    if (inExcluded) assert.ok(excluded.get(file).length >= 15, `${file}: exclusion reason too short`);
+  }
+  // manifest <-> shelf bijection: every measured download ships as exactly one card
+  for (const file of manifestFiles) assert.ok(shelfLocal.has(file), `manifest file not on shelf: ${file}`);
+  for (const file of shelfLocal) assert.ok(manifestFiles.has(file), `shelf entry not in manifest: ${file}`);
+  assert.equal(shelfLocal.size, manifestFiles.size, "manifest <-> shelf must be 1:1");
+  assert.ok(shelfLocal.size >= 31, `expected at least the 31 shipped downloads, got ${shelfLocal.size}`);
+});
+
+test("provenance: every entry cites a manifest-verified source file", () => {
   for (const entry of paperShelf) {
+    if (entry.capture.local) {
+      const record = localByPath.get(entry.capture.file);
+      assert.ok(record, `${entry.id}: local source ${entry.capture.file} not in local manifest`);
+      assert.equal(entry.capture.sha256.toUpperCase(), record.sha256.toUpperCase(), `${entry.id}: local sha mismatch vs manifest`);
+      const abs = join(root, entry.capture.file);
+      assert.ok(existsSync(abs), `${entry.id}: local source file missing on disk`);
+      const actual = createHash("sha256").update(readFileSync(abs)).digest("hex");
+      assert.equal(actual.toUpperCase(), record.sha256.toUpperCase(), `${entry.id}: file bytes drifted from manifest hash`);
+      assert.ok(entry.capture.sourceName.length > 0, `${entry.id}: source name missing`);
+      if (entry.mode === "qa") {
+        if (entry.ocr) {
+          const ocr = ocrByFile.get(entry.capture.file);
+          assert.ok(ocr, `${entry.id}: ocr manifest entry missing`);
+          assert.equal(ocr.sha256.toUpperCase(), record.sha256.toUpperCase(), `${entry.id}: ocr manifest pdf sha vs local manifest`);
+          const primaryAbs = join(localDir, ocr.spacedFile || ocr.rapidFile);
+          assert.ok(existsSync(primaryAbs), `${entry.id}: ocr parse-source transcript missing on disk`);
+          const primarySha = ocr.spacedFile ? ocr.spacedSha256 : ocr.rapidSha256;
+          assert.equal(sha256Of(primaryAbs).toUpperCase(), primarySha.toUpperCase(), `${entry.id}: parse-source transcript drifted from manifest hash`);
+          assert.equal(entry.textChars, readFileSync(primaryAbs, "utf8").length, `${entry.id}: textChars must match the parsed OCR transcript`);
+          const crossAbs = join(localDir, ocr.winrtFile);
+          assert.ok(existsSync(crossAbs), `${entry.id}: ocr cross-check transcript missing on disk`);
+          assert.equal(sha256Of(crossAbs).toUpperCase(), ocr.winrtSha256.toUpperCase(), `${entry.id}: cross-check transcript drifted from manifest hash`);
+          assert.equal(entry.ocr.parsedFrom, ocrManifest.engines.cross, `${entry.id}: parsedFrom must name the parse engine`);
+          assert.equal(entry.ocr.crossCheck, ocrManifest.engines.primary, `${entry.id}: crossCheck must name the cross-check engine`);
+          assert.equal(entry.ocr.cbigramF1, ocr.cbigramF1, `${entry.id}: cbigramF1 must match ocr manifest`);
+          assert.equal(entry.ocr.digitRunF1, ocr.digitRunF1, `${entry.id}: digitRunF1 must match ocr manifest`);
+          assert.equal(entry.ocr.pages, ocr.pages, `${entry.id}: pages must match ocr manifest`);
+          assert.ok(entry.ocr.cbigramF1 >= 0.85 && entry.ocr.digitRunF1 >= 0.8, `${entry.id}: parsed entry must clear the OCR honesty gate`);
+        } else {
+          assert.ok(record.textFile && existsSync(join(localDir, record.textFile)), `${entry.id}: extracted text file missing`);
+          assert.equal(entry.textChars, record.textChars, `${entry.id}: textChars must match manifest extraction`);
+        }
+      } else {
+        assert.equal(entry.mode, "pdf", `${entry.id}: local non-qa entry must be pdf mode`);
+        assert.ok(record.pages >= 1, `${entry.id}: scanned entry needs a page count`);
+        assert.equal(entry.textChars, record.textChars, `${entry.id}: textChars must match manifest extraction`);
+      }
+      continue;
+    }
     const record = manifestByFile.get(entry.capture.file);
     assert.ok(record, `${entry.id}: capture ${entry.capture.file} not in manifest`);
     assert.equal(entry.capture.sha256.toUpperCase(), record.sha256.toUpperCase(), `${entry.id}: sha mismatch`);
@@ -114,9 +209,16 @@ function assertBuiltFrom(haystack, value, label) {
   assert.ok(bridged <= budget, `${label}: ${bridged} chars fall outside verbatim chunks (budget ${budget}): ${needle.slice(0, 90)}`);
 }
 
-test("no fabrication: every parsed string is built only from verbatim capture chunks", () => {
+test("no fabrication: every parsed string is built only from verbatim source chunks", () => {
   for (const entry of paperShelf) {
-    const source = loadSource(entry.capture.file, entry.capture.sourceName);
+    if (entry.mode === "pdf") {
+      // scanned original: no parsed strings exist; file + hash provenance is
+      // asserted by the provenance test above
+      continue;
+    }
+    const source = entry.capture.local
+      ? { text: loadLocalText(entry) }
+      : loadSource(entry.capture.file, entry.capture.sourceName);
     if (entry.mode === "raw") {
       assert.equal(entry.text, source.text, `${entry.id}: raw text must equal capture text exactly`);
       continue;
@@ -132,9 +234,11 @@ test("no fabrication: every parsed string is built only from verbatim capture ch
     const memoSourceText = (() => {
       if (!entry.pairId) return ownText;
       const partner = paperById(entry.pairId);
-      if (!partner || partner.kind !== "memo") return ownText;
-      const partnerSource = loadSource(partner.capture.file, partner.capture.sourceName);
-      return norm(partnerSource.text || "");
+      if (!partner || partner.kind !== "memo" || partner.mode !== "qa") return ownText;
+      const partnerText = partner.capture.local
+        ? loadLocalText(partner)
+        : loadSource(partner.capture.file, partner.capture.sourceName).text;
+      return norm(partnerText || "");
     })();
     const assertInside = (value, haystack, label) => {
       if (!value) return;
@@ -175,7 +279,7 @@ test("no fabrication: every parsed string is built only from verbatim capture ch
 test("formula sheets are extracted verbatim, never dropped", () => {
   const marker = /FORMULA SHEET\s*\d*\s*\$/i;
   const sheetEntries = paperShelf.filter((entry) => {
-    if (entry.mode === "raw" || entry.mode === "images") return false;
+    if (entry.mode === "raw" || entry.mode === "images" || entry.mode === "pdf" || entry.capture.local) return false;
     const source = loadSource(entry.capture.file, entry.capture.sourceName);
     return marker.test(norm(source.text || ""));
   });
@@ -200,6 +304,10 @@ test("formula sheets are extracted verbatim, never dropped", () => {
   }
 });
 
+// A leading hyphen directly before a digit or "(" is a real minus sign in
+// maths ("-2x²+x=-3x…"), not a slicing artifact — only junk prefixes flag.
+const leadingJunk = (text) => /^[.:;,]/.test(text) || /^-(?![\d(])/.test(text);
+
 test("numbering structure: unique, well-formed, consistently typed", () => {
   const numberPattern = /^\d{1,2}(\.\d{1,2}){1,2}$/;
   for (const entry of paperShelf) {
@@ -213,8 +321,8 @@ test("numbering structure: unique, well-formed, consistently typed", () => {
           assert.ok(!seen.has(sub.n), `${entry.id}: duplicate sub number ${sub.n}`);
           seen.add(sub.n);
           assert.equal(typeof sub.memo === "string" || sub.memo === null, true, `${entry.id}/${sub.n} memo type`);
-          assert.ok(!/^[.:;,-]/.test(sub.text), `${entry.id}/${sub.n} leading punctuation`);
-          if (sub.memo) assert.ok(!/^[.:;,-]/.test(sub.memo), `${entry.id}/${sub.n} memo leading punctuation`);
+          assert.ok(!leadingJunk(sub.text), `${entry.id}/${sub.n} leading punctuation`);
+          if (sub.memo) assert.ok(!leadingJunk(sub.memo), `${entry.id}/${sub.n} memo leading punctuation`);
         }
       }
       const subs = entry.questions.reduce((total, question) => total + question.subs.length, 0);
@@ -241,16 +349,24 @@ test("numbering structure: unique, well-formed, consistently typed", () => {
 });
 
 test("joined memo answers are real and counted honestly", () => {
-  const withJoin = paperShelf.filter((entry) => entry.joinedMemoSubs !== undefined);
-  assert.equal(withJoin.length, 1, "exactly one cross-capture memo join expected");
-  const entry = withJoin[0];
-  assert.equal(entry.id, "intro-2021-qp");
-  const actual = entry.questions.reduce(
-    (total, question) => total + question.subs.filter((sub) => typeof sub.memo === "string" && sub.memo.length > 0).length,
-    0
-  );
-  assert.equal(entry.joinedMemoSubs, actual, `${entry.id}: joinedMemoSubs must equal actual memo strings`);
-  assert.ok(entry.joinedMemoSubs >= 20, `${entry.id}: expected most sub-answers joined`);
+  // Structural invariant: a qp card joined its memo iff BOTH sides parsed to
+  // qa entries (otherwise the card only links to the memo, no inline answers).
+  let joins = 0;
+  for (const entry of paperShelf) {
+    const partner = entry.pairId ? paperById(entry.pairId) : null;
+    const shouldJoin = Boolean(entry.kind === "qp" && entry.mode === "qa" && partner && partner.kind === "memo" && partner.mode === "qa");
+    assert.equal(entry.joinedMemoSubs !== undefined, shouldJoin, `${entry.id}: join state must match partner modes`);
+    if (!shouldJoin) continue;
+    joins++;
+    const actual = entry.questions.reduce(
+      (total, question) => total + question.subs.filter((sub) => typeof sub.memo === "string" && sub.memo.length > 0).length,
+      0
+    );
+    assert.equal(entry.joinedMemoSubs, actual, `${entry.id}: joinedMemoSubs must equal actual memo strings`);
+    const subsTotal = entry.questions.reduce((total, question) => total + question.subs.length, 0);
+    assert.ok(entry.joinedMemoSubs >= Math.ceil(subsTotal * 0.5), `${entry.id}: join covers ${entry.joinedMemoSubs}/${subsTotal} — most sub-answers expected`);
+  }
+  assert.ok(joins >= 10, `expected today's twelve text-pair memo joins (floor 10), got ${joins}`);
 
   const embedded = paperShelf.filter((entry) => entry.embeddedMemo !== undefined);
   assert.equal(embedded.length, 1, "exactly one embedded-memo capture expected");
@@ -260,7 +376,7 @@ test("joined memo answers are real and counted honestly", () => {
 
 test("pair integrity: reciprocal, same subject, qp<->memo", () => {
   const paired = paperShelf.filter((entry) => entry.pairId);
-  assert.equal(paired.length, 8, "four reciprocal pairs expected");
+  assert.ok(paired.length >= 38, `expected >=38 paired cards (four capture pairs + fifteen local pairs and growing), got ${paired.length}`);
   for (const entry of paired) {
     const partner = paperById(entry.pairId);
     assert.ok(partner, `${entry.id}: partner missing`);
@@ -272,14 +388,14 @@ test("pair integrity: reciprocal, same subject, qp<->memo", () => {
   }
 });
 
-test("subject coverage honesty: shelf only claims captured subjects", () => {
+test("subject coverage honesty: shelf only claims subjects with study guides", () => {
   const guideIds = new Set(studyGuides.map((guide) => guide.id));
   for (const entry of paperShelf) {
     assert.ok(guideIds.has(entry.subject), `${entry.id}: subject ${entry.subject} has no study guide`);
     assert.ok(papersBySubject(entry.subject).some((candidate) => candidate.id === entry.id), `${entry.id}: papersBySubject fails`);
   }
-  assert.equal(papersBySubject("english-fal").length, 0, "English FAL must have no captured papers");
-  assert.equal(papersBySubject("life-skills-and-computer-literacy").length, 0, "Life Skills must have no captured papers");
+  assert.ok(papersBySubject("english-fal").length >= 2, "local English FAL papers ship");
+  assert.ok(papersBySubject("life-skills-and-computer-literacy").length >= 4, "local Life Skills papers ship");
   assert.equal(paperById("no-such-paper"), null);
 });
 

@@ -1,0 +1,555 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+UltraDeep.co.za
+&training
+Department:
+HigherEducation and Training
+REPUBLIC OF SOUTH AFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+ELECTROTECHNOLOGY
+NQF LEVEL2
+(12040212)
+17 February 2026 (Y-paper)
+13:00-16:00
+Calculatorsmaybeused.
+This question paper consists of 8 pages and 1 formula sheet.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+-SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+12)
+NCV
+ExamPapers
+StudyGuides
+DEPARTMENT OF HIGHER EDUCATION AND TRAINING
+REPUBLIC OF SOUTH AFRICA
+NATIONALCERTIFICATE(VOCATIONAL)
+ELECTROTECHNOLOGY
+NQFLEVEL2
+TIME:3HOURS
+MARKS:100
+INSTRUCTIONS AND INFORMATION
+1.
+Answerall thequestions.
+2.
+Readall the questions carefully.
+3.
+Number the answersaccording to thenumberingsystem used in thisquestionpaper.
+4.
+Use only a black orbluepen.
+5.
+Writeneatly and legibly.
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+12)
+-3-
+NCV
+ExamPapers
+StudyGuides
+QUESTION1
+1.1
+Choose ONE term from the list below for each of the following descriptions and
+write it next to the question number(1.1.1-1.1.5)intheANSWERBOOK.
+atom;Faraday's lawofinduction;diode;Lenz'slaw;element;
+Fleming'sleft-handrule;compound;transistor;molecule
+1.1.1
+The smallest particles of a compound having all thepropertiesof
+that compound
+1.1.2
+A semiconductor device that allows current to flow in one direction
+1.1.3
+State that the inducedvoltage in a coil is proportional to the rate of
+changeofmagneticflux
+1.1.4
+A substance made of only one type of atom that cannot bebroken
+down
+1.1.5
+A combination of two or more elements
+(5 × 1)
+(5)
+1.2
+StudyFIGURE1below and answer the questions that follow:
+R2=4Q
+R1=2Q
+R4=3Q
+R3=6Q
+V=12volt
+FIGURE1
+1.2.1
+Refer to the way in which all the resistors are connected to each
+other and identify the type of circuit connection.
+(1)
+1.2.2
+Calculate the total resistance of the circuit.
+(3)
+1.2.3
+Calculate the total current flowing through the circuit.
+(2)
+1.2.4
+Calculate the total power drawn by the circuit.
+(2)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+12)
+NCV
+-4-
+Exam Papers
+StudyGuides
+1.3
+Conductors come in different shapes and sizes and are made from different
+materials.
+State TWO factors that influence the resistance of a conductor.
+(2)
+1.4
+A transformerhas300 turnson theprimarywindingand60 turnsonthe
+secondarywinding.The transformer has a secondary voltage of24Vanda
+primarycurrentof2A.
+1.4.1
+Calculate the primary voltage.
+(3)
+1.4.2
+Calculate the secondary current.
+(2)
+[20]
+QUESTION2
+2.1
+Name TWO types of electric shock.
+(2)
+2.2
+Electromagnets are fundamental components in the electrical field,withoneof
+their most common applications being in relays.
+Draw an eat and fully labelled circuit diagram of a relay.
+(6)
+2.3
+When wiring a domestic installation,an electrician must always follow the
+SANS10142wiring code to ensure safety and compliance.
+Complete the following paragraph by writing only the missing word or words
+next to the question number(2.3.1-2.3.4)intheANSWERBOOK.
+Any point of a distribution board that has to be reached during normal operation
+shall not exceed the height of(2.3.1..)abovethefloor(orwalking)level.
+However,the distribution board may be mounted higher if it can be
+disconnected from the supply by a switch disconnect or that is less than
+(2.3.2...)abovefloorlevel.Unlessa residential distribution board ishoused in
+an enclosure and direct access cannot be obtained by an infant,nopartofan
+indoor distribution boards hall be less than(2.3.3...)above the floor level and
+no part of an outdoor distribution boards hall be less than(2.3.4..) above the
+groundlevel.
+(4)
+2.4
+PVCconduit iswidely used toprotect cables in electrical installations.
+List FOUR advantages of using PVC conduit over metal conduit in electrical
+installations.
+(4)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+12)
+-5-
+NCV
+ExamPapers
+StudyGuides
+2.5
+Thabo,anelectrician,ispreparing towire a new distribution board box for a
+residentialproperty.Beforestarting,he gathers all the necessary tools to
+ensure that the installation process is efficient and compliant.
+always betaken into consideration.
+List FOUR tools that Thabo needs to wire the distribution board box correctly.
+(4)
+2.6
+What tool would you use tobendPVC conduit?
+(1)
+2.7
+Whenselecting and installingcables,it isessential toensure thattheyare
+suitablefor the intended application to guaranteesafetyand efficiency.
+List FouRvariables(factors)that should be considered when selecting a cable
+for an electrical installation.
+(4)
+[25]
+QUESTION3
+3.1
+The tools and equipment used by electronics technicians often have special
+design characteristics.
+Give FiVE guidelines when selecting tools and equipment.
+(5)
+3.2
+Youareworkingintheelectronicslab,and your supervisor asks you to replace
+a faulty resistor on a circuit board.You find several resistors in the component
+drawer,but none of them are labelled with numerical values.
+Determine the value and tolerance of the resistors with the following colour
+bands:
+3.2.1
+Brown,black,red,silver
+3.2.2
+Grey,red,red,gold
+3.2.3
+White,brown,yellow,gold
+3.2.4
+Blue, grey, green, gold
+(4 × 1)
+(4)
+3.3
+As a mechatronics technician,your supervisor assigns you the taskof planning
+an electronicproject.
+Identify SiX things that should be looked at as part of theplanningstage.
+(6)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+12)
+-6-
+NCV
+ExamPapers
+StudyGuides
+3.4
+Analyse the circuit in FIGURE2below.
+Relay
+Switch
+AC
+Supply
+Bulb
+FIGURE2
+Drawupamaterialslist（excludetherelay,switchandbulb)ofcomponents
+neededtobuildtheday/nightswitchcircuit,asshowninFIGURE2.Copyand
+complete the following table in the ANSWER BOOK:
+ITEMNUMBER
+DESCRIPTION
+QUANTITY
+1
+2
+(7)
+3.5
+Resistorscanfaildue to exceeding their predicted operating life and
+mechanicalstrength,orduetovibrations.
+Identify THREE ways in which a resistor can fail.
+(3)
+[25]
+QUESTION4
+4.1
+Indicatewhether the following statements are TRUE or FALSE by writing only
+'True'orFalse'nextto thequestionnumber(4.1.1-4.1.5)in theANSWER
+BOOK.
+4.1.1
+A loose connection can cause intermittent faults in a circuit.
+4.1.2
+A multimeter can only measure voltage,not current or resistance.
+4.1.3
+All electrical faults can be repaired without turning off the power
+supply.
+4.1.4
+A ground faultoccurswhen thecurrent flows through an unintended
+pathtotheground.
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET Ncy Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+12)
+-7-
+NCV
+ExamPapers
+StudyGuides
+4.1.5
+Overheatingofwiresis asignof apotential fault in thecircuit.
+(5×1)
+(5)
+4.2
+Troubleshooting electrical circuits is a fundamental skill for techniciansand
+engineers.It involves identifying and resolving faults that disrupt the normal
+operationofasystem.
+List FiVEtechniques that are useful fortroubleshooting.
+(5)
+4.3
+Defineelectricshock.
+(1)
+4.4
+FIGURE3below shows a circuit diagram that isrelevant tofault finding.
+R1=50Ω
+R2=100Q
+R3=150Q
+sW
+VT=3V
+FIGURE3
+4.4.1
+When the switch(SW) is in an openposition,what will the reading
+ontheohmmeterbe?
+(3)
+4.4.2
+After removing the ohm meter from the circuit and closing the switch
+(SW),what will the ammeter reading be?
+(2)
+4.4.3
+If resistorR3isopen-circuited,whatwill the ammeter reading on the
+circuit be?
+(2)
+4.4.4
+IfresistorR1isshort-circuited,what will the reading on the ammeter
+be?
+(2)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+12)
+-8-
+NCV
+ExamPapers
+StudyGuides
+QUESTION5
+5.1
+The Compensation for Occupational Injuries andDiseasesActrequires
+employers to report all accidents at work.
+List FiVE steps to follow when reporting any accident.
+(5)
+5.2
+John ispreparing for an upcoming project presentation at work.To ensurethat
+hestaysorganised,hedecidestocreatea tasklist.
+List FiVE steps you should take in creating a task list.
+(5)
+[10]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+12)
+NCV
+ExamPapers
+StudyGuides
+FORMULASHEET
+ELECTRO TECHNOLOGY LEVEL2
+1.
+P=V1CosΦ
+16.
+R=R+R2+R3+.+Rn
+2.
+Q=VISinp
+1
+1
+1
+1
+1
+17.
++
+R1
+十
+R3
++
+RT
+R2
+3.
+S=VI
+18.
+C=C+C2+C3+.+
+4.
+V=IR
+1
+1
+1
+19.
++
+CT
+C1
+C2
+5.
+P=V1
+20.
+LT
+L+L2+
+L3+..+Ln
+6.
+X,=2πfL
+1
+1
+1
+1
+21.
+LT
+L1
+L2
+1
+22.
+Q=CV
+7.
+Xc=
+2πfC
+Z=√R²+(x-xc)²
+23.
+R,=R（1+αt)
+8.
+V
+N
+V+(V-Vc)²
+9.
+24.
+V
+N,
+I
+R
+R2
+10.
+V
+25.
+I
+R,
+R+R2
+11.
+V=IXL
+26.
+Vc=1Xc
+12.
+1+(1L-1c)²
+27.
+R=Pl
+A
+I-lc
+X-Xc
+13.
+tanp=
+28.
+tano=
+IR
+R
+A
+29.
+E=I²Rt
+14.
+Z=
+πd2
+f
+15.
+A=
+30.
+ns
+4
+p
+31.
+E=V+Ir
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

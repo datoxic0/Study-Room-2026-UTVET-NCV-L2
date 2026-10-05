@@ -1,0 +1,524 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+&training
+Department:
+HigherEducationand Training
+REPUBLIC OF SOUTH AFRICA
+MARKINGGUIDELINE
+NATIONAL CERTIFICATE(VOCATIONAL)
+MECHATRONICSYSTEMS
+NQFLEVEL2
+3March2025
+This marking guideline consists of7pages.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+-SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+TVET
+tvetpapers.co.za
+U1traDeep.co.za
+MyNATED.co.za
+Exam Papers
+ULTRADEEP
+f
+You
+Tube
+THANKYOU FOR DOWNLOADING THIS PAST EXAM PAPER/MEMO,WE HOPE IT WILL BE OF HELP TO YOU
+These are the only apps affiliated with tvetpapers.co.za
+Download Papers from
+tvetpapers.co.za
+MyNATED.co.za
+10
+These are some of our apps
+(visit tvetpapers.co.za)
+TVET
+SOUTH AFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+Uitra-Deep
+Uitra-Deep
+National:
+National:
+Uitra-Deep
+ultradeep.co.za
+Question Papers
+National:
+Question Papers
+Ultra-Deep
+Question Papers
+Study Guides
+Study Guides
+Study Guides
+tvetpapers.co.za
+TVET
+TVET
+TVET
+MyNATED
+lite
+ExamPapers
+NATED
+tvetpapers
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Uitra-Deep
+National:
+Uitra-Deep
+QuestionPapers
+Ultra-Deep
+QuestionPapers
+Uitra-Deep
+QuestionPapers
+QuestionPapers
+Study Guides
+StudyGuides
+StudyGuides
+Study Guides
+NATED
+TVET
+NCV
+NCV
+LITE
+StudyGuides
+ExamPapers
+StudyGuides
+GETITON
+Downloadonthe
+EXPLOREITON
+Downloadfor
+Availableon the
+Google Play
+App Store
+HUAWEI
+AppGallery
+Windows
+MacAppStore
+Startyour rvET journey with the best apps to helpyou achieve the best results
+inyour exams.Our apps and websites caterforNated and Ncy students
+SOUTHAFRICA
+TVETPapers
+Ultra-DeepTM
+National
+stionPapers
+StudyafterMatric
+Ultra-DeepMultimedia
+TVET
+StartyourTVETjourney
+doeswebandmobile
+withthebestsitefor
+appdevelopment.We
+Papers
+TVETstudents
+50%
+ULTRADEEP
+OFF
+aimtohelpstudents
+tvetpapers.co.za
+UltraDeep.co.za
+SIFY
+Click on the banner above to visit tvetpapers.co.za or UitraDeep.co.za
+DISCLAIMER
+tvetpapers.co.za, mynated.co.za and ultradeep.co.za are
+partofUitra-DeepMultimediaTM assuch,
+no one;business orindividual;arepermitted
+touse(publish,display,transimit orbroadcast)them in any other app/website/server/medium.
+Copyright2oz4-2oz5Uitra-DeepMultimedia-AllRightsReserved
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+IGGUIDELINE
+-2-
+NCV
+MECHATRONICSYSTEMSL2
+ExamPapers
+StudyGuides
+QUESTION1
+1.1
+Energyconversionis energychanging from oneformtoanotherform.
+(2)
+1.2
+To energiseorde-energisethesystem
+OR
+To turn the system on or off
+(2)
+1.3
+energisedandwhenitisoff,itindicatesthatthesystemisde-energised.
+(2)
+1.4
+LIGHTENERGY
+ELECTRIC
+ELECTRICENERGY
+BULB
+HEATENERGY
+(4)
+1.5
+Electric energy at the input is converted tomagneticlines of force(magnetic
+energy)which,inturn,is converted to kinetic energy at the output.
+(2)
+1.6
+Understanding the operation of the system
+Understanding the subsystems that makeup the system
+Assisting in troubleshooting the system
+(2)
+1.7
+SYSTEMSDIAGRAM
+ELECTRICAL
+KINETIC
+ENERGY
+ENERGY
+CONTROLLER
+DC
+(PROCESS)
+MOTOR
+√
++
+OPERATOR
+(6)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-3-
+NCV
+MECHATRONICSYSTEMSL2
+ExamPapers
+StudyGuides
+QUESTION2
+2.1
+Indirect control
+(1)
+2.2
+2.2.1
+SW
+Marks to be awarded if fully labelled
+2.2.2
+12
+14
+A1
+R1
+A2
+Marks to awarded if fully labelled
+2.2.3
+H1
+X1
+X2
+Marks to be awarded if fully labelled
+2.2.4
+X1
+X2
+Marks to be awarded if fully labelled
+(4 ×1)
+(4)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+IGGUIDELINE
+-4-
+NCV
+MECHATRONICSYSTEMSL2
+ExamPapers
+StudyGuides
+2.3
+24V
+3
+14
+24
+sW1
+R1
+R1
+11
+21
+A1
+X1
+X1
+R1
+H1
+A2
+X2
+X2
+oV
+Marks to be awarded if fully labelled
+(5)
+2.4
+Hardwired control (relayladder logic)
+Electronic control
+Embeddedcontrol
+Processorcontrol(PLC/PC)
+(4)
+2.5
+2.5.1
+The solenoid actuator is a coil which,whenenergised,becomesa
+(2)
+2.5.2
+The armaturepart ofarelay is attached to contactswhichareused
+to control electrical signals.
+The armature part of a solenoid valve is connected to as pool which
+controlsthepressurisedair.
+(2 × 2)
+(4)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+IGGUIDELINE
+-5-
+NCV
+MECHATRONICSYSTEMSL2
+ExamPapers
+StudyGuides
+QUESTION3
+3.1
+Forming
+Moving
+Clamping
+Sorting
+Packaging
+(Any 4 × 1)
+(4)
+3.2
+AIR
+ELECTRIC
+ENERGY
+AIR
+PRODUCTION
+KINETIC
+PRESSURIZED
+AIR
+AIR
+ENERGY
+AIRSTORAGE
+DISTRIBUTION
+CONSUMPTION
+Marker to use discretion
+(4)
+3.3
+·Dead-end feed
+Ring feed
+(2)
+3.4
+Insert the pipe into the connector by pushing the pipe into the connector.
+To disconnect a pipe push the collar as shown and pullout the pipe.
+(2 ×2)
+(4)
+3.5
+Basic rules that should be followed:
+·The flow of working energy in a circuit diagram isdrawnfrom thebottomto
+thetopofthediagram.
+The sequence of the working cycle is from left to right of the circuit diagram;
+the air supply is therefore shown at the lower left,withthecylinderthat
+performs the first stroke of the cycle being situated in the upper left.
+Power valves are drawn directly below the cylinders they operate.
+All circuit components areshown in theirrestposition,with thesupplyunder
+pressure.
+Electrical connections are not generally shown.
+Mechanically operated valves,controlling therestpositionof cylinder-driven
+parts,are operated in the rest position and must be drawn accordingly;
+external connections are drawn to the valve symbol square on the operator
+side.
+(6)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+IGGUIDELINE
+-6-
+NCV
+MECHATRONICSYSTEMSL2
+Exam Papers
+StudyGuides
+QUESTION4
+4.1
+·2pushbuttons(NO)√
+Solenoidvalve
+24-V relay with changeover contacts
+Single-actingcylinder
+(5)
+4.2
+24V
+SW1
+PB1
+R1
+11
+PB2
+A1
+X1
+R1
+1M1
+A2
+X2
+oV
+(5)
+4.3
+A1
+/1
+1M1
+(4)
+4.4
+Thetwo-handed control is used to prevent any injuries such as crushing.The
+operation employs the indirect method of manual control,wherethecontrol
+relay(R1)willcontrol the solenoidvalve(1M1).WhenPB1and PB2are
+depressed simultaneously,the cylinder will extend,andwhenthetwopush
+buttonsarereleased,thecylinderwill retract.
+(3)
+4.5
+Byaddingapre-settime-basedtimer
+·Adding a normally open timer contact inthecontrol circuit
+·Addingarelaylatching（retaining)(sustaining)contact
+(3)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+QuestionPapers
+QuestionPapers
+Study Guides
+Study Guides
+NCV
+IGGUIDELINE
+-7-
+NCV
+MECHATRONICSYSTEMSL2
+Exam Papers
+StudyGuides
+QUESTION5
+5.1
+Troubleshooting is the process of locating a faultcondition thatcausesa
+systemtomalfunction.
+(2)
+5.2
+Output-Check the output to see if thereissupply.lf thereis,replacetheoutput
+device;ifnot,tothenextstage.
+Input - Check to see if there is supply. If not, check the mains supply; if there
+is,check through the circuit.
+Check through the circuit-Check in the middle of the circuit that is being tested:
+If there is supply,then check the second half of the circuit by applying the half-
+cut approach.If there isnosupply,apply thehalf-cutmethod to the firsthalf of
+the circuit.
+(3×2)
+(6)
+5.3
+Livecircuittestingisdoneonacircuitthatisenergisedusingamultimeter
+setonvolts.
+Dead circuit testing is done using a continuity tester on a circuit that has
+been isolated (locked out) from the supply.
+(2 ×2)
+(4)
+5.4
+5.4.1
+Faultysolenoidvalve-Replacethevalve.
+5.4.2
+Check the supply at the input to the circuit.√
+Apply throughout the circuit testing.
+5.4.3
+Check the pneumaticcircuit using the output-input-through-the-
+circuit approach.
+5.4.4
+Check the cylinder for damage.
+Check the timer control circuit for operation.
+(4 × 2)
+(8)
+[20]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App

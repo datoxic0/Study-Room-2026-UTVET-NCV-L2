@@ -1,0 +1,17 @@
+# Never commit the paid paper downloads themselves (metadata JSON stays tracked):
+research/Data-QuestionPapers-and-Memos-Downloaded/*
+!research/Data-QuestionPapers-and-Memos-Downloaded/exclusions.json
+!research/Data-QuestionPapers-and-Memos-Downloaded/catalog.json
+
+# Documents — remote repo policy: text evidence only, never PDFs/Word:
+*.pdf
+*.docx
+
+# Python bytecode from the OCR / measurement scripts:
+__pycache__/
+*.pyc
+
+# OS junk:
+desktop.ini
+Thumbs.db
+.DS_Store

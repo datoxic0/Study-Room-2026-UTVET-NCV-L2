@@ -1,0 +1,402 @@
+Downloaded from TVET NcV Exam Papers App
+higher education
+&training
+Department:
+HigherEducationandTraining
+REPUBLICOFSOUTHAFRICA
+MARKINGGUIDELINE
+NATIONALCERTIFICATE(VOCATIONAL)
+MECHATRONICSYSTEMS
+NQFLEVEL2
+28 November2025
+This marking guideline consists of 6 pages.
+tvetpapers.co.za
+ultradeep.co.za
+SOUTHAFRICA
+SOUTHAFRICA
+-SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+National:
+Question Papers
+QuestionPapers
+Question Papers
+Ketlonah
+Study Guides
+Study Guides
+Study Guides
+StudyGuides
+QuestionFapens
+NCV
+NCV
+TVET
+TVET
+ExamPapers
+StudyGuides
+StudyGuides
+Exam Papers
+Search for NcV Exam Papers
+Downloaded from TVET NCV Study Guides App
+
+Downloaded from TVET Ncv Exam Papers App
+SOUTHAFRICA
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-2-
+NCV
+MECHATRONICSYSTEMSL2
+ExamPapers
+(Secondpaper)
+StudyGuides
+QUESTION1
+1.1.
+Chemicalenergyy
+Solarenergy
+Wind energy
+Waveenergyy
+Mechanicalenergyy
+Magneticenergy
+Light energy
+Nuclearenergy
+Thermal energy
+(Any 5 × 1)
+(5)
+1.2
+1.2.1
+Basic systemv
+(1 × 1)
+(1)
+1.2.2
+Sensors
+(1×1)
+(1)
+1.2.3
+Processor(control circuit)
+(1× 1)
+(1)
+1.2.4
+Actuators
+(1×1)
+(1)
+1.3
+HOT
+VCOLD
+(2 × 2)
+(4)
+1.4
+minimisingelectricallossesandreducingwearonmovingparts.Carbon
+brushescontributetoextendedmotorlifebyreducingwearandtearonthe
+commutatorandothercomponents.v
+(4×1)
+(4)
+1.5
+Thewormandwheelgeartransmissionisusedtotransmitmotionandpower
+between two shafts that are at right angles to each other.The worm gear
+transmitspower tothewheelgear,whichmultipliestorque,enabling the
+system tohandle heavy loads.
+(3×1)
+(3)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-3-
+NCV
+MECHATRONICSYSTEMSL2
+ExamPapers
+(Secondpaper)
+StudyGuides
+QUESTION2
+2.1
+2.1.1
+Devicethatcomparesameasuredvaluewiththatofapreset
+value.v√
+(2 × 1)
+(2)
+2.1.2
+Tableconsisting of all possible inputcombinations and resulting
+output.V√
+(2 × 1)
+(2)
+2.1.3
+Aswitchisadeviceusedtoopenandcloseanelectriccircuit.
+(2 × 1)
+(2)
+2.2
+NOTGATE
+S1
+E1
+(3 × 1)
+(3)
+2.3
+(4 × 1)
+(4)
+2.4
+Identifytheproblemoropportunity
+Gatherandanalyserelevantfactsv
+Determinesuitablehypothesisoralternativev
+Evaluate and select the most appropriate hypothesis or alternativev
+Followuponthedecisionstakenv
+(5 × 1)
+(5)
+2.5
+2.5.1
+Computer numerical controlv
+(1 × 1)
+(1)
+2.5.2
+Computerintegratedmanufacturingy
+(1 × 1)
+(1)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+Study Guides
+QuestionPapers
+NCV
+IGGUIDELINE
+-4-
+NCV
+MECHATRONICSYSTEMSL2
+ExamPapers
+(Secondpaper)
+StudyGuides
+QUESTION3
+3.1
+Compressedairisordinaryairthathasbeenforcedintoasmallspaceunder
+pressure.v
+(2 × 1)
+(2)
+OR
+Compressedairisatmosphericairthathasbeenpressurisedtoahigher
+pressure than normal atmospheric levels, usually using a compressor.V
+3.2
+Airisavailableinunlimitedquantitiespracticallyeverywherev
+Air canbe transported inpipes evenoverlong distances
+Compressedaircanbestoredinareservoirandcanbetransported
+Compressedairisrelativelyinsensitivetotemperaturefluctuations,thus
+ensuringreliableoperation,evenunderextremeconditions
+Compressedairoffersnoriskofexplosionorfire
+Un-lubricated exhaust air is clean,therefore air that escapes through leaking
+pipesorcomponentsdoesnotcauseanycontamination
+Theoperationofcomponentsissimpleindesignandconstructionand
+thereforerelativelyinexpensive
+Compressed airisaveryfastworkingmedium,thusenablinghighspeeds
+tobe attained
+Pneumatictoolsandoperatingcomponentscanbeloaded to thepointof
+stoppingandis,therefore,overloadsafe
+(Any 4 × 1)
+(4)
+3.3
+PRESSUREREGULATOR
+OILLUBRICATOR
+FILTER
+Regulated air out
+(7 ×1)
+(7)
+3.4
+(3 × 1)
+(3)
+3.5
+Atwo-pressurevalveisusedtoensurethatanoutputisactivatedonlywhen
+twoinputsignalsarepresentatthesametimeasitperformsalogicalAND
+functioninpneumaticsystems.Toensurethatbothhandsareusedtooperate
+amachine,preventinginjury.
+(4× 1)
+(4)
+[20]
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Study Guides
+QuestionPapers
+QuestionPapers
+Study Guides
+NCV
+IGGUIDELINE
+-5-
+NCV
+MECHATRONICSYSTEMSL2
+ExamPapers
+(Secondpaper)
+StudyGuides
+QUESTION4
+4.1
+Fusesv
+Circuitbreakersy
+Overloadrelay
+Current limiterv
+(4 × 1)
+(4)
+4.2
+4.2.1
+To ensure that a machine is restarted manually if the voltage is lost
+due toapowerfailure.v
+(2 ×1)
+(2)
+4.2.2
+E/stops are used so to prevent injury or damaged to machineryv
+whenafaultorhazardousconditionarises.
+(2 × 1)
+(2)
+4.2.3
+K1inline5andK2inline7
+(2 × 1)
+(2)
+4.2.4
+Thecircuitisabasicinterlockingman/autoselectorcontrol
+circuit.v
+ON/OFFPBswitchesasystemon/off
+E/STOPPBactivatedwhenemergencyexistsswitchessystem
+powerOFF√
+STARTPBstartsthesystem
+RESETPBresets the systemv
+MANUALSELECTORPBselectsmanualoperationv
+AUTOSELECTORPBselectsautomaticoperationv
+(7 ×1)
+(7)
+4.3
+24 to 48volts.
+By means of a step down isolating transformer and rectifying diodes.
+(3 × 1)
+(3)
+[17]
+QUESTION5
+5.1
+Thefilterisdirty
+Thepressurereducingvalveis incorrectlysety
+Themistlubricatorlevelcontrol isnotsetproperly
+Theshut-offvalveisstillclosed
+(4 × 1)
+(4)
+5.2
+Pipelineslaidwith toomuchtensionv
+Bendsputting too much strain on the tubesv
+.
+Joints not correctly fitted resulting in air leaksv
+(3 × 1)
+(3)
+5.3
+Systematicmaintenancehelpstoprolongservicelifevandimprove the
+functional reliabilityofpneumaticcontrolsystems.
+(2 × 1)
+(2)
+Copyrightreserved
+Pleaseturnover
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
+
+SOUTHAFRICA
+Downloaded from TVET NcV Exam Papers App
+SOUTHAFRICA
+National:
+National:
+Question Papers
+Study Guides
+Study Guides
+QuestionPapers
+NCV
+IGGUIDELINE
+-6-
+NCV
+MECHATRONICSYSTEMSL2
+ExamPapers
+(Secondpaper)
+StudyGuides
+5.4
+5.4.1
+Usedtostart,halt,interruptorfinishasequenceofflow
+(1×1)
+(1)
+5.4.2
+Usedtoindicateaprocessoroperation
+(1× 1)
+(1)
+5.4.3
+Usedtoindicateadecisionthatcanonlyresultinayesorano
+answerv
+(1×1)
+(1)
+5.5
+Faultnotevidentmove forward
+"HalfCut
+2nHalf Cut
+Faultevidentmove
+backwards
+3°Half Cut
+STAGE
+STAGE
+STAGE
+STAGE
+STAGE
+STAGE
+STAGE
+STAGE
+2
+3
+4
+5
+6
+7
+8
+Faultevident
+Faultnot
+stage
+evidentstage
+5faulty
+6faulty
+（7×1）
+(7)
+5.6
+Sequence function chartv
+(1 ×1)
+(1)
+[20]
+TOTAL:
+100
+Copyrightreserved
+ultradeep.co.za
+tvetpapers.co.za
+Downloaded from TVET NCV Study Guides App
